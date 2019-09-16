@@ -4,4 +4,4 @@ install:
 - travis_retry nuget restore -source "https://www.nuget.org/api/v2" KountSdk.sln
 script:
 - xbuild KountSdk.sln
-- mono KountRisTest/packages/xunit.runner.console.*/tools/xunit.console.exe KountRisTest.Tests/bin/Debug/KountRisTest.Tests.dll
+- mono ./KountRisTest/packages/xunit.runner.console.*/tools/xunit.console.exe ./KountRisTest.Tests/bin/Debug/KountRisTest.Tests.dll
