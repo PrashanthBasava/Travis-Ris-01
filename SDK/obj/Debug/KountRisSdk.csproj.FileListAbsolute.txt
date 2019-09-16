@@ -20,3 +20,13 @@ D:\Kount\travis-ris-test\Travis-Ris-01\SDK\obj\Debug\KountRisSdk.csprojAssemblyR
 D:\Kount\travis-ris-test\Travis-Ris-01\SDK\obj\Debug\KountRisSdk.csproj.CoreCompileInputs.cache
 D:\Kount\travis-ris-test\Travis-Ris-01\SDK\obj\Debug\KountRisSdk.dll
 D:\Kount\travis-ris-test\Travis-Ris-01\SDK\obj\Debug\KountRisSdk.pdb
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\bin\Debug\xunit.abstractions.dll
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\bin\Debug\xunit.assert.dll
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\bin\Debug\xunit.core.dll
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\bin\Debug\xunit.execution.dotnet.dll
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\bin\Debug\xunit.abstractions.xml
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\bin\Debug\xunit.assert.xml
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\bin\Debug\xunit.core.xml
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\bin\Debug\xunit.execution.dotnet.xml
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\obj\Debug\KountRisSdk.csproj.CopyComplete

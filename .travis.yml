@@ -1,9 +1,7 @@
-
 language: csharp
-solution: KountSdk.sln
+solution: "KountSdk.sln"
 install:
-  - nuget restore KountSdk.sln
-  - nuget install xunit.runners -Version 2.4.1 -OutputDirectory testrunner
+- travis_retry nuget restore -source "https://www.nuget.org/api/v2" KountSdk.sln
 script:
-  - xbuild KountSdk.sln
-  - mono ./KountRisTest/xunit.runners.2.4.1/tools/xunit.console.clr4.exe ./KountRisTest.Tests/bin/Release/KountRisTest.Tests.dll
+- xbuild KountSdk.sln
+- mono KountRisTest/packages/xunit.runner.console.*/tools/xunit.console.exe KountRisTest.Tests/bin/Debug/KountRisTest.Tests.dll
