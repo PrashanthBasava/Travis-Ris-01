@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.SimpleLogger
+  commentId: N:Kount.SimpleLogger
+  id: Kount.SimpleLogger
+  children:
+  - Kount.SimpleLogger.File
+  langs:
+  - csharp
+  - vb
+  name: Kount.SimpleLogger
+  nameWithType: Kount.SimpleLogger
+  fullName: Kount.SimpleLogger
+  type: Namespace
+  assemblies:
+  - KountRisSdk
+references:
+- uid: Kount.SimpleLogger.File
+  commentId: T:Kount.SimpleLogger.File
+  isExternal: false
+  name: File
+  nameWithType: File
+  fullName: Kount.SimpleLogger.File

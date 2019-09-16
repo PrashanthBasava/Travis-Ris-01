@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Enums
+  commentId: N:Kount.Enums
+  id: Kount.Enums
+  children:
+  - Kount.Enums.EnumHelper
+  - Kount.Enums.InquiryTypes
+  - Kount.Enums.PaymentTypes
+  - Kount.Enums.UpdateTypes
+  langs:
+  - csharp
+  - vb
+  name: Kount.Enums
+  nameWithType: Kount.Enums
+  fullName: Kount.Enums
+  type: Namespace
+  assemblies:
+  - KountRisSdk
+references:
+- uid: Kount.Enums.EnumHelper
+  commentId: T:Kount.Enums.EnumHelper
+  parent: Kount.Enums
+  isExternal: false
+  name: EnumHelper
+  nameWithType: EnumHelper
+  fullName: Kount.Enums.EnumHelper
+- uid: Kount.Enums.InquiryTypes
+  commentId: T:Kount.Enums.InquiryTypes
+  parent: Kount.Enums
+  isExternal: false
+  name: InquiryTypes
+  nameWithType: InquiryTypes
+  fullName: Kount.Enums.InquiryTypes
+- uid: Kount.Enums.PaymentTypes
+  commentId: T:Kount.Enums.PaymentTypes
+  parent: Kount.Enums
+  isExternal: false
+  name: PaymentTypes
+  nameWithType: PaymentTypes
+  fullName: Kount.Enums.PaymentTypes
+- uid: Kount.Enums.UpdateTypes
+  commentId: T:Kount.Enums.UpdateTypes
+  parent: Kount.Enums
+  isExternal: false
+  name: UpdateTypes
+  nameWithType: UpdateTypes
+  fullName: Kount.Enums.UpdateTypes
+- uid: Kount.Enums
+  commentId: N:Kount.Enums
+  isExternal: false
+  name: Kount.Enums
+  nameWithType: Kount.Enums
+  fullName: Kount.Enums

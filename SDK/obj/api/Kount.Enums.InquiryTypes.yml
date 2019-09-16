@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Enums.InquiryTypes
+  commentId: T:Kount.Enums.InquiryTypes
+  id: InquiryTypes
+  parent: Kount.Enums
+  children:
+  - Kount.Enums.InquiryTypes.ModeJ
+  - Kount.Enums.InquiryTypes.ModeP
+  - Kount.Enums.InquiryTypes.ModeQ
+  - Kount.Enums.InquiryTypes.ModeW
+  langs:
+  - csharp
+  - vb
+  name: InquiryTypes
+  nameWithType: InquiryTypes
+  fullName: Kount.Enums.InquiryTypes
+  type: Enum
+  source:
+    remote:
+      path: SDK/Kount/Enums/InquiryTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: InquiryTypes
+    path: Kount/Enums/InquiryTypes.cs
+    startLine: 13
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nInquiry type should be used for initial registration of the purchase in the Kount system.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>,<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2017 Kount Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public enum InquiryTypes : int'
+    content.vb: Public Enum InquiryTypes As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Kount.Enums.InquiryTypes.ModeQ
+  commentId: F:Kount.Enums.InquiryTypes.ModeQ
+  id: ModeQ
+  parent: Kount.Enums.InquiryTypes
+  langs:
+  - csharp
+  - vb
+  name: ModeQ
+  nameWithType: InquiryTypes.ModeQ
+  fullName: Kount.Enums.InquiryTypes.ModeQ
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/InquiryTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ModeQ
+    path: Kount/Enums/InquiryTypes.cs
+    startLine: 18
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nDefault inquiry mode, internet order type\n"
+  example: []
+  syntax:
+    content: ModeQ = null
+    return:
+      type: Kount.Enums.InquiryTypes
+    content.vb: ModeQ = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.InquiryTypes.ModeP
+  commentId: F:Kount.Enums.InquiryTypes.ModeP
+  id: ModeP
+  parent: Kount.Enums.InquiryTypes
+  langs:
+  - csharp
+  - vb
+  name: ModeP
+  nameWithType: InquiryTypes.ModeP
+  fullName: Kount.Enums.InquiryTypes.ModeP
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/InquiryTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ModeP
+    path: Kount/Enums/InquiryTypes.cs
+    startLine: 23
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nUsed to analyze a phone-received order\n"
+  example: []
+  syntax:
+    content: ModeP = null
+    return:
+      type: Kount.Enums.InquiryTypes
+    content.vb: ModeP = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.InquiryTypes.ModeW
+  commentId: F:Kount.Enums.InquiryTypes.ModeW
+  id: ModeW
+  parent: Kount.Enums.InquiryTypes
+  langs:
+  - csharp
+  - vb
+  name: ModeW
+  nameWithType: InquiryTypes.ModeW
+  fullName: Kount.Enums.InquiryTypes.ModeW
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/InquiryTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ModeW
+    path: Kount/Enums/InquiryTypes.cs
+    startLine: 28
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nKount Central full inquiry with returned thresholds\n"
+  example: []
+  syntax:
+    content: ModeW = null
+    return:
+      type: Kount.Enums.InquiryTypes
+    content.vb: ModeW = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.InquiryTypes.ModeJ
+  commentId: F:Kount.Enums.InquiryTypes.ModeJ
+  id: ModeJ
+  parent: Kount.Enums.InquiryTypes
+  langs:
+  - csharp
+  - vb
+  name: ModeJ
+  nameWithType: InquiryTypes.ModeJ
+  fullName: Kount.Enums.InquiryTypes.ModeJ
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/InquiryTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ModeJ
+    path: Kount/Enums/InquiryTypes.cs
+    startLine: 33
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nKount Central fast inquiry with just thresholds\n"
+  example: []
+  syntax:
+    content: ModeJ = null
+    return:
+      type: Kount.Enums.InquiryTypes
+    content.vb: ModeJ = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Kount.Enums
+  commentId: N:Kount.Enums
+  isExternal: false
+  name: Kount.Enums
+  nameWithType: Kount.Enums
+  fullName: Kount.Enums
+- uid: Kount.Enums.InquiryTypes
+  commentId: T:Kount.Enums.InquiryTypes
+  parent: Kount.Enums
+  isExternal: false
+  name: InquiryTypes
+  nameWithType: InquiryTypes
+  fullName: Kount.Enums.InquiryTypes

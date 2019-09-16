@@ -1,0 +1,1763 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Ris.Update
+  commentId: T:Kount.Ris.Update
+  id: Update
+  parent: Kount.Ris
+  children:
+  - Kount.Ris.Update.#ctor
+  - Kount.Ris.Update.#ctor(System.Boolean)
+  - Kount.Ris.Update.#ctor(System.Boolean,Kount.Ris.Configuration)
+  - Kount.Ris.Update.SetMode(System.Char)
+  - Kount.Ris.Update.SetPayPalId(System.String)
+  - Kount.Ris.Update.SetRefundChargeback(System.Char)
+  - Kount.Ris.Update.SetTransactionId(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Update
+  nameWithType: Update
+  fullName: Kount.Ris.Update
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Ris/Update.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Update
+    path: Kount/Ris/Update.cs
+    startLine: 18
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nUpdate class. A bunch of setters for sending transaction update <br />\ndata to a Kount RIS server.\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2010 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public class Update : Request'
+    content.vb: >-
+      Public Class Update
+          Inherits Request
+  inheritance:
+  - System.Object
+  - Kount.Ris.Request
+  inheritedMembers:
+  - Kount.Ris.Request.Data
+  - Kount.Ris.Request.GetResponse(System.Boolean)
+  - Kount.Ris.Request.SetParameter(System.String,System.String)
+  - Kount.Ris.Request.SetMode(Kount.Enums.InquiryTypes)
+  - Kount.Ris.Request.SetMode(Kount.Enums.UpdateTypes)
+  - Kount.Ris.Request.SetMerchantId(System.Int32)
+  - Kount.Ris.Request.SetKountCentralCustomerId(System.String)
+  - Kount.Ris.Request.SetSessionId(System.String)
+  - Kount.Ris.Request.SetOrderNumber(System.String)
+  - Kount.Ris.Request.SetMack(System.Char)
+  - Kount.Ris.Request.SetAuth(System.Char)
+  - Kount.Ris.Request.SetAvsz(System.Char)
+  - Kount.Ris.Request.SetAvst(System.Char)
+  - Kount.Ris.Request.SetCvvr(System.Char)
+  - Kount.Ris.Request.SetCardPaymentMasked(System.String)
+  - Kount.Ris.Request.SetNoPayment
+  - Kount.Ris.Request.SetPayment(System.String,System.String)
+  - Kount.Ris.Request.SetPayment(Kount.Enums.PaymentTypes,System.String)
+  - Kount.Ris.Request.SetGreenDotMoneyPakPayment(System.String)
+  - Kount.Ris.Request.GetParam(System.String)
+  - Kount.Ris.Request.GetUrl
+  - Kount.Ris.Request.SetUrl(System.String)
+  - Kount.Ris.Request.SetCertificate(System.String,System.String)
+  - Kount.Ris.Request.SetApiKey(System.String)
+  - Kount.Ris.Request.GetCertificateFile
+  - Kount.Ris.Request.GetPrivateKeyPassword
+  - Kount.Ris.Request.SetKhashPaymentEncoding
+  - Kount.Ris.Request.SetKhashPaymentEncoding(System.Boolean)
+  - Kount.Ris.Request.SetPaymentTokenLast4(System.String)
+  - Kount.Ris.Request.SetVersion(System.String)
+  - Kount.Ris.Request.IsSetKhashPaymentEncoding
+  - Kount.Ris.Request.SetPaymentToken(System.String)
+  - Kount.Ris.Request.CheckConfigurationParameter(System.String,System.String)
+  - Kount.Ris.Request.SafeGet(System.String)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Kount.Ris.Update.#ctor
+  commentId: M:Kount.Ris.Update.#ctor
+  id: '#ctor'
+  parent: Kount.Ris.Update
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: Update.Update()
+  fullName: Kount.Ris.Update.Update()
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/Update.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/Update.cs
+    startLine: 39
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nConstructor. Sets the mode to 'U' by default.\nUse setMode(char) to change it.\n"
+  example: []
+  syntax:
+    content: public Update()
+    content.vb: Public Sub New
+  overload: Kount.Ris.Update.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Update.#ctor(System.Boolean)
+  commentId: M:Kount.Ris.Update.#ctor(System.Boolean)
+  id: '#ctor(System.Boolean)'
+  parent: Kount.Ris.Update
+  langs:
+  - csharp
+  - vb
+  name: Update(Boolean)
+  nameWithType: Update.Update(Boolean)
+  fullName: Kount.Ris.Update.Update(System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/Update.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/Update.cs
+    startLine: 54
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nConstructor. Sets the mode to 'U' by default.\nUse setMode(char) to change it.\n"
+  example: []
+  syntax:
+    content: public Update(bool checkConfiguration)
+    parameters:
+    - id: checkConfiguration
+      type: System.Boolean
+      description: "If is true: will check config file if \n`Ris.Url`, \n`Ris.MerchantId`, \n`Ris.Config.Key` and `Ris.Connect.Timeout` are set."
+    content.vb: Public Sub New(checkConfiguration As Boolean)
+  overload: Kount.Ris.Update.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Update.#ctor(System.Boolean,Kount.Ris.Configuration)
+  commentId: M:Kount.Ris.Update.#ctor(System.Boolean,Kount.Ris.Configuration)
+  id: '#ctor(System.Boolean,Kount.Ris.Configuration)'
+  parent: Kount.Ris.Update
+  langs:
+  - csharp
+  - vb
+  name: Update(Boolean, Configuration)
+  nameWithType: Update.Update(Boolean, Configuration)
+  fullName: Kount.Ris.Update.Update(System.Boolean, Kount.Ris.Configuration)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/Update.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/Update.cs
+    startLine: 70
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nConstructor. Sets the mode to 'U' by default.\nUse setMode(char) to change it.\n"
+  example: []
+  syntax:
+    content: public Update(bool checkConfiguration, Configuration configuration)
+    parameters:
+    - id: checkConfiguration
+      type: System.Boolean
+      description: "If is true: will check config file if \n`Ris.Url`, \n`Ris.MerchantId`, \n`Ris.Config.Key` and `Ris.Connect.Timeout` are set."
+    - id: configuration
+      type: Kount.Ris.Configuration
+      description: Configuration class with raw values
+    content.vb: Public Sub New(checkConfiguration As Boolean, configuration As Configuration)
+  overload: Kount.Ris.Update.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Update.SetMode(System.Char)
+  commentId: M:Kount.Ris.Update.SetMode(System.Char)
+  id: SetMode(System.Char)
+  parent: Kount.Ris.Update
+  langs:
+  - csharp
+  - vb
+  name: SetMode(Char)
+  nameWithType: Update.SetMode(Char)
+  fullName: Kount.Ris.Update.SetMode(System.Char)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Update.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetMode
+    path: Kount/Ris/Update.cs
+    startLine: 83
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the mode of the update.\n"
+  example: []
+  syntax:
+    content: protected override void SetMode(char mode)
+    parameters:
+    - id: mode
+      type: System.Char
+      description: Set U or X
+    content.vb: Protected Overrides Sub SetMode(mode As Char)
+  overridden: Kount.Ris.Request.SetMode(System.Char)
+  overload: Kount.Ris.Update.SetMode*
+  exceptions:
+  - type: Kount.Ris.IllegalArgumentException
+    commentId: T:Kount.Ris.IllegalArgumentException
+    description: >-
+      Thrown if
+
+      parameter is an invalid mode.
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Kount.Ris.Update.SetTransactionId(System.String)
+  commentId: M:Kount.Ris.Update.SetTransactionId(System.String)
+  id: SetTransactionId(System.String)
+  parent: Kount.Ris.Update
+  langs:
+  - csharp
+  - vb
+  name: SetTransactionId(String)
+  nameWithType: Update.SetTransactionId(String)
+  fullName: Kount.Ris.Update.SetTransactionId(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Update.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetTransactionId
+    path: Kount/Ris/Update.cs
+    startLine: 99
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the original associated transaction id generated by Kount\n"
+  example: []
+  syntax:
+    content: public void SetTransactionId(string transactionId)
+    parameters:
+    - id: transactionId
+      type: System.String
+      description: Transaction id.
+    content.vb: Public Sub SetTransactionId(transactionId As String)
+  overload: Kount.Ris.Update.SetTransactionId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Update.SetRefundChargeback(System.Char)
+  commentId: M:Kount.Ris.Update.SetRefundChargeback(System.Char)
+  id: SetRefundChargeback(System.Char)
+  parent: Kount.Ris.Update
+  langs:
+  - csharp
+  - vb
+  name: SetRefundChargeback(Char)
+  nameWithType: Update.SetRefundChargeback(Char)
+  fullName: Kount.Ris.Update.SetRefundChargeback(System.Char)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Update.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetRefundChargeback
+    path: Kount/Ris/Update.cs
+    startLine: 108
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet if this transaction ended up being a refund or chargback.\n"
+  example: []
+  syntax:
+    content: public void SetRefundChargeback(char rfcb)
+    parameters:
+    - id: rfcb
+      type: System.Char
+      description: Set R or C.
+    content.vb: Public Sub SetRefundChargeback(rfcb As Char)
+  overload: Kount.Ris.Update.SetRefundChargeback*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Update.SetPayPalId(System.String)
+  commentId: M:Kount.Ris.Update.SetPayPalId(System.String)
+  id: SetPayPalId(System.String)
+  parent: Kount.Ris.Update
+  langs:
+  - csharp
+  - vb
+  name: SetPayPalId(String)
+  nameWithType: Update.SetPayPalId(String)
+  fullName: Kount.Ris.Update.SetPayPalId(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Update.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetPayPalId
+    path: Kount/Ris/Update.cs
+    startLine: 123
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the paypal Id\n"
+  example: []
+  syntax:
+    content: public void SetPayPalId(string paypalId)
+    parameters:
+    - id: paypalId
+      type: System.String
+      description: Set paypal Id
+    content.vb: Public Sub SetPayPalId(paypalId As String)
+  overload: Kount.Ris.Update.SetPayPalId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Kount.Ris
+  commentId: N:Kount.Ris
+  isExternal: false
+  name: Kount.Ris
+  nameWithType: Kount.Ris
+  fullName: Kount.Ris
+- uid: Kount.Ris.Request
+  commentId: T:Kount.Ris.Request
+  parent: Kount.Ris
+  isExternal: false
+  name: Request
+  nameWithType: Request
+  fullName: Kount.Ris.Request
+- uid: Kount.Ris.Request.Data
+  commentId: P:Kount.Ris.Request.Data
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: Data
+  nameWithType: Request.Data
+  fullName: Kount.Ris.Request.Data
+- uid: Kount.Ris.Request.GetResponse(System.Boolean)
+  commentId: M:Kount.Ris.Request.GetResponse(System.Boolean)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: GetResponse(Boolean)
+  nameWithType: Request.GetResponse(Boolean)
+  fullName: Kount.Ris.Request.GetResponse(System.Boolean)
+  spec.csharp:
+  - uid: Kount.Ris.Request.GetResponse(System.Boolean)
+    name: GetResponse
+    nameWithType: Request.GetResponse
+    fullName: Kount.Ris.Request.GetResponse
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.GetResponse(System.Boolean)
+    name: GetResponse
+    nameWithType: Request.GetResponse
+    fullName: Kount.Ris.Request.GetResponse
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetParameter(System.String,System.String)
+  commentId: M:Kount.Ris.Request.SetParameter(System.String,System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetParameter(String, String)
+  nameWithType: Request.SetParameter(String, String)
+  fullName: Kount.Ris.Request.SetParameter(System.String, System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetParameter(System.String,System.String)
+    name: SetParameter
+    nameWithType: Request.SetParameter
+    fullName: Kount.Ris.Request.SetParameter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetParameter(System.String,System.String)
+    name: SetParameter
+    nameWithType: Request.SetParameter
+    fullName: Kount.Ris.Request.SetParameter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetMode(Kount.Enums.InquiryTypes)
+  commentId: M:Kount.Ris.Request.SetMode(Kount.Enums.InquiryTypes)
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: SetMode(InquiryTypes)
+  nameWithType: Request.SetMode(InquiryTypes)
+  fullName: Kount.Ris.Request.SetMode(Kount.Enums.InquiryTypes)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetMode(Kount.Enums.InquiryTypes)
+    name: SetMode
+    nameWithType: Request.SetMode
+    fullName: Kount.Ris.Request.SetMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Kount.Enums.InquiryTypes
+    name: InquiryTypes
+    nameWithType: InquiryTypes
+    fullName: Kount.Enums.InquiryTypes
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetMode(Kount.Enums.InquiryTypes)
+    name: SetMode
+    nameWithType: Request.SetMode
+    fullName: Kount.Ris.Request.SetMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Kount.Enums.InquiryTypes
+    name: InquiryTypes
+    nameWithType: InquiryTypes
+    fullName: Kount.Enums.InquiryTypes
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetMode(Kount.Enums.UpdateTypes)
+  commentId: M:Kount.Ris.Request.SetMode(Kount.Enums.UpdateTypes)
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: SetMode(UpdateTypes)
+  nameWithType: Request.SetMode(UpdateTypes)
+  fullName: Kount.Ris.Request.SetMode(Kount.Enums.UpdateTypes)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetMode(Kount.Enums.UpdateTypes)
+    name: SetMode
+    nameWithType: Request.SetMode
+    fullName: Kount.Ris.Request.SetMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Kount.Enums.UpdateTypes
+    name: UpdateTypes
+    nameWithType: UpdateTypes
+    fullName: Kount.Enums.UpdateTypes
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetMode(Kount.Enums.UpdateTypes)
+    name: SetMode
+    nameWithType: Request.SetMode
+    fullName: Kount.Ris.Request.SetMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Kount.Enums.UpdateTypes
+    name: UpdateTypes
+    nameWithType: UpdateTypes
+    fullName: Kount.Enums.UpdateTypes
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetMerchantId(System.Int32)
+  commentId: M:Kount.Ris.Request.SetMerchantId(System.Int32)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetMerchantId(Int32)
+  nameWithType: Request.SetMerchantId(Int32)
+  fullName: Kount.Ris.Request.SetMerchantId(System.Int32)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetMerchantId(System.Int32)
+    name: SetMerchantId
+    nameWithType: Request.SetMerchantId
+    fullName: Kount.Ris.Request.SetMerchantId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetMerchantId(System.Int32)
+    name: SetMerchantId
+    nameWithType: Request.SetMerchantId
+    fullName: Kount.Ris.Request.SetMerchantId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetKountCentralCustomerId(System.String)
+  commentId: M:Kount.Ris.Request.SetKountCentralCustomerId(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetKountCentralCustomerId(String)
+  nameWithType: Request.SetKountCentralCustomerId(String)
+  fullName: Kount.Ris.Request.SetKountCentralCustomerId(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetKountCentralCustomerId(System.String)
+    name: SetKountCentralCustomerId
+    nameWithType: Request.SetKountCentralCustomerId
+    fullName: Kount.Ris.Request.SetKountCentralCustomerId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetKountCentralCustomerId(System.String)
+    name: SetKountCentralCustomerId
+    nameWithType: Request.SetKountCentralCustomerId
+    fullName: Kount.Ris.Request.SetKountCentralCustomerId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetSessionId(System.String)
+  commentId: M:Kount.Ris.Request.SetSessionId(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetSessionId(String)
+  nameWithType: Request.SetSessionId(String)
+  fullName: Kount.Ris.Request.SetSessionId(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetSessionId(System.String)
+    name: SetSessionId
+    nameWithType: Request.SetSessionId
+    fullName: Kount.Ris.Request.SetSessionId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetSessionId(System.String)
+    name: SetSessionId
+    nameWithType: Request.SetSessionId
+    fullName: Kount.Ris.Request.SetSessionId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetOrderNumber(System.String)
+  commentId: M:Kount.Ris.Request.SetOrderNumber(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetOrderNumber(String)
+  nameWithType: Request.SetOrderNumber(String)
+  fullName: Kount.Ris.Request.SetOrderNumber(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetOrderNumber(System.String)
+    name: SetOrderNumber
+    nameWithType: Request.SetOrderNumber
+    fullName: Kount.Ris.Request.SetOrderNumber
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetOrderNumber(System.String)
+    name: SetOrderNumber
+    nameWithType: Request.SetOrderNumber
+    fullName: Kount.Ris.Request.SetOrderNumber
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetMack(System.Char)
+  commentId: M:Kount.Ris.Request.SetMack(System.Char)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetMack(Char)
+  nameWithType: Request.SetMack(Char)
+  fullName: Kount.Ris.Request.SetMack(System.Char)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetMack(System.Char)
+    name: SetMack
+    nameWithType: Request.SetMack
+    fullName: Kount.Ris.Request.SetMack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetMack(System.Char)
+    name: SetMack
+    nameWithType: Request.SetMack
+    fullName: Kount.Ris.Request.SetMack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetAuth(System.Char)
+  commentId: M:Kount.Ris.Request.SetAuth(System.Char)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetAuth(Char)
+  nameWithType: Request.SetAuth(Char)
+  fullName: Kount.Ris.Request.SetAuth(System.Char)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetAuth(System.Char)
+    name: SetAuth
+    nameWithType: Request.SetAuth
+    fullName: Kount.Ris.Request.SetAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetAuth(System.Char)
+    name: SetAuth
+    nameWithType: Request.SetAuth
+    fullName: Kount.Ris.Request.SetAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetAvsz(System.Char)
+  commentId: M:Kount.Ris.Request.SetAvsz(System.Char)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetAvsz(Char)
+  nameWithType: Request.SetAvsz(Char)
+  fullName: Kount.Ris.Request.SetAvsz(System.Char)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetAvsz(System.Char)
+    name: SetAvsz
+    nameWithType: Request.SetAvsz
+    fullName: Kount.Ris.Request.SetAvsz
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetAvsz(System.Char)
+    name: SetAvsz
+    nameWithType: Request.SetAvsz
+    fullName: Kount.Ris.Request.SetAvsz
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetAvst(System.Char)
+  commentId: M:Kount.Ris.Request.SetAvst(System.Char)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetAvst(Char)
+  nameWithType: Request.SetAvst(Char)
+  fullName: Kount.Ris.Request.SetAvst(System.Char)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetAvst(System.Char)
+    name: SetAvst
+    nameWithType: Request.SetAvst
+    fullName: Kount.Ris.Request.SetAvst
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetAvst(System.Char)
+    name: SetAvst
+    nameWithType: Request.SetAvst
+    fullName: Kount.Ris.Request.SetAvst
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetCvvr(System.Char)
+  commentId: M:Kount.Ris.Request.SetCvvr(System.Char)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetCvvr(Char)
+  nameWithType: Request.SetCvvr(Char)
+  fullName: Kount.Ris.Request.SetCvvr(System.Char)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetCvvr(System.Char)
+    name: SetCvvr
+    nameWithType: Request.SetCvvr
+    fullName: Kount.Ris.Request.SetCvvr
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetCvvr(System.Char)
+    name: SetCvvr
+    nameWithType: Request.SetCvvr
+    fullName: Kount.Ris.Request.SetCvvr
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetCardPaymentMasked(System.String)
+  commentId: M:Kount.Ris.Request.SetCardPaymentMasked(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetCardPaymentMasked(String)
+  nameWithType: Request.SetCardPaymentMasked(String)
+  fullName: Kount.Ris.Request.SetCardPaymentMasked(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetCardPaymentMasked(System.String)
+    name: SetCardPaymentMasked
+    nameWithType: Request.SetCardPaymentMasked
+    fullName: Kount.Ris.Request.SetCardPaymentMasked
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetCardPaymentMasked(System.String)
+    name: SetCardPaymentMasked
+    nameWithType: Request.SetCardPaymentMasked
+    fullName: Kount.Ris.Request.SetCardPaymentMasked
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetNoPayment
+  commentId: M:Kount.Ris.Request.SetNoPayment
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: SetNoPayment()
+  nameWithType: Request.SetNoPayment()
+  fullName: Kount.Ris.Request.SetNoPayment()
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetNoPayment
+    name: SetNoPayment
+    nameWithType: Request.SetNoPayment
+    fullName: Kount.Ris.Request.SetNoPayment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetNoPayment
+    name: SetNoPayment
+    nameWithType: Request.SetNoPayment
+    fullName: Kount.Ris.Request.SetNoPayment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetPayment(System.String,System.String)
+  commentId: M:Kount.Ris.Request.SetPayment(System.String,System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetPayment(String, String)
+  nameWithType: Request.SetPayment(String, String)
+  fullName: Kount.Ris.Request.SetPayment(System.String, System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetPayment(System.String,System.String)
+    name: SetPayment
+    nameWithType: Request.SetPayment
+    fullName: Kount.Ris.Request.SetPayment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetPayment(System.String,System.String)
+    name: SetPayment
+    nameWithType: Request.SetPayment
+    fullName: Kount.Ris.Request.SetPayment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetPayment(Kount.Enums.PaymentTypes,System.String)
+  commentId: M:Kount.Ris.Request.SetPayment(Kount.Enums.PaymentTypes,System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetPayment(PaymentTypes, String)
+  nameWithType: Request.SetPayment(PaymentTypes, String)
+  fullName: Kount.Ris.Request.SetPayment(Kount.Enums.PaymentTypes, System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetPayment(Kount.Enums.PaymentTypes,System.String)
+    name: SetPayment
+    nameWithType: Request.SetPayment
+    fullName: Kount.Ris.Request.SetPayment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Kount.Enums.PaymentTypes
+    name: PaymentTypes
+    nameWithType: PaymentTypes
+    fullName: Kount.Enums.PaymentTypes
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetPayment(Kount.Enums.PaymentTypes,System.String)
+    name: SetPayment
+    nameWithType: Request.SetPayment
+    fullName: Kount.Ris.Request.SetPayment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Kount.Enums.PaymentTypes
+    name: PaymentTypes
+    nameWithType: PaymentTypes
+    fullName: Kount.Enums.PaymentTypes
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetGreenDotMoneyPakPayment(System.String)
+  commentId: M:Kount.Ris.Request.SetGreenDotMoneyPakPayment(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetGreenDotMoneyPakPayment(String)
+  nameWithType: Request.SetGreenDotMoneyPakPayment(String)
+  fullName: Kount.Ris.Request.SetGreenDotMoneyPakPayment(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetGreenDotMoneyPakPayment(System.String)
+    name: SetGreenDotMoneyPakPayment
+    nameWithType: Request.SetGreenDotMoneyPakPayment
+    fullName: Kount.Ris.Request.SetGreenDotMoneyPakPayment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetGreenDotMoneyPakPayment(System.String)
+    name: SetGreenDotMoneyPakPayment
+    nameWithType: Request.SetGreenDotMoneyPakPayment
+    fullName: Kount.Ris.Request.SetGreenDotMoneyPakPayment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.GetParam(System.String)
+  commentId: M:Kount.Ris.Request.GetParam(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: GetParam(String)
+  nameWithType: Request.GetParam(String)
+  fullName: Kount.Ris.Request.GetParam(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.GetParam(System.String)
+    name: GetParam
+    nameWithType: Request.GetParam
+    fullName: Kount.Ris.Request.GetParam
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.GetParam(System.String)
+    name: GetParam
+    nameWithType: Request.GetParam
+    fullName: Kount.Ris.Request.GetParam
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.GetUrl
+  commentId: M:Kount.Ris.Request.GetUrl
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: GetUrl()
+  nameWithType: Request.GetUrl()
+  fullName: Kount.Ris.Request.GetUrl()
+  spec.csharp:
+  - uid: Kount.Ris.Request.GetUrl
+    name: GetUrl
+    nameWithType: Request.GetUrl
+    fullName: Kount.Ris.Request.GetUrl
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.GetUrl
+    name: GetUrl
+    nameWithType: Request.GetUrl
+    fullName: Kount.Ris.Request.GetUrl
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetUrl(System.String)
+  commentId: M:Kount.Ris.Request.SetUrl(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetUrl(String)
+  nameWithType: Request.SetUrl(String)
+  fullName: Kount.Ris.Request.SetUrl(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetUrl(System.String)
+    name: SetUrl
+    nameWithType: Request.SetUrl
+    fullName: Kount.Ris.Request.SetUrl
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetUrl(System.String)
+    name: SetUrl
+    nameWithType: Request.SetUrl
+    fullName: Kount.Ris.Request.SetUrl
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetCertificate(System.String,System.String)
+  commentId: M:Kount.Ris.Request.SetCertificate(System.String,System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetCertificate(String, String)
+  nameWithType: Request.SetCertificate(String, String)
+  fullName: Kount.Ris.Request.SetCertificate(System.String, System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetCertificate(System.String,System.String)
+    name: SetCertificate
+    nameWithType: Request.SetCertificate
+    fullName: Kount.Ris.Request.SetCertificate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetCertificate(System.String,System.String)
+    name: SetCertificate
+    nameWithType: Request.SetCertificate
+    fullName: Kount.Ris.Request.SetCertificate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetApiKey(System.String)
+  commentId: M:Kount.Ris.Request.SetApiKey(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetApiKey(String)
+  nameWithType: Request.SetApiKey(String)
+  fullName: Kount.Ris.Request.SetApiKey(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetApiKey(System.String)
+    name: SetApiKey
+    nameWithType: Request.SetApiKey
+    fullName: Kount.Ris.Request.SetApiKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetApiKey(System.String)
+    name: SetApiKey
+    nameWithType: Request.SetApiKey
+    fullName: Kount.Ris.Request.SetApiKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.GetCertificateFile
+  commentId: M:Kount.Ris.Request.GetCertificateFile
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: GetCertificateFile()
+  nameWithType: Request.GetCertificateFile()
+  fullName: Kount.Ris.Request.GetCertificateFile()
+  spec.csharp:
+  - uid: Kount.Ris.Request.GetCertificateFile
+    name: GetCertificateFile
+    nameWithType: Request.GetCertificateFile
+    fullName: Kount.Ris.Request.GetCertificateFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.GetCertificateFile
+    name: GetCertificateFile
+    nameWithType: Request.GetCertificateFile
+    fullName: Kount.Ris.Request.GetCertificateFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.GetPrivateKeyPassword
+  commentId: M:Kount.Ris.Request.GetPrivateKeyPassword
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: GetPrivateKeyPassword()
+  nameWithType: Request.GetPrivateKeyPassword()
+  fullName: Kount.Ris.Request.GetPrivateKeyPassword()
+  spec.csharp:
+  - uid: Kount.Ris.Request.GetPrivateKeyPassword
+    name: GetPrivateKeyPassword
+    nameWithType: Request.GetPrivateKeyPassword
+    fullName: Kount.Ris.Request.GetPrivateKeyPassword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.GetPrivateKeyPassword
+    name: GetPrivateKeyPassword
+    nameWithType: Request.GetPrivateKeyPassword
+    fullName: Kount.Ris.Request.GetPrivateKeyPassword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetKhashPaymentEncoding
+  commentId: M:Kount.Ris.Request.SetKhashPaymentEncoding
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: SetKhashPaymentEncoding()
+  nameWithType: Request.SetKhashPaymentEncoding()
+  fullName: Kount.Ris.Request.SetKhashPaymentEncoding()
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetKhashPaymentEncoding
+    name: SetKhashPaymentEncoding
+    nameWithType: Request.SetKhashPaymentEncoding
+    fullName: Kount.Ris.Request.SetKhashPaymentEncoding
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetKhashPaymentEncoding
+    name: SetKhashPaymentEncoding
+    nameWithType: Request.SetKhashPaymentEncoding
+    fullName: Kount.Ris.Request.SetKhashPaymentEncoding
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetKhashPaymentEncoding(System.Boolean)
+  commentId: M:Kount.Ris.Request.SetKhashPaymentEncoding(System.Boolean)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetKhashPaymentEncoding(Boolean)
+  nameWithType: Request.SetKhashPaymentEncoding(Boolean)
+  fullName: Kount.Ris.Request.SetKhashPaymentEncoding(System.Boolean)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetKhashPaymentEncoding(System.Boolean)
+    name: SetKhashPaymentEncoding
+    nameWithType: Request.SetKhashPaymentEncoding
+    fullName: Kount.Ris.Request.SetKhashPaymentEncoding
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetKhashPaymentEncoding(System.Boolean)
+    name: SetKhashPaymentEncoding
+    nameWithType: Request.SetKhashPaymentEncoding
+    fullName: Kount.Ris.Request.SetKhashPaymentEncoding
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetPaymentTokenLast4(System.String)
+  commentId: M:Kount.Ris.Request.SetPaymentTokenLast4(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetPaymentTokenLast4(String)
+  nameWithType: Request.SetPaymentTokenLast4(String)
+  fullName: Kount.Ris.Request.SetPaymentTokenLast4(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetPaymentTokenLast4(System.String)
+    name: SetPaymentTokenLast4
+    nameWithType: Request.SetPaymentTokenLast4
+    fullName: Kount.Ris.Request.SetPaymentTokenLast4
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetPaymentTokenLast4(System.String)
+    name: SetPaymentTokenLast4
+    nameWithType: Request.SetPaymentTokenLast4
+    fullName: Kount.Ris.Request.SetPaymentTokenLast4
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetVersion(System.String)
+  commentId: M:Kount.Ris.Request.SetVersion(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetVersion(String)
+  nameWithType: Request.SetVersion(String)
+  fullName: Kount.Ris.Request.SetVersion(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetVersion(System.String)
+    name: SetVersion
+    nameWithType: Request.SetVersion
+    fullName: Kount.Ris.Request.SetVersion
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetVersion(System.String)
+    name: SetVersion
+    nameWithType: Request.SetVersion
+    fullName: Kount.Ris.Request.SetVersion
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.IsSetKhashPaymentEncoding
+  commentId: M:Kount.Ris.Request.IsSetKhashPaymentEncoding
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: IsSetKhashPaymentEncoding()
+  nameWithType: Request.IsSetKhashPaymentEncoding()
+  fullName: Kount.Ris.Request.IsSetKhashPaymentEncoding()
+  spec.csharp:
+  - uid: Kount.Ris.Request.IsSetKhashPaymentEncoding
+    name: IsSetKhashPaymentEncoding
+    nameWithType: Request.IsSetKhashPaymentEncoding
+    fullName: Kount.Ris.Request.IsSetKhashPaymentEncoding
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.IsSetKhashPaymentEncoding
+    name: IsSetKhashPaymentEncoding
+    nameWithType: Request.IsSetKhashPaymentEncoding
+    fullName: Kount.Ris.Request.IsSetKhashPaymentEncoding
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetPaymentToken(System.String)
+  commentId: M:Kount.Ris.Request.SetPaymentToken(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetPaymentToken(String)
+  nameWithType: Request.SetPaymentToken(String)
+  fullName: Kount.Ris.Request.SetPaymentToken(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetPaymentToken(System.String)
+    name: SetPaymentToken
+    nameWithType: Request.SetPaymentToken
+    fullName: Kount.Ris.Request.SetPaymentToken
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetPaymentToken(System.String)
+    name: SetPaymentToken
+    nameWithType: Request.SetPaymentToken
+    fullName: Kount.Ris.Request.SetPaymentToken
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.CheckConfigurationParameter(System.String,System.String)
+  commentId: M:Kount.Ris.Request.CheckConfigurationParameter(System.String,System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: CheckConfigurationParameter(String, String)
+  nameWithType: Request.CheckConfigurationParameter(String, String)
+  fullName: Kount.Ris.Request.CheckConfigurationParameter(System.String, System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.CheckConfigurationParameter(System.String,System.String)
+    name: CheckConfigurationParameter
+    nameWithType: Request.CheckConfigurationParameter
+    fullName: Kount.Ris.Request.CheckConfigurationParameter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.CheckConfigurationParameter(System.String,System.String)
+    name: CheckConfigurationParameter
+    nameWithType: Request.CheckConfigurationParameter
+    fullName: Kount.Ris.Request.CheckConfigurationParameter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SafeGet(System.String)
+  commentId: M:Kount.Ris.Request.SafeGet(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SafeGet(String)
+  nameWithType: Request.SafeGet(String)
+  fullName: Kount.Ris.Request.SafeGet(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SafeGet(System.String)
+    name: SafeGet
+    nameWithType: Request.SafeGet
+    fullName: Kount.Ris.Request.SafeGet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SafeGet(System.String)
+    name: SafeGet
+    nameWithType: Request.SafeGet
+    fullName: Kount.Ris.Request.SafeGet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Update.#ctor*
+  commentId: Overload:Kount.Ris.Update.#ctor
+  isExternal: false
+  name: Update
+  nameWithType: Update.Update
+  fullName: Kount.Ris.Update.Update
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Kount.Ris.Configuration
+  commentId: T:Kount.Ris.Configuration
+  parent: Kount.Ris
+  isExternal: false
+  name: Configuration
+  nameWithType: Configuration
+  fullName: Kount.Ris.Configuration
+- uid: Kount.Ris.Request.SetMode(System.Char)
+  commentId: M:Kount.Ris.Request.SetMode(System.Char)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetMode(Char)
+  nameWithType: Request.SetMode(Char)
+  fullName: Kount.Ris.Request.SetMode(System.Char)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetMode(System.Char)
+    name: SetMode
+    nameWithType: Request.SetMode
+    fullName: Kount.Ris.Request.SetMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetMode(System.Char)
+    name: SetMode
+    nameWithType: Request.SetMode
+    fullName: Kount.Ris.Request.SetMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Update.SetMode*
+  commentId: Overload:Kount.Ris.Update.SetMode
+  isExternal: false
+  name: SetMode
+  nameWithType: Update.SetMode
+  fullName: Kount.Ris.Update.SetMode
+- uid: Kount.Ris.IllegalArgumentException
+  commentId: T:Kount.Ris.IllegalArgumentException
+  isExternal: false
+  name: IllegalArgumentException
+  nameWithType: IllegalArgumentException
+  fullName: Kount.Ris.IllegalArgumentException
+- uid: System.Char
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: Kount.Ris.Update.SetTransactionId*
+  commentId: Overload:Kount.Ris.Update.SetTransactionId
+  isExternal: false
+  name: SetTransactionId
+  nameWithType: Update.SetTransactionId
+  fullName: Kount.Ris.Update.SetTransactionId
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Kount.Ris.Update.SetRefundChargeback*
+  commentId: Overload:Kount.Ris.Update.SetRefundChargeback
+  isExternal: false
+  name: SetRefundChargeback
+  nameWithType: Update.SetRefundChargeback
+  fullName: Kount.Ris.Update.SetRefundChargeback
+- uid: Kount.Ris.Update.SetPayPalId*
+  commentId: Overload:Kount.Ris.Update.SetPayPalId
+  isExternal: false
+  name: SetPayPalId
+  nameWithType: Update.SetPayPalId
+  fullName: Kount.Ris.Update.SetPayPalId

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Log
+  commentId: N:Kount.Log
+  id: Kount.Log
+  children:
+  - Kount.Log.ExampleClient
+  langs:
+  - csharp
+  - vb
+  name: Kount.Log
+  nameWithType: Kount.Log
+  fullName: Kount.Log
+  type: Namespace
+  assemblies:
+  - KountRisSdk
+references:
+- uid: Kount.Log.ExampleClient
+  commentId: T:Kount.Log.ExampleClient
+  isExternal: false
+  name: ExampleClient
+  nameWithType: ExampleClient
+  fullName: Kount.Log.ExampleClient

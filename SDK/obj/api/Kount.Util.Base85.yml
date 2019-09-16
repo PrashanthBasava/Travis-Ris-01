@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Util.Base85
+  commentId: T:Kount.Util.Base85
+  id: Base85
+  parent: Kount.Util
+  children:
+  - Kount.Util.Base85.Decode(System.String)
+  - Kount.Util.Base85.Encode(System.Byte[])
+  - Kount.Util.Base85.LineLength
+  langs:
+  - csharp
+  - vb
+  name: Base85
+  nameWithType: Base85
+  fullName: Kount.Util.Base85
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Util/Base85.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Base85
+    path: Kount/Util/Base85.cs
+    startLine: 15
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Util
+  summary: "\nC# implementation of BASE85 encoding. \nBased on C code from http://www.stillhq.com/cgi-bin/cvsweb/BASE85/\n"
+  example: []
+  syntax:
+    content: 'public static class Base85 : object'
+    content.vb: >-
+      Public Module Base85
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Kount.Util.Base85.LineLength
+  commentId: F:Kount.Util.Base85.LineLength
+  id: LineLength
+  parent: Kount.Util.Base85
+  langs:
+  - csharp
+  - vb
+  name: LineLength
+  nameWithType: Base85.LineLength
+  fullName: Kount.Util.Base85.LineLength
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Util/Base85.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: LineLength
+    path: Kount/Util/Base85.cs
+    startLine: 21
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Util
+  summary: "\nMaximum line length for encoded BASE85 string; \nset to zero for one unbroken line.\n"
+  example: []
+  syntax:
+    content: public static int LineLength
+    return:
+      type: System.Int32
+    content.vb: Public Shared LineLength As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Kount.Util.Base85.Decode(System.String)
+  commentId: M:Kount.Util.Base85.Decode(System.String)
+  id: Decode(System.String)
+  parent: Kount.Util.Base85
+  langs:
+  - csharp
+  - vb
+  name: Decode(String)
+  nameWithType: Base85.Decode(String)
+  fullName: Kount.Util.Base85.Decode(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Util/Base85.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Decode
+    path: Kount/Util/Base85.cs
+    startLine: 39
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Util
+  summary: "\nDecodes an BASE85 encoded string into the original binary data\n"
+  example: []
+  syntax:
+    content: public static byte[] Decode(string s)
+    parameters:
+    - id: s
+      type: System.String
+      description: BASE85 encoded string
+    return:
+      type: System.Byte[]
+      description: byte array of decoded binary data
+    content.vb: Public Shared Function Decode(s As String) As Byte()
+  overload: Kount.Util.Base85.Decode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Kount.Util.Base85.Encode(System.Byte[])
+  commentId: M:Kount.Util.Base85.Encode(System.Byte[])
+  id: Encode(System.Byte[])
+  parent: Kount.Util.Base85
+  langs:
+  - csharp
+  - vb
+  name: Encode(Byte[])
+  nameWithType: Base85.Encode(Byte[])
+  fullName: Kount.Util.Base85.Encode(System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Util/Base85.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Encode
+    path: Kount/Util/Base85.cs
+    startLine: 121
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Util
+  summary: "\nEncodes binary data into a plaintext BASE85 format string\n"
+  example: []
+  syntax:
+    content: public static string Encode(byte[] ba)
+    parameters:
+    - id: ba
+      type: System.Byte[]
+      description: binary data to encode
+    return:
+      type: System.String
+      description: BASE85 encoded string
+    content.vb: Public Shared Function Encode(ba As Byte()) As String
+  overload: Kount.Util.Base85.Encode*
+  nameWithType.vb: Base85.Encode(Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Kount.Util.Base85.Encode(System.Byte())
+  name.vb: Encode(Byte())
+references:
+- uid: Kount.Util
+  commentId: N:Kount.Util
+  isExternal: false
+  name: Kount.Util
+  nameWithType: Kount.Util
+  fullName: Kount.Util
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Kount.Util.Base85.Decode*
+  commentId: Overload:Kount.Util.Base85.Decode
+  isExternal: false
+  name: Decode
+  nameWithType: Base85.Decode
+  fullName: Kount.Util.Base85.Decode
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Kount.Util.Base85.Encode*
+  commentId: Overload:Kount.Util.Base85.Encode
+  isExternal: false
+  name: Encode
+  nameWithType: Base85.Encode
+  fullName: Kount.Util.Base85.Encode

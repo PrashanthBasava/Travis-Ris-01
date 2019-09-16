@@ -1,0 +1,3619 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Ris.Response
+  commentId: T:Kount.Ris.Response
+  id: Response
+  parent: Kount.Ris
+  children:
+  - Kount.Ris.Response.#ctor(System.String)
+  - Kount.Ris.Response.GetAuto
+  - Kount.Ris.Response.GetBrand
+  - Kount.Ris.Response.GetBrowser
+  - Kount.Ris.Response.GetCards
+  - Kount.Ris.Response.GetCookies
+  - Kount.Ris.Response.GetCountersTriggered
+  - Kount.Ris.Response.GetCountry
+  - Kount.Ris.Response.GetDateDeviceFirstSeen
+  - Kount.Ris.Response.GetDeviceLayers
+  - Kount.Ris.Response.GetDevices
+  - Kount.Ris.Response.GetDeviceScreenResolution
+  - Kount.Ris.Response.GetEmails
+  - Kount.Ris.Response.GetErrorCode
+  - Kount.Ris.Response.GetErrorCount
+  - Kount.Ris.Response.GetErrors
+  - Kount.Ris.Response.GetFingerPrint
+  - Kount.Ris.Response.GetFlash
+  - Kount.Ris.Response.GetGeox
+  - Kount.Ris.Response.GetHttpCountry
+  - Kount.Ris.Response.GetIPAddress
+  - Kount.Ris.Response.GetIPAddressCity
+  - Kount.Ris.Response.GetIPAddressCountry
+  - Kount.Ris.Response.GetIPAddressLatitude
+  - Kount.Ris.Response.GetIPAddressLongitude
+  - Kount.Ris.Response.GetIPAddressOrganization
+  - Kount.Ris.Response.GetIPAddressRegion
+  - Kount.Ris.Response.GetJavaScript
+  - Kount.Ris.Response.GetKaptcha
+  - Kount.Ris.Response.GetKnowYourCustomer
+  - Kount.Ris.Response.GetKountCentralCustomerId
+  - Kount.Ris.Response.GetKountCentralDecision
+  - Kount.Ris.Response.GetKountCentralErrorCount
+  - Kount.Ris.Response.GetKountCentralErrors
+  - Kount.Ris.Response.GetKountCentralNumberThresholdsTriggered
+  - Kount.Ris.Response.GetKountCentralThresholdEvents
+  - Kount.Ris.Response.GetKountCentralWarningCount
+  - Kount.Ris.Response.GetKountCentralWarnings
+  - Kount.Ris.Response.GetLanguage
+  - Kount.Ris.Response.GetLexisNexisCbdAttributes
+  - Kount.Ris.Response.GetLexisNexisInstantIdAttributes
+  - Kount.Ris.Response.GetLocalTime
+  - Kount.Ris.Response.GetMasterCardFraudScore
+  - Kount.Ris.Response.GetMerchantId
+  - Kount.Ris.Response.GetMobileDevice
+  - Kount.Ris.Response.GetMobileForwarder
+  - Kount.Ris.Response.GetMobileType
+  - Kount.Ris.Response.GetMode
+  - Kount.Ris.Response.GetNetwork
+  - Kount.Ris.Response.GetNumberCountersTriggered
+  - Kount.Ris.Response.GetNumberRulesTriggered
+  - Kount.Ris.Response.GetOrderNumber
+  - Kount.Ris.Response.GetOS
+  - Kount.Ris.Response.GetPcRemote
+  - Kount.Ris.Response.GetPiercedIPAddress
+  - Kount.Ris.Response.GetPiercedIPAddressCity
+  - Kount.Ris.Response.GetPiercedIPAddressCountry
+  - Kount.Ris.Response.GetPiercedIPAddressLatitude
+  - Kount.Ris.Response.GetPiercedIPAddressLongitude
+  - Kount.Ris.Response.GetPiercedIPAddressOrganization
+  - Kount.Ris.Response.GetPiercedIPAddressRegion
+  - Kount.Ris.Response.GetPrefixedResponseDataDictionary(System.String)
+  - Kount.Ris.Response.GetProxy
+  - Kount.Ris.Response.GetReason
+  - Kount.Ris.Response.GetReasonCode
+  - Kount.Ris.Response.GetRegion
+  - Kount.Ris.Response.GetRulesTriggered
+  - Kount.Ris.Response.GetScore
+  - Kount.Ris.Response.GetSessionId
+  - Kount.Ris.Response.GetSite
+  - Kount.Ris.Response.GetTimeZone
+  - Kount.Ris.Response.GetTransactionId
+  - Kount.Ris.Response.GetUserAgentString
+  - Kount.Ris.Response.GetVelo
+  - Kount.Ris.Response.GetVersion
+  - Kount.Ris.Response.GetVmax
+  - Kount.Ris.Response.GetVoiceDevice
+  - Kount.Ris.Response.GetWarningCount
+  - Kount.Ris.Response.GetWarnings
+  - Kount.Ris.Response.HasErrors
+  - Kount.Ris.Response.ToString
+  langs:
+  - csharp
+  - vb
+  name: Response
+  nameWithType: Response
+  fullName: Kount.Ris.Response
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Response
+    path: Kount/Ris/Response.cs
+    startLine: 20
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nResponse immutable data object containing data from the RIS server.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2010 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public class Response : object'
+    content.vb: >-
+      Public Class Response
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Kount.Ris.Response.#ctor(System.String)
+  commentId: M:Kount.Ris.Response.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: Response(String)
+  nameWithType: Response.Response(String)
+  fullName: Kount.Ris.Response.Response(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/Response.cs
+    startLine: 47
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nResponse constructor.\n"
+  example: []
+  syntax:
+    content: public Response(string raw)
+    parameters:
+    - id: raw
+      type: System.String
+      description: >-
+        Splits name=value formatted response string
+
+        populating a hash for getters.
+    content.vb: Public Sub New(raw As String)
+  overload: Kount.Ris.Response.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetErrorCode
+  commentId: M:Kount.Ris.Response.GetErrorCode
+  id: GetErrorCode
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetErrorCode()
+  nameWithType: Response.GetErrorCode()
+  fullName: Kount.Ris.Response.GetErrorCode()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetErrorCode
+    path: Kount/Ris/Response.cs
+    startLine: 68
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the error code returned from the server\n"
+  example: []
+  syntax:
+    content: public string GetErrorCode()
+    return:
+      type: System.String
+      description: Error code returned from the RIS server.
+    content.vb: Public Function GetErrorCode As String
+  overload: Kount.Ris.Response.GetErrorCode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetVersion
+  commentId: M:Kount.Ris.Response.GetVersion
+  id: GetVersion
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetVersion()
+  nameWithType: Response.GetVersion()
+  fullName: Kount.Ris.Response.GetVersion()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetVersion
+    path: Kount/Ris/Response.cs
+    startLine: 84
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the version of the RIS response.\n"
+  example: []
+  syntax:
+    content: public string GetVersion()
+    return:
+      type: System.String
+      description: String of the version.
+    content.vb: Public Function GetVersion As String
+  overload: Kount.Ris.Response.GetVersion*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetMode
+  commentId: M:Kount.Ris.Response.GetMode
+  id: GetMode
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetMode()
+  nameWithType: Response.GetMode()
+  fullName: Kount.Ris.Response.GetMode()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetMode
+    path: Kount/Ris/Response.cs
+    startLine: 94
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the mode of the RIS request.\n"
+  example: []
+  syntax:
+    content: public string GetMode()
+    return:
+      type: System.String
+      description: >
+        Character of the original RIS request mode: e.g. U.
+    content.vb: Public Function GetMode As String
+  overload: Kount.Ris.Response.GetMode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetTransactionId
+  commentId: M:Kount.Ris.Response.GetTransactionId
+  id: GetTransactionId
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetTransactionId()
+  nameWithType: Response.GetTransactionId()
+  fullName: Kount.Ris.Response.GetTransactionId()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetTransactionId
+    path: Kount/Ris/Response.cs
+    startLine: 103
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet Kount transaction Id.\n"
+  example: []
+  syntax:
+    content: public string GetTransactionId()
+    return:
+      type: System.String
+      description: Alphanumeric transaction id generated by Kount.
+    content.vb: Public Function GetTransactionId As String
+  overload: Kount.Ris.Response.GetTransactionId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetMerchantId
+  commentId: M:Kount.Ris.Response.GetMerchantId
+  id: GetMerchantId
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetMerchantId()
+  nameWithType: Response.GetMerchantId()
+  fullName: Kount.Ris.Response.GetMerchantId()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetMerchantId
+    path: Kount/Ris/Response.cs
+    startLine: 112
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the merchant Id of the merchant making the request.\n"
+  example: []
+  syntax:
+    content: public string GetMerchantId()
+    return:
+      type: System.String
+      description: Merchant Id.
+    content.vb: Public Function GetMerchantId As String
+  overload: Kount.Ris.Response.GetMerchantId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetSessionId
+  commentId: M:Kount.Ris.Response.GetSessionId
+  id: GetSessionId
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetSessionId()
+  nameWithType: Response.GetSessionId()
+  fullName: Kount.Ris.Response.GetSessionId()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetSessionId
+    path: Kount/Ris/Response.cs
+    startLine: 122
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the session Id.\n"
+  example: []
+  syntax:
+    content: public string GetSessionId()
+    return:
+      type: System.String
+      description: >
+        Session Id of this transaction generated by the merchant.
+    content.vb: Public Function GetSessionId As String
+  overload: Kount.Ris.Response.GetSessionId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetOrderNumber
+  commentId: M:Kount.Ris.Response.GetOrderNumber
+  id: GetOrderNumber
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetOrderNumber()
+  nameWithType: Response.GetOrderNumber()
+  fullName: Kount.Ris.Response.GetOrderNumber()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetOrderNumber
+    path: Kount/Ris/Response.cs
+    startLine: 131
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the Order Number.\n"
+  example: []
+  syntax:
+    content: public string GetOrderNumber()
+    return:
+      type: System.String
+      description: Order number generated by the merchant.
+    content.vb: Public Function GetOrderNumber As String
+  overload: Kount.Ris.Response.GetOrderNumber*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetAuto
+  commentId: M:Kount.Ris.Response.GetAuto
+  id: GetAuto
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetAuto()
+  nameWithType: Response.GetAuto()
+  fullName: Kount.Ris.Response.GetAuto()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetAuto
+    path: Kount/Ris/Response.cs
+    startLine: 140
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the automated Kount RIS response.\n"
+  example: []
+  syntax:
+    content: public string GetAuto()
+    return:
+      type: System.String
+      description: (A)pprove, (R)eview, or (D)ecline.
+    content.vb: Public Function GetAuto As String
+  overload: Kount.Ris.Response.GetAuto*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetReason
+  commentId: M:Kount.Ris.Response.GetReason
+  id: GetReason
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetReason()
+  nameWithType: Response.GetReason()
+  fullName: Kount.Ris.Response.GetReason()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetReason
+    path: Kount/Ris/Response.cs
+    startLine: 149
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the reason for the RIS response.\n"
+  example: []
+  syntax:
+    content: public string GetReason()
+    return:
+      type: System.String
+      description: Main response reason, e.g. LIST, SCOR, etc.
+    content.vb: Public Function GetReason As String
+  overload: Kount.Ris.Response.GetReason*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetReasonCode
+  commentId: M:Kount.Ris.Response.GetReasonCode
+  id: GetReasonCode
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetReasonCode()
+  nameWithType: Response.GetReasonCode()
+  fullName: Kount.Ris.Response.GetReasonCode()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetReasonCode
+    path: Kount/Ris/Response.cs
+    startLine: 163
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the merchant defined reason code for the RIS response.\n"
+  example: []
+  syntax:
+    content: public string GetReasonCode()
+    return:
+      type: System.String
+      description: Reason code
+    content.vb: Public Function GetReasonCode As String
+  overload: Kount.Ris.Response.GetReasonCode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetScore
+  commentId: M:Kount.Ris.Response.GetScore
+  id: GetScore
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetScore()
+  nameWithType: Response.GetScore()
+  fullName: Kount.Ris.Response.GetScore()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetScore
+    path: Kount/Ris/Response.cs
+    startLine: 172
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the Kount score.\n"
+  example: []
+  syntax:
+    content: public string GetScore()
+    return:
+      type: System.String
+      description: 1 to 99. The highter the score, the more risk.
+    content.vb: Public Function GetScore As String
+  overload: Kount.Ris.Response.GetScore*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetGeox
+  commentId: M:Kount.Ris.Response.GetGeox
+  id: GetGeox
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetGeox()
+  nameWithType: Response.GetGeox()
+  fullName: Kount.Ris.Response.GetGeox()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetGeox
+    path: Kount/Ris/Response.cs
+    startLine: 181
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the geo location of the client\n"
+  example: []
+  syntax:
+    content: public string GetGeox()
+    return:
+      type: System.String
+      description: Geox of the client
+    content.vb: Public Function GetGeox As String
+  overload: Kount.Ris.Response.GetGeox*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetBrand
+  commentId: M:Kount.Ris.Response.GetBrand
+  id: GetBrand
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetBrand()
+  nameWithType: Response.GetBrand()
+  fullName: Kount.Ris.Response.GetBrand()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetBrand
+    path: Kount/Ris/Response.cs
+    startLine: 190
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the brand of the credit card if a card was the payment method\n"
+  example: []
+  syntax:
+    content: public string GetBrand()
+    return:
+      type: System.String
+      description: Brand of credit card, e.g. VISA
+    content.vb: Public Function GetBrand As String
+  overload: Kount.Ris.Response.GetBrand*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetVelo
+  commentId: M:Kount.Ris.Response.GetVelo
+  id: GetVelo
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetVelo()
+  nameWithType: Response.GetVelo()
+  fullName: Kount.Ris.Response.GetVelo()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetVelo
+    path: Kount/Ris/Response.cs
+    startLine: 200
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\n6 hour card velocity\n"
+  example: []
+  syntax:
+    content: public string GetVelo()
+    return:
+      type: System.String
+      description: >-
+        Number of times this card number was used in the last 6
+
+        hours
+    content.vb: Public Function GetVelo As String
+  overload: Kount.Ris.Response.GetVelo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetVmax
+  commentId: M:Kount.Ris.Response.GetVmax
+  id: GetVmax
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetVmax()
+  nameWithType: Response.GetVmax()
+  fullName: Kount.Ris.Response.GetVmax()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetVmax
+    path: Kount/Ris/Response.cs
+    startLine: 210
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\n2 week card velocity\n"
+  example: []
+  syntax:
+    content: public string GetVmax()
+    return:
+      type: System.String
+      description: >-
+        Number of times this card number was used in the last
+
+        two weeks
+    content.vb: Public Function GetVmax As String
+  overload: Kount.Ris.Response.GetVmax*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetNetwork
+  commentId: M:Kount.Ris.Response.GetNetwork
+  id: GetNetwork
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetNetwork()
+  nameWithType: Response.GetNetwork()
+  fullName: Kount.Ris.Response.GetNetwork()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetNetwork
+    path: Kount/Ris/Response.cs
+    startLine: 220
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the network type\n"
+  example: []
+  syntax:
+    content: public string GetNetwork()
+    return:
+      type: System.String
+      description: >
+        Get the network type of the client, e.g. L for library
+    content.vb: Public Function GetNetwork As String
+  overload: Kount.Ris.Response.GetNetwork*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetKnowYourCustomer
+  commentId: M:Kount.Ris.Response.GetKnowYourCustomer
+  id: GetKnowYourCustomer
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetKnowYourCustomer()
+  nameWithType: Response.GetKnowYourCustomer()
+  fullName: Kount.Ris.Response.GetKnowYourCustomer()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetKnowYourCustomer
+    path: Kount/Ris/Response.cs
+    startLine: 229
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the Know Your Customer flag\n"
+  example: []
+  syntax:
+    content: public string GetKnowYourCustomer()
+    return:
+      type: System.String
+      description: Y means a KYC match, N means no match.
+    content.vb: Public Function GetKnowYourCustomer As String
+  overload: Kount.Ris.Response.GetKnowYourCustomer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetRegion
+  commentId: M:Kount.Ris.Response.GetRegion
+  id: GetRegion
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetRegion()
+  nameWithType: Response.GetRegion()
+  fullName: Kount.Ris.Response.GetRegion()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetRegion
+    path: Kount/Ris/Response.cs
+    startLine: 238
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the customer region\n"
+  example: []
+  syntax:
+    content: public string GetRegion()
+    return:
+      type: System.String
+      description: US state abbreviation or country code.
+    content.vb: Public Function GetRegion As String
+  overload: Kount.Ris.Response.GetRegion*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetKaptcha
+  commentId: M:Kount.Ris.Response.GetKaptcha
+  id: GetKaptcha
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetKaptcha()
+  nameWithType: Response.GetKaptcha()
+  fullName: Kount.Ris.Response.GetKaptcha()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetKaptcha
+    path: Kount/Ris/Response.cs
+    startLine: 248
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the Kaptcha flag: enabled upon request and for when a RIS\nrecord has no Kaptcha data\n"
+  example: []
+  syntax:
+    content: public string GetKaptcha()
+    return:
+      type: System.String
+      description: Returns Y or N
+    content.vb: Public Function GetKaptcha As String
+  overload: Kount.Ris.Response.GetKaptcha*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetProxy
+  commentId: M:Kount.Ris.Response.GetProxy
+  id: GetProxy
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetProxy()
+  nameWithType: Response.GetProxy()
+  fullName: Kount.Ris.Response.GetProxy()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetProxy
+    path: Kount/Ris/Response.cs
+    startLine: 258
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet a string representing whether the remote device is using a\nproxy\n"
+  example: []
+  syntax:
+    content: public string GetProxy()
+    return:
+      type: System.String
+      description: Returns Y or N
+    content.vb: Public Function GetProxy As String
+  overload: Kount.Ris.Response.GetProxy*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetEmails
+  commentId: M:Kount.Ris.Response.GetEmails
+  id: GetEmails
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetEmails()
+  nameWithType: Response.GetEmails()
+  fullName: Kount.Ris.Response.GetEmails()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetEmails
+    path: Kount/Ris/Response.cs
+    startLine: 267
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the number of transactions associated with the email\n"
+  example: []
+  syntax:
+    content: public string GetEmails()
+    return:
+      type: System.String
+      description: Number of emails
+    content.vb: Public Function GetEmails As String
+  overload: Kount.Ris.Response.GetEmails*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetHttpCountry
+  commentId: M:Kount.Ris.Response.GetHttpCountry
+  id: GetHttpCountry
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetHttpCountry()
+  nameWithType: Response.GetHttpCountry()
+  fullName: Kount.Ris.Response.GetHttpCountry()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetHttpCountry
+    path: Kount/Ris/Response.cs
+    startLine: 277
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the two character country code setting in the remote device's\nbrowser\n"
+  example: []
+  syntax:
+    content: public string GetHttpCountry()
+    return:
+      type: System.String
+      description: Get the country
+    content.vb: Public Function GetHttpCountry As String
+  overload: Kount.Ris.Response.GetHttpCountry*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetTimeZone
+  commentId: M:Kount.Ris.Response.GetTimeZone
+  id: GetTimeZone
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetTimeZone()
+  nameWithType: Response.GetTimeZone()
+  fullName: Kount.Ris.Response.GetTimeZone()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetTimeZone
+    path: Kount/Ris/Response.cs
+    startLine: 287
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the two character country code setting in the remote device's\nbrowser\n"
+  example: []
+  syntax:
+    content: public string GetTimeZone()
+    return:
+      type: System.String
+      description: The time zone
+    content.vb: Public Function GetTimeZone As String
+  overload: Kount.Ris.Response.GetTimeZone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetCards
+  commentId: M:Kount.Ris.Response.GetCards
+  id: GetCards
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetCards()
+  nameWithType: Response.GetCards()
+  fullName: Kount.Ris.Response.GetCards()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetCards
+    path: Kount/Ris/Response.cs
+    startLine: 296
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the number of transactions associated with the credit card\n"
+  example: []
+  syntax:
+    content: public string GetCards()
+    return:
+      type: System.String
+      description: Number of cards
+    content.vb: Public Function GetCards As String
+  overload: Kount.Ris.Response.GetCards*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetPcRemote
+  commentId: M:Kount.Ris.Response.GetPcRemote
+  id: GetPcRemote
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetPcRemote()
+  nameWithType: Response.GetPcRemote()
+  fullName: Kount.Ris.Response.GetPcRemote()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetPcRemote
+    path: Kount/Ris/Response.cs
+    startLine: 306
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet a string representing whether the end device is a remotely\ncontrolled computer\n"
+  example: []
+  syntax:
+    content: public string GetPcRemote()
+    return:
+      type: System.String
+      description: "\"Y\" or \"N\""
+    content.vb: Public Function GetPcRemote As String
+  overload: Kount.Ris.Response.GetPcRemote*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetDevices
+  commentId: M:Kount.Ris.Response.GetDevices
+  id: GetDevices
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetDevices()
+  nameWithType: Response.GetDevices()
+  fullName: Kount.Ris.Response.GetDevices()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetDevices
+    path: Kount/Ris/Response.cs
+    startLine: 316
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the number of transactions associated with the particular\ndevice\n"
+  example: []
+  syntax:
+    content: public string GetDevices()
+    return:
+      type: System.String
+      description: Number of devices
+    content.vb: Public Function GetDevices As String
+  overload: Kount.Ris.Response.GetDevices*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetDeviceLayers
+  commentId: M:Kount.Ris.Response.GetDeviceLayers
+  id: GetDeviceLayers
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetDeviceLayers()
+  nameWithType: Response.GetDeviceLayers()
+  fullName: Kount.Ris.Response.GetDeviceLayers()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetDeviceLayers
+    path: Kount/Ris/Response.cs
+    startLine: 326
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet a string representing the five layers (Operating System, SSL,\nHTTP, Flash, JavaScript) of the remote device\n"
+  example: []
+  syntax:
+    content: public string GetDeviceLayers()
+    return:
+      type: System.String
+      description: Device layers
+    content.vb: Public Function GetDeviceLayers As String
+  overload: Kount.Ris.Response.GetDeviceLayers*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetMobileForwarder
+  commentId: M:Kount.Ris.Response.GetMobileForwarder
+  id: GetMobileForwarder
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetMobileForwarder()
+  nameWithType: Response.GetMobileForwarder()
+  fullName: Kount.Ris.Response.GetMobileForwarder()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetMobileForwarder
+    path: Kount/Ris/Response.cs
+    startLine: 335
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the mobile device's wireless application protocol\n"
+  example: []
+  syntax:
+    content: public string GetMobileForwarder()
+    return:
+      type: System.String
+      description: The protocol
+    content.vb: Public Function GetMobileForwarder As String
+  overload: Kount.Ris.Response.GetMobileForwarder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetVoiceDevice
+  commentId: M:Kount.Ris.Response.GetVoiceDevice
+  id: GetVoiceDevice
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetVoiceDevice()
+  nameWithType: Response.GetVoiceDevice()
+  fullName: Kount.Ris.Response.GetVoiceDevice()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetVoiceDevice
+    path: Kount/Ris/Response.cs
+    startLine: 345
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet a string representing whether or not the remote device is\nvoice controlled\n"
+  example: []
+  syntax:
+    content: public string GetVoiceDevice()
+    return:
+      type: System.String
+      description: "\"Y\" or \"N\""
+    content.vb: Public Function GetVoiceDevice As String
+  overload: Kount.Ris.Response.GetVoiceDevice*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetLocalTime
+  commentId: M:Kount.Ris.Response.GetLocalTime
+  id: GetLocalTime
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetLocalTime()
+  nameWithType: Response.GetLocalTime()
+  fullName: Kount.Ris.Response.GetLocalTime()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetLocalTime
+    path: Kount/Ris/Response.cs
+    startLine: 354
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet local time of the remote device in the YYYY-MM-DD format\n"
+  example: []
+  syntax:
+    content: public string GetLocalTime()
+    return:
+      type: System.String
+      description: Local time
+    content.vb: Public Function GetLocalTime As String
+  overload: Kount.Ris.Response.GetLocalTime*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetMobileType
+  commentId: M:Kount.Ris.Response.GetMobileType
+  id: GetMobileType
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetMobileType()
+  nameWithType: Response.GetMobileType()
+  fullName: Kount.Ris.Response.GetMobileType()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetMobileType
+    path: Kount/Ris/Response.cs
+    startLine: 363
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the mobile device type\n"
+  example: []
+  syntax:
+    content: public string GetMobileType()
+    return:
+      type: System.String
+      description: Mobile type
+    content.vb: Public Function GetMobileType As String
+  overload: Kount.Ris.Response.GetMobileType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetFingerPrint
+  commentId: M:Kount.Ris.Response.GetFingerPrint
+  id: GetFingerPrint
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetFingerPrint()
+  nameWithType: Response.GetFingerPrint()
+  fullName: Kount.Ris.Response.GetFingerPrint()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetFingerPrint
+    path: Kount/Ris/Response.cs
+    startLine: 372
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the device finger print\n"
+  example: []
+  syntax:
+    content: public string GetFingerPrint()
+    return:
+      type: System.String
+      description: Finger print
+    content.vb: Public Function GetFingerPrint As String
+  overload: Kount.Ris.Response.GetFingerPrint*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetFlash
+  commentId: M:Kount.Ris.Response.GetFlash
+  id: GetFlash
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetFlash()
+  nameWithType: Response.GetFlash()
+  fullName: Kount.Ris.Response.GetFlash()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetFlash
+    path: Kount/Ris/Response.cs
+    startLine: 382
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet a string representing whether or not the remote device allows\nflash.\n"
+  example: []
+  syntax:
+    content: public string GetFlash()
+    return:
+      type: System.String
+      description: "\"Y\" or \"N\""
+    content.vb: Public Function GetFlash As String
+  overload: Kount.Ris.Response.GetFlash*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetLanguage
+  commentId: M:Kount.Ris.Response.GetLanguage
+  id: GetLanguage
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetLanguage()
+  nameWithType: Response.GetLanguage()
+  fullName: Kount.Ris.Response.GetLanguage()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetLanguage
+    path: Kount/Ris/Response.cs
+    startLine: 391
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the language setting on the remote device\n"
+  example: []
+  syntax:
+    content: public string GetLanguage()
+    return:
+      type: System.String
+      description: The language
+    content.vb: Public Function GetLanguage As String
+  overload: Kount.Ris.Response.GetLanguage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetCountry
+  commentId: M:Kount.Ris.Response.GetCountry
+  id: GetCountry
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetCountry()
+  nameWithType: Response.GetCountry()
+  fullName: Kount.Ris.Response.GetCountry()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetCountry
+    path: Kount/Ris/Response.cs
+    startLine: 400
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the remote device's country of origin as a two character code\n"
+  example: []
+  syntax:
+    content: public string GetCountry()
+    return:
+      type: System.String
+      description: The country
+    content.vb: Public Function GetCountry As String
+  overload: Kount.Ris.Response.GetCountry*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetJavaScript
+  commentId: M:Kount.Ris.Response.GetJavaScript
+  id: GetJavaScript
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetJavaScript()
+  nameWithType: Response.GetJavaScript()
+  fullName: Kount.Ris.Response.GetJavaScript()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetJavaScript
+    path: Kount/Ris/Response.cs
+    startLine: 410
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet a string representing whether the remote device allows\nJavaScript\n"
+  example: []
+  syntax:
+    content: public string GetJavaScript()
+    return:
+      type: System.String
+      description: "\"Y\" or \"N\""
+    content.vb: Public Function GetJavaScript As String
+  overload: Kount.Ris.Response.GetJavaScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetCookies
+  commentId: M:Kount.Ris.Response.GetCookies
+  id: GetCookies
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetCookies()
+  nameWithType: Response.GetCookies()
+  fullName: Kount.Ris.Response.GetCookies()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetCookies
+    path: Kount/Ris/Response.cs
+    startLine: 419
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet a string representing whether the remote device allows cookies\n"
+  example: []
+  syntax:
+    content: public string GetCookies()
+    return:
+      type: System.String
+      description: "\"Y\" or \"N\""
+    content.vb: Public Function GetCookies As String
+  overload: Kount.Ris.Response.GetCookies*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetMobileDevice
+  commentId: M:Kount.Ris.Response.GetMobileDevice
+  id: GetMobileDevice
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetMobileDevice()
+  nameWithType: Response.GetMobileDevice()
+  fullName: Kount.Ris.Response.GetMobileDevice()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetMobileDevice
+    path: Kount/Ris/Response.cs
+    startLine: 429
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet a string representing whether the remote device is a mobile\ndevice\n"
+  example: []
+  syntax:
+    content: public string GetMobileDevice()
+    return:
+      type: System.String
+      description: "\"Y\" or \"N\""
+    content.vb: Public Function GetMobileDevice As String
+  overload: Kount.Ris.Response.GetMobileDevice*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetSite
+  commentId: M:Kount.Ris.Response.GetSite
+  id: GetSite
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetSite()
+  nameWithType: Response.GetSite()
+  fullName: Kount.Ris.Response.GetSite()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetSite
+    path: Kount/Ris/Response.cs
+    startLine: 438
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the site ID\n"
+  example: []
+  syntax:
+    content: public string GetSite()
+    return:
+      type: System.String
+      description: The site ID
+    content.vb: Public Function GetSite As String
+  overload: Kount.Ris.Response.GetSite*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetMasterCardFraudScore
+  commentId: M:Kount.Ris.Response.GetMasterCardFraudScore
+  id: GetMasterCardFraudScore
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetMasterCardFraudScore()
+  nameWithType: Response.GetMasterCardFraudScore()
+  fullName: Kount.Ris.Response.GetMasterCardFraudScore()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetMasterCardFraudScore
+    path: Kount/Ris/Response.cs
+    startLine: 449
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet MasterCard Fraud Score associated with the RIS transaction.\nPlease contact your Kount representative to enable support for this\nfeature in your merchant account.\n"
+  example: []
+  syntax:
+    content: public string GetMasterCardFraudScore()
+    return:
+      type: System.String
+      description: MasterCard Fraud Score
+    content.vb: Public Function GetMasterCardFraudScore As String
+  overload: Kount.Ris.Response.GetMasterCardFraudScore*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetPiercedIPAddress
+  commentId: M:Kount.Ris.Response.GetPiercedIPAddress
+  id: GetPiercedIPAddress
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetPiercedIPAddress()
+  nameWithType: Response.GetPiercedIPAddress()
+  fullName: Kount.Ris.Response.GetPiercedIPAddress()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetPiercedIPAddress
+    path: Kount/Ris/Response.cs
+    startLine: 458
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet pierced IP address\n"
+  example: []
+  syntax:
+    content: public string GetPiercedIPAddress()
+    return:
+      type: System.String
+      description: Pierced IP address
+    content.vb: Public Function GetPiercedIPAddress As String
+  overload: Kount.Ris.Response.GetPiercedIPAddress*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetPiercedIPAddressLatitude
+  commentId: M:Kount.Ris.Response.GetPiercedIPAddressLatitude
+  id: GetPiercedIPAddressLatitude
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetPiercedIPAddressLatitude()
+  nameWithType: Response.GetPiercedIPAddressLatitude()
+  fullName: Kount.Ris.Response.GetPiercedIPAddressLatitude()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetPiercedIPAddressLatitude
+    path: Kount/Ris/Response.cs
+    startLine: 467
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet latitude of pierced IP address\n"
+  example: []
+  syntax:
+    content: public string GetPiercedIPAddressLatitude()
+    return:
+      type: System.String
+      description: Latitude of pierced IP address
+    content.vb: Public Function GetPiercedIPAddressLatitude As String
+  overload: Kount.Ris.Response.GetPiercedIPAddressLatitude*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetPiercedIPAddressLongitude
+  commentId: M:Kount.Ris.Response.GetPiercedIPAddressLongitude
+  id: GetPiercedIPAddressLongitude
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetPiercedIPAddressLongitude()
+  nameWithType: Response.GetPiercedIPAddressLongitude()
+  fullName: Kount.Ris.Response.GetPiercedIPAddressLongitude()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetPiercedIPAddressLongitude
+    path: Kount/Ris/Response.cs
+    startLine: 476
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet longitude of pierced IP address\n"
+  example: []
+  syntax:
+    content: public string GetPiercedIPAddressLongitude()
+    return:
+      type: System.String
+      description: Longitude of pierced IP address
+    content.vb: Public Function GetPiercedIPAddressLongitude As String
+  overload: Kount.Ris.Response.GetPiercedIPAddressLongitude*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetPiercedIPAddressCountry
+  commentId: M:Kount.Ris.Response.GetPiercedIPAddressCountry
+  id: GetPiercedIPAddressCountry
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetPiercedIPAddressCountry()
+  nameWithType: Response.GetPiercedIPAddressCountry()
+  fullName: Kount.Ris.Response.GetPiercedIPAddressCountry()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetPiercedIPAddressCountry
+    path: Kount/Ris/Response.cs
+    startLine: 485
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet country of pierced IP address\n"
+  example: []
+  syntax:
+    content: public string GetPiercedIPAddressCountry()
+    return:
+      type: System.String
+      description: Country of pierced IP address
+    content.vb: Public Function GetPiercedIPAddressCountry As String
+  overload: Kount.Ris.Response.GetPiercedIPAddressCountry*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetPiercedIPAddressRegion
+  commentId: M:Kount.Ris.Response.GetPiercedIPAddressRegion
+  id: GetPiercedIPAddressRegion
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetPiercedIPAddressRegion()
+  nameWithType: Response.GetPiercedIPAddressRegion()
+  fullName: Kount.Ris.Response.GetPiercedIPAddressRegion()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetPiercedIPAddressRegion
+    path: Kount/Ris/Response.cs
+    startLine: 494
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet region of pierced IP address\n"
+  example: []
+  syntax:
+    content: public string GetPiercedIPAddressRegion()
+    return:
+      type: System.String
+      description: Region of pierced IP address
+    content.vb: Public Function GetPiercedIPAddressRegion As String
+  overload: Kount.Ris.Response.GetPiercedIPAddressRegion*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetPiercedIPAddressCity
+  commentId: M:Kount.Ris.Response.GetPiercedIPAddressCity
+  id: GetPiercedIPAddressCity
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetPiercedIPAddressCity()
+  nameWithType: Response.GetPiercedIPAddressCity()
+  fullName: Kount.Ris.Response.GetPiercedIPAddressCity()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetPiercedIPAddressCity
+    path: Kount/Ris/Response.cs
+    startLine: 503
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet city of pierced IP address\n"
+  example: []
+  syntax:
+    content: public string GetPiercedIPAddressCity()
+    return:
+      type: System.String
+      description: City of pierced IP address
+    content.vb: Public Function GetPiercedIPAddressCity As String
+  overload: Kount.Ris.Response.GetPiercedIPAddressCity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetPiercedIPAddressOrganization
+  commentId: M:Kount.Ris.Response.GetPiercedIPAddressOrganization
+  id: GetPiercedIPAddressOrganization
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetPiercedIPAddressOrganization()
+  nameWithType: Response.GetPiercedIPAddressOrganization()
+  fullName: Kount.Ris.Response.GetPiercedIPAddressOrganization()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetPiercedIPAddressOrganization
+    path: Kount/Ris/Response.cs
+    startLine: 512
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet organization of pierced IP address\n"
+  example: []
+  syntax:
+    content: public string GetPiercedIPAddressOrganization()
+    return:
+      type: System.String
+      description: Organization of pierced IP address
+    content.vb: Public Function GetPiercedIPAddressOrganization As String
+  overload: Kount.Ris.Response.GetPiercedIPAddressOrganization*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetIPAddress
+  commentId: M:Kount.Ris.Response.GetIPAddress
+  id: GetIPAddress
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetIPAddress()
+  nameWithType: Response.GetIPAddress()
+  fullName: Kount.Ris.Response.GetIPAddress()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetIPAddress
+    path: Kount/Ris/Response.cs
+    startLine: 521
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet proxy IP address\n"
+  example: []
+  syntax:
+    content: public string GetIPAddress()
+    return:
+      type: System.String
+      description: Proxy IP Address
+    content.vb: Public Function GetIPAddress As String
+  overload: Kount.Ris.Response.GetIPAddress*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetIPAddressLatitude
+  commentId: M:Kount.Ris.Response.GetIPAddressLatitude
+  id: GetIPAddressLatitude
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetIPAddressLatitude()
+  nameWithType: Response.GetIPAddressLatitude()
+  fullName: Kount.Ris.Response.GetIPAddressLatitude()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetIPAddressLatitude
+    path: Kount/Ris/Response.cs
+    startLine: 530
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet latitude of proxy IP address\n"
+  example: []
+  syntax:
+    content: public string GetIPAddressLatitude()
+    return:
+      type: System.String
+      description: Latitude of proxy IP address
+    content.vb: Public Function GetIPAddressLatitude As String
+  overload: Kount.Ris.Response.GetIPAddressLatitude*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetIPAddressLongitude
+  commentId: M:Kount.Ris.Response.GetIPAddressLongitude
+  id: GetIPAddressLongitude
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetIPAddressLongitude()
+  nameWithType: Response.GetIPAddressLongitude()
+  fullName: Kount.Ris.Response.GetIPAddressLongitude()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetIPAddressLongitude
+    path: Kount/Ris/Response.cs
+    startLine: 539
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet longitude of proxy IP address\n"
+  example: []
+  syntax:
+    content: public string GetIPAddressLongitude()
+    return:
+      type: System.String
+      description: Longitude of proxy IP address
+    content.vb: Public Function GetIPAddressLongitude As String
+  overload: Kount.Ris.Response.GetIPAddressLongitude*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetIPAddressCountry
+  commentId: M:Kount.Ris.Response.GetIPAddressCountry
+  id: GetIPAddressCountry
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetIPAddressCountry()
+  nameWithType: Response.GetIPAddressCountry()
+  fullName: Kount.Ris.Response.GetIPAddressCountry()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetIPAddressCountry
+    path: Kount/Ris/Response.cs
+    startLine: 548
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet country of proxy IP address\n"
+  example: []
+  syntax:
+    content: public string GetIPAddressCountry()
+    return:
+      type: System.String
+      description: Country of proxy IP address
+    content.vb: Public Function GetIPAddressCountry As String
+  overload: Kount.Ris.Response.GetIPAddressCountry*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetIPAddressRegion
+  commentId: M:Kount.Ris.Response.GetIPAddressRegion
+  id: GetIPAddressRegion
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetIPAddressRegion()
+  nameWithType: Response.GetIPAddressRegion()
+  fullName: Kount.Ris.Response.GetIPAddressRegion()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetIPAddressRegion
+    path: Kount/Ris/Response.cs
+    startLine: 557
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet region of proxy IP address\n"
+  example: []
+  syntax:
+    content: public string GetIPAddressRegion()
+    return:
+      type: System.String
+      description: Region of proxy IP address
+    content.vb: Public Function GetIPAddressRegion As String
+  overload: Kount.Ris.Response.GetIPAddressRegion*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetIPAddressCity
+  commentId: M:Kount.Ris.Response.GetIPAddressCity
+  id: GetIPAddressCity
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetIPAddressCity()
+  nameWithType: Response.GetIPAddressCity()
+  fullName: Kount.Ris.Response.GetIPAddressCity()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetIPAddressCity
+    path: Kount/Ris/Response.cs
+    startLine: 566
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet city of proxy IP address\n"
+  example: []
+  syntax:
+    content: public string GetIPAddressCity()
+    return:
+      type: System.String
+      description: City of proxy IP address
+    content.vb: Public Function GetIPAddressCity As String
+  overload: Kount.Ris.Response.GetIPAddressCity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetIPAddressOrganization
+  commentId: M:Kount.Ris.Response.GetIPAddressOrganization
+  id: GetIPAddressOrganization
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetIPAddressOrganization()
+  nameWithType: Response.GetIPAddressOrganization()
+  fullName: Kount.Ris.Response.GetIPAddressOrganization()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetIPAddressOrganization
+    path: Kount/Ris/Response.cs
+    startLine: 575
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet organization of proxy IP address\n"
+  example: []
+  syntax:
+    content: public string GetIPAddressOrganization()
+    return:
+      type: System.String
+      description: Organization of proxy IP address
+    content.vb: Public Function GetIPAddressOrganization As String
+  overload: Kount.Ris.Response.GetIPAddressOrganization*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetDateDeviceFirstSeen
+  commentId: M:Kount.Ris.Response.GetDateDeviceFirstSeen
+  id: GetDateDeviceFirstSeen
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetDateDeviceFirstSeen()
+  nameWithType: Response.GetDateDeviceFirstSeen()
+  fullName: Kount.Ris.Response.GetDateDeviceFirstSeen()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetDateDeviceFirstSeen
+    path: Kount/Ris/Response.cs
+    startLine: 584
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet date device first seen\n"
+  example: []
+  syntax:
+    content: public string GetDateDeviceFirstSeen()
+    return:
+      type: System.String
+      description: Date device first seen
+    content.vb: Public Function GetDateDeviceFirstSeen As String
+  overload: Kount.Ris.Response.GetDateDeviceFirstSeen*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetUserAgentString
+  commentId: M:Kount.Ris.Response.GetUserAgentString
+  id: GetUserAgentString
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetUserAgentString()
+  nameWithType: Response.GetUserAgentString()
+  fullName: Kount.Ris.Response.GetUserAgentString()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetUserAgentString
+    path: Kount/Ris/Response.cs
+    startLine: 593
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet user agent string\n"
+  example: []
+  syntax:
+    content: public string GetUserAgentString()
+    return:
+      type: System.String
+      description: User agent string
+    content.vb: Public Function GetUserAgentString As String
+  overload: Kount.Ris.Response.GetUserAgentString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetDeviceScreenResolution
+  commentId: M:Kount.Ris.Response.GetDeviceScreenResolution
+  id: GetDeviceScreenResolution
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetDeviceScreenResolution()
+  nameWithType: Response.GetDeviceScreenResolution()
+  fullName: Kount.Ris.Response.GetDeviceScreenResolution()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetDeviceScreenResolution
+    path: Kount/Ris/Response.cs
+    startLine: 602
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet device screen resolution\n"
+  example: []
+  syntax:
+    content: public string GetDeviceScreenResolution()
+    return:
+      type: System.String
+      description: Device screen resolution (HxW - Height by Width)
+    content.vb: Public Function GetDeviceScreenResolution As String
+  overload: Kount.Ris.Response.GetDeviceScreenResolution*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetOS
+  commentId: M:Kount.Ris.Response.GetOS
+  id: GetOS
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetOS()
+  nameWithType: Response.GetOS()
+  fullName: Kount.Ris.Response.GetOS()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetOS
+    path: Kount/Ris/Response.cs
+    startLine: 611
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet operating system (derived from user agent string)\n"
+  example: []
+  syntax:
+    content: public string GetOS()
+    return:
+      type: System.String
+      description: OS (operating system)
+    content.vb: Public Function GetOS As String
+  overload: Kount.Ris.Response.GetOS*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetBrowser
+  commentId: M:Kount.Ris.Response.GetBrowser
+  id: GetBrowser
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetBrowser()
+  nameWithType: Response.GetBrowser()
+  fullName: Kount.Ris.Response.GetBrowser()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetBrowser
+    path: Kount/Ris/Response.cs
+    startLine: 620
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet browser (derived from user agent string)\n"
+  example: []
+  syntax:
+    content: public string GetBrowser()
+    return:
+      type: System.String
+      description: Browser string
+    content.vb: Public Function GetBrowser As String
+  overload: Kount.Ris.Response.GetBrowser*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.ToString
+  commentId: M:Kount.Ris.Response.ToString
+  id: ToString
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Response.ToString()
+  fullName: Kount.Ris.Response.ToString()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ToString
+    path: Kount/Ris/Response.cs
+    startLine: 629
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the original raw name=value pair string of the response.\n"
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: Raw string of the response.
+    content.vb: Public Overrides Function ToString As String
+  overload: Kount.Ris.Response.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Kount.Ris.Response.GetRulesTriggered
+  commentId: M:Kount.Ris.Response.GetRulesTriggered
+  id: GetRulesTriggered
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetRulesTriggered()
+  nameWithType: Response.GetRulesTriggered()
+  fullName: Kount.Ris.Response.GetRulesTriggered()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetRulesTriggered
+    path: Kount/Ris/Response.cs
+    startLine: 638
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet a Map of the rules triggered by this Response.\n"
+  example: []
+  syntax:
+    content: public IDictionary GetRulesTriggered()
+    return:
+      type: IDictionary
+      description: Map of the rules
+    content.vb: Public Function GetRulesTriggered As IDictionary
+  overload: Kount.Ris.Response.GetRulesTriggered*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetNumberRulesTriggered
+  commentId: M:Kount.Ris.Response.GetNumberRulesTriggered
+  id: GetNumberRulesTriggered
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetNumberRulesTriggered()
+  nameWithType: Response.GetNumberRulesTriggered()
+  fullName: Kount.Ris.Response.GetNumberRulesTriggered()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetNumberRulesTriggered
+    path: Kount/Ris/Response.cs
+    startLine: 656
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the number of rules triggered with the response.\n"
+  example: []
+  syntax:
+    content: public int GetNumberRulesTriggered()
+    return:
+      type: System.Int32
+      description: Number of rules
+    content.vb: Public Function GetNumberRulesTriggered As Integer
+  overload: Kount.Ris.Response.GetNumberRulesTriggered*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetWarnings
+  commentId: M:Kount.Ris.Response.GetWarnings
+  id: GetWarnings
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetWarnings()
+  nameWithType: Response.GetWarnings()
+  fullName: Kount.Ris.Response.GetWarnings()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetWarnings
+    path: Kount/Ris/Response.cs
+    startLine: 684
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet a Map of the warnings returned by this Response.\n"
+  example: []
+  syntax:
+    content: public List<string> GetWarnings()
+    return:
+      type: List{System.String}
+      description: Get the warnings
+    content.vb: Public Function GetWarnings As List(Of String)
+  overload: Kount.Ris.Response.GetWarnings*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetWarningCount
+  commentId: M:Kount.Ris.Response.GetWarningCount
+  id: GetWarningCount
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetWarningCount()
+  nameWithType: Response.GetWarningCount()
+  fullName: Kount.Ris.Response.GetWarningCount()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetWarningCount
+    path: Kount/Ris/Response.cs
+    startLine: 700
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the number of warnings associated with the response.\n"
+  example: []
+  syntax:
+    content: public int GetWarningCount()
+    return:
+      type: System.Int32
+      description: Number of warnings
+    content.vb: Public Function GetWarningCount As Integer
+  overload: Kount.Ris.Response.GetWarningCount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetErrors
+  commentId: M:Kount.Ris.Response.GetErrors
+  id: GetErrors
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetErrors()
+  nameWithType: Response.GetErrors()
+  fullName: Kount.Ris.Response.GetErrors()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetErrors
+    path: Kount/Ris/Response.cs
+    startLine: 728
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet a map of the errors associated with the response.\n"
+  example: []
+  syntax:
+    content: public List<string> GetErrors()
+    return:
+      type: List{System.String}
+      description: Array of errors
+    content.vb: Public Function GetErrors As List(Of String)
+  overload: Kount.Ris.Response.GetErrors*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetErrorCount
+  commentId: M:Kount.Ris.Response.GetErrorCount
+  id: GetErrorCount
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetErrorCount()
+  nameWithType: Response.GetErrorCount()
+  fullName: Kount.Ris.Response.GetErrorCount()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetErrorCount
+    path: Kount/Ris/Response.cs
+    startLine: 744
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the number of errors associated with the response.\n"
+  example: []
+  syntax:
+    content: public int GetErrorCount()
+    return:
+      type: System.Int32
+      description: Number of errors
+    content.vb: Public Function GetErrorCount As Integer
+  overload: Kount.Ris.Response.GetErrorCount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.HasErrors
+  commentId: M:Kount.Ris.Response.HasErrors
+  id: HasErrors
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: HasErrors()
+  nameWithType: Response.HasErrors()
+  fullName: Kount.Ris.Response.HasErrors()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: HasErrors
+    path: Kount/Ris/Response.cs
+    startLine: 772
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nCheck if the response has errors.\n"
+  example: []
+  syntax:
+    content: public bool HasErrors()
+    return:
+      type: System.Boolean
+      description: True if response has errors, false otherwise.
+    content.vb: Public Function HasErrors As Boolean
+  overload: Kount.Ris.Response.HasErrors*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetLexisNexisCbdAttributes
+  commentId: M:Kount.Ris.Response.GetLexisNexisCbdAttributes
+  id: GetLexisNexisCbdAttributes
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetLexisNexisCbdAttributes()
+  nameWithType: Response.GetLexisNexisCbdAttributes()
+  fullName: Kount.Ris.Response.GetLexisNexisCbdAttributes()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetLexisNexisCbdAttributes
+    path: Kount/Ris/Response.cs
+    startLine: 784
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet LexisNexis Chargeback Defender attribute data associated with\nthe RIS transaction. Please contact your Kount representative to\nenable support for this feature in your merchant account.\n"
+  example: []
+  syntax:
+    content: public IDictionary GetLexisNexisCbdAttributes()
+    return:
+      type: IDictionary
+      description: >-
+        Map of attributes where the keys are the attribute names
+
+        and the values are the attribute values.
+    content.vb: Public Function GetLexisNexisCbdAttributes As IDictionary
+  overload: Kount.Ris.Response.GetLexisNexisCbdAttributes*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetLexisNexisInstantIdAttributes
+  commentId: M:Kount.Ris.Response.GetLexisNexisInstantIdAttributes
+  id: GetLexisNexisInstantIdAttributes
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetLexisNexisInstantIdAttributes()
+  nameWithType: Response.GetLexisNexisInstantIdAttributes()
+  fullName: Kount.Ris.Response.GetLexisNexisInstantIdAttributes()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetLexisNexisInstantIdAttributes
+    path: Kount/Ris/Response.cs
+    startLine: 796
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet LexisNexis Instant ID attribute data associated with\nthe RIS transaction. Please contact your Kount representative to\nenable support for this feature in your merchant account.\n"
+  example: []
+  syntax:
+    content: public IDictionary GetLexisNexisInstantIdAttributes()
+    return:
+      type: IDictionary
+      description: >-
+        Map of attributes where the keys are the attribute names
+
+        and the values are the attribute values.
+    content.vb: Public Function GetLexisNexisInstantIdAttributes As IDictionary
+  overload: Kount.Ris.Response.GetLexisNexisInstantIdAttributes*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetCountersTriggered
+  commentId: M:Kount.Ris.Response.GetCountersTriggered
+  id: GetCountersTriggered
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetCountersTriggered()
+  nameWithType: Response.GetCountersTriggered()
+  fullName: Kount.Ris.Response.GetCountersTriggered()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetCountersTriggered
+    path: Kount/Ris/Response.cs
+    startLine: 807
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet a map of the rules counters triggered in the response.\n"
+  example: []
+  syntax:
+    content: public IDictionary GetCountersTriggered()
+    return:
+      type: IDictionary
+      description: "\nMap Key: counter name, Value: counter value.\n"
+    content.vb: Public Function GetCountersTriggered As IDictionary
+  overload: Kount.Ris.Response.GetCountersTriggered*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetNumberCountersTriggered
+  commentId: M:Kount.Ris.Response.GetNumberCountersTriggered
+  id: GetNumberCountersTriggered
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetNumberCountersTriggered()
+  nameWithType: Response.GetNumberCountersTriggered()
+  fullName: Kount.Ris.Response.GetNumberCountersTriggered()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetNumberCountersTriggered
+    path: Kount/Ris/Response.cs
+    startLine: 829
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the number of rules counters triggered in the response.\n"
+  example: []
+  syntax:
+    content: public int GetNumberCountersTriggered()
+    return:
+      type: System.Int32
+      description: "\nNumber of counters triggered\n"
+    content.vb: Public Function GetNumberCountersTriggered As Integer
+  overload: Kount.Ris.Response.GetNumberCountersTriggered*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetKountCentralCustomerId
+  commentId: M:Kount.Ris.Response.GetKountCentralCustomerId
+  id: GetKountCentralCustomerId
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetKountCentralCustomerId()
+  nameWithType: Response.GetKountCentralCustomerId()
+  fullName: Kount.Ris.Response.GetKountCentralCustomerId()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetKountCentralCustomerId
+    path: Kount/Ris/Response.cs
+    startLine: 857
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the Kount Central Customer ID\n"
+  example: []
+  syntax:
+    content: public string GetKountCentralCustomerId()
+    return:
+      type: System.String
+      description: "\nKount Central Customer ID\n"
+    content.vb: Public Function GetKountCentralCustomerId As String
+  overload: Kount.Ris.Response.GetKountCentralCustomerId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetKountCentralWarnings
+  commentId: M:Kount.Ris.Response.GetKountCentralWarnings
+  id: GetKountCentralWarnings
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetKountCentralWarnings()
+  nameWithType: Response.GetKountCentralWarnings()
+  fullName: Kount.Ris.Response.GetKountCentralWarnings()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetKountCentralWarnings
+    path: Kount/Ris/Response.cs
+    startLine: 868
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet all the Kount Central Warnings for this response\n"
+  example: []
+  syntax:
+    content: public List<string> GetKountCentralWarnings()
+    return:
+      type: List{System.String}
+      description: "\nKount Central Warnings\n"
+    content.vb: Public Function GetKountCentralWarnings As List(Of String)
+  overload: Kount.Ris.Response.GetKountCentralWarnings*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetKountCentralWarningCount
+  commentId: M:Kount.Ris.Response.GetKountCentralWarningCount
+  id: GetKountCentralWarningCount
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetKountCentralWarningCount()
+  nameWithType: Response.GetKountCentralWarningCount()
+  fullName: Kount.Ris.Response.GetKountCentralWarningCount()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetKountCentralWarningCount
+    path: Kount/Ris/Response.cs
+    startLine: 886
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the number of Kount Central Warnings\n"
+  example: []
+  syntax:
+    content: public int GetKountCentralWarningCount()
+    return:
+      type: System.Int32
+      description: "\nNumber of Kount Central Warnings\n"
+    content.vb: Public Function GetKountCentralWarningCount As Integer
+  overload: Kount.Ris.Response.GetKountCentralWarningCount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetKountCentralErrors
+  commentId: M:Kount.Ris.Response.GetKountCentralErrors
+  id: GetKountCentralErrors
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetKountCentralErrors()
+  nameWithType: Response.GetKountCentralErrors()
+  fullName: Kount.Ris.Response.GetKountCentralErrors()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetKountCentralErrors
+    path: Kount/Ris/Response.cs
+    startLine: 911
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet all the Kount Central Errors for this response\n"
+  example: []
+  syntax:
+    content: public List<string> GetKountCentralErrors()
+    return:
+      type: List{System.String}
+      description: "\nKount Central Errors\n"
+    content.vb: Public Function GetKountCentralErrors As List(Of String)
+  overload: Kount.Ris.Response.GetKountCentralErrors*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetKountCentralErrorCount
+  commentId: M:Kount.Ris.Response.GetKountCentralErrorCount
+  id: GetKountCentralErrorCount
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetKountCentralErrorCount()
+  nameWithType: Response.GetKountCentralErrorCount()
+  fullName: Kount.Ris.Response.GetKountCentralErrorCount()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetKountCentralErrorCount
+    path: Kount/Ris/Response.cs
+    startLine: 929
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the number of Kount Central Errors\n"
+  example: []
+  syntax:
+    content: public int GetKountCentralErrorCount()
+    return:
+      type: System.Int32
+      description: "\nNumber of Kount Central Errors\n"
+    content.vb: Public Function GetKountCentralErrorCount As Integer
+  overload: Kount.Ris.Response.GetKountCentralErrorCount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetKountCentralNumberThresholdsTriggered
+  commentId: M:Kount.Ris.Response.GetKountCentralNumberThresholdsTriggered
+  id: GetKountCentralNumberThresholdsTriggered
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetKountCentralNumberThresholdsTriggered()
+  nameWithType: Response.GetKountCentralNumberThresholdsTriggered()
+  fullName: Kount.Ris.Response.GetKountCentralNumberThresholdsTriggered()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetKountCentralNumberThresholdsTriggered
+    path: Kount/Ris/Response.cs
+    startLine: 954
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the number of Kount Central thresholds triggered\n"
+  example: []
+  syntax:
+    content: public int GetKountCentralNumberThresholdsTriggered()
+    return:
+      type: System.Int32
+      description: "\nNumber of Kount Central thresholds triggered\n"
+    content.vb: Public Function GetKountCentralNumberThresholdsTriggered As Integer
+  overload: Kount.Ris.Response.GetKountCentralNumberThresholdsTriggered*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetKountCentralDecision
+  commentId: M:Kount.Ris.Response.GetKountCentralDecision
+  id: GetKountCentralDecision
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetKountCentralDecision()
+  nameWithType: Response.GetKountCentralDecision()
+  fullName: Kount.Ris.Response.GetKountCentralDecision()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetKountCentralDecision
+    path: Kount/Ris/Response.cs
+    startLine: 979
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the Kount Central Decision\n"
+  example: []
+  syntax:
+    content: public string GetKountCentralDecision()
+    return:
+      type: System.String
+      description: "\nThe Kount Central Decision\n"
+    content.vb: Public Function GetKountCentralDecision As String
+  overload: Kount.Ris.Response.GetKountCentralDecision*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetKountCentralThresholdEvents
+  commentId: M:Kount.Ris.Response.GetKountCentralThresholdEvents
+  id: GetKountCentralThresholdEvents
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetKountCentralThresholdEvents()
+  nameWithType: Response.GetKountCentralThresholdEvents()
+  fullName: Kount.Ris.Response.GetKountCentralThresholdEvents()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetKountCentralThresholdEvents
+    path: Kount/Ris/Response.cs
+    startLine: 990
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet list of KcEvent objects for this Response\n"
+  example: []
+  syntax:
+    content: public List<KcEvent> GetKountCentralThresholdEvents()
+    return:
+      type: List{Kount.Ris.KcEvent}
+      description: "\nList of KcEvent objects\n"
+    content.vb: Public Function GetKountCentralThresholdEvents As List(Of KcEvent)
+  overload: Kount.Ris.Response.GetKountCentralThresholdEvents*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Response.GetPrefixedResponseDataDictionary(System.String)
+  commentId: M:Kount.Ris.Response.GetPrefixedResponseDataDictionary(System.String)
+  id: GetPrefixedResponseDataDictionary(System.String)
+  parent: Kount.Ris.Response
+  langs:
+  - csharp
+  - vb
+  name: GetPrefixedResponseDataDictionary(String)
+  nameWithType: Response.GetPrefixedResponseDataDictionary(String)
+  fullName: Kount.Ris.Response.GetPrefixedResponseDataDictionary(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Response.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetPrefixedResponseDataDictionary
+    path: Kount/Ris/Response.cs
+    startLine: 1014
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet a dictionary of the response data where the keys are the RIS\nresponse keys that begin with a specified prefix.\n"
+  example: []
+  syntax:
+    content: protected IDictionary GetPrefixedResponseDataDictionary(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: Key prefix.
+    return:
+      type: IDictionary
+      description: >-
+        Dictionary of key-value pairs for a specified RIS key
+
+        prefix.
+    content.vb: Protected Function GetPrefixedResponseDataDictionary(prefix As String) As IDictionary
+  overload: Kount.Ris.Response.GetPrefixedResponseDataDictionary*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Kount.Ris
+  commentId: N:Kount.Ris
+  isExternal: false
+  name: Kount.Ris
+  nameWithType: Kount.Ris
+  fullName: Kount.Ris
+- uid: Kount.Ris.Response.#ctor*
+  commentId: Overload:Kount.Ris.Response.#ctor
+  isExternal: false
+  name: Response
+  nameWithType: Response.Response
+  fullName: Kount.Ris.Response.Response
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Kount.Ris.Response.GetErrorCode*
+  commentId: Overload:Kount.Ris.Response.GetErrorCode
+  isExternal: false
+  name: GetErrorCode
+  nameWithType: Response.GetErrorCode
+  fullName: Kount.Ris.Response.GetErrorCode
+- uid: Kount.Ris.Response.GetVersion*
+  commentId: Overload:Kount.Ris.Response.GetVersion
+  isExternal: false
+  name: GetVersion
+  nameWithType: Response.GetVersion
+  fullName: Kount.Ris.Response.GetVersion
+- uid: Kount.Ris.Response.GetMode*
+  commentId: Overload:Kount.Ris.Response.GetMode
+  isExternal: false
+  name: GetMode
+  nameWithType: Response.GetMode
+  fullName: Kount.Ris.Response.GetMode
+- uid: Kount.Ris.Response.GetTransactionId*
+  commentId: Overload:Kount.Ris.Response.GetTransactionId
+  isExternal: false
+  name: GetTransactionId
+  nameWithType: Response.GetTransactionId
+  fullName: Kount.Ris.Response.GetTransactionId
+- uid: Kount.Ris.Response.GetMerchantId*
+  commentId: Overload:Kount.Ris.Response.GetMerchantId
+  isExternal: false
+  name: GetMerchantId
+  nameWithType: Response.GetMerchantId
+  fullName: Kount.Ris.Response.GetMerchantId
+- uid: Kount.Ris.Response.GetSessionId*
+  commentId: Overload:Kount.Ris.Response.GetSessionId
+  isExternal: false
+  name: GetSessionId
+  nameWithType: Response.GetSessionId
+  fullName: Kount.Ris.Response.GetSessionId
+- uid: Kount.Ris.Response.GetOrderNumber*
+  commentId: Overload:Kount.Ris.Response.GetOrderNumber
+  isExternal: false
+  name: GetOrderNumber
+  nameWithType: Response.GetOrderNumber
+  fullName: Kount.Ris.Response.GetOrderNumber
+- uid: Kount.Ris.Response.GetAuto*
+  commentId: Overload:Kount.Ris.Response.GetAuto
+  isExternal: false
+  name: GetAuto
+  nameWithType: Response.GetAuto
+  fullName: Kount.Ris.Response.GetAuto
+- uid: Kount.Ris.Response.GetReason*
+  commentId: Overload:Kount.Ris.Response.GetReason
+  isExternal: false
+  name: GetReason
+  nameWithType: Response.GetReason
+  fullName: Kount.Ris.Response.GetReason
+- uid: Kount.Ris.Response.GetReasonCode*
+  commentId: Overload:Kount.Ris.Response.GetReasonCode
+  isExternal: false
+  name: GetReasonCode
+  nameWithType: Response.GetReasonCode
+  fullName: Kount.Ris.Response.GetReasonCode
+- uid: Kount.Ris.Response.GetScore*
+  commentId: Overload:Kount.Ris.Response.GetScore
+  isExternal: false
+  name: GetScore
+  nameWithType: Response.GetScore
+  fullName: Kount.Ris.Response.GetScore
+- uid: Kount.Ris.Response.GetGeox*
+  commentId: Overload:Kount.Ris.Response.GetGeox
+  isExternal: false
+  name: GetGeox
+  nameWithType: Response.GetGeox
+  fullName: Kount.Ris.Response.GetGeox
+- uid: Kount.Ris.Response.GetBrand*
+  commentId: Overload:Kount.Ris.Response.GetBrand
+  isExternal: false
+  name: GetBrand
+  nameWithType: Response.GetBrand
+  fullName: Kount.Ris.Response.GetBrand
+- uid: Kount.Ris.Response.GetVelo*
+  commentId: Overload:Kount.Ris.Response.GetVelo
+  isExternal: false
+  name: GetVelo
+  nameWithType: Response.GetVelo
+  fullName: Kount.Ris.Response.GetVelo
+- uid: Kount.Ris.Response.GetVmax*
+  commentId: Overload:Kount.Ris.Response.GetVmax
+  isExternal: false
+  name: GetVmax
+  nameWithType: Response.GetVmax
+  fullName: Kount.Ris.Response.GetVmax
+- uid: Kount.Ris.Response.GetNetwork*
+  commentId: Overload:Kount.Ris.Response.GetNetwork
+  isExternal: false
+  name: GetNetwork
+  nameWithType: Response.GetNetwork
+  fullName: Kount.Ris.Response.GetNetwork
+- uid: Kount.Ris.Response.GetKnowYourCustomer*
+  commentId: Overload:Kount.Ris.Response.GetKnowYourCustomer
+  isExternal: false
+  name: GetKnowYourCustomer
+  nameWithType: Response.GetKnowYourCustomer
+  fullName: Kount.Ris.Response.GetKnowYourCustomer
+- uid: Kount.Ris.Response.GetRegion*
+  commentId: Overload:Kount.Ris.Response.GetRegion
+  isExternal: false
+  name: GetRegion
+  nameWithType: Response.GetRegion
+  fullName: Kount.Ris.Response.GetRegion
+- uid: Kount.Ris.Response.GetKaptcha*
+  commentId: Overload:Kount.Ris.Response.GetKaptcha
+  isExternal: false
+  name: GetKaptcha
+  nameWithType: Response.GetKaptcha
+  fullName: Kount.Ris.Response.GetKaptcha
+- uid: Kount.Ris.Response.GetProxy*
+  commentId: Overload:Kount.Ris.Response.GetProxy
+  isExternal: false
+  name: GetProxy
+  nameWithType: Response.GetProxy
+  fullName: Kount.Ris.Response.GetProxy
+- uid: Kount.Ris.Response.GetEmails*
+  commentId: Overload:Kount.Ris.Response.GetEmails
+  isExternal: false
+  name: GetEmails
+  nameWithType: Response.GetEmails
+  fullName: Kount.Ris.Response.GetEmails
+- uid: Kount.Ris.Response.GetHttpCountry*
+  commentId: Overload:Kount.Ris.Response.GetHttpCountry
+  isExternal: false
+  name: GetHttpCountry
+  nameWithType: Response.GetHttpCountry
+  fullName: Kount.Ris.Response.GetHttpCountry
+- uid: Kount.Ris.Response.GetTimeZone*
+  commentId: Overload:Kount.Ris.Response.GetTimeZone
+  isExternal: false
+  name: GetTimeZone
+  nameWithType: Response.GetTimeZone
+  fullName: Kount.Ris.Response.GetTimeZone
+- uid: Kount.Ris.Response.GetCards*
+  commentId: Overload:Kount.Ris.Response.GetCards
+  isExternal: false
+  name: GetCards
+  nameWithType: Response.GetCards
+  fullName: Kount.Ris.Response.GetCards
+- uid: Kount.Ris.Response.GetPcRemote*
+  commentId: Overload:Kount.Ris.Response.GetPcRemote
+  isExternal: false
+  name: GetPcRemote
+  nameWithType: Response.GetPcRemote
+  fullName: Kount.Ris.Response.GetPcRemote
+- uid: Kount.Ris.Response.GetDevices*
+  commentId: Overload:Kount.Ris.Response.GetDevices
+  isExternal: false
+  name: GetDevices
+  nameWithType: Response.GetDevices
+  fullName: Kount.Ris.Response.GetDevices
+- uid: Kount.Ris.Response.GetDeviceLayers*
+  commentId: Overload:Kount.Ris.Response.GetDeviceLayers
+  isExternal: false
+  name: GetDeviceLayers
+  nameWithType: Response.GetDeviceLayers
+  fullName: Kount.Ris.Response.GetDeviceLayers
+- uid: Kount.Ris.Response.GetMobileForwarder*
+  commentId: Overload:Kount.Ris.Response.GetMobileForwarder
+  isExternal: false
+  name: GetMobileForwarder
+  nameWithType: Response.GetMobileForwarder
+  fullName: Kount.Ris.Response.GetMobileForwarder
+- uid: Kount.Ris.Response.GetVoiceDevice*
+  commentId: Overload:Kount.Ris.Response.GetVoiceDevice
+  isExternal: false
+  name: GetVoiceDevice
+  nameWithType: Response.GetVoiceDevice
+  fullName: Kount.Ris.Response.GetVoiceDevice
+- uid: Kount.Ris.Response.GetLocalTime*
+  commentId: Overload:Kount.Ris.Response.GetLocalTime
+  isExternal: false
+  name: GetLocalTime
+  nameWithType: Response.GetLocalTime
+  fullName: Kount.Ris.Response.GetLocalTime
+- uid: Kount.Ris.Response.GetMobileType*
+  commentId: Overload:Kount.Ris.Response.GetMobileType
+  isExternal: false
+  name: GetMobileType
+  nameWithType: Response.GetMobileType
+  fullName: Kount.Ris.Response.GetMobileType
+- uid: Kount.Ris.Response.GetFingerPrint*
+  commentId: Overload:Kount.Ris.Response.GetFingerPrint
+  isExternal: false
+  name: GetFingerPrint
+  nameWithType: Response.GetFingerPrint
+  fullName: Kount.Ris.Response.GetFingerPrint
+- uid: Kount.Ris.Response.GetFlash*
+  commentId: Overload:Kount.Ris.Response.GetFlash
+  isExternal: false
+  name: GetFlash
+  nameWithType: Response.GetFlash
+  fullName: Kount.Ris.Response.GetFlash
+- uid: Kount.Ris.Response.GetLanguage*
+  commentId: Overload:Kount.Ris.Response.GetLanguage
+  isExternal: false
+  name: GetLanguage
+  nameWithType: Response.GetLanguage
+  fullName: Kount.Ris.Response.GetLanguage
+- uid: Kount.Ris.Response.GetCountry*
+  commentId: Overload:Kount.Ris.Response.GetCountry
+  isExternal: false
+  name: GetCountry
+  nameWithType: Response.GetCountry
+  fullName: Kount.Ris.Response.GetCountry
+- uid: Kount.Ris.Response.GetJavaScript*
+  commentId: Overload:Kount.Ris.Response.GetJavaScript
+  isExternal: false
+  name: GetJavaScript
+  nameWithType: Response.GetJavaScript
+  fullName: Kount.Ris.Response.GetJavaScript
+- uid: Kount.Ris.Response.GetCookies*
+  commentId: Overload:Kount.Ris.Response.GetCookies
+  isExternal: false
+  name: GetCookies
+  nameWithType: Response.GetCookies
+  fullName: Kount.Ris.Response.GetCookies
+- uid: Kount.Ris.Response.GetMobileDevice*
+  commentId: Overload:Kount.Ris.Response.GetMobileDevice
+  isExternal: false
+  name: GetMobileDevice
+  nameWithType: Response.GetMobileDevice
+  fullName: Kount.Ris.Response.GetMobileDevice
+- uid: Kount.Ris.Response.GetSite*
+  commentId: Overload:Kount.Ris.Response.GetSite
+  isExternal: false
+  name: GetSite
+  nameWithType: Response.GetSite
+  fullName: Kount.Ris.Response.GetSite
+- uid: Kount.Ris.Response.GetMasterCardFraudScore*
+  commentId: Overload:Kount.Ris.Response.GetMasterCardFraudScore
+  isExternal: false
+  name: GetMasterCardFraudScore
+  nameWithType: Response.GetMasterCardFraudScore
+  fullName: Kount.Ris.Response.GetMasterCardFraudScore
+- uid: Kount.Ris.Response.GetPiercedIPAddress*
+  commentId: Overload:Kount.Ris.Response.GetPiercedIPAddress
+  isExternal: false
+  name: GetPiercedIPAddress
+  nameWithType: Response.GetPiercedIPAddress
+  fullName: Kount.Ris.Response.GetPiercedIPAddress
+- uid: Kount.Ris.Response.GetPiercedIPAddressLatitude*
+  commentId: Overload:Kount.Ris.Response.GetPiercedIPAddressLatitude
+  isExternal: false
+  name: GetPiercedIPAddressLatitude
+  nameWithType: Response.GetPiercedIPAddressLatitude
+  fullName: Kount.Ris.Response.GetPiercedIPAddressLatitude
+- uid: Kount.Ris.Response.GetPiercedIPAddressLongitude*
+  commentId: Overload:Kount.Ris.Response.GetPiercedIPAddressLongitude
+  isExternal: false
+  name: GetPiercedIPAddressLongitude
+  nameWithType: Response.GetPiercedIPAddressLongitude
+  fullName: Kount.Ris.Response.GetPiercedIPAddressLongitude
+- uid: Kount.Ris.Response.GetPiercedIPAddressCountry*
+  commentId: Overload:Kount.Ris.Response.GetPiercedIPAddressCountry
+  isExternal: false
+  name: GetPiercedIPAddressCountry
+  nameWithType: Response.GetPiercedIPAddressCountry
+  fullName: Kount.Ris.Response.GetPiercedIPAddressCountry
+- uid: Kount.Ris.Response.GetPiercedIPAddressRegion*
+  commentId: Overload:Kount.Ris.Response.GetPiercedIPAddressRegion
+  isExternal: false
+  name: GetPiercedIPAddressRegion
+  nameWithType: Response.GetPiercedIPAddressRegion
+  fullName: Kount.Ris.Response.GetPiercedIPAddressRegion
+- uid: Kount.Ris.Response.GetPiercedIPAddressCity*
+  commentId: Overload:Kount.Ris.Response.GetPiercedIPAddressCity
+  isExternal: false
+  name: GetPiercedIPAddressCity
+  nameWithType: Response.GetPiercedIPAddressCity
+  fullName: Kount.Ris.Response.GetPiercedIPAddressCity
+- uid: Kount.Ris.Response.GetPiercedIPAddressOrganization*
+  commentId: Overload:Kount.Ris.Response.GetPiercedIPAddressOrganization
+  isExternal: false
+  name: GetPiercedIPAddressOrganization
+  nameWithType: Response.GetPiercedIPAddressOrganization
+  fullName: Kount.Ris.Response.GetPiercedIPAddressOrganization
+- uid: Kount.Ris.Response.GetIPAddress*
+  commentId: Overload:Kount.Ris.Response.GetIPAddress
+  isExternal: false
+  name: GetIPAddress
+  nameWithType: Response.GetIPAddress
+  fullName: Kount.Ris.Response.GetIPAddress
+- uid: Kount.Ris.Response.GetIPAddressLatitude*
+  commentId: Overload:Kount.Ris.Response.GetIPAddressLatitude
+  isExternal: false
+  name: GetIPAddressLatitude
+  nameWithType: Response.GetIPAddressLatitude
+  fullName: Kount.Ris.Response.GetIPAddressLatitude
+- uid: Kount.Ris.Response.GetIPAddressLongitude*
+  commentId: Overload:Kount.Ris.Response.GetIPAddressLongitude
+  isExternal: false
+  name: GetIPAddressLongitude
+  nameWithType: Response.GetIPAddressLongitude
+  fullName: Kount.Ris.Response.GetIPAddressLongitude
+- uid: Kount.Ris.Response.GetIPAddressCountry*
+  commentId: Overload:Kount.Ris.Response.GetIPAddressCountry
+  isExternal: false
+  name: GetIPAddressCountry
+  nameWithType: Response.GetIPAddressCountry
+  fullName: Kount.Ris.Response.GetIPAddressCountry
+- uid: Kount.Ris.Response.GetIPAddressRegion*
+  commentId: Overload:Kount.Ris.Response.GetIPAddressRegion
+  isExternal: false
+  name: GetIPAddressRegion
+  nameWithType: Response.GetIPAddressRegion
+  fullName: Kount.Ris.Response.GetIPAddressRegion
+- uid: Kount.Ris.Response.GetIPAddressCity*
+  commentId: Overload:Kount.Ris.Response.GetIPAddressCity
+  isExternal: false
+  name: GetIPAddressCity
+  nameWithType: Response.GetIPAddressCity
+  fullName: Kount.Ris.Response.GetIPAddressCity
+- uid: Kount.Ris.Response.GetIPAddressOrganization*
+  commentId: Overload:Kount.Ris.Response.GetIPAddressOrganization
+  isExternal: false
+  name: GetIPAddressOrganization
+  nameWithType: Response.GetIPAddressOrganization
+  fullName: Kount.Ris.Response.GetIPAddressOrganization
+- uid: Kount.Ris.Response.GetDateDeviceFirstSeen*
+  commentId: Overload:Kount.Ris.Response.GetDateDeviceFirstSeen
+  isExternal: false
+  name: GetDateDeviceFirstSeen
+  nameWithType: Response.GetDateDeviceFirstSeen
+  fullName: Kount.Ris.Response.GetDateDeviceFirstSeen
+- uid: Kount.Ris.Response.GetUserAgentString*
+  commentId: Overload:Kount.Ris.Response.GetUserAgentString
+  isExternal: false
+  name: GetUserAgentString
+  nameWithType: Response.GetUserAgentString
+  fullName: Kount.Ris.Response.GetUserAgentString
+- uid: Kount.Ris.Response.GetDeviceScreenResolution*
+  commentId: Overload:Kount.Ris.Response.GetDeviceScreenResolution
+  isExternal: false
+  name: GetDeviceScreenResolution
+  nameWithType: Response.GetDeviceScreenResolution
+  fullName: Kount.Ris.Response.GetDeviceScreenResolution
+- uid: Kount.Ris.Response.GetOS*
+  commentId: Overload:Kount.Ris.Response.GetOS
+  isExternal: false
+  name: GetOS
+  nameWithType: Response.GetOS
+  fullName: Kount.Ris.Response.GetOS
+- uid: Kount.Ris.Response.GetBrowser*
+  commentId: Overload:Kount.Ris.Response.GetBrowser
+  isExternal: false
+  name: GetBrowser
+  nameWithType: Response.GetBrowser
+  fullName: Kount.Ris.Response.GetBrowser
+- uid: Kount.Ris.Response.ToString*
+  commentId: Overload:Kount.Ris.Response.ToString
+  isExternal: false
+  name: ToString
+  nameWithType: Response.ToString
+  fullName: Kount.Ris.Response.ToString
+- uid: Kount.Ris.Response.GetRulesTriggered*
+  commentId: Overload:Kount.Ris.Response.GetRulesTriggered
+  isExternal: false
+  name: GetRulesTriggered
+  nameWithType: Response.GetRulesTriggered
+  fullName: Kount.Ris.Response.GetRulesTriggered
+- uid: IDictionary
+  isExternal: true
+  name: IDictionary
+  nameWithType: IDictionary
+  fullName: IDictionary
+- uid: Kount.Ris.Response.GetNumberRulesTriggered*
+  commentId: Overload:Kount.Ris.Response.GetNumberRulesTriggered
+  isExternal: false
+  name: GetNumberRulesTriggered
+  nameWithType: Response.GetNumberRulesTriggered
+  fullName: Kount.Ris.Response.GetNumberRulesTriggered
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Kount.Ris.Response.GetWarnings*
+  commentId: Overload:Kount.Ris.Response.GetWarnings
+  isExternal: false
+  name: GetWarnings
+  nameWithType: Response.GetWarnings
+  fullName: Kount.Ris.Response.GetWarnings
+- uid: List{System.String}
+  commentId: '!:List{System.String}'
+  definition: List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Response.GetWarningCount*
+  commentId: Overload:Kount.Ris.Response.GetWarningCount
+  isExternal: false
+  name: GetWarningCount
+  nameWithType: Response.GetWarningCount
+  fullName: Kount.Ris.Response.GetWarningCount
+- uid: Kount.Ris.Response.GetErrors*
+  commentId: Overload:Kount.Ris.Response.GetErrors
+  isExternal: false
+  name: GetErrors
+  nameWithType: Response.GetErrors
+  fullName: Kount.Ris.Response.GetErrors
+- uid: Kount.Ris.Response.GetErrorCount*
+  commentId: Overload:Kount.Ris.Response.GetErrorCount
+  isExternal: false
+  name: GetErrorCount
+  nameWithType: Response.GetErrorCount
+  fullName: Kount.Ris.Response.GetErrorCount
+- uid: Kount.Ris.Response.HasErrors*
+  commentId: Overload:Kount.Ris.Response.HasErrors
+  isExternal: false
+  name: HasErrors
+  nameWithType: Response.HasErrors
+  fullName: Kount.Ris.Response.HasErrors
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Kount.Ris.Response.GetLexisNexisCbdAttributes*
+  commentId: Overload:Kount.Ris.Response.GetLexisNexisCbdAttributes
+  isExternal: false
+  name: GetLexisNexisCbdAttributes
+  nameWithType: Response.GetLexisNexisCbdAttributes
+  fullName: Kount.Ris.Response.GetLexisNexisCbdAttributes
+- uid: Kount.Ris.Response.GetLexisNexisInstantIdAttributes*
+  commentId: Overload:Kount.Ris.Response.GetLexisNexisInstantIdAttributes
+  isExternal: false
+  name: GetLexisNexisInstantIdAttributes
+  nameWithType: Response.GetLexisNexisInstantIdAttributes
+  fullName: Kount.Ris.Response.GetLexisNexisInstantIdAttributes
+- uid: Kount.Ris.Response.GetCountersTriggered*
+  commentId: Overload:Kount.Ris.Response.GetCountersTriggered
+  isExternal: false
+  name: GetCountersTriggered
+  nameWithType: Response.GetCountersTriggered
+  fullName: Kount.Ris.Response.GetCountersTriggered
+- uid: Kount.Ris.Response.GetNumberCountersTriggered*
+  commentId: Overload:Kount.Ris.Response.GetNumberCountersTriggered
+  isExternal: false
+  name: GetNumberCountersTriggered
+  nameWithType: Response.GetNumberCountersTriggered
+  fullName: Kount.Ris.Response.GetNumberCountersTriggered
+- uid: Kount.Ris.Response.GetKountCentralCustomerId*
+  commentId: Overload:Kount.Ris.Response.GetKountCentralCustomerId
+  isExternal: false
+  name: GetKountCentralCustomerId
+  nameWithType: Response.GetKountCentralCustomerId
+  fullName: Kount.Ris.Response.GetKountCentralCustomerId
+- uid: Kount.Ris.Response.GetKountCentralWarnings*
+  commentId: Overload:Kount.Ris.Response.GetKountCentralWarnings
+  isExternal: false
+  name: GetKountCentralWarnings
+  nameWithType: Response.GetKountCentralWarnings
+  fullName: Kount.Ris.Response.GetKountCentralWarnings
+- uid: Kount.Ris.Response.GetKountCentralWarningCount*
+  commentId: Overload:Kount.Ris.Response.GetKountCentralWarningCount
+  isExternal: false
+  name: GetKountCentralWarningCount
+  nameWithType: Response.GetKountCentralWarningCount
+  fullName: Kount.Ris.Response.GetKountCentralWarningCount
+- uid: Kount.Ris.Response.GetKountCentralErrors*
+  commentId: Overload:Kount.Ris.Response.GetKountCentralErrors
+  isExternal: false
+  name: GetKountCentralErrors
+  nameWithType: Response.GetKountCentralErrors
+  fullName: Kount.Ris.Response.GetKountCentralErrors
+- uid: Kount.Ris.Response.GetKountCentralErrorCount*
+  commentId: Overload:Kount.Ris.Response.GetKountCentralErrorCount
+  isExternal: false
+  name: GetKountCentralErrorCount
+  nameWithType: Response.GetKountCentralErrorCount
+  fullName: Kount.Ris.Response.GetKountCentralErrorCount
+- uid: Kount.Ris.Response.GetKountCentralNumberThresholdsTriggered*
+  commentId: Overload:Kount.Ris.Response.GetKountCentralNumberThresholdsTriggered
+  isExternal: false
+  name: GetKountCentralNumberThresholdsTriggered
+  nameWithType: Response.GetKountCentralNumberThresholdsTriggered
+  fullName: Kount.Ris.Response.GetKountCentralNumberThresholdsTriggered
+- uid: Kount.Ris.Response.GetKountCentralDecision*
+  commentId: Overload:Kount.Ris.Response.GetKountCentralDecision
+  isExternal: false
+  name: GetKountCentralDecision
+  nameWithType: Response.GetKountCentralDecision
+  fullName: Kount.Ris.Response.GetKountCentralDecision
+- uid: Kount.Ris.Response.GetKountCentralThresholdEvents*
+  commentId: Overload:Kount.Ris.Response.GetKountCentralThresholdEvents
+  isExternal: false
+  name: GetKountCentralThresholdEvents
+  nameWithType: Response.GetKountCentralThresholdEvents
+  fullName: Kount.Ris.Response.GetKountCentralThresholdEvents
+- uid: List{Kount.Ris.KcEvent}
+  commentId: '!:List{Kount.Ris.KcEvent}'
+  definition: List`1
+  name: List<KcEvent>
+  nameWithType: List<KcEvent>
+  fullName: List<Kount.Ris.KcEvent>
+  nameWithType.vb: List(Of KcEvent)
+  fullName.vb: List(Of Kount.Ris.KcEvent)
+  name.vb: List(Of KcEvent)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Kount.Ris.KcEvent
+    name: KcEvent
+    nameWithType: KcEvent
+    fullName: Kount.Ris.KcEvent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Kount.Ris.KcEvent
+    name: KcEvent
+    nameWithType: KcEvent
+    fullName: Kount.Ris.KcEvent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Response.GetPrefixedResponseDataDictionary*
+  commentId: Overload:Kount.Ris.Response.GetPrefixedResponseDataDictionary
+  isExternal: false
+  name: GetPrefixedResponseDataDictionary
+  nameWithType: Response.GetPrefixedResponseDataDictionary
+  fullName: Kount.Ris.Response.GetPrefixedResponseDataDictionary

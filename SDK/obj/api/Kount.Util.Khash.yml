@@ -1,0 +1,297 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Util.Khash
+  commentId: T:Kount.Util.Khash
+  id: Khash
+  parent: Kount.Util
+  children:
+  - Kount.Util.Khash.ConfigKey
+  - Kount.Util.Khash.GetBase85ConfigKey(System.String)
+  - Kount.Util.Khash.Hash(System.String)
+  - Kount.Util.Khash.HashGiftCard(System.Int32,System.String)
+  - Kount.Util.Khash.HashPaymentToken(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Khash
+  nameWithType: Khash
+  fullName: Kount.Util.Khash
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Util/Khash.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Khash
+    path: Kount/Util/Khash.cs
+    startLine: 17
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Util
+  summary: "\nClass for creating Kount RIS KHASH encoding payment tokens.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2011 Kount Inc. All Rights Reserved.<br />\n"
+  example: []
+  syntax:
+    content: 'public class Khash : object'
+    content.vb: >-
+      Public Class Khash
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Kount.Util.Khash.ConfigKey
+  commentId: P:Kount.Util.Khash.ConfigKey
+  id: ConfigKey
+  parent: Kount.Util.Khash
+  langs:
+  - csharp
+  - vb
+  name: ConfigKey
+  nameWithType: Khash.ConfigKey
+  fullName: Kount.Util.Khash.ConfigKey
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Util/Khash.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ConfigKey
+    path: Kount/Util/Khash.cs
+    startLine: 22
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Util
+  summary: "\nGetting or Setting Config Key used in hashing method\n"
+  example: []
+  syntax:
+    content: public static string ConfigKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property ConfigKey As String
+  overload: Kount.Util.Khash.ConfigKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Kount.Util.Khash.HashPaymentToken(System.String)
+  commentId: M:Kount.Util.Khash.HashPaymentToken(System.String)
+  id: HashPaymentToken(System.String)
+  parent: Kount.Util.Khash
+  langs:
+  - csharp
+  - vb
+  name: HashPaymentToken(String)
+  nameWithType: Khash.HashPaymentToken(String)
+  fullName: Kount.Util.Khash.HashPaymentToken(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Util/Khash.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: HashPaymentToken
+    path: Kount/Util/Khash.cs
+    startLine: 32
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Util
+  summary: "\nCreate a Kount hash of a provided payment token. Payment tokens\nthat can be hashed via this method include: credit card numbers,\nPaypal payment IDs, Check numbers, Google Checkout IDs, Bill Me\nLater IDs, and Green Dot MoneyPak IDs.\n"
+  example: []
+  syntax:
+    content: public static string HashPaymentToken(string token)
+    parameters:
+    - id: token
+      type: System.String
+      description: String to be hashed
+    return:
+      type: System.String
+      description: String Hashed
+    content.vb: Public Shared Function HashPaymentToken(token As String) As String
+  overload: Kount.Util.Khash.HashPaymentToken*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Kount.Util.Khash.HashGiftCard(System.Int32,System.String)
+  commentId: M:Kount.Util.Khash.HashGiftCard(System.Int32,System.String)
+  id: HashGiftCard(System.Int32,System.String)
+  parent: Kount.Util.Khash
+  langs:
+  - csharp
+  - vb
+  name: HashGiftCard(Int32, String)
+  nameWithType: Khash.HashGiftCard(Int32, String)
+  fullName: Kount.Util.Khash.HashGiftCard(System.Int32, System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Util/Khash.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: HashGiftCard
+    path: Kount/Util/Khash.cs
+    startLine: 45
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Util
+  summary: "\nHash a gift card payment token using the Kount hashing algorithm.\n"
+  example: []
+  syntax:
+    content: public static string HashGiftCard(int merchantId, string cardNumber)
+    parameters:
+    - id: merchantId
+      type: System.Int32
+      description: Merchant ID number
+    - id: cardNumber
+      type: System.String
+      description: Card number to be hashed
+    return:
+      type: System.String
+      description: String Hashed
+    content.vb: Public Shared Function HashGiftCard(merchantId As Integer, cardNumber As String) As String
+  overload: Kount.Util.Khash.HashGiftCard*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Kount.Util.Khash.Hash(System.String)
+  commentId: M:Kount.Util.Khash.Hash(System.String)
+  id: Hash(System.String)
+  parent: Kount.Util.Khash
+  langs:
+  - csharp
+  - vb
+  name: Hash(String)
+  nameWithType: Khash.Hash(String)
+  fullName: Kount.Util.Khash.Hash(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Util/Khash.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Hash
+    path: Kount/Util/Khash.cs
+    startLine: 59
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Util
+  summary: "\nCompute a Kount hash of a given plain text string.\n\nPreserves the first six characters of the input\nso that hasked tokens can be categorized\nby Bank Idenfication Number (BIN).\n"
+  example: []
+  syntax:
+    content: public static string Hash(string plainText)
+    parameters:
+    - id: plainText
+      type: System.String
+      description: String to be hashed
+    return:
+      type: System.String
+      description: String Hashed
+    content.vb: Public Shared Function Hash(plainText As String) As String
+  overload: Kount.Util.Khash.Hash*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Kount.Util.Khash.GetBase85ConfigKey(System.String)
+  commentId: M:Kount.Util.Khash.GetBase85ConfigKey(System.String)
+  id: GetBase85ConfigKey(System.String)
+  parent: Kount.Util.Khash
+  langs:
+  - csharp
+  - vb
+  name: GetBase85ConfigKey(String)
+  nameWithType: Khash.GetBase85ConfigKey(String)
+  fullName: Kount.Util.Khash.GetBase85ConfigKey(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Util/Khash.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetBase85ConfigKey
+    path: Kount/Util/Khash.cs
+    startLine: 88
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Util
+  summary: "\nGet Base85 encoded ConfigKey\n"
+  example: []
+  syntax:
+    content: public static string GetBase85ConfigKey(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+      description: encoded config key
+    content.vb: Public Shared Function GetBase85ConfigKey(key As String) As String
+  overload: Kount.Util.Khash.GetBase85ConfigKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Kount.Util
+  commentId: N:Kount.Util
+  isExternal: false
+  name: Kount.Util
+  nameWithType: Kount.Util
+  fullName: Kount.Util
+- uid: Kount.Util.Khash.ConfigKey*
+  commentId: Overload:Kount.Util.Khash.ConfigKey
+  isExternal: false
+  name: ConfigKey
+  nameWithType: Khash.ConfigKey
+  fullName: Kount.Util.Khash.ConfigKey
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Kount.Util.Khash.HashPaymentToken*
+  commentId: Overload:Kount.Util.Khash.HashPaymentToken
+  isExternal: false
+  name: HashPaymentToken
+  nameWithType: Khash.HashPaymentToken
+  fullName: Kount.Util.Khash.HashPaymentToken
+- uid: Kount.Util.Khash.HashGiftCard*
+  commentId: Overload:Kount.Util.Khash.HashGiftCard
+  isExternal: false
+  name: HashGiftCard
+  nameWithType: Khash.HashGiftCard
+  fullName: Kount.Util.Khash.HashGiftCard
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Kount.Util.Khash.Hash*
+  commentId: Overload:Kount.Util.Khash.Hash
+  isExternal: false
+  name: Hash
+  nameWithType: Khash.Hash
+  fullName: Kount.Util.Khash.Hash
+- uid: Kount.Util.Khash.GetBase85ConfigKey*
+  commentId: Overload:Kount.Util.Khash.GetBase85ConfigKey
+  isExternal: false
+  name: GetBase85ConfigKey
+  nameWithType: Khash.GetBase85ConfigKey
+  fullName: Kount.Util.Khash.GetBase85ConfigKey

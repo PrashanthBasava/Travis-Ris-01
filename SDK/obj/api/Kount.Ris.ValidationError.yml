@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Ris.ValidationError
+  commentId: T:Kount.Ris.ValidationError
+  id: ValidationError
+  parent: Kount.Ris
+  children:
+  - Kount.Ris.ValidationError.#ctor(System.String,System.String)
+  - Kount.Ris.ValidationError.#ctor(System.String,System.String,System.Int32)
+  - Kount.Ris.ValidationError.#ctor(System.String,System.String,System.String)
+  - Kount.Ris.ValidationError.ToString
+  langs:
+  - csharp
+  - vb
+  name: ValidationError
+  nameWithType: ValidationError
+  fullName: Kount.Ris.ValidationError
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Ris/ValidationError.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ValidationError
+    path: Kount/Ris/ValidationError.cs
+    startLine: 13
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nA class representing a RIS SDK client side validation error.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2010 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public class ValidationError : object'
+    content.vb: >-
+      Public Class ValidationError
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Kount.Ris.ValidationError.#ctor(System.String,System.String)
+  commentId: M:Kount.Ris.ValidationError.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: Kount.Ris.ValidationError
+  langs:
+  - csharp
+  - vb
+  name: ValidationError(String, String)
+  nameWithType: ValidationError.ValidationError(String, String)
+  fullName: Kount.Ris.ValidationError.ValidationError(System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/ValidationError.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/ValidationError.cs
+    startLine: 65
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nConstructor for missing required field.\n"
+  example: []
+  syntax:
+    content: public ValidationError(string field, string mode)
+    parameters:
+    - id: field
+      type: System.String
+      description: The name of the bad field
+    - id: mode
+      type: System.String
+      description: The RIS mode the field is associated with
+    content.vb: Public Sub New(field As String, mode As String)
+  overload: Kount.Ris.ValidationError.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.ValidationError.#ctor(System.String,System.String,System.String)
+  commentId: M:Kount.Ris.ValidationError.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: Kount.Ris.ValidationError
+  langs:
+  - csharp
+  - vb
+  name: ValidationError(String, String, String)
+  nameWithType: ValidationError.ValidationError(String, String, String)
+  fullName: Kount.Ris.ValidationError.ValidationError(System.String, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/ValidationError.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/ValidationError.cs
+    startLine: 78
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nConstructor for regular expression error.\n"
+  example: []
+  syntax:
+    content: public ValidationError(string field, string value, string pattern)
+    parameters:
+    - id: field
+      type: System.String
+      description: The name of the bad field
+    - id: value
+      type: System.String
+      description: The value of the field
+    - id: pattern
+      type: System.String
+      description: The regular expression violated
+    content.vb: Public Sub New(field As String, value As String, pattern As String)
+  overload: Kount.Ris.ValidationError.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.ValidationError.#ctor(System.String,System.String,System.Int32)
+  commentId: M:Kount.Ris.ValidationError.#ctor(System.String,System.String,System.Int32)
+  id: '#ctor(System.String,System.String,System.Int32)'
+  parent: Kount.Ris.ValidationError
+  langs:
+  - csharp
+  - vb
+  name: ValidationError(String, String, Int32)
+  nameWithType: ValidationError.ValidationError(String, String, Int32)
+  fullName: Kount.Ris.ValidationError.ValidationError(System.String, System.String, System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/ValidationError.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/ValidationError.cs
+    startLine: 92
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nConstructor for maximum length error.\n"
+  example: []
+  syntax:
+    content: public ValidationError(string field, string value, int length)
+    parameters:
+    - id: field
+      type: System.String
+      description: The name of the bad field
+    - id: value
+      type: System.String
+      description: The value of the field
+    - id: length
+      type: System.Int32
+      description: The maximum allowable length
+    content.vb: Public Sub New(field As String, value As String, length As Integer)
+  overload: Kount.Ris.ValidationError.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.ValidationError.ToString
+  commentId: M:Kount.Ris.ValidationError.ToString
+  id: ToString
+  parent: Kount.Ris.ValidationError
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ValidationError.ToString()
+  fullName: Kount.Ris.ValidationError.ToString()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/ValidationError.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ToString
+    path: Kount/Ris/ValidationError.cs
+    startLine: 104
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the string representation of the error.\n"
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: Error message string
+    content.vb: Public Overrides Function ToString As String
+  overload: Kount.Ris.ValidationError.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Kount.Ris
+  commentId: N:Kount.Ris
+  isExternal: false
+  name: Kount.Ris
+  nameWithType: Kount.Ris
+  fullName: Kount.Ris
+- uid: Kount.Ris.ValidationError.#ctor*
+  commentId: Overload:Kount.Ris.ValidationError.#ctor
+  isExternal: false
+  name: ValidationError
+  nameWithType: ValidationError.ValidationError
+  fullName: Kount.Ris.ValidationError.ValidationError
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Kount.Ris.ValidationError.ToString*
+  commentId: Overload:Kount.Ris.ValidationError.ToString
+  isExternal: false
+  name: ToString
+  nameWithType: ValidationError.ToString
+  fullName: Kount.Ris.ValidationError.ToString

@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Enums.UpdateTypes
+  commentId: T:Kount.Enums.UpdateTypes
+  id: UpdateTypes
+  parent: Kount.Enums
+  children:
+  - Kount.Enums.UpdateTypes.ModeU
+  - Kount.Enums.UpdateTypes.ModeX
+  langs:
+  - csharp
+  - vb
+  name: UpdateTypes
+  nameWithType: UpdateTypes
+  fullName: Kount.Enums.UpdateTypes
+  type: Enum
+  source:
+    remote:
+      path: SDK/Kount/Enums/UpdateTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: UpdateTypes
+    path: Kount/Enums/UpdateTypes.cs
+    startLine: 14
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nUpdate type should be used whenever there are changes to a given order and the merchant \nwants them reflected into the Kount system.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2017 Kount Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public enum UpdateTypes : int'
+    content.vb: Public Enum UpdateTypes As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Kount.Enums.UpdateTypes.ModeU
+  commentId: F:Kount.Enums.UpdateTypes.ModeU
+  id: ModeU
+  parent: Kount.Enums.UpdateTypes
+  langs:
+  - csharp
+  - vb
+  name: ModeU
+  nameWithType: UpdateTypes.ModeU
+  fullName: Kount.Enums.UpdateTypes.ModeU
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/UpdateTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ModeU
+    path: Kount/Enums/UpdateTypes.cs
+    startLine: 19
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nDefault update mode, only sends the update event\n"
+  example: []
+  syntax:
+    content: ModeU = null
+    return:
+      type: Kount.Enums.UpdateTypes
+    content.vb: ModeU = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.UpdateTypes.ModeX
+  commentId: F:Kount.Enums.UpdateTypes.ModeX
+  id: ModeX
+  parent: Kount.Enums.UpdateTypes
+  langs:
+  - csharp
+  - vb
+  name: ModeX
+  nameWithType: UpdateTypes.ModeX
+  fullName: Kount.Enums.UpdateTypes.ModeX
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/UpdateTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ModeX
+    path: Kount/Enums/UpdateTypes.cs
+    startLine: 24
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nSends the update event and RIS service returns a status response\n"
+  example: []
+  syntax:
+    content: ModeX = null
+    return:
+      type: Kount.Enums.UpdateTypes
+    content.vb: ModeX = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Kount.Enums
+  commentId: N:Kount.Enums
+  isExternal: false
+  name: Kount.Enums
+  nameWithType: Kount.Enums
+  fullName: Kount.Enums
+- uid: Kount.Enums.UpdateTypes
+  commentId: T:Kount.Enums.UpdateTypes
+  parent: Kount.Enums
+  isExternal: false
+  name: UpdateTypes
+  nameWithType: UpdateTypes
+  fullName: Kount.Enums.UpdateTypes

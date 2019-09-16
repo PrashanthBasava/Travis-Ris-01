@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Ris.ValidationException
+  commentId: T:Kount.Ris.ValidationException
+  id: ValidationException
+  parent: Kount.Ris
+  children:
+  - Kount.Ris.ValidationException.#ctor(System.String)
+  - Kount.Ris.ValidationException.#ctor(System.String,Exception)
+  - Kount.Ris.ValidationException.ErrorMessage
+  langs:
+  - csharp
+  - vb
+  name: ValidationException
+  nameWithType: ValidationException
+  fullName: Kount.Ris.ValidationException
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Ris/ValidationException.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ValidationException
+    path: Kount/Ris/ValidationException.cs
+    startLine: 15
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nValidation Exception.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2010 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public class ValidationException : Exception'
+    content.vb: >-
+      Public Class ValidationException
+          Inherits Exception
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Kount.Ris.ValidationException.#ctor(System.String)
+  commentId: M:Kount.Ris.ValidationException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Kount.Ris.ValidationException
+  langs:
+  - csharp
+  - vb
+  name: ValidationException(String)
+  nameWithType: ValidationException.ValidationException(String)
+  fullName: Kount.Ris.ValidationException.ValidationException(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/ValidationException.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/ValidationException.cs
+    startLine: 21
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nCreate an exception with an error message\n"
+  example: []
+  syntax:
+    content: public ValidationException(string errorMessage)
+    parameters:
+    - id: errorMessage
+      type: System.String
+      description: Error message.
+    content.vb: Public Sub New(errorMessage As String)
+  overload: Kount.Ris.ValidationException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.ValidationException.#ctor(System.String,Exception)
+  commentId: M:Kount.Ris.ValidationException.#ctor(System.String,Exception)
+  id: '#ctor(System.String,Exception)'
+  parent: Kount.Ris.ValidationException
+  langs:
+  - csharp
+  - vb
+  name: ValidationException(String, Exception)
+  nameWithType: ValidationException.ValidationException(String, Exception)
+  fullName: Kount.Ris.ValidationException.ValidationException(System.String, Exception)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/ValidationException.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/ValidationException.cs
+    startLine: 30
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nCreate an exception with an error message and another exception\n"
+  example: []
+  syntax:
+    content: public ValidationException(string errorMessage, Exception innerEx)
+    parameters:
+    - id: errorMessage
+      type: System.String
+      description: Error message.
+    - id: innerEx
+      type: Exception
+      description: Inner exception.
+    content.vb: Public Sub New(errorMessage As String, innerEx As Exception)
+  overload: Kount.Ris.ValidationException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.ValidationException.ErrorMessage
+  commentId: P:Kount.Ris.ValidationException.ErrorMessage
+  id: ErrorMessage
+  parent: Kount.Ris.ValidationException
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: ValidationException.ErrorMessage
+  fullName: Kount.Ris.ValidationException.ErrorMessage
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/ValidationException.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ErrorMessage
+    path: Kount/Ris/ValidationException.cs
+    startLine: 38
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGets a string of the error message.\n"
+  example: []
+  syntax:
+    content: public string ErrorMessage { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ErrorMessage As String
+  overload: Kount.Ris.ValidationException.ErrorMessage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Kount.Ris
+  commentId: N:Kount.Ris
+  isExternal: false
+  name: Kount.Ris
+  nameWithType: Kount.Ris
+  fullName: Kount.Ris
+- uid: Kount.Ris.ValidationException.#ctor*
+  commentId: Overload:Kount.Ris.ValidationException.#ctor
+  isExternal: false
+  name: ValidationException
+  nameWithType: ValidationException.ValidationException
+  fullName: Kount.Ris.ValidationException.ValidationException
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception
+- uid: Kount.Ris.ValidationException.ErrorMessage*
+  commentId: Overload:Kount.Ris.ValidationException.ErrorMessage
+  isExternal: false
+  name: ErrorMessage
+  nameWithType: ValidationException.ErrorMessage
+  fullName: Kount.Ris.ValidationException.ErrorMessage

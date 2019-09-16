@@ -1,0 +1,1729 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Ris.Request
+  commentId: T:Kount.Ris.Request
+  id: Request
+  parent: Kount.Ris
+  children:
+  - Kount.Ris.Request.#ctor(System.Boolean)
+  - Kount.Ris.Request.#ctor(System.Boolean,Kount.Ris.Configuration)
+  - Kount.Ris.Request.CheckConfigurationParameter(System.String,System.String)
+  - Kount.Ris.Request.Data
+  - Kount.Ris.Request.GetCertificateFile
+  - Kount.Ris.Request.GetParam(System.String)
+  - Kount.Ris.Request.GetPrivateKeyPassword
+  - Kount.Ris.Request.GetResponse(System.Boolean)
+  - Kount.Ris.Request.GetUrl
+  - Kount.Ris.Request.IsSetKhashPaymentEncoding
+  - Kount.Ris.Request.SafeGet(System.String)
+  - Kount.Ris.Request.SetApiKey(System.String)
+  - Kount.Ris.Request.SetAuth(System.Char)
+  - Kount.Ris.Request.SetAvst(System.Char)
+  - Kount.Ris.Request.SetAvsz(System.Char)
+  - Kount.Ris.Request.SetCardPaymentMasked(System.String)
+  - Kount.Ris.Request.SetCertificate(System.String,System.String)
+  - Kount.Ris.Request.SetCvvr(System.Char)
+  - Kount.Ris.Request.SetGreenDotMoneyPakPayment(System.String)
+  - Kount.Ris.Request.SetKhashPaymentEncoding
+  - Kount.Ris.Request.SetKhashPaymentEncoding(System.Boolean)
+  - Kount.Ris.Request.SetKountCentralCustomerId(System.String)
+  - Kount.Ris.Request.SetMack(System.Char)
+  - Kount.Ris.Request.SetMerchantId(System.Int32)
+  - Kount.Ris.Request.SetMode(Kount.Enums.InquiryTypes)
+  - Kount.Ris.Request.SetMode(Kount.Enums.UpdateTypes)
+  - Kount.Ris.Request.SetMode(System.Char)
+  - Kount.Ris.Request.SetNoPayment
+  - Kount.Ris.Request.SetOrderNumber(System.String)
+  - Kount.Ris.Request.SetParameter(System.String,System.String)
+  - Kount.Ris.Request.SetPayment(Kount.Enums.PaymentTypes,System.String)
+  - Kount.Ris.Request.SetPayment(System.String,System.String)
+  - Kount.Ris.Request.SetPaymentToken(System.String)
+  - Kount.Ris.Request.SetPaymentTokenLast4(System.String)
+  - Kount.Ris.Request.SetSessionId(System.String)
+  - Kount.Ris.Request.SetUrl(System.String)
+  - Kount.Ris.Request.SetVersion(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Request
+  nameWithType: Request
+  fullName: Kount.Ris.Request
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Request
+    path: Kount/Ris/Request.cs
+    startLine: 29
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nAbstract parent class for request objects.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2010 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public abstract class Request : object'
+    content.vb: >-
+      Public MustInherit Class Request
+          Inherits Object
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Kount.Ris.Inquiry
+  - Kount.Ris.Update
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Kount.Ris.Request.#ctor(System.Boolean,Kount.Ris.Configuration)
+  commentId: M:Kount.Ris.Request.#ctor(System.Boolean,Kount.Ris.Configuration)
+  id: '#ctor(System.Boolean,Kount.Ris.Configuration)'
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: Request(Boolean, Configuration)
+  nameWithType: Request.Request(Boolean, Configuration)
+  fullName: Kount.Ris.Request.Request(System.Boolean, Kount.Ris.Configuration)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/Request.cs
+    startLine: 85
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nConstruct a request object. Set the static setting from the\nweb.config file.\n"
+  example: []
+  syntax:
+    content: protected Request(bool checkConfiguration, Configuration configuration)
+    parameters:
+    - id: checkConfiguration
+      type: System.Boolean
+      description: "By default is true: will check config file if \n`Ris.Url`, \n`Ris.MerchantId`, \n`Ris.Config.Key` are set."
+    - id: configuration
+      type: Kount.Ris.Configuration
+      description: Instance of configuration.
+    content.vb: Protected Sub New(checkConfiguration As Boolean, configuration As Configuration)
+  overload: Kount.Ris.Request.#ctor*
+  exceptions:
+  - type: Kount.Ris.RequestException
+    commentId: T:Kount.Ris.RequestException
+    description: >-
+      Thrown when there is
+
+      static data missing for a RIS request.
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Kount.Ris.Request.#ctor(System.Boolean)
+  commentId: M:Kount.Ris.Request.#ctor(System.Boolean)
+  id: '#ctor(System.Boolean)'
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: Request(Boolean)
+  nameWithType: Request.Request(Boolean)
+  fullName: Kount.Ris.Request.Request(System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/Request.cs
+    startLine: 139
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nConstruct a request object. Set the static setting from the web.config file.\n"
+  example: []
+  syntax:
+    content: protected Request(bool checkConfiguration = true)
+    parameters:
+    - id: checkConfiguration
+      type: System.Boolean
+      description: "By default is true: will check config file if \n`Ris.Url`, \n`Ris.MerchantId`, \n`Ris.Config.Key` are set."
+    content.vb: Protected Sub New(checkConfiguration As Boolean = True)
+  overload: Kount.Ris.Request.#ctor*
+  exceptions:
+  - type: Kount.Ris.RequestException
+    commentId: T:Kount.Ris.RequestException
+    description: >-
+      Thrown when there is
+
+      static data missing for a RIS request.
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Kount.Ris.Request.Data
+  commentId: P:Kount.Ris.Request.Data
+  id: Data
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: Request.Data
+  fullName: Kount.Ris.Request.Data
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Data
+    path: Kount/Ris/Request.cs
+    startLine: 146
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGets hashtable data\n"
+  example: []
+  syntax:
+    content: protected Hashtable Data { get; }
+    parameters: []
+    return:
+      type: Hashtable
+    content.vb: Protected ReadOnly Property Data As Hashtable
+  overload: Kount.Ris.Request.Data*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Kount.Ris.Request.GetResponse(System.Boolean)
+  commentId: M:Kount.Ris.Request.GetResponse(System.Boolean)
+  id: GetResponse(System.Boolean)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: GetResponse(Boolean)
+  nameWithType: Request.GetResponse(Boolean)
+  fullName: Kount.Ris.Request.GetResponse(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetResponse
+    path: Kount/Ris/Request.cs
+    startLine: 156
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the response from the RIS server.\n"
+  example: []
+  syntax:
+    content: public Response GetResponse(bool validate = true)
+    parameters:
+    - id: validate
+      type: System.Boolean
+      description: default value is TRUE. If FALSE validate silently doesn't throw exception.
+    return:
+      type: Kount.Ris.Response
+      description: Kount.Ris.Response populated object.
+    content.vb: Public Function GetResponse(validate As Boolean = True) As Response
+  overload: Kount.Ris.Request.GetResponse*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetParameter(System.String,System.String)
+  commentId: M:Kount.Ris.Request.SetParameter(System.String,System.String)
+  id: SetParameter(System.String,System.String)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetParameter(String, String)
+  nameWithType: Request.SetParameter(String, String)
+  fullName: Kount.Ris.Request.SetParameter(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetParameter
+    path: Kount/Ris/Request.cs
+    startLine: 310
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet parameters in the Response\n"
+  example: []
+  syntax:
+    content: public void SetParameter(string key, string value)
+    parameters:
+    - id: key
+      type: System.String
+      description: Parameter key
+    - id: value
+      type: System.String
+      description: Parameter value
+    content.vb: Public Sub SetParameter(key As String, value As String)
+  overload: Kount.Ris.Request.SetParameter*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetMode(System.Char)
+  commentId: M:Kount.Ris.Request.SetMode(System.Char)
+  id: SetMode(System.Char)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetMode(Char)
+  nameWithType: Request.SetMode(Char)
+  fullName: Kount.Ris.Request.SetMode(System.Char)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetMode
+    path: Kount/Ris/Request.cs
+    startLine: 319
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the mode of the transaction.\n"
+  example: []
+  syntax:
+    content: protected abstract void SetMode(char mode)
+    parameters:
+    - id: mode
+      type: System.Char
+      description: Depends on the request type.
+    content.vb: Protected MustOverride Sub SetMode(mode As Char)
+  overload: Kount.Ris.Request.SetMode*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: Kount.Ris.Request.SetMode(Kount.Enums.InquiryTypes)
+  commentId: M:Kount.Ris.Request.SetMode(Kount.Enums.InquiryTypes)
+  id: SetMode(Kount.Enums.InquiryTypes)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetMode(InquiryTypes)
+  nameWithType: Request.SetMode(InquiryTypes)
+  fullName: Kount.Ris.Request.SetMode(Kount.Enums.InquiryTypes)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetMode
+    path: Kount/Ris/Request.cs
+    startLine: 325
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the mode of the transaction.\n"
+  example: []
+  syntax:
+    content: public void SetMode(InquiryTypes inquiryType)
+    parameters:
+    - id: inquiryType
+      type: Kount.Enums.InquiryTypes
+      description: Depends on the inquiry type.
+    content.vb: Public Sub SetMode(inquiryType As InquiryTypes)
+  overload: Kount.Ris.Request.SetMode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetMode(Kount.Enums.UpdateTypes)
+  commentId: M:Kount.Ris.Request.SetMode(Kount.Enums.UpdateTypes)
+  id: SetMode(Kount.Enums.UpdateTypes)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetMode(UpdateTypes)
+  nameWithType: Request.SetMode(UpdateTypes)
+  fullName: Kount.Ris.Request.SetMode(Kount.Enums.UpdateTypes)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetMode
+    path: Kount/Ris/Request.cs
+    startLine: 334
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the mode of the transaction.\n"
+  example: []
+  syntax:
+    content: public void SetMode(UpdateTypes updateType)
+    parameters:
+    - id: updateType
+      type: Kount.Enums.UpdateTypes
+      description: Depends on the update type.
+    content.vb: Public Sub SetMode(updateType As UpdateTypes)
+  overload: Kount.Ris.Request.SetMode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetMerchantId(System.Int32)
+  commentId: M:Kount.Ris.Request.SetMerchantId(System.Int32)
+  id: SetMerchantId(System.Int32)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetMerchantId(Int32)
+  nameWithType: Request.SetMerchantId(Int32)
+  fullName: Kount.Ris.Request.SetMerchantId(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetMerchantId
+    path: Kount/Ris/Request.cs
+    startLine: 343
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the merchant Id.\n"
+  example: []
+  syntax:
+    content: public void SetMerchantId(int merchantId)
+    parameters:
+    - id: merchantId
+      type: System.Int32
+      description: Merchant Id.
+    content.vb: Public Sub SetMerchantId(merchantId As Integer)
+  overload: Kount.Ris.Request.SetMerchantId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetKountCentralCustomerId(System.String)
+  commentId: M:Kount.Ris.Request.SetKountCentralCustomerId(System.String)
+  id: SetKountCentralCustomerId(System.String)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetKountCentralCustomerId(String)
+  nameWithType: Request.SetKountCentralCustomerId(String)
+  fullName: Kount.Ris.Request.SetKountCentralCustomerId(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetKountCentralCustomerId
+    path: Kount/Ris/Request.cs
+    startLine: 352
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the Kount Central customer Id.\n"
+  example: []
+  syntax:
+    content: public void SetKountCentralCustomerId(string customerId)
+    parameters:
+    - id: customerId
+      type: System.String
+      description: Kount Central customer Id.
+    content.vb: Public Sub SetKountCentralCustomerId(customerId As String)
+  overload: Kount.Ris.Request.SetKountCentralCustomerId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetSessionId(System.String)
+  commentId: M:Kount.Ris.Request.SetSessionId(System.String)
+  id: SetSessionId(System.String)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetSessionId(String)
+  nameWithType: Request.SetSessionId(String)
+  fullName: Kount.Ris.Request.SetSessionId(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetSessionId
+    path: Kount/Ris/Request.cs
+    startLine: 361
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the session ID of this session.\n"
+  example: []
+  syntax:
+    content: public void SetSessionId(string sessionId)
+    parameters:
+    - id: sessionId
+      type: System.String
+      description: Session Id from the merchant.
+    content.vb: Public Sub SetSessionId(sessionId As String)
+  overload: Kount.Ris.Request.SetSessionId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetOrderNumber(System.String)
+  commentId: M:Kount.Ris.Request.SetOrderNumber(System.String)
+  id: SetOrderNumber(System.String)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetOrderNumber(String)
+  nameWithType: Request.SetOrderNumber(String)
+  fullName: Kount.Ris.Request.SetOrderNumber(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetOrderNumber
+    path: Kount/Ris/Request.cs
+    startLine: 370
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the merchant order number.\n"
+  example: []
+  syntax:
+    content: public void SetOrderNumber(string orderNumber)
+    parameters:
+    - id: orderNumber
+      type: System.String
+      description: Unique, up to 32 characters.
+    content.vb: Public Sub SetOrderNumber(orderNumber As String)
+  overload: Kount.Ris.Request.SetOrderNumber*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetMack(System.Char)
+  commentId: M:Kount.Ris.Request.SetMack(System.Char)
+  id: SetMack(System.Char)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetMack(Char)
+  nameWithType: Request.SetMack(Char)
+  fullName: Kount.Ris.Request.SetMack(System.Char)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetMack
+    path: Kount/Ris/Request.cs
+    startLine: 379
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the merchant acknowledgement that this product will ship.\n"
+  example: []
+  syntax:
+    content: public void SetMack(char mack)
+    parameters:
+    - id: mack
+      type: System.Char
+      description: Set Y or N.
+    content.vb: Public Sub SetMack(mack As Char)
+  overload: Kount.Ris.Request.SetMack*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetAuth(System.Char)
+  commentId: M:Kount.Ris.Request.SetAuth(System.Char)
+  id: SetAuth(System.Char)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetAuth(Char)
+  nameWithType: Request.SetAuth(Char)
+  fullName: Kount.Ris.Request.SetAuth(System.Char)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetAuth
+    path: Kount/Ris/Request.cs
+    startLine: 388
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the auth status of the payment.\n"
+  example: []
+  syntax:
+    content: public void SetAuth(char auth)
+    parameters:
+    - id: auth
+      type: System.Char
+      description: Set A or D.
+    content.vb: Public Sub SetAuth(auth As Char)
+  overload: Kount.Ris.Request.SetAuth*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetAvsz(System.Char)
+  commentId: M:Kount.Ris.Request.SetAvsz(System.Char)
+  id: SetAvsz(System.Char)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetAvsz(Char)
+  nameWithType: Request.SetAvsz(Char)
+  fullName: Kount.Ris.Request.SetAvsz(System.Char)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetAvsz
+    path: Kount/Ris/Request.cs
+    startLine: 397
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nBankcard AVS ZIP CODE reply.\n"
+  example: []
+  syntax:
+    content: public void SetAvsz(char avsz)
+    parameters:
+    - id: avsz
+      type: System.Char
+      description: M, N, or X.
+    content.vb: Public Sub SetAvsz(avsz As Char)
+  overload: Kount.Ris.Request.SetAvsz*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetAvst(System.Char)
+  commentId: M:Kount.Ris.Request.SetAvst(System.Char)
+  id: SetAvst(System.Char)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetAvst(Char)
+  nameWithType: Request.SetAvst(Char)
+  fullName: Kount.Ris.Request.SetAvst(System.Char)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetAvst
+    path: Kount/Ris/Request.cs
+    startLine: 406
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nBankcard AVS STREET ADDRESS reply.\n"
+  example: []
+  syntax:
+    content: public void SetAvst(char avst)
+    parameters:
+    - id: avst
+      type: System.Char
+      description: M, N, or X.
+    content.vb: Public Sub SetAvst(avst As Char)
+  overload: Kount.Ris.Request.SetAvst*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetCvvr(System.Char)
+  commentId: M:Kount.Ris.Request.SetCvvr(System.Char)
+  id: SetCvvr(System.Char)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetCvvr(Char)
+  nameWithType: Request.SetCvvr(Char)
+  fullName: Kount.Ris.Request.SetCvvr(System.Char)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetCvvr
+    path: Kount/Ris/Request.cs
+    startLine: 415
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nBankcard CVV/CVC/CVV2 reply.\n"
+  example: []
+  syntax:
+    content: public void SetCvvr(char cvvr)
+    parameters:
+    - id: cvvr
+      type: System.Char
+      description: M, N, or X.
+    content.vb: Public Sub SetCvvr(cvvr As Char)
+  overload: Kount.Ris.Request.SetCvvr*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetCardPaymentMasked(System.String)
+  commentId: M:Kount.Ris.Request.SetCardPaymentMasked(System.String)
+  id: SetCardPaymentMasked(System.String)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetCardPaymentMasked(String)
+  nameWithType: Request.SetCardPaymentMasked(String)
+  fullName: Kount.Ris.Request.SetCardPaymentMasked(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetCardPaymentMasked
+    path: Kount/Ris/Request.cs
+    startLine: 429
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSets a card payment and masks the card number in the following way: <br />\nFirst 6 characters remain as they are, following characters up to the last 4 are\nreplaced with the 'X' character, last 4 characters remain as they are.\nIf the provided Payment parameter is not a card payment, standard encoding\nwill be applied.\n"
+  example:
+  - 'card number 0007380568572514 is masked to 000738XXXXXX2514 '
+  syntax:
+    content: public void SetCardPaymentMasked(string cardNumber)
+    parameters:
+    - id: cardNumber
+      type: System.String
+      description: Raw credit card number
+    content.vb: Public Sub SetCardPaymentMasked(cardNumber As String)
+  overload: Kount.Ris.Request.SetCardPaymentMasked*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetNoPayment
+  commentId: M:Kount.Ris.Request.SetNoPayment
+  id: SetNoPayment
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetNoPayment()
+  nameWithType: Request.SetNoPayment()
+  fullName: Kount.Ris.Request.SetNoPayment()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetNoPayment
+    path: Kount/Ris/Request.cs
+    startLine: 441
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet No Payment.\n"
+  example: []
+  syntax:
+    content: public void SetNoPayment()
+    content.vb: Public Sub SetNoPayment
+  overload: Kount.Ris.Request.SetNoPayment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetPayment(System.String,System.String)
+  commentId: M:Kount.Ris.Request.SetPayment(System.String,System.String)
+  id: SetPayment(System.String,System.String)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetPayment(String, String)
+  nameWithType: Request.SetPayment(String, String)
+  fullName: Kount.Ris.Request.SetPayment(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetPayment
+    path: Kount/Ris/Request.cs
+    startLine: 452
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet a payment type and payment token. This method is Obsoleted.\n"
+  example: []
+  syntax:
+    content: public void SetPayment(string ptyp, string ptok)
+    parameters:
+    - id: ptyp
+      type: System.String
+      description: Payment Type
+    - id: ptok
+      type: System.String
+      description: Payment Token
+    content.vb: Public Sub SetPayment(ptyp As String, ptok As String)
+  overload: Kount.Ris.Request.SetPayment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetPayment(Kount.Enums.PaymentTypes,System.String)
+  commentId: M:Kount.Ris.Request.SetPayment(Kount.Enums.PaymentTypes,System.String)
+  id: SetPayment(Kount.Enums.PaymentTypes,System.String)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetPayment(PaymentTypes, String)
+  nameWithType: Request.SetPayment(PaymentTypes, String)
+  fullName: Kount.Ris.Request.SetPayment(Kount.Enums.PaymentTypes, System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetPayment
+    path: Kount/Ris/Request.cs
+    startLine: 465
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet a payment \n"
+  example: []
+  syntax:
+    content: public void SetPayment(PaymentTypes paymentType, string payerId)
+    parameters:
+    - id: paymentType
+      type: Kount.Enums.PaymentTypes
+      description: Payment Type
+    - id: payerId
+      type: System.String
+      description: Payment Token
+    content.vb: Public Sub SetPayment(paymentType As PaymentTypes, payerId As String)
+  overload: Kount.Ris.Request.SetPayment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetGreenDotMoneyPakPayment(System.String)
+  commentId: M:Kount.Ris.Request.SetGreenDotMoneyPakPayment(System.String)
+  id: SetGreenDotMoneyPakPayment(System.String)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetGreenDotMoneyPakPayment(String)
+  nameWithType: Request.SetGreenDotMoneyPakPayment(String)
+  fullName: Kount.Ris.Request.SetGreenDotMoneyPakPayment(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetGreenDotMoneyPakPayment
+    path: Kount/Ris/Request.cs
+    startLine: 541
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet a Green Dot MoneyPak payment.\n"
+  example: []
+  syntax:
+    content: public void SetGreenDotMoneyPakPayment(string id)
+    parameters:
+    - id: id
+      type: System.String
+      description: Green Dot MoneyPak payment ID number
+    content.vb: Public Sub SetGreenDotMoneyPakPayment(id As String)
+  overload: Kount.Ris.Request.SetGreenDotMoneyPakPayment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.GetParam(System.String)
+  commentId: M:Kount.Ris.Request.GetParam(System.String)
+  id: GetParam(System.String)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: GetParam(String)
+  nameWithType: Request.GetParam(String)
+  fullName: Kount.Ris.Request.GetParam(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetParam
+    path: Kount/Ris/Request.cs
+    startLine: 552
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet value from Data - Hashtable.\n"
+  example: []
+  syntax:
+    content: public string GetParam(string param)
+    parameters:
+    - id: param
+      type: System.String
+      description: Key string in hashtable
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Function GetParam(param As String) As String
+  overload: Kount.Ris.Request.GetParam*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.GetUrl
+  commentId: M:Kount.Ris.Request.GetUrl
+  id: GetUrl
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: GetUrl()
+  nameWithType: Request.GetUrl()
+  fullName: Kount.Ris.Request.GetUrl()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetUrl
+    path: Kount/Ris/Request.cs
+    startLine: 575
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the URL of the target RIS server.\n"
+  example: []
+  syntax:
+    content: public string GetUrl()
+    return:
+      type: System.String
+      description: String of the target url.
+    content.vb: Public Function GetUrl As String
+  overload: Kount.Ris.Request.GetUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetUrl(System.String)
+  commentId: M:Kount.Ris.Request.SetUrl(System.String)
+  id: SetUrl(System.String)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetUrl(String)
+  nameWithType: Request.SetUrl(String)
+  fullName: Kount.Ris.Request.SetUrl(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetUrl
+    path: Kount/Ris/Request.cs
+    startLine: 584
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the URL of the target RIS server.\n"
+  example: []
+  syntax:
+    content: public void SetUrl(string url)
+    parameters:
+    - id: url
+      type: System.String
+      description: String of the target RIS server.
+    content.vb: Public Sub SetUrl(url As String)
+  overload: Kount.Ris.Request.SetUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetCertificate(System.String,System.String)
+  commentId: M:Kount.Ris.Request.SetCertificate(System.String,System.String)
+  id: SetCertificate(System.String,System.String)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetCertificate(String, String)
+  nameWithType: Request.SetCertificate(String, String)
+  fullName: Kount.Ris.Request.SetCertificate(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetCertificate
+    path: Kount/Ris/Request.cs
+    startLine: 596
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the RIS certificate information.\n"
+  example: []
+  syntax:
+    content: public void SetCertificate(string certificate, string password)
+    parameters:
+    - id: certificate
+      type: System.String
+      description: >-
+        Full path of the certificate pk12 or
+
+        pfx file.
+    - id: password
+      type: System.String
+      description: >
+        Password used to export the certificate.
+    content.vb: Public Sub SetCertificate(certificate As String, password As String)
+  overload: Kount.Ris.Request.SetCertificate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetApiKey(System.String)
+  commentId: M:Kount.Ris.Request.SetApiKey(System.String)
+  id: SetApiKey(System.String)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetApiKey(String)
+  nameWithType: Request.SetApiKey(String)
+  fullName: Kount.Ris.Request.SetApiKey(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetApiKey
+    path: Kount/Ris/Request.cs
+    startLine: 606
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the API key.\n"
+  example: []
+  syntax:
+    content: public void SetApiKey(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: Key used to authenticate.
+    content.vb: Public Sub SetApiKey(key As String)
+  overload: Kount.Ris.Request.SetApiKey*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.GetCertificateFile
+  commentId: M:Kount.Ris.Request.GetCertificateFile
+  id: GetCertificateFile
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: GetCertificateFile()
+  nameWithType: Request.GetCertificateFile()
+  fullName: Kount.Ris.Request.GetCertificateFile()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetCertificateFile
+    path: Kount/Ris/Request.cs
+    startLine: 615
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGet the certificate file path.\n"
+  example: []
+  syntax:
+    content: public string GetCertificateFile()
+    return:
+      type: System.String
+      description: String of the certificate file path.
+    content.vb: Public Function GetCertificateFile As String
+  overload: Kount.Ris.Request.GetCertificateFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.GetPrivateKeyPassword
+  commentId: M:Kount.Ris.Request.GetPrivateKeyPassword
+  id: GetPrivateKeyPassword
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: GetPrivateKeyPassword()
+  nameWithType: Request.GetPrivateKeyPassword()
+  fullName: Kount.Ris.Request.GetPrivateKeyPassword()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetPrivateKeyPassword
+    path: Kount/Ris/Request.cs
+    startLine: 624
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nPrivate key password used to export the certificate file.\n"
+  example: []
+  syntax:
+    content: public string GetPrivateKeyPassword()
+    return:
+      type: System.String
+      description: String of the certificate export password.
+    content.vb: Public Function GetPrivateKeyPassword As String
+  overload: Kount.Ris.Request.GetPrivateKeyPassword*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetKhashPaymentEncoding
+  commentId: M:Kount.Ris.Request.SetKhashPaymentEncoding
+  id: SetKhashPaymentEncoding
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetKhashPaymentEncoding()
+  nameWithType: Request.SetKhashPaymentEncoding()
+  fullName: Kount.Ris.Request.SetKhashPaymentEncoding()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetKhashPaymentEncoding
+    path: Kount/Ris/Request.cs
+    startLine: 632
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the RIS payment encoding to KHASH.\n"
+  example: []
+  syntax:
+    content: public void SetKhashPaymentEncoding()
+    content.vb: Public Sub SetKhashPaymentEncoding
+  overload: Kount.Ris.Request.SetKhashPaymentEncoding*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetKhashPaymentEncoding(System.Boolean)
+  commentId: M:Kount.Ris.Request.SetKhashPaymentEncoding(System.Boolean)
+  id: SetKhashPaymentEncoding(System.Boolean)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetKhashPaymentEncoding(Boolean)
+  nameWithType: Request.SetKhashPaymentEncoding(Boolean)
+  fullName: Kount.Ris.Request.SetKhashPaymentEncoding(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetKhashPaymentEncoding
+    path: Kount/Ris/Request.cs
+    startLine: 646
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the RIS payment encoding to KHASH.\n"
+  example: []
+  syntax:
+    content: public void SetKhashPaymentEncoding(bool enabled)
+    parameters:
+    - id: enabled
+      type: System.Boolean
+      description: TRUE when enabled
+    content.vb: Public Sub SetKhashPaymentEncoding(enabled As Boolean)
+  overload: Kount.Ris.Request.SetKhashPaymentEncoding*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetPaymentTokenLast4(System.String)
+  commentId: M:Kount.Ris.Request.SetPaymentTokenLast4(System.String)
+  id: SetPaymentTokenLast4(System.String)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetPaymentTokenLast4(String)
+  nameWithType: Request.SetPaymentTokenLast4(String)
+  fullName: Kount.Ris.Request.SetPaymentTokenLast4(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetPaymentTokenLast4
+    path: Kount/Ris/Request.cs
+    startLine: 662
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the last 4 characters of the payment token.\n"
+  example: []
+  syntax:
+    content: public void SetPaymentTokenLast4(string last4)
+    parameters:
+    - id: last4
+      type: System.String
+      description: Last 4 characters
+    content.vb: Public Sub SetPaymentTokenLast4(last4 As String)
+  overload: Kount.Ris.Request.SetPaymentTokenLast4*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.SetVersion(System.String)
+  commentId: M:Kount.Ris.Request.SetVersion(System.String)
+  id: SetVersion(System.String)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetVersion(String)
+  nameWithType: Request.SetVersion(String)
+  fullName: Kount.Ris.Request.SetVersion(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetVersion
+    path: Kount/Ris/Request.cs
+    startLine: 671
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the version of the RIS response.\n"
+  example: []
+  syntax:
+    content: public void SetVersion(string version)
+    parameters:
+    - id: version
+      type: System.String
+      description: Response version.
+    content.vb: Public Sub SetVersion(version As String)
+  overload: Kount.Ris.Request.SetVersion*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Request.IsSetKhashPaymentEncoding
+  commentId: M:Kount.Ris.Request.IsSetKhashPaymentEncoding
+  id: IsSetKhashPaymentEncoding
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: IsSetKhashPaymentEncoding()
+  nameWithType: Request.IsSetKhashPaymentEncoding()
+  fullName: Kount.Ris.Request.IsSetKhashPaymentEncoding()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: IsSetKhashPaymentEncoding
+    path: Kount/Ris/Request.cs
+    startLine: 680
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nCheck if KHASH payment encoding has been set.\n"
+  example: []
+  syntax:
+    content: protected bool IsSetKhashPaymentEncoding()
+    return:
+      type: System.Boolean
+      description: TRUE when set
+    content.vb: Protected Function IsSetKhashPaymentEncoding As Boolean
+  overload: Kount.Ris.Request.IsSetKhashPaymentEncoding*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Kount.Ris.Request.SetPaymentToken(System.String)
+  commentId: M:Kount.Ris.Request.SetPaymentToken(System.String)
+  id: SetPaymentToken(System.String)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SetPaymentToken(String)
+  nameWithType: Request.SetPaymentToken(String)
+  fullName: Kount.Ris.Request.SetPaymentToken(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetPaymentToken
+    path: Kount/Ris/Request.cs
+    startLine: 690
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the payment token.\n"
+  example: []
+  syntax:
+    content: protected void SetPaymentToken(string token)
+    parameters:
+    - id: token
+      type: System.String
+      description: Payment token
+    content.vb: Protected Sub SetPaymentToken(token As String)
+  overload: Kount.Ris.Request.SetPaymentToken*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Kount.Ris.Request.CheckConfigurationParameter(System.String,System.String)
+  commentId: M:Kount.Ris.Request.CheckConfigurationParameter(System.String,System.String)
+  id: CheckConfigurationParameter(System.String,System.String)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: CheckConfigurationParameter(String, String)
+  nameWithType: Request.CheckConfigurationParameter(String, String)
+  fullName: Kount.Ris.Request.CheckConfigurationParameter(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: CheckConfigurationParameter
+    path: Kount/Ris/Request.cs
+    startLine: 722
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nCheck configuration parameters for existence in application\nconfiguration.\n"
+  example: []
+  syntax:
+    content: protected void CheckConfigurationParameter(string value, string parameter)
+    parameters:
+    - id: value
+      type: System.String
+    - id: parameter
+      type: System.String
+      description: Parameter name
+    content.vb: Protected Sub CheckConfigurationParameter(value As String, parameter As String)
+  overload: Kount.Ris.Request.CheckConfigurationParameter*
+  exceptions:
+  - type: Kount.Ris.RequestException
+    commentId: T:Kount.Ris.RequestException
+    description: >-
+      Thrown when parameter
+
+      is missing
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Kount.Ris.Request.SafeGet(System.String)
+  commentId: M:Kount.Ris.Request.SafeGet(System.String)
+  id: SafeGet(System.String)
+  parent: Kount.Ris.Request
+  langs:
+  - csharp
+  - vb
+  name: SafeGet(String)
+  nameWithType: Request.SafeGet(String)
+  fullName: Kount.Ris.Request.SafeGet(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Request.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SafeGet
+    path: Kount/Ris/Request.cs
+    startLine: 737
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSanitize a variable before return it.\n"
+  example: []
+  syntax:
+    content: protected string SafeGet(string var)
+    parameters:
+    - id: var
+      type: System.String
+      description: Raw variable
+    return:
+      type: System.String
+      description: Sanitized variable
+    content.vb: Protected Function SafeGet(var As String) As String
+  overload: Kount.Ris.Request.SafeGet*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Kount.Ris
+  commentId: N:Kount.Ris
+  isExternal: false
+  name: Kount.Ris
+  nameWithType: Kount.Ris
+  fullName: Kount.Ris
+- uid: Kount.Ris.Request.#ctor*
+  commentId: Overload:Kount.Ris.Request.#ctor
+  isExternal: false
+  name: Request
+  nameWithType: Request.Request
+  fullName: Kount.Ris.Request.Request
+- uid: Kount.Ris.RequestException
+  commentId: T:Kount.Ris.RequestException
+  isExternal: false
+  name: RequestException
+  nameWithType: RequestException
+  fullName: Kount.Ris.RequestException
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Kount.Ris.Configuration
+  commentId: T:Kount.Ris.Configuration
+  parent: Kount.Ris
+  isExternal: false
+  name: Configuration
+  nameWithType: Configuration
+  fullName: Kount.Ris.Configuration
+- uid: Kount.Ris.Request.Data*
+  commentId: Overload:Kount.Ris.Request.Data
+  isExternal: false
+  name: Data
+  nameWithType: Request.Data
+  fullName: Kount.Ris.Request.Data
+- uid: Hashtable
+  commentId: '!:Hashtable'
+  isExternal: true
+  name: Hashtable
+  nameWithType: Hashtable
+  fullName: Hashtable
+- uid: Kount.Ris.Request.GetResponse*
+  commentId: Overload:Kount.Ris.Request.GetResponse
+  isExternal: false
+  name: GetResponse
+  nameWithType: Request.GetResponse
+  fullName: Kount.Ris.Request.GetResponse
+- uid: Kount.Ris.Response
+  commentId: T:Kount.Ris.Response
+  parent: Kount.Ris
+  isExternal: false
+  name: Response
+  nameWithType: Response
+  fullName: Kount.Ris.Response
+- uid: Kount.Ris.Request.SetParameter*
+  commentId: Overload:Kount.Ris.Request.SetParameter
+  isExternal: false
+  name: SetParameter
+  nameWithType: Request.SetParameter
+  fullName: Kount.Ris.Request.SetParameter
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Kount.Ris.Request.SetMode*
+  commentId: Overload:Kount.Ris.Request.SetMode
+  isExternal: false
+  name: SetMode
+  nameWithType: Request.SetMode
+  fullName: Kount.Ris.Request.SetMode
+- uid: System.Char
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: Kount.Enums.InquiryTypes
+  commentId: T:Kount.Enums.InquiryTypes
+  parent: Kount.Enums
+  isExternal: false
+  name: InquiryTypes
+  nameWithType: InquiryTypes
+  fullName: Kount.Enums.InquiryTypes
+- uid: Kount.Enums
+  commentId: N:Kount.Enums
+  isExternal: false
+  name: Kount.Enums
+  nameWithType: Kount.Enums
+  fullName: Kount.Enums
+- uid: Kount.Enums.UpdateTypes
+  commentId: T:Kount.Enums.UpdateTypes
+  parent: Kount.Enums
+  isExternal: false
+  name: UpdateTypes
+  nameWithType: UpdateTypes
+  fullName: Kount.Enums.UpdateTypes
+- uid: Kount.Ris.Request.SetMerchantId*
+  commentId: Overload:Kount.Ris.Request.SetMerchantId
+  isExternal: false
+  name: SetMerchantId
+  nameWithType: Request.SetMerchantId
+  fullName: Kount.Ris.Request.SetMerchantId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Kount.Ris.Request.SetKountCentralCustomerId*
+  commentId: Overload:Kount.Ris.Request.SetKountCentralCustomerId
+  isExternal: false
+  name: SetKountCentralCustomerId
+  nameWithType: Request.SetKountCentralCustomerId
+  fullName: Kount.Ris.Request.SetKountCentralCustomerId
+- uid: Kount.Ris.Request.SetSessionId*
+  commentId: Overload:Kount.Ris.Request.SetSessionId
+  isExternal: false
+  name: SetSessionId
+  nameWithType: Request.SetSessionId
+  fullName: Kount.Ris.Request.SetSessionId
+- uid: Kount.Ris.Request.SetOrderNumber*
+  commentId: Overload:Kount.Ris.Request.SetOrderNumber
+  isExternal: false
+  name: SetOrderNumber
+  nameWithType: Request.SetOrderNumber
+  fullName: Kount.Ris.Request.SetOrderNumber
+- uid: Kount.Ris.Request.SetMack*
+  commentId: Overload:Kount.Ris.Request.SetMack
+  isExternal: false
+  name: SetMack
+  nameWithType: Request.SetMack
+  fullName: Kount.Ris.Request.SetMack
+- uid: Kount.Ris.Request.SetAuth*
+  commentId: Overload:Kount.Ris.Request.SetAuth
+  isExternal: false
+  name: SetAuth
+  nameWithType: Request.SetAuth
+  fullName: Kount.Ris.Request.SetAuth
+- uid: Kount.Ris.Request.SetAvsz*
+  commentId: Overload:Kount.Ris.Request.SetAvsz
+  isExternal: false
+  name: SetAvsz
+  nameWithType: Request.SetAvsz
+  fullName: Kount.Ris.Request.SetAvsz
+- uid: Kount.Ris.Request.SetAvst*
+  commentId: Overload:Kount.Ris.Request.SetAvst
+  isExternal: false
+  name: SetAvst
+  nameWithType: Request.SetAvst
+  fullName: Kount.Ris.Request.SetAvst
+- uid: Kount.Ris.Request.SetCvvr*
+  commentId: Overload:Kount.Ris.Request.SetCvvr
+  isExternal: false
+  name: SetCvvr
+  nameWithType: Request.SetCvvr
+  fullName: Kount.Ris.Request.SetCvvr
+- uid: Kount.Ris.Request.SetCardPaymentMasked*
+  commentId: Overload:Kount.Ris.Request.SetCardPaymentMasked
+  isExternal: false
+  name: SetCardPaymentMasked
+  nameWithType: Request.SetCardPaymentMasked
+  fullName: Kount.Ris.Request.SetCardPaymentMasked
+- uid: Kount.Ris.Request.SetNoPayment*
+  commentId: Overload:Kount.Ris.Request.SetNoPayment
+  isExternal: false
+  name: SetNoPayment
+  nameWithType: Request.SetNoPayment
+  fullName: Kount.Ris.Request.SetNoPayment
+- uid: Kount.Ris.Request.SetPayment*
+  commentId: Overload:Kount.Ris.Request.SetPayment
+  isExternal: false
+  name: SetPayment
+  nameWithType: Request.SetPayment
+  fullName: Kount.Ris.Request.SetPayment
+- uid: Kount.Enums.PaymentTypes
+  commentId: T:Kount.Enums.PaymentTypes
+  parent: Kount.Enums
+  isExternal: false
+  name: PaymentTypes
+  nameWithType: PaymentTypes
+  fullName: Kount.Enums.PaymentTypes
+- uid: Kount.Ris.Request.SetGreenDotMoneyPakPayment*
+  commentId: Overload:Kount.Ris.Request.SetGreenDotMoneyPakPayment
+  isExternal: false
+  name: SetGreenDotMoneyPakPayment
+  nameWithType: Request.SetGreenDotMoneyPakPayment
+  fullName: Kount.Ris.Request.SetGreenDotMoneyPakPayment
+- uid: Kount.Ris.Request.GetParam*
+  commentId: Overload:Kount.Ris.Request.GetParam
+  isExternal: false
+  name: GetParam
+  nameWithType: Request.GetParam
+  fullName: Kount.Ris.Request.GetParam
+- uid: Kount.Ris.Request.GetUrl*
+  commentId: Overload:Kount.Ris.Request.GetUrl
+  isExternal: false
+  name: GetUrl
+  nameWithType: Request.GetUrl
+  fullName: Kount.Ris.Request.GetUrl
+- uid: Kount.Ris.Request.SetUrl*
+  commentId: Overload:Kount.Ris.Request.SetUrl
+  isExternal: false
+  name: SetUrl
+  nameWithType: Request.SetUrl
+  fullName: Kount.Ris.Request.SetUrl
+- uid: Kount.Ris.Request.SetCertificate*
+  commentId: Overload:Kount.Ris.Request.SetCertificate
+  isExternal: false
+  name: SetCertificate
+  nameWithType: Request.SetCertificate
+  fullName: Kount.Ris.Request.SetCertificate
+- uid: Kount.Ris.Request.SetApiKey*
+  commentId: Overload:Kount.Ris.Request.SetApiKey
+  isExternal: false
+  name: SetApiKey
+  nameWithType: Request.SetApiKey
+  fullName: Kount.Ris.Request.SetApiKey
+- uid: Kount.Ris.Request.GetCertificateFile*
+  commentId: Overload:Kount.Ris.Request.GetCertificateFile
+  isExternal: false
+  name: GetCertificateFile
+  nameWithType: Request.GetCertificateFile
+  fullName: Kount.Ris.Request.GetCertificateFile
+- uid: Kount.Ris.Request.GetPrivateKeyPassword*
+  commentId: Overload:Kount.Ris.Request.GetPrivateKeyPassword
+  isExternal: false
+  name: GetPrivateKeyPassword
+  nameWithType: Request.GetPrivateKeyPassword
+  fullName: Kount.Ris.Request.GetPrivateKeyPassword
+- uid: Kount.Ris.Request.SetKhashPaymentEncoding*
+  commentId: Overload:Kount.Ris.Request.SetKhashPaymentEncoding
+  isExternal: false
+  name: SetKhashPaymentEncoding
+  nameWithType: Request.SetKhashPaymentEncoding
+  fullName: Kount.Ris.Request.SetKhashPaymentEncoding
+- uid: Kount.Ris.Request.SetPaymentTokenLast4*
+  commentId: Overload:Kount.Ris.Request.SetPaymentTokenLast4
+  isExternal: false
+  name: SetPaymentTokenLast4
+  nameWithType: Request.SetPaymentTokenLast4
+  fullName: Kount.Ris.Request.SetPaymentTokenLast4
+- uid: Kount.Ris.Request.SetVersion*
+  commentId: Overload:Kount.Ris.Request.SetVersion
+  isExternal: false
+  name: SetVersion
+  nameWithType: Request.SetVersion
+  fullName: Kount.Ris.Request.SetVersion
+- uid: Kount.Ris.Request.IsSetKhashPaymentEncoding*
+  commentId: Overload:Kount.Ris.Request.IsSetKhashPaymentEncoding
+  isExternal: false
+  name: IsSetKhashPaymentEncoding
+  nameWithType: Request.IsSetKhashPaymentEncoding
+  fullName: Kount.Ris.Request.IsSetKhashPaymentEncoding
+- uid: Kount.Ris.Request.SetPaymentToken*
+  commentId: Overload:Kount.Ris.Request.SetPaymentToken
+  isExternal: false
+  name: SetPaymentToken
+  nameWithType: Request.SetPaymentToken
+  fullName: Kount.Ris.Request.SetPaymentToken
+- uid: Kount.Ris.Request.CheckConfigurationParameter*
+  commentId: Overload:Kount.Ris.Request.CheckConfigurationParameter
+  isExternal: false
+  name: CheckConfigurationParameter
+  nameWithType: Request.CheckConfigurationParameter
+  fullName: Kount.Ris.Request.CheckConfigurationParameter
+- uid: Kount.Ris.Request.SafeGet*
+  commentId: Overload:Kount.Ris.Request.SafeGet
+  isExternal: false
+  name: SafeGet
+  nameWithType: Request.SafeGet
+  fullName: Kount.Ris.Request.SafeGet

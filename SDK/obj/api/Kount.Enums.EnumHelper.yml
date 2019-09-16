@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Enums.EnumHelper
+  commentId: T:Kount.Enums.EnumHelper
+  id: EnumHelper
+  parent: Kount.Enums
+  children:
+  - Kount.Enums.EnumHelper.GetValueAsString(Kount.Enums.PaymentTypes)
+  langs:
+  - csharp
+  - vb
+  name: EnumHelper
+  nameWithType: EnumHelper
+  fullName: Kount.Enums.EnumHelper
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Enums/EnumHelper.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: EnumHelper
+    path: Kount/Enums/EnumHelper.cs
+    startLine: 15
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nExtention Helper\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>,<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2017 Kount Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public static class EnumHelper : object'
+    content.vb: >-
+      Public Module EnumHelper
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Kount.Enums.EnumHelper.GetValueAsString(Kount.Enums.PaymentTypes)
+  commentId: M:Kount.Enums.EnumHelper.GetValueAsString(Kount.Enums.PaymentTypes)
+  id: GetValueAsString(Kount.Enums.PaymentTypes)
+  isExtensionMethod: true
+  parent: Kount.Enums.EnumHelper
+  langs:
+  - csharp
+  - vb
+  name: GetValueAsString(PaymentTypes)
+  nameWithType: EnumHelper.GetValueAsString(PaymentTypes)
+  fullName: Kount.Enums.EnumHelper.GetValueAsString(Kount.Enums.PaymentTypes)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Enums/EnumHelper.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetValueAsString
+    path: Kount/Enums/EnumHelper.cs
+    startLine: 22
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nExtend functionality of PaymentTypes enum\n"
+  example: []
+  syntax:
+    content: public static string GetValueAsString(this PaymentTypes paymentType)
+    parameters:
+    - id: paymentType
+      type: Kount.Enums.PaymentTypes
+      description: PaymentTypes enum
+    return:
+      type: System.String
+      description: Value definition in Description attribute
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetValueAsString(paymentType As PaymentTypes) As String
+  overload: Kount.Enums.EnumHelper.GetValueAsString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Kount.Enums
+  commentId: N:Kount.Enums
+  isExternal: false
+  name: Kount.Enums
+  nameWithType: Kount.Enums
+  fullName: Kount.Enums
+- uid: Kount.Enums.EnumHelper.GetValueAsString*
+  commentId: Overload:Kount.Enums.EnumHelper.GetValueAsString
+  isExternal: false
+  name: GetValueAsString
+  nameWithType: EnumHelper.GetValueAsString
+  fullName: Kount.Enums.EnumHelper.GetValueAsString
+- uid: Kount.Enums.PaymentTypes
+  commentId: T:Kount.Enums.PaymentTypes
+  parent: Kount.Enums
+  isExternal: false
+  name: PaymentTypes
+  nameWithType: PaymentTypes
+  fullName: Kount.Enums.PaymentTypes
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

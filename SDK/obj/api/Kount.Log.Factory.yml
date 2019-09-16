@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Log.Factory
+  commentId: N:Kount.Log.Factory
+  id: Kount.Log.Factory
+  children:
+  - Kount.Log.Factory.ILoggerFactory
+  - Kount.Log.Factory.LogFactory
+  - Kount.Log.Factory.NopLoggerFactory
+  - Kount.Log.Factory.SimpleLoggerFactory
+  langs:
+  - csharp
+  - vb
+  name: Kount.Log.Factory
+  nameWithType: Kount.Log.Factory
+  fullName: Kount.Log.Factory
+  type: Namespace
+  assemblies:
+  - KountRisSdk
+references:
+- uid: Kount.Log.Factory.LogFactory
+  commentId: T:Kount.Log.Factory.LogFactory
+  isExternal: false
+  name: LogFactory
+  nameWithType: LogFactory
+  fullName: Kount.Log.Factory.LogFactory
+- uid: Kount.Log.Factory.ILoggerFactory
+  commentId: T:Kount.Log.Factory.ILoggerFactory
+  parent: Kount.Log.Factory
+  isExternal: false
+  name: ILoggerFactory
+  nameWithType: ILoggerFactory
+  fullName: Kount.Log.Factory.ILoggerFactory
+- uid: Kount.Log.Factory.NopLoggerFactory
+  commentId: T:Kount.Log.Factory.NopLoggerFactory
+  isExternal: false
+  name: NopLoggerFactory
+  nameWithType: NopLoggerFactory
+  fullName: Kount.Log.Factory.NopLoggerFactory
+- uid: Kount.Log.Factory.SimpleLoggerFactory
+  commentId: T:Kount.Log.Factory.SimpleLoggerFactory
+  isExternal: false
+  name: SimpleLoggerFactory
+  nameWithType: SimpleLoggerFactory
+  fullName: Kount.Log.Factory.SimpleLoggerFactory
+- uid: Kount.Log.Factory
+  commentId: N:Kount.Log.Factory
+  isExternal: false
+  name: Kount.Log.Factory
+  nameWithType: Kount.Log.Factory
+  fullName: Kount.Log.Factory

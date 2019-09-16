@@ -1,0 +1,859 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Enums.PaymentTypes
+  commentId: T:Kount.Enums.PaymentTypes
+  id: PaymentTypes
+  parent: Kount.Enums
+  children:
+  - Kount.Enums.PaymentTypes.Apple
+  - Kount.Enums.PaymentTypes.Blml
+  - Kount.Enums.PaymentTypes.Bpay
+  - Kount.Enums.PaymentTypes.Card
+  - Kount.Enums.PaymentTypes.CarteBleue
+  - Kount.Enums.PaymentTypes.Check
+  - Kount.Enums.PaymentTypes.Elv
+  - Kount.Enums.PaymentTypes.GiftCard
+  - Kount.Enums.PaymentTypes.GiroPay
+  - Kount.Enums.PaymentTypes.Google
+  - Kount.Enums.PaymentTypes.GreenDotMoneyPak
+  - Kount.Enums.PaymentTypes.Interac
+  - Kount.Enums.PaymentTypes.MercadePago
+  - Kount.Enums.PaymentTypes.Neteller
+  - Kount.Enums.PaymentTypes.None
+  - Kount.Enums.PaymentTypes.Paypal
+  - Kount.Enums.PaymentTypes.Poli
+  - Kount.Enums.PaymentTypes.SingleEuroPaymentsArea
+  - Kount.Enums.PaymentTypes.Skrill
+  - Kount.Enums.PaymentTypes.Sofort
+  - Kount.Enums.PaymentTypes.Token
+  langs:
+  - csharp
+  - vb
+  name: PaymentTypes
+  nameWithType: PaymentTypes
+  fullName: Kount.Enums.PaymentTypes
+  type: Enum
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: PaymentTypes
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 15
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nList of accepted payment types<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2017 Kount Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public enum PaymentTypes : int'
+    content.vb: Public Enum PaymentTypes As Integer
+  extensionMethods:
+  - Kount.Enums.PaymentTypes.Kount.Enums.EnumHelper.GetValueAsString
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Kount.Enums.PaymentTypes.Apple
+  commentId: F:Kount.Enums.PaymentTypes.Apple
+  id: Apple
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: Apple
+  nameWithType: PaymentTypes.Apple
+  fullName: Kount.Enums.PaymentTypes.Apple
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Apple
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 20
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nApple payment type\n"
+  example: []
+  syntax:
+    content: Apple = 0
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.Blml
+  commentId: F:Kount.Enums.PaymentTypes.Blml
+  id: Blml
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: Blml
+  nameWithType: PaymentTypes.Blml
+  fullName: Kount.Enums.PaymentTypes.Blml
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Blml
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 26
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nBill me later type\n"
+  example: []
+  syntax:
+    content: Blml = 1
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.Bpay
+  commentId: F:Kount.Enums.PaymentTypes.Bpay
+  id: Bpay
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: Bpay
+  nameWithType: PaymentTypes.Bpay
+  fullName: Kount.Enums.PaymentTypes.Bpay
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Bpay
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 32
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nBPay payment type\n"
+  example: []
+  syntax:
+    content: Bpay = 2
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.Card
+  commentId: F:Kount.Enums.PaymentTypes.Card
+  id: Card
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: Card
+  nameWithType: PaymentTypes.Card
+  fullName: Kount.Enums.PaymentTypes.Card
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Card
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 38
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nCredit card type\n"
+  example: []
+  syntax:
+    content: Card = 3
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.CarteBleue
+  commentId: F:Kount.Enums.PaymentTypes.CarteBleue
+  id: CarteBleue
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: CarteBleue
+  nameWithType: PaymentTypes.CarteBleue
+  fullName: Kount.Enums.PaymentTypes.CarteBleue
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: CarteBleue
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 44
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nCarte Bleue payment type\n"
+  example: []
+  syntax:
+    content: CarteBleue = 4
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.Check
+  commentId: F:Kount.Enums.PaymentTypes.Check
+  id: Check
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: Check
+  nameWithType: PaymentTypes.Check
+  fullName: Kount.Enums.PaymentTypes.Check
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Check
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 50
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nThe check type\n"
+  example: []
+  syntax:
+    content: Check = 5
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.Elv
+  commentId: F:Kount.Enums.PaymentTypes.Elv
+  id: Elv
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: Elv
+  nameWithType: PaymentTypes.Elv
+  fullName: Kount.Enums.PaymentTypes.Elv
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Elv
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 56
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nELV payment type\n"
+  example: []
+  syntax:
+    content: Elv = 6
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.GreenDotMoneyPak
+  commentId: F:Kount.Enums.PaymentTypes.GreenDotMoneyPak
+  id: GreenDotMoneyPak
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: GreenDotMoneyPak
+  nameWithType: PaymentTypes.GreenDotMoneyPak
+  fullName: Kount.Enums.PaymentTypes.GreenDotMoneyPak
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GreenDotMoneyPak
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 62
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nGreen Dot MoneyPak payment type\n"
+  example: []
+  syntax:
+    content: GreenDotMoneyPak = 7
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.GiftCard
+  commentId: F:Kount.Enums.PaymentTypes.GiftCard
+  id: GiftCard
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: GiftCard
+  nameWithType: PaymentTypes.GiftCard
+  fullName: Kount.Enums.PaymentTypes.GiftCard
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GiftCard
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 68
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nGift card payment type\n"
+  example: []
+  syntax:
+    content: GiftCard = 8
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.GiroPay
+  commentId: F:Kount.Enums.PaymentTypes.GiroPay
+  id: GiroPay
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: GiroPay
+  nameWithType: PaymentTypes.GiroPay
+  fullName: Kount.Enums.PaymentTypes.GiroPay
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GiroPay
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 74
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nGiroPay payment type\n"
+  example: []
+  syntax:
+    content: GiroPay = 9
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.Google
+  commentId: F:Kount.Enums.PaymentTypes.Google
+  id: Google
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: Google
+  nameWithType: PaymentTypes.Google
+  fullName: Kount.Enums.PaymentTypes.Google
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Google
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 80
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nGoogle payment type\n"
+  example: []
+  syntax:
+    content: Google = 10
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.Interac
+  commentId: F:Kount.Enums.PaymentTypes.Interac
+  id: Interac
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: Interac
+  nameWithType: PaymentTypes.Interac
+  fullName: Kount.Enums.PaymentTypes.Interac
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Interac
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 86
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nInterac payment type\n"
+  example: []
+  syntax:
+    content: Interac = 11
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.MercadePago
+  commentId: F:Kount.Enums.PaymentTypes.MercadePago
+  id: MercadePago
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: MercadePago
+  nameWithType: PaymentTypes.MercadePago
+  fullName: Kount.Enums.PaymentTypes.MercadePago
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: MercadePago
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 92
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nMercade Pago payment type\n"
+  example: []
+  syntax:
+    content: MercadePago = 12
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.Neteller
+  commentId: F:Kount.Enums.PaymentTypes.Neteller
+  id: Neteller
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: Neteller
+  nameWithType: PaymentTypes.Neteller
+  fullName: Kount.Enums.PaymentTypes.Neteller
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Neteller
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 98
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nNeteller payment type\n"
+  example: []
+  syntax:
+    content: Neteller = 13
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.None
+  commentId: F:Kount.Enums.PaymentTypes.None
+  id: None
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: PaymentTypes.None
+  fullName: Kount.Enums.PaymentTypes.None
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: None
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 104
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nNo payment type\n"
+  example: []
+  syntax:
+    content: None = 14
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.Poli
+  commentId: F:Kount.Enums.PaymentTypes.Poli
+  id: Poli
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: Poli
+  nameWithType: PaymentTypes.Poli
+  fullName: Kount.Enums.PaymentTypes.Poli
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Poli
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 110
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nPoli payment type\n"
+  example: []
+  syntax:
+    content: Poli = 15
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.Paypal
+  commentId: F:Kount.Enums.PaymentTypes.Paypal
+  id: Paypal
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: Paypal
+  nameWithType: PaymentTypes.Paypal
+  fullName: Kount.Enums.PaymentTypes.Paypal
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Paypal
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 116
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nPaypal payment type\n"
+  example: []
+  syntax:
+    content: Paypal = 16
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.SingleEuroPaymentsArea
+  commentId: F:Kount.Enums.PaymentTypes.SingleEuroPaymentsArea
+  id: SingleEuroPaymentsArea
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: SingleEuroPaymentsArea
+  nameWithType: PaymentTypes.SingleEuroPaymentsArea
+  fullName: Kount.Enums.PaymentTypes.SingleEuroPaymentsArea
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SingleEuroPaymentsArea
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 122
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nSingle Euro Payments Area type\n"
+  example: []
+  syntax:
+    content: SingleEuroPaymentsArea = 17
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.Skrill
+  commentId: F:Kount.Enums.PaymentTypes.Skrill
+  id: Skrill
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: Skrill
+  nameWithType: PaymentTypes.Skrill
+  fullName: Kount.Enums.PaymentTypes.Skrill
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Skrill
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 128
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nSkrill/Moneybookers payment type\n"
+  example: []
+  syntax:
+    content: Skrill = 18
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.Sofort
+  commentId: F:Kount.Enums.PaymentTypes.Sofort
+  id: Sofort
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: Sofort
+  nameWithType: PaymentTypes.Sofort
+  fullName: Kount.Enums.PaymentTypes.Sofort
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Sofort
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 134
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nSofort payment type\n"
+  example: []
+  syntax:
+    content: Sofort = 19
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Kount.Enums.PaymentTypes.Token
+  commentId: F:Kount.Enums.PaymentTypes.Token
+  id: Token
+  parent: Kount.Enums.PaymentTypes
+  langs:
+  - csharp
+  - vb
+  name: Token
+  nameWithType: PaymentTypes.Token
+  fullName: Kount.Enums.PaymentTypes.Token
+  type: Field
+  source:
+    remote:
+      path: SDK/Kount/Enums/PaymentTypes.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Token
+    path: Kount/Enums/PaymentTypes.cs
+    startLine: 140
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Enums
+  summary: "\nToken payment type\n"
+  example: []
+  syntax:
+    content: Token = 20
+    return:
+      type: Kount.Enums.PaymentTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Kount.Enums
+  commentId: N:Kount.Enums
+  isExternal: false
+  name: Kount.Enums
+  nameWithType: Kount.Enums
+  fullName: Kount.Enums
+- uid: Kount.Enums.PaymentTypes.Kount.Enums.EnumHelper.GetValueAsString
+  commentId: M:Kount.Enums.EnumHelper.GetValueAsString(Kount.Enums.PaymentTypes)
+  parent: Kount.Enums.EnumHelper
+  definition: Kount.Enums.EnumHelper.GetValueAsString(Kount.Enums.PaymentTypes)
+  name: GetValueAsString()
+  nameWithType: EnumHelper.GetValueAsString()
+  fullName: Kount.Enums.EnumHelper.GetValueAsString()
+  spec.csharp:
+  - uid: Kount.Enums.EnumHelper.GetValueAsString
+    name: GetValueAsString
+    nameWithType: EnumHelper.GetValueAsString
+    fullName: Kount.Enums.EnumHelper.GetValueAsString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Enums.EnumHelper.GetValueAsString
+    name: GetValueAsString
+    nameWithType: EnumHelper.GetValueAsString
+    fullName: Kount.Enums.EnumHelper.GetValueAsString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Enums.EnumHelper.GetValueAsString(Kount.Enums.PaymentTypes)
+  commentId: M:Kount.Enums.EnumHelper.GetValueAsString(Kount.Enums.PaymentTypes)
+  isExternal: false
+  name: GetValueAsString(PaymentTypes)
+  nameWithType: EnumHelper.GetValueAsString(PaymentTypes)
+  fullName: Kount.Enums.EnumHelper.GetValueAsString(Kount.Enums.PaymentTypes)
+  spec.csharp:
+  - uid: Kount.Enums.EnumHelper.GetValueAsString(Kount.Enums.PaymentTypes)
+    name: GetValueAsString
+    nameWithType: EnumHelper.GetValueAsString
+    fullName: Kount.Enums.EnumHelper.GetValueAsString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Kount.Enums.PaymentTypes
+    name: PaymentTypes
+    nameWithType: PaymentTypes
+    fullName: Kount.Enums.PaymentTypes
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Enums.EnumHelper.GetValueAsString(Kount.Enums.PaymentTypes)
+    name: GetValueAsString
+    nameWithType: EnumHelper.GetValueAsString
+    fullName: Kount.Enums.EnumHelper.GetValueAsString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Kount.Enums.PaymentTypes
+    name: PaymentTypes
+    nameWithType: PaymentTypes
+    fullName: Kount.Enums.PaymentTypes
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Enums.EnumHelper
+  commentId: T:Kount.Enums.EnumHelper
+  parent: Kount.Enums
+  isExternal: false
+  name: EnumHelper
+  nameWithType: EnumHelper
+  fullName: Kount.Enums.EnumHelper
+- uid: Kount.Enums.PaymentTypes
+  commentId: T:Kount.Enums.PaymentTypes
+  parent: Kount.Enums
+  isExternal: false
+  name: PaymentTypes
+  nameWithType: PaymentTypes
+  fullName: Kount.Enums.PaymentTypes

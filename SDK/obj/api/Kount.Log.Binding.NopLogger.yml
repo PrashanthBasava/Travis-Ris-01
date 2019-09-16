@@ -1,0 +1,1071 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Log.Binding.NopLogger
+  commentId: T:Kount.Log.Binding.NopLogger
+  id: NopLogger
+  parent: Kount.Log.Binding
+  children:
+  - Kount.Log.Binding.NopLogger.#ctor(System.String)
+  - Kount.Log.Binding.NopLogger.Debug(System.String)
+  - Kount.Log.Binding.NopLogger.Debug(System.String,Exception)
+  - Kount.Log.Binding.NopLogger.Error(System.String)
+  - Kount.Log.Binding.NopLogger.Error(System.String,Exception)
+  - Kount.Log.Binding.NopLogger.Fatal(System.String)
+  - Kount.Log.Binding.NopLogger.Fatal(System.String,Exception)
+  - Kount.Log.Binding.NopLogger.Info(System.String)
+  - Kount.Log.Binding.NopLogger.Info(System.String,Exception)
+  - Kount.Log.Binding.NopLogger.MeasureElapsed
+  - Kount.Log.Binding.NopLogger.Warn(System.String)
+  - Kount.Log.Binding.NopLogger.Warn(System.String,Exception)
+  langs:
+  - csharp
+  - vb
+  name: NopLogger
+  nameWithType: NopLogger
+  fullName: Kount.Log.Binding.NopLogger
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/NopLogger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: NopLogger
+    path: Kount/Log/Binding/NopLogger.cs
+    startLine: 15
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nA logger that silently discards all logging.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2010 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public class NopLogger : object, ILogger'
+    content.vb: >-
+      Public Class NopLogger
+          Inherits Object
+          Implements ILogger
+  inheritance:
+  - System.Object
+  implements:
+  - Kount.Log.Binding.ILogger
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Kount.Log.Binding.NopLogger.MeasureElapsed
+  commentId: P:Kount.Log.Binding.NopLogger.MeasureElapsed
+  id: MeasureElapsed
+  parent: Kount.Log.Binding.NopLogger
+  langs:
+  - csharp
+  - vb
+  name: MeasureElapsed
+  nameWithType: NopLogger.MeasureElapsed
+  fullName: Kount.Log.Binding.NopLogger.MeasureElapsed
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/NopLogger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: MeasureElapsed
+    path: Kount/Log/Binding/NopLogger.cs
+    startLine: 17
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  syntax:
+    content: public bool MeasureElapsed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property MeasureElapsed As Boolean
+  overload: Kount.Log.Binding.NopLogger.MeasureElapsed*
+  implements:
+  - Kount.Log.Binding.ILogger.MeasureElapsed
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Kount.Log.Binding.NopLogger.#ctor(System.String)
+  commentId: M:Kount.Log.Binding.NopLogger.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Kount.Log.Binding.NopLogger
+  langs:
+  - csharp
+  - vb
+  name: NopLogger(String)
+  nameWithType: NopLogger.NopLogger(String)
+  fullName: Kount.Log.Binding.NopLogger.NopLogger(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/NopLogger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Log/Binding/NopLogger.cs
+    startLine: 29
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nConstructor for NOP logger.\n"
+  example: []
+  syntax:
+    content: public NopLogger(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of the logger
+    content.vb: Public Sub New(name As String)
+  overload: Kount.Log.Binding.NopLogger.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Log.Binding.NopLogger.Debug(System.String)
+  commentId: M:Kount.Log.Binding.NopLogger.Debug(System.String)
+  id: Debug(System.String)
+  parent: Kount.Log.Binding.NopLogger
+  langs:
+  - csharp
+  - vb
+  name: Debug(String)
+  nameWithType: NopLogger.Debug(String)
+  fullName: Kount.Log.Binding.NopLogger.Debug(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/NopLogger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Debug
+    path: Kount/Log/Binding/NopLogger.cs
+    startLine: 37
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nDiscard a debug level message.\n"
+  example: []
+  syntax:
+    content: public void Debug(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    content.vb: Public Sub Debug(message As String)
+  overload: Kount.Log.Binding.NopLogger.Debug*
+  implements:
+  - Kount.Log.Binding.ILogger.Debug(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Log.Binding.NopLogger.Debug(System.String,Exception)
+  commentId: M:Kount.Log.Binding.NopLogger.Debug(System.String,Exception)
+  id: Debug(System.String,Exception)
+  parent: Kount.Log.Binding.NopLogger
+  langs:
+  - csharp
+  - vb
+  name: Debug(String, Exception)
+  nameWithType: NopLogger.Debug(String, Exception)
+  fullName: Kount.Log.Binding.NopLogger.Debug(System.String, Exception)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/NopLogger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Debug
+    path: Kount/Log/Binding/NopLogger.cs
+    startLine: 46
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nDiscard a debug level message and an exception.\n"
+  example: []
+  syntax:
+    content: public void Debug(string message, Exception e)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    - id: e
+      type: Exception
+      description: Exception to log
+    content.vb: Public Sub Debug(message As String, e As Exception)
+  overload: Kount.Log.Binding.NopLogger.Debug*
+  implements:
+  - Kount.Log.Binding.ILogger.Debug(System.String,Exception)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Log.Binding.NopLogger.Info(System.String)
+  commentId: M:Kount.Log.Binding.NopLogger.Info(System.String)
+  id: Info(System.String)
+  parent: Kount.Log.Binding.NopLogger
+  langs:
+  - csharp
+  - vb
+  name: Info(String)
+  nameWithType: NopLogger.Info(String)
+  fullName: Kount.Log.Binding.NopLogger.Info(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/NopLogger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Info
+    path: Kount/Log/Binding/NopLogger.cs
+    startLine: 54
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nDiscard an info level message.\n"
+  example: []
+  syntax:
+    content: public void Info(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    content.vb: Public Sub Info(message As String)
+  overload: Kount.Log.Binding.NopLogger.Info*
+  implements:
+  - Kount.Log.Binding.ILogger.Info(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Log.Binding.NopLogger.Info(System.String,Exception)
+  commentId: M:Kount.Log.Binding.NopLogger.Info(System.String,Exception)
+  id: Info(System.String,Exception)
+  parent: Kount.Log.Binding.NopLogger
+  langs:
+  - csharp
+  - vb
+  name: Info(String, Exception)
+  nameWithType: NopLogger.Info(String, Exception)
+  fullName: Kount.Log.Binding.NopLogger.Info(System.String, Exception)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/NopLogger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Info
+    path: Kount/Log/Binding/NopLogger.cs
+    startLine: 63
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nDiscard an info level message and an exception.\n"
+  example: []
+  syntax:
+    content: public void Info(string message, Exception e)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    - id: e
+      type: Exception
+      description: Exception to log
+    content.vb: Public Sub Info(message As String, e As Exception)
+  overload: Kount.Log.Binding.NopLogger.Info*
+  implements:
+  - Kount.Log.Binding.ILogger.Info(System.String,Exception)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Log.Binding.NopLogger.Warn(System.String)
+  commentId: M:Kount.Log.Binding.NopLogger.Warn(System.String)
+  id: Warn(System.String)
+  parent: Kount.Log.Binding.NopLogger
+  langs:
+  - csharp
+  - vb
+  name: Warn(String)
+  nameWithType: NopLogger.Warn(String)
+  fullName: Kount.Log.Binding.NopLogger.Warn(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/NopLogger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Warn
+    path: Kount/Log/Binding/NopLogger.cs
+    startLine: 71
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nDiscard a warn level message.\n"
+  example: []
+  syntax:
+    content: public void Warn(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    content.vb: Public Sub Warn(message As String)
+  overload: Kount.Log.Binding.NopLogger.Warn*
+  implements:
+  - Kount.Log.Binding.ILogger.Warn(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Log.Binding.NopLogger.Warn(System.String,Exception)
+  commentId: M:Kount.Log.Binding.NopLogger.Warn(System.String,Exception)
+  id: Warn(System.String,Exception)
+  parent: Kount.Log.Binding.NopLogger
+  langs:
+  - csharp
+  - vb
+  name: Warn(String, Exception)
+  nameWithType: NopLogger.Warn(String, Exception)
+  fullName: Kount.Log.Binding.NopLogger.Warn(System.String, Exception)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/NopLogger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Warn
+    path: Kount/Log/Binding/NopLogger.cs
+    startLine: 80
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nDiscard a warn level message and an exception.\n"
+  example: []
+  syntax:
+    content: public void Warn(string message, Exception e)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    - id: e
+      type: Exception
+      description: Exception to log
+    content.vb: Public Sub Warn(message As String, e As Exception)
+  overload: Kount.Log.Binding.NopLogger.Warn*
+  implements:
+  - Kount.Log.Binding.ILogger.Warn(System.String,Exception)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Log.Binding.NopLogger.Error(System.String)
+  commentId: M:Kount.Log.Binding.NopLogger.Error(System.String)
+  id: Error(System.String)
+  parent: Kount.Log.Binding.NopLogger
+  langs:
+  - csharp
+  - vb
+  name: Error(String)
+  nameWithType: NopLogger.Error(String)
+  fullName: Kount.Log.Binding.NopLogger.Error(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/NopLogger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Error
+    path: Kount/Log/Binding/NopLogger.cs
+    startLine: 88
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nDiscard an error level message.\n"
+  example: []
+  syntax:
+    content: public void Error(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    content.vb: Public Sub Error(message As String)
+  overload: Kount.Log.Binding.NopLogger.Error*
+  implements:
+  - Kount.Log.Binding.ILogger.Error(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Log.Binding.NopLogger.Error(System.String,Exception)
+  commentId: M:Kount.Log.Binding.NopLogger.Error(System.String,Exception)
+  id: Error(System.String,Exception)
+  parent: Kount.Log.Binding.NopLogger
+  langs:
+  - csharp
+  - vb
+  name: Error(String, Exception)
+  nameWithType: NopLogger.Error(String, Exception)
+  fullName: Kount.Log.Binding.NopLogger.Error(System.String, Exception)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/NopLogger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Error
+    path: Kount/Log/Binding/NopLogger.cs
+    startLine: 97
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nDiscard an error level message and an exception.\n"
+  example: []
+  syntax:
+    content: public void Error(string message, Exception e)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    - id: e
+      type: Exception
+      description: Exception to log
+    content.vb: Public Sub Error(message As String, e As Exception)
+  overload: Kount.Log.Binding.NopLogger.Error*
+  implements:
+  - Kount.Log.Binding.ILogger.Error(System.String,Exception)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Log.Binding.NopLogger.Fatal(System.String)
+  commentId: M:Kount.Log.Binding.NopLogger.Fatal(System.String)
+  id: Fatal(System.String)
+  parent: Kount.Log.Binding.NopLogger
+  langs:
+  - csharp
+  - vb
+  name: Fatal(String)
+  nameWithType: NopLogger.Fatal(String)
+  fullName: Kount.Log.Binding.NopLogger.Fatal(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/NopLogger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Fatal
+    path: Kount/Log/Binding/NopLogger.cs
+    startLine: 105
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nDiscard a fatal level message.\n"
+  example: []
+  syntax:
+    content: public void Fatal(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    content.vb: Public Sub Fatal(message As String)
+  overload: Kount.Log.Binding.NopLogger.Fatal*
+  implements:
+  - Kount.Log.Binding.ILogger.Fatal(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Log.Binding.NopLogger.Fatal(System.String,Exception)
+  commentId: M:Kount.Log.Binding.NopLogger.Fatal(System.String,Exception)
+  id: Fatal(System.String,Exception)
+  parent: Kount.Log.Binding.NopLogger
+  langs:
+  - csharp
+  - vb
+  name: Fatal(String, Exception)
+  nameWithType: NopLogger.Fatal(String, Exception)
+  fullName: Kount.Log.Binding.NopLogger.Fatal(System.String, Exception)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/NopLogger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Fatal
+    path: Kount/Log/Binding/NopLogger.cs
+    startLine: 114
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nDiscard a fatal level message and an exception.\n"
+  example: []
+  syntax:
+    content: public void Fatal(string message, Exception e)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    - id: e
+      type: Exception
+      description: Exception to log
+    content.vb: Public Sub Fatal(message As String, e As Exception)
+  overload: Kount.Log.Binding.NopLogger.Fatal*
+  implements:
+  - Kount.Log.Binding.ILogger.Fatal(System.String,Exception)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Kount.Log.Binding
+  commentId: N:Kount.Log.Binding
+  isExternal: false
+  name: Kount.Log.Binding
+  nameWithType: Kount.Log.Binding
+  fullName: Kount.Log.Binding
+- uid: Kount.Log.Binding.ILogger
+  commentId: T:Kount.Log.Binding.ILogger
+  parent: Kount.Log.Binding
+  isExternal: false
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Kount.Log.Binding.ILogger
+- uid: Kount.Log.Binding.NopLogger.MeasureElapsed*
+  commentId: Overload:Kount.Log.Binding.NopLogger.MeasureElapsed
+  isExternal: false
+  name: MeasureElapsed
+  nameWithType: NopLogger.MeasureElapsed
+  fullName: Kount.Log.Binding.NopLogger.MeasureElapsed
+- uid: Kount.Log.Binding.ILogger.MeasureElapsed
+  commentId: P:Kount.Log.Binding.ILogger.MeasureElapsed
+  parent: Kount.Log.Binding.ILogger
+  isExternal: false
+  name: MeasureElapsed
+  nameWithType: ILogger.MeasureElapsed
+  fullName: Kount.Log.Binding.ILogger.MeasureElapsed
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Kount.Log.Binding.NopLogger.#ctor*
+  commentId: Overload:Kount.Log.Binding.NopLogger.#ctor
+  isExternal: false
+  name: NopLogger
+  nameWithType: NopLogger.NopLogger
+  fullName: Kount.Log.Binding.NopLogger.NopLogger
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Kount.Log.Binding.NopLogger.Debug*
+  commentId: Overload:Kount.Log.Binding.NopLogger.Debug
+  isExternal: false
+  name: Debug
+  nameWithType: NopLogger.Debug
+  fullName: Kount.Log.Binding.NopLogger.Debug
+- uid: Kount.Log.Binding.ILogger.Debug(System.String)
+  commentId: M:Kount.Log.Binding.ILogger.Debug(System.String)
+  parent: Kount.Log.Binding.ILogger
+  isExternal: true
+  name: Debug(String)
+  nameWithType: ILogger.Debug(String)
+  fullName: Kount.Log.Binding.ILogger.Debug(System.String)
+  spec.csharp:
+  - uid: Kount.Log.Binding.ILogger.Debug(System.String)
+    name: Debug
+    nameWithType: ILogger.Debug
+    fullName: Kount.Log.Binding.ILogger.Debug
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Log.Binding.ILogger.Debug(System.String)
+    name: Debug
+    nameWithType: ILogger.Debug
+    fullName: Kount.Log.Binding.ILogger.Debug
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Log.Binding.ILogger.Debug(System.String,Exception)
+  commentId: M:Kount.Log.Binding.ILogger.Debug(System.String,Exception)
+  parent: Kount.Log.Binding.ILogger
+  isExternal: true
+  name: Debug(String, Exception)
+  nameWithType: ILogger.Debug(String, Exception)
+  fullName: Kount.Log.Binding.ILogger.Debug(System.String, Exception)
+  spec.csharp:
+  - uid: Kount.Log.Binding.ILogger.Debug(System.String,Exception)
+    name: Debug
+    nameWithType: ILogger.Debug
+    fullName: Kount.Log.Binding.ILogger.Debug
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Log.Binding.ILogger.Debug(System.String,Exception)
+    name: Debug
+    nameWithType: ILogger.Debug
+    fullName: Kount.Log.Binding.ILogger.Debug
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception
+- uid: Kount.Log.Binding.NopLogger.Info*
+  commentId: Overload:Kount.Log.Binding.NopLogger.Info
+  isExternal: false
+  name: Info
+  nameWithType: NopLogger.Info
+  fullName: Kount.Log.Binding.NopLogger.Info
+- uid: Kount.Log.Binding.ILogger.Info(System.String)
+  commentId: M:Kount.Log.Binding.ILogger.Info(System.String)
+  parent: Kount.Log.Binding.ILogger
+  isExternal: true
+  name: Info(String)
+  nameWithType: ILogger.Info(String)
+  fullName: Kount.Log.Binding.ILogger.Info(System.String)
+  spec.csharp:
+  - uid: Kount.Log.Binding.ILogger.Info(System.String)
+    name: Info
+    nameWithType: ILogger.Info
+    fullName: Kount.Log.Binding.ILogger.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Log.Binding.ILogger.Info(System.String)
+    name: Info
+    nameWithType: ILogger.Info
+    fullName: Kount.Log.Binding.ILogger.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Log.Binding.ILogger.Info(System.String,Exception)
+  commentId: M:Kount.Log.Binding.ILogger.Info(System.String,Exception)
+  parent: Kount.Log.Binding.ILogger
+  isExternal: true
+  name: Info(String, Exception)
+  nameWithType: ILogger.Info(String, Exception)
+  fullName: Kount.Log.Binding.ILogger.Info(System.String, Exception)
+  spec.csharp:
+  - uid: Kount.Log.Binding.ILogger.Info(System.String,Exception)
+    name: Info
+    nameWithType: ILogger.Info
+    fullName: Kount.Log.Binding.ILogger.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Log.Binding.ILogger.Info(System.String,Exception)
+    name: Info
+    nameWithType: ILogger.Info
+    fullName: Kount.Log.Binding.ILogger.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Log.Binding.NopLogger.Warn*
+  commentId: Overload:Kount.Log.Binding.NopLogger.Warn
+  isExternal: false
+  name: Warn
+  nameWithType: NopLogger.Warn
+  fullName: Kount.Log.Binding.NopLogger.Warn
+- uid: Kount.Log.Binding.ILogger.Warn(System.String)
+  commentId: M:Kount.Log.Binding.ILogger.Warn(System.String)
+  parent: Kount.Log.Binding.ILogger
+  isExternal: true
+  name: Warn(String)
+  nameWithType: ILogger.Warn(String)
+  fullName: Kount.Log.Binding.ILogger.Warn(System.String)
+  spec.csharp:
+  - uid: Kount.Log.Binding.ILogger.Warn(System.String)
+    name: Warn
+    nameWithType: ILogger.Warn
+    fullName: Kount.Log.Binding.ILogger.Warn
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Log.Binding.ILogger.Warn(System.String)
+    name: Warn
+    nameWithType: ILogger.Warn
+    fullName: Kount.Log.Binding.ILogger.Warn
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Log.Binding.ILogger.Warn(System.String,Exception)
+  commentId: M:Kount.Log.Binding.ILogger.Warn(System.String,Exception)
+  parent: Kount.Log.Binding.ILogger
+  isExternal: true
+  name: Warn(String, Exception)
+  nameWithType: ILogger.Warn(String, Exception)
+  fullName: Kount.Log.Binding.ILogger.Warn(System.String, Exception)
+  spec.csharp:
+  - uid: Kount.Log.Binding.ILogger.Warn(System.String,Exception)
+    name: Warn
+    nameWithType: ILogger.Warn
+    fullName: Kount.Log.Binding.ILogger.Warn
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Log.Binding.ILogger.Warn(System.String,Exception)
+    name: Warn
+    nameWithType: ILogger.Warn
+    fullName: Kount.Log.Binding.ILogger.Warn
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Log.Binding.NopLogger.Error*
+  commentId: Overload:Kount.Log.Binding.NopLogger.Error
+  isExternal: false
+  name: Error
+  nameWithType: NopLogger.Error
+  fullName: Kount.Log.Binding.NopLogger.Error
+- uid: Kount.Log.Binding.ILogger.Error(System.String)
+  commentId: M:Kount.Log.Binding.ILogger.Error(System.String)
+  parent: Kount.Log.Binding.ILogger
+  isExternal: true
+  name: Error(String)
+  nameWithType: ILogger.Error(String)
+  fullName: Kount.Log.Binding.ILogger.Error(System.String)
+  spec.csharp:
+  - uid: Kount.Log.Binding.ILogger.Error(System.String)
+    name: Error
+    nameWithType: ILogger.Error
+    fullName: Kount.Log.Binding.ILogger.Error
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Log.Binding.ILogger.Error(System.String)
+    name: Error
+    nameWithType: ILogger.Error
+    fullName: Kount.Log.Binding.ILogger.Error
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Log.Binding.ILogger.Error(System.String,Exception)
+  commentId: M:Kount.Log.Binding.ILogger.Error(System.String,Exception)
+  parent: Kount.Log.Binding.ILogger
+  isExternal: true
+  name: Error(String, Exception)
+  nameWithType: ILogger.Error(String, Exception)
+  fullName: Kount.Log.Binding.ILogger.Error(System.String, Exception)
+  spec.csharp:
+  - uid: Kount.Log.Binding.ILogger.Error(System.String,Exception)
+    name: Error
+    nameWithType: ILogger.Error
+    fullName: Kount.Log.Binding.ILogger.Error
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Log.Binding.ILogger.Error(System.String,Exception)
+    name: Error
+    nameWithType: ILogger.Error
+    fullName: Kount.Log.Binding.ILogger.Error
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Log.Binding.NopLogger.Fatal*
+  commentId: Overload:Kount.Log.Binding.NopLogger.Fatal
+  isExternal: false
+  name: Fatal
+  nameWithType: NopLogger.Fatal
+  fullName: Kount.Log.Binding.NopLogger.Fatal
+- uid: Kount.Log.Binding.ILogger.Fatal(System.String)
+  commentId: M:Kount.Log.Binding.ILogger.Fatal(System.String)
+  parent: Kount.Log.Binding.ILogger
+  isExternal: true
+  name: Fatal(String)
+  nameWithType: ILogger.Fatal(String)
+  fullName: Kount.Log.Binding.ILogger.Fatal(System.String)
+  spec.csharp:
+  - uid: Kount.Log.Binding.ILogger.Fatal(System.String)
+    name: Fatal
+    nameWithType: ILogger.Fatal
+    fullName: Kount.Log.Binding.ILogger.Fatal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Log.Binding.ILogger.Fatal(System.String)
+    name: Fatal
+    nameWithType: ILogger.Fatal
+    fullName: Kount.Log.Binding.ILogger.Fatal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Log.Binding.ILogger.Fatal(System.String,Exception)
+  commentId: M:Kount.Log.Binding.ILogger.Fatal(System.String,Exception)
+  parent: Kount.Log.Binding.ILogger
+  isExternal: true
+  name: Fatal(String, Exception)
+  nameWithType: ILogger.Fatal(String, Exception)
+  fullName: Kount.Log.Binding.ILogger.Fatal(System.String, Exception)
+  spec.csharp:
+  - uid: Kount.Log.Binding.ILogger.Fatal(System.String,Exception)
+    name: Fatal
+    nameWithType: ILogger.Fatal
+    fullName: Kount.Log.Binding.ILogger.Fatal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Log.Binding.ILogger.Fatal(System.String,Exception)
+    name: Fatal
+    nameWithType: ILogger.Fatal
+    fullName: Kount.Log.Binding.ILogger.Fatal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,475 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Log.Binding.ILogger
+  commentId: T:Kount.Log.Binding.ILogger
+  id: ILogger
+  parent: Kount.Log.Binding
+  children:
+  - Kount.Log.Binding.ILogger.Debug(System.String)
+  - Kount.Log.Binding.ILogger.Debug(System.String,Exception)
+  - Kount.Log.Binding.ILogger.Error(System.String)
+  - Kount.Log.Binding.ILogger.Error(System.String,Exception)
+  - Kount.Log.Binding.ILogger.Fatal(System.String)
+  - Kount.Log.Binding.ILogger.Fatal(System.String,Exception)
+  - Kount.Log.Binding.ILogger.Info(System.String)
+  - Kount.Log.Binding.ILogger.Info(System.String,Exception)
+  - Kount.Log.Binding.ILogger.MeasureElapsed
+  - Kount.Log.Binding.ILogger.Warn(System.String)
+  - Kount.Log.Binding.ILogger.Warn(System.String,Exception)
+  langs:
+  - csharp
+  - vb
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Kount.Log.Binding.ILogger
+  type: Interface
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/Logger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ILogger
+    path: Kount/Log/Binding/Logger.cs
+    startLine: 15
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nLogger interface.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2010 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: public interface ILogger
+    content.vb: Public Interface ILogger
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Kount.Log.Binding.ILogger.Debug(System.String)
+  commentId: M:Kount.Log.Binding.ILogger.Debug(System.String)
+  id: Debug(System.String)
+  parent: Kount.Log.Binding.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Debug(String)
+  nameWithType: ILogger.Debug(String)
+  fullName: Kount.Log.Binding.ILogger.Debug(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/Logger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Debug
+    path: Kount/Log/Binding/Logger.cs
+    startLine: 21
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nLog a debug level message.\n"
+  example: []
+  syntax:
+    content: void Debug(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    content.vb: Sub Debug(message As String)
+  overload: Kount.Log.Binding.ILogger.Debug*
+- uid: Kount.Log.Binding.ILogger.Debug(System.String,Exception)
+  commentId: M:Kount.Log.Binding.ILogger.Debug(System.String,Exception)
+  id: Debug(System.String,Exception)
+  parent: Kount.Log.Binding.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Debug(String, Exception)
+  nameWithType: ILogger.Debug(String, Exception)
+  fullName: Kount.Log.Binding.ILogger.Debug(System.String, Exception)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/Logger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Debug
+    path: Kount/Log/Binding/Logger.cs
+    startLine: 28
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nLog a debug level message and an exception.\n"
+  example: []
+  syntax:
+    content: void Debug(string message, Exception e)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    - id: e
+      type: Exception
+      description: Exception to log
+    content.vb: Sub Debug(message As String, e As Exception)
+  overload: Kount.Log.Binding.ILogger.Debug*
+- uid: Kount.Log.Binding.ILogger.Info(System.String)
+  commentId: M:Kount.Log.Binding.ILogger.Info(System.String)
+  id: Info(System.String)
+  parent: Kount.Log.Binding.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Info(String)
+  nameWithType: ILogger.Info(String)
+  fullName: Kount.Log.Binding.ILogger.Info(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/Logger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Info
+    path: Kount/Log/Binding/Logger.cs
+    startLine: 34
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nLog an info level message\n"
+  example: []
+  syntax:
+    content: void Info(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    content.vb: Sub Info(message As String)
+  overload: Kount.Log.Binding.ILogger.Info*
+- uid: Kount.Log.Binding.ILogger.Info(System.String,Exception)
+  commentId: M:Kount.Log.Binding.ILogger.Info(System.String,Exception)
+  id: Info(System.String,Exception)
+  parent: Kount.Log.Binding.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Info(String, Exception)
+  nameWithType: ILogger.Info(String, Exception)
+  fullName: Kount.Log.Binding.ILogger.Info(System.String, Exception)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/Logger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Info
+    path: Kount/Log/Binding/Logger.cs
+    startLine: 41
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nLog an info level message and an exception.\n"
+  example: []
+  syntax:
+    content: void Info(string message, Exception e)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    - id: e
+      type: Exception
+      description: Exception to log
+    content.vb: Sub Info(message As String, e As Exception)
+  overload: Kount.Log.Binding.ILogger.Info*
+- uid: Kount.Log.Binding.ILogger.Warn(System.String)
+  commentId: M:Kount.Log.Binding.ILogger.Warn(System.String)
+  id: Warn(System.String)
+  parent: Kount.Log.Binding.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Warn(String)
+  nameWithType: ILogger.Warn(String)
+  fullName: Kount.Log.Binding.ILogger.Warn(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/Logger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Warn
+    path: Kount/Log/Binding/Logger.cs
+    startLine: 47
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nLog a warn level message\n"
+  example: []
+  syntax:
+    content: void Warn(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    content.vb: Sub Warn(message As String)
+  overload: Kount.Log.Binding.ILogger.Warn*
+- uid: Kount.Log.Binding.ILogger.Warn(System.String,Exception)
+  commentId: M:Kount.Log.Binding.ILogger.Warn(System.String,Exception)
+  id: Warn(System.String,Exception)
+  parent: Kount.Log.Binding.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Warn(String, Exception)
+  nameWithType: ILogger.Warn(String, Exception)
+  fullName: Kount.Log.Binding.ILogger.Warn(System.String, Exception)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/Logger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Warn
+    path: Kount/Log/Binding/Logger.cs
+    startLine: 54
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nLog a warn level message and an exception.\n"
+  example: []
+  syntax:
+    content: void Warn(string message, Exception e)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    - id: e
+      type: Exception
+      description: Exception to log
+    content.vb: Sub Warn(message As String, e As Exception)
+  overload: Kount.Log.Binding.ILogger.Warn*
+- uid: Kount.Log.Binding.ILogger.Error(System.String)
+  commentId: M:Kount.Log.Binding.ILogger.Error(System.String)
+  id: Error(System.String)
+  parent: Kount.Log.Binding.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Error(String)
+  nameWithType: ILogger.Error(String)
+  fullName: Kount.Log.Binding.ILogger.Error(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/Logger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Error
+    path: Kount/Log/Binding/Logger.cs
+    startLine: 60
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nLog an error level message\n"
+  example: []
+  syntax:
+    content: void Error(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    content.vb: Sub Error(message As String)
+  overload: Kount.Log.Binding.ILogger.Error*
+- uid: Kount.Log.Binding.ILogger.Error(System.String,Exception)
+  commentId: M:Kount.Log.Binding.ILogger.Error(System.String,Exception)
+  id: Error(System.String,Exception)
+  parent: Kount.Log.Binding.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Error(String, Exception)
+  nameWithType: ILogger.Error(String, Exception)
+  fullName: Kount.Log.Binding.ILogger.Error(System.String, Exception)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/Logger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Error
+    path: Kount/Log/Binding/Logger.cs
+    startLine: 67
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nLog an error level message and an exception.\n"
+  example: []
+  syntax:
+    content: void Error(string message, Exception e)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    - id: e
+      type: Exception
+      description: Exception to log
+    content.vb: Sub Error(message As String, e As Exception)
+  overload: Kount.Log.Binding.ILogger.Error*
+- uid: Kount.Log.Binding.ILogger.Fatal(System.String)
+  commentId: M:Kount.Log.Binding.ILogger.Fatal(System.String)
+  id: Fatal(System.String)
+  parent: Kount.Log.Binding.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Fatal(String)
+  nameWithType: ILogger.Fatal(String)
+  fullName: Kount.Log.Binding.ILogger.Fatal(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/Logger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Fatal
+    path: Kount/Log/Binding/Logger.cs
+    startLine: 73
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nLog a fatal level message\n"
+  example: []
+  syntax:
+    content: void Fatal(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    content.vb: Sub Fatal(message As String)
+  overload: Kount.Log.Binding.ILogger.Fatal*
+- uid: Kount.Log.Binding.ILogger.Fatal(System.String,Exception)
+  commentId: M:Kount.Log.Binding.ILogger.Fatal(System.String,Exception)
+  id: Fatal(System.String,Exception)
+  parent: Kount.Log.Binding.ILogger
+  langs:
+  - csharp
+  - vb
+  name: Fatal(String, Exception)
+  nameWithType: ILogger.Fatal(String, Exception)
+  fullName: Kount.Log.Binding.ILogger.Fatal(System.String, Exception)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/Logger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Fatal
+    path: Kount/Log/Binding/Logger.cs
+    startLine: 80
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nLog a fatal level message and an exception.\n"
+  example: []
+  syntax:
+    content: void Fatal(string message, Exception e)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    - id: e
+      type: Exception
+      description: Exception to log
+    content.vb: Sub Fatal(message As String, e As Exception)
+  overload: Kount.Log.Binding.ILogger.Fatal*
+- uid: Kount.Log.Binding.ILogger.MeasureElapsed
+  commentId: P:Kount.Log.Binding.ILogger.MeasureElapsed
+  id: MeasureElapsed
+  parent: Kount.Log.Binding.ILogger
+  langs:
+  - csharp
+  - vb
+  name: MeasureElapsed
+  nameWithType: ILogger.MeasureElapsed
+  fullName: Kount.Log.Binding.ILogger.MeasureElapsed
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Log/Binding/Logger.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: MeasureElapsed
+    path: Kount/Log/Binding/Logger.cs
+    startLine: 89
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Binding
+  summary: "\nConfigurable flag. In `app.config` set setting `LOG.SIMPLE.ELAPSED` to <strong>ON/OFF</strong><br />\nexample: \n<example>`<add key=\"LOG.SIMPLE.ELAPSED\" value=\"ON\"></add>`</example><br />\nWhen is `true` - measure overall client request time in milliseconds and logging result.<br />\nBy default is `false`(OFF)\n"
+  example: []
+  syntax:
+    content: bool MeasureElapsed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property MeasureElapsed As Boolean
+  overload: Kount.Log.Binding.ILogger.MeasureElapsed*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Kount.Log.Binding
+  commentId: N:Kount.Log.Binding
+  isExternal: false
+  name: Kount.Log.Binding
+  nameWithType: Kount.Log.Binding
+  fullName: Kount.Log.Binding
+- uid: Kount.Log.Binding.ILogger.Debug*
+  commentId: Overload:Kount.Log.Binding.ILogger.Debug
+  isExternal: false
+  name: Debug
+  nameWithType: ILogger.Debug
+  fullName: Kount.Log.Binding.ILogger.Debug
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception
+- uid: Kount.Log.Binding.ILogger.Info*
+  commentId: Overload:Kount.Log.Binding.ILogger.Info
+  isExternal: false
+  name: Info
+  nameWithType: ILogger.Info
+  fullName: Kount.Log.Binding.ILogger.Info
+- uid: Kount.Log.Binding.ILogger.Warn*
+  commentId: Overload:Kount.Log.Binding.ILogger.Warn
+  isExternal: false
+  name: Warn
+  nameWithType: ILogger.Warn
+  fullName: Kount.Log.Binding.ILogger.Warn
+- uid: Kount.Log.Binding.ILogger.Error*
+  commentId: Overload:Kount.Log.Binding.ILogger.Error
+  isExternal: false
+  name: Error
+  nameWithType: ILogger.Error
+  fullName: Kount.Log.Binding.ILogger.Error
+- uid: Kount.Log.Binding.ILogger.Fatal*
+  commentId: Overload:Kount.Log.Binding.ILogger.Fatal
+  isExternal: false
+  name: Fatal
+  nameWithType: ILogger.Fatal
+  fullName: Kount.Log.Binding.ILogger.Fatal
+- uid: Kount.Log.Binding.ILogger.MeasureElapsed*
+  commentId: Overload:Kount.Log.Binding.ILogger.MeasureElapsed
+  isExternal: false
+  name: MeasureElapsed
+  nameWithType: ILogger.MeasureElapsed
+  fullName: Kount.Log.Binding.ILogger.MeasureElapsed
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

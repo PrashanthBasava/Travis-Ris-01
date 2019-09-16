@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Ris.RequestException
+  commentId: T:Kount.Ris.RequestException
+  id: RequestException
+  parent: Kount.Ris
+  children:
+  - Kount.Ris.RequestException.#ctor(System.String)
+  - Kount.Ris.RequestException.#ctor(System.String,Exception)
+  - Kount.Ris.RequestException.ErrorMessage
+  langs:
+  - csharp
+  - vb
+  name: RequestException
+  nameWithType: RequestException
+  fullName: Kount.Ris.RequestException
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Ris/RequestException.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: RequestException
+    path: Kount/Ris/RequestException.cs
+    startLine: 15
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nRequest Exception.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2010 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public class RequestException : Exception'
+    content.vb: >-
+      Public Class RequestException
+          Inherits Exception
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Kount.Ris.RequestException.#ctor(System.String)
+  commentId: M:Kount.Ris.RequestException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Kount.Ris.RequestException
+  langs:
+  - csharp
+  - vb
+  name: RequestException(String)
+  nameWithType: RequestException.RequestException(String)
+  fullName: Kount.Ris.RequestException.RequestException(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/RequestException.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/RequestException.cs
+    startLine: 21
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nCreate an exception with an error message\n"
+  example: []
+  syntax:
+    content: public RequestException(string errorMessage)
+    parameters:
+    - id: errorMessage
+      type: System.String
+      description: Error message.
+    content.vb: Public Sub New(errorMessage As String)
+  overload: Kount.Ris.RequestException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.RequestException.#ctor(System.String,Exception)
+  commentId: M:Kount.Ris.RequestException.#ctor(System.String,Exception)
+  id: '#ctor(System.String,Exception)'
+  parent: Kount.Ris.RequestException
+  langs:
+  - csharp
+  - vb
+  name: RequestException(String, Exception)
+  nameWithType: RequestException.RequestException(String, Exception)
+  fullName: Kount.Ris.RequestException.RequestException(System.String, Exception)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/RequestException.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/RequestException.cs
+    startLine: 30
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nCreate an exception with a message and another exception\n"
+  example: []
+  syntax:
+    content: public RequestException(string errorMessage, Exception innerEx)
+    parameters:
+    - id: errorMessage
+      type: System.String
+      description: Error message.
+    - id: innerEx
+      type: Exception
+      description: Inner exception.
+    content.vb: Public Sub New(errorMessage As String, innerEx As Exception)
+  overload: Kount.Ris.RequestException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.RequestException.ErrorMessage
+  commentId: P:Kount.Ris.RequestException.ErrorMessage
+  id: ErrorMessage
+  parent: Kount.Ris.RequestException
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: RequestException.ErrorMessage
+  fullName: Kount.Ris.RequestException.ErrorMessage
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/RequestException.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ErrorMessage
+    path: Kount/Ris/RequestException.cs
+    startLine: 38
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGets the string of the error message.\n"
+  example: []
+  syntax:
+    content: public string ErrorMessage { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ErrorMessage As String
+  overload: Kount.Ris.RequestException.ErrorMessage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Kount.Ris
+  commentId: N:Kount.Ris
+  isExternal: false
+  name: Kount.Ris
+  nameWithType: Kount.Ris
+  fullName: Kount.Ris
+- uid: Kount.Ris.RequestException.#ctor*
+  commentId: Overload:Kount.Ris.RequestException.#ctor
+  isExternal: false
+  name: RequestException
+  nameWithType: RequestException.RequestException
+  fullName: Kount.Ris.RequestException.RequestException
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception
+- uid: Kount.Ris.RequestException.ErrorMessage*
+  commentId: Overload:Kount.Ris.RequestException.ErrorMessage
+  isExternal: false
+  name: ErrorMessage
+  nameWithType: RequestException.ErrorMessage
+  fullName: Kount.Ris.RequestException.ErrorMessage

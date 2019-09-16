@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Ris.IllegalArgumentException
+  commentId: T:Kount.Ris.IllegalArgumentException
+  id: IllegalArgumentException
+  parent: Kount.Ris
+  children:
+  - Kount.Ris.IllegalArgumentException.#ctor(System.String)
+  - Kount.Ris.IllegalArgumentException.#ctor(System.String,Exception)
+  - Kount.Ris.IllegalArgumentException.ErrorMessage
+  langs:
+  - csharp
+  - vb
+  name: IllegalArgumentException
+  nameWithType: IllegalArgumentException
+  fullName: Kount.Ris.IllegalArgumentException
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Ris/IllegalArgumentException.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: IllegalArgumentException
+    path: Kount/Ris/IllegalArgumentException.cs
+    startLine: 15
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nKount Ris Illegal argument exception.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2010 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public class IllegalArgumentException : Exception'
+    content.vb: >-
+      Public Class IllegalArgumentException
+          Inherits Exception
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Kount.Ris.IllegalArgumentException.#ctor(System.String)
+  commentId: M:Kount.Ris.IllegalArgumentException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Kount.Ris.IllegalArgumentException
+  langs:
+  - csharp
+  - vb
+  name: IllegalArgumentException(String)
+  nameWithType: IllegalArgumentException.IllegalArgumentException(String)
+  fullName: Kount.Ris.IllegalArgumentException.IllegalArgumentException(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/IllegalArgumentException.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/IllegalArgumentException.cs
+    startLine: 21
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nCreate the exception with an error message\n"
+  example: []
+  syntax:
+    content: public IllegalArgumentException(string errorMessage)
+    parameters:
+    - id: errorMessage
+      type: System.String
+      description: Error message.
+    content.vb: Public Sub New(errorMessage As String)
+  overload: Kount.Ris.IllegalArgumentException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.IllegalArgumentException.#ctor(System.String,Exception)
+  commentId: M:Kount.Ris.IllegalArgumentException.#ctor(System.String,Exception)
+  id: '#ctor(System.String,Exception)'
+  parent: Kount.Ris.IllegalArgumentException
+  langs:
+  - csharp
+  - vb
+  name: IllegalArgumentException(String, Exception)
+  nameWithType: IllegalArgumentException.IllegalArgumentException(String, Exception)
+  fullName: Kount.Ris.IllegalArgumentException.IllegalArgumentException(System.String, Exception)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/IllegalArgumentException.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/IllegalArgumentException.cs
+    startLine: 31
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nCreate the exception with an error message and another exception.\n"
+  example: []
+  syntax:
+    content: public IllegalArgumentException(string errorMessage, Exception innerEx)
+    parameters:
+    - id: errorMessage
+      type: System.String
+      description: Error message.
+    - id: innerEx
+      type: Exception
+      description: Inner exception.
+    content.vb: Public Sub New(errorMessage As String, innerEx As Exception)
+  overload: Kount.Ris.IllegalArgumentException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.IllegalArgumentException.ErrorMessage
+  commentId: P:Kount.Ris.IllegalArgumentException.ErrorMessage
+  id: ErrorMessage
+  parent: Kount.Ris.IllegalArgumentException
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: IllegalArgumentException.ErrorMessage
+  fullName: Kount.Ris.IllegalArgumentException.ErrorMessage
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/IllegalArgumentException.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ErrorMessage
+    path: Kount/Ris/IllegalArgumentException.cs
+    startLine: 39
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGets the error message.\n"
+  example: []
+  syntax:
+    content: public string ErrorMessage { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ErrorMessage As String
+  overload: Kount.Ris.IllegalArgumentException.ErrorMessage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Kount.Ris
+  commentId: N:Kount.Ris
+  isExternal: false
+  name: Kount.Ris
+  nameWithType: Kount.Ris
+  fullName: Kount.Ris
+- uid: Kount.Ris.IllegalArgumentException.#ctor*
+  commentId: Overload:Kount.Ris.IllegalArgumentException.#ctor
+  isExternal: false
+  name: IllegalArgumentException
+  nameWithType: IllegalArgumentException.IllegalArgumentException
+  fullName: Kount.Ris.IllegalArgumentException.IllegalArgumentException
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception
+- uid: Kount.Ris.IllegalArgumentException.ErrorMessage*
+  commentId: Overload:Kount.Ris.IllegalArgumentException.ErrorMessage
+  isExternal: false
+  name: ErrorMessage
+  nameWithType: IllegalArgumentException.ErrorMessage
+  fullName: Kount.Ris.IllegalArgumentException.ErrorMessage

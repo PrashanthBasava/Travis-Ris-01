@@ -1,0 +1,754 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.SimpleLogger.File
+  commentId: T:Kount.SimpleLogger.File
+  id: File
+  parent: Kount.SimpleLogger
+  children:
+  - Kount.SimpleLogger.File.#ctor(System.String)
+  - Kount.SimpleLogger.File.Debug(System.String)
+  - Kount.SimpleLogger.File.Debug(System.String,Exception)
+  - Kount.SimpleLogger.File.Error(System.String)
+  - Kount.SimpleLogger.File.Error(System.String,Exception)
+  - Kount.SimpleLogger.File.Fatal(System.String)
+  - Kount.SimpleLogger.File.Fatal(System.String,Exception)
+  - Kount.SimpleLogger.File.FormatMessage(System.String,System.String,Exception)
+  - Kount.SimpleLogger.File.Info(System.String)
+  - Kount.SimpleLogger.File.Info(System.String,Exception)
+  - Kount.SimpleLogger.File.IsLoggable(System.String)
+  - Kount.SimpleLogger.File.Log(System.String)
+  - Kount.SimpleLogger.File.ProcessMessage(System.String,System.String,Exception)
+  - Kount.SimpleLogger.File.SdkElapsed
+  - Kount.SimpleLogger.File.Warn(System.String)
+  - Kount.SimpleLogger.File.Warn(System.String,Exception)
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: File
+  fullName: Kount.SimpleLogger.File
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/SimpleLogger/File.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: File
+    path: Kount/SimpleLogger/File.cs
+    startLine: 18
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.SimpleLogger
+  summary: "\nA simple file logger.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2010 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public class File : object'
+    content.vb: >-
+      Public Class File
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Kount.SimpleLogger.File.SdkElapsed
+  commentId: P:Kount.SimpleLogger.File.SdkElapsed
+  id: SdkElapsed
+  parent: Kount.SimpleLogger.File
+  langs:
+  - csharp
+  - vb
+  name: SdkElapsed
+  nameWithType: File.SdkElapsed
+  fullName: Kount.SimpleLogger.File.SdkElapsed
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/SimpleLogger/File.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SdkElapsed
+    path: Kount/SimpleLogger/File.cs
+    startLine: 72
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.SimpleLogger
+  summary: "\nConfigurable property. In `app.config` set setting `LOG.SIMPLE.ELAPSED` to <strong>ON/OFF</strong><br />\nexample: \n<example>`<add key=\"LOG.SIMPLE.ELAPSED\" value=\"ON\"></add>`</example><br />\nIn case is not set is `OFF`.\n"
+  example: []
+  syntax:
+    content: public string SdkElapsed { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property SdkElapsed As String
+  overload: Kount.SimpleLogger.File.SdkElapsed*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Kount.SimpleLogger.File.#ctor(System.String)
+  commentId: M:Kount.SimpleLogger.File.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Kount.SimpleLogger.File
+  langs:
+  - csharp
+  - vb
+  name: File(String)
+  nameWithType: File.File(String)
+  fullName: Kount.SimpleLogger.File.File(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/SimpleLogger/File.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/SimpleLogger/File.cs
+    startLine: 78
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.SimpleLogger
+  summary: "\nConstructor for file logger.\n"
+  example: []
+  syntax:
+    content: public File(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of the logger
+    content.vb: Public Sub New(name As String)
+  overload: Kount.SimpleLogger.File.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.SimpleLogger.File.Debug(System.String)
+  commentId: M:Kount.SimpleLogger.File.Debug(System.String)
+  id: Debug(System.String)
+  parent: Kount.SimpleLogger.File
+  langs:
+  - csharp
+  - vb
+  name: Debug(String)
+  nameWithType: File.Debug(String)
+  fullName: Kount.SimpleLogger.File.Debug(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/SimpleLogger/File.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Debug
+    path: Kount/SimpleLogger/File.cs
+    startLine: 106
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.SimpleLogger
+  summary: "\nLog a debug level message.\n"
+  example: []
+  syntax:
+    content: public void Debug(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    content.vb: Public Sub Debug(message As String)
+  overload: Kount.SimpleLogger.File.Debug*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.SimpleLogger.File.Debug(System.String,Exception)
+  commentId: M:Kount.SimpleLogger.File.Debug(System.String,Exception)
+  id: Debug(System.String,Exception)
+  parent: Kount.SimpleLogger.File
+  langs:
+  - csharp
+  - vb
+  name: Debug(String, Exception)
+  nameWithType: File.Debug(String, Exception)
+  fullName: Kount.SimpleLogger.File.Debug(System.String, Exception)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/SimpleLogger/File.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Debug
+    path: Kount/SimpleLogger/File.cs
+    startLine: 116
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.SimpleLogger
+  summary: "\nLog a debug level message and exception.\n"
+  example: []
+  syntax:
+    content: public void Debug(string message, Exception e)
+    parameters:
+    - id: message
+      type: System.String
+      description: Mesage to log
+    - id: e
+      type: Exception
+      description: Exception to log
+    content.vb: Public Sub Debug(message As String, e As Exception)
+  overload: Kount.SimpleLogger.File.Debug*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.SimpleLogger.File.Info(System.String)
+  commentId: M:Kount.SimpleLogger.File.Info(System.String)
+  id: Info(System.String)
+  parent: Kount.SimpleLogger.File
+  langs:
+  - csharp
+  - vb
+  name: Info(String)
+  nameWithType: File.Info(String)
+  fullName: Kount.SimpleLogger.File.Info(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/SimpleLogger/File.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Info
+    path: Kount/SimpleLogger/File.cs
+    startLine: 125
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.SimpleLogger
+  summary: "\nLog an info level message.\n"
+  example: []
+  syntax:
+    content: public void Info(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    content.vb: Public Sub Info(message As String)
+  overload: Kount.SimpleLogger.File.Info*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.SimpleLogger.File.Info(System.String,Exception)
+  commentId: M:Kount.SimpleLogger.File.Info(System.String,Exception)
+  id: Info(System.String,Exception)
+  parent: Kount.SimpleLogger.File
+  langs:
+  - csharp
+  - vb
+  name: Info(String, Exception)
+  nameWithType: File.Info(String, Exception)
+  fullName: Kount.SimpleLogger.File.Info(System.String, Exception)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/SimpleLogger/File.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Info
+    path: Kount/SimpleLogger/File.cs
+    startLine: 135
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.SimpleLogger
+  summary: "\nLog an info level message and exception.\n"
+  example: []
+  syntax:
+    content: public void Info(string message, Exception e)
+    parameters:
+    - id: message
+      type: System.String
+      description: Mesage to log
+    - id: e
+      type: Exception
+      description: Exception to log
+    content.vb: Public Sub Info(message As String, e As Exception)
+  overload: Kount.SimpleLogger.File.Info*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.SimpleLogger.File.Warn(System.String)
+  commentId: M:Kount.SimpleLogger.File.Warn(System.String)
+  id: Warn(System.String)
+  parent: Kount.SimpleLogger.File
+  langs:
+  - csharp
+  - vb
+  name: Warn(String)
+  nameWithType: File.Warn(String)
+  fullName: Kount.SimpleLogger.File.Warn(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/SimpleLogger/File.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Warn
+    path: Kount/SimpleLogger/File.cs
+    startLine: 144
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.SimpleLogger
+  summary: "\nLog a warn level message.\n"
+  example: []
+  syntax:
+    content: public void Warn(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    content.vb: Public Sub Warn(message As String)
+  overload: Kount.SimpleLogger.File.Warn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.SimpleLogger.File.Warn(System.String,Exception)
+  commentId: M:Kount.SimpleLogger.File.Warn(System.String,Exception)
+  id: Warn(System.String,Exception)
+  parent: Kount.SimpleLogger.File
+  langs:
+  - csharp
+  - vb
+  name: Warn(String, Exception)
+  nameWithType: File.Warn(String, Exception)
+  fullName: Kount.SimpleLogger.File.Warn(System.String, Exception)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/SimpleLogger/File.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Warn
+    path: Kount/SimpleLogger/File.cs
+    startLine: 154
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.SimpleLogger
+  summary: "\nLog a warn level message and exception.\n"
+  example: []
+  syntax:
+    content: public void Warn(string message, Exception e)
+    parameters:
+    - id: message
+      type: System.String
+      description: Mesage to log
+    - id: e
+      type: Exception
+      description: Exception to log
+    content.vb: Public Sub Warn(message As String, e As Exception)
+  overload: Kount.SimpleLogger.File.Warn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.SimpleLogger.File.Error(System.String)
+  commentId: M:Kount.SimpleLogger.File.Error(System.String)
+  id: Error(System.String)
+  parent: Kount.SimpleLogger.File
+  langs:
+  - csharp
+  - vb
+  name: Error(String)
+  nameWithType: File.Error(String)
+  fullName: Kount.SimpleLogger.File.Error(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/SimpleLogger/File.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Error
+    path: Kount/SimpleLogger/File.cs
+    startLine: 163
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.SimpleLogger
+  summary: "\nLog an error level message.\n"
+  example: []
+  syntax:
+    content: public void Error(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    content.vb: Public Sub Error(message As String)
+  overload: Kount.SimpleLogger.File.Error*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.SimpleLogger.File.Error(System.String,Exception)
+  commentId: M:Kount.SimpleLogger.File.Error(System.String,Exception)
+  id: Error(System.String,Exception)
+  parent: Kount.SimpleLogger.File
+  langs:
+  - csharp
+  - vb
+  name: Error(String, Exception)
+  nameWithType: File.Error(String, Exception)
+  fullName: Kount.SimpleLogger.File.Error(System.String, Exception)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/SimpleLogger/File.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Error
+    path: Kount/SimpleLogger/File.cs
+    startLine: 173
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.SimpleLogger
+  summary: "\nLog an error level message and exception.\n"
+  example: []
+  syntax:
+    content: public void Error(string message, Exception e)
+    parameters:
+    - id: message
+      type: System.String
+      description: Mesage to log
+    - id: e
+      type: Exception
+      description: Exception to log
+    content.vb: Public Sub Error(message As String, e As Exception)
+  overload: Kount.SimpleLogger.File.Error*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.SimpleLogger.File.Fatal(System.String)
+  commentId: M:Kount.SimpleLogger.File.Fatal(System.String)
+  id: Fatal(System.String)
+  parent: Kount.SimpleLogger.File
+  langs:
+  - csharp
+  - vb
+  name: Fatal(String)
+  nameWithType: File.Fatal(String)
+  fullName: Kount.SimpleLogger.File.Fatal(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/SimpleLogger/File.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Fatal
+    path: Kount/SimpleLogger/File.cs
+    startLine: 182
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.SimpleLogger
+  summary: "\nLog a fatal level message.\n"
+  example: []
+  syntax:
+    content: public void Fatal(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    content.vb: Public Sub Fatal(message As String)
+  overload: Kount.SimpleLogger.File.Fatal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.SimpleLogger.File.Fatal(System.String,Exception)
+  commentId: M:Kount.SimpleLogger.File.Fatal(System.String,Exception)
+  id: Fatal(System.String,Exception)
+  parent: Kount.SimpleLogger.File
+  langs:
+  - csharp
+  - vb
+  name: Fatal(String, Exception)
+  nameWithType: File.Fatal(String, Exception)
+  fullName: Kount.SimpleLogger.File.Fatal(System.String, Exception)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/SimpleLogger/File.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Fatal
+    path: Kount/SimpleLogger/File.cs
+    startLine: 192
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.SimpleLogger
+  summary: "\nLog a fatal level message and exception.\n"
+  example: []
+  syntax:
+    content: public void Fatal(string message, Exception e)
+    parameters:
+    - id: message
+      type: System.String
+      description: Mesage to log
+    - id: e
+      type: Exception
+      description: Exception to log
+    content.vb: Public Sub Fatal(message As String, e As Exception)
+  overload: Kount.SimpleLogger.File.Fatal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.SimpleLogger.File.ProcessMessage(System.String,System.String,Exception)
+  commentId: M:Kount.SimpleLogger.File.ProcessMessage(System.String,System.String,Exception)
+  id: ProcessMessage(System.String,System.String,Exception)
+  parent: Kount.SimpleLogger.File
+  langs:
+  - csharp
+  - vb
+  name: ProcessMessage(String, String, Exception)
+  nameWithType: File.ProcessMessage(String, String, Exception)
+  fullName: Kount.SimpleLogger.File.ProcessMessage(System.String, System.String, Exception)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/SimpleLogger/File.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ProcessMessage
+    path: Kount/SimpleLogger/File.cs
+    startLine: 204
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.SimpleLogger
+  summary: "\nProcess a log message, by determining if it should be logged,\nformatting the message, and logging it.\n"
+  example: []
+  syntax:
+    content: protected void ProcessMessage(string message, string level, Exception e)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    - id: level
+      type: System.String
+      description: Logging level
+    - id: e
+      type: Exception
+      description: Exception to log
+    content.vb: Protected Sub ProcessMessage(message As String, level As String, e As Exception)
+  overload: Kount.SimpleLogger.File.ProcessMessage*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Kount.SimpleLogger.File.FormatMessage(System.String,System.String,Exception)
+  commentId: M:Kount.SimpleLogger.File.FormatMessage(System.String,System.String,Exception)
+  id: FormatMessage(System.String,System.String,Exception)
+  parent: Kount.SimpleLogger.File
+  langs:
+  - csharp
+  - vb
+  name: FormatMessage(String, String, Exception)
+  nameWithType: File.FormatMessage(String, String, Exception)
+  fullName: Kount.SimpleLogger.File.FormatMessage(System.String, System.String, Exception)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/SimpleLogger/File.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: FormatMessage
+    path: Kount/SimpleLogger/File.cs
+    startLine: 223
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.SimpleLogger
+  summary: "\nFormat a message so it can be logged\n"
+  example: []
+  syntax:
+    content: protected string FormatMessage(string message, string level, Exception e)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    - id: level
+      type: System.String
+      description: Logging level
+    - id: e
+      type: Exception
+      description: Exception to log
+    return:
+      type: System.String
+      description: Formatted message
+    content.vb: Protected Function FormatMessage(message As String, level As String, e As Exception) As String
+  overload: Kount.SimpleLogger.File.FormatMessage*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Kount.SimpleLogger.File.Log(System.String)
+  commentId: M:Kount.SimpleLogger.File.Log(System.String)
+  id: Log(System.String)
+  parent: Kount.SimpleLogger.File
+  langs:
+  - csharp
+  - vb
+  name: Log(String)
+  nameWithType: File.Log(String)
+  fullName: Kount.SimpleLogger.File.Log(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/SimpleLogger/File.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Log
+    path: Kount/SimpleLogger/File.cs
+    startLine: 247
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.SimpleLogger
+  summary: "\nLog a message.\n"
+  example: []
+  syntax:
+    content: protected void Log(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to log
+    content.vb: Protected Sub Log(message As String)
+  overload: Kount.SimpleLogger.File.Log*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Kount.SimpleLogger.File.IsLoggable(System.String)
+  commentId: M:Kount.SimpleLogger.File.IsLoggable(System.String)
+  id: IsLoggable(System.String)
+  parent: Kount.SimpleLogger.File
+  langs:
+  - csharp
+  - vb
+  name: IsLoggable(String)
+  nameWithType: File.IsLoggable(String)
+  fullName: Kount.SimpleLogger.File.IsLoggable(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/SimpleLogger/File.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: IsLoggable
+    path: Kount/SimpleLogger/File.cs
+    startLine: 266
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.SimpleLogger
+  summary: "\nDetermine if a message should be logged based on the logging\nlevel defined in the app configuration.\n"
+  example: []
+  syntax:
+    content: protected bool IsLoggable(string level)
+    parameters:
+    - id: level
+      type: System.String
+      description: Logging level of the message
+    return:
+      type: System.Boolean
+      description: True if the message should be logged, false otherwise
+    content.vb: Protected Function IsLoggable(level As String) As Boolean
+  overload: Kount.SimpleLogger.File.IsLoggable*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Kount.SimpleLogger
+  commentId: N:Kount.SimpleLogger
+  isExternal: false
+  name: Kount.SimpleLogger
+  nameWithType: Kount.SimpleLogger
+  fullName: Kount.SimpleLogger
+- uid: Kount.SimpleLogger.File.SdkElapsed*
+  commentId: Overload:Kount.SimpleLogger.File.SdkElapsed
+  isExternal: false
+  name: SdkElapsed
+  nameWithType: File.SdkElapsed
+  fullName: Kount.SimpleLogger.File.SdkElapsed
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Kount.SimpleLogger.File.#ctor*
+  commentId: Overload:Kount.SimpleLogger.File.#ctor
+  isExternal: false
+  name: File
+  nameWithType: File.File
+  fullName: Kount.SimpleLogger.File.File
+- uid: Kount.SimpleLogger.File.Debug*
+  commentId: Overload:Kount.SimpleLogger.File.Debug
+  isExternal: false
+  name: Debug
+  nameWithType: File.Debug
+  fullName: Kount.SimpleLogger.File.Debug
+- uid: Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception
+- uid: Kount.SimpleLogger.File.Info*
+  commentId: Overload:Kount.SimpleLogger.File.Info
+  isExternal: false
+  name: Info
+  nameWithType: File.Info
+  fullName: Kount.SimpleLogger.File.Info
+- uid: Kount.SimpleLogger.File.Warn*
+  commentId: Overload:Kount.SimpleLogger.File.Warn
+  isExternal: false
+  name: Warn
+  nameWithType: File.Warn
+  fullName: Kount.SimpleLogger.File.Warn
+- uid: Kount.SimpleLogger.File.Error*
+  commentId: Overload:Kount.SimpleLogger.File.Error
+  isExternal: false
+  name: Error
+  nameWithType: File.Error
+  fullName: Kount.SimpleLogger.File.Error
+- uid: Kount.SimpleLogger.File.Fatal*
+  commentId: Overload:Kount.SimpleLogger.File.Fatal
+  isExternal: false
+  name: Fatal
+  nameWithType: File.Fatal
+  fullName: Kount.SimpleLogger.File.Fatal
+- uid: Kount.SimpleLogger.File.ProcessMessage*
+  commentId: Overload:Kount.SimpleLogger.File.ProcessMessage
+  isExternal: false
+  name: ProcessMessage
+  nameWithType: File.ProcessMessage
+  fullName: Kount.SimpleLogger.File.ProcessMessage
+- uid: Kount.SimpleLogger.File.FormatMessage*
+  commentId: Overload:Kount.SimpleLogger.File.FormatMessage
+  isExternal: false
+  name: FormatMessage
+  nameWithType: File.FormatMessage
+  fullName: Kount.SimpleLogger.File.FormatMessage
+- uid: Kount.SimpleLogger.File.Log*
+  commentId: Overload:Kount.SimpleLogger.File.Log
+  isExternal: false
+  name: Log
+  nameWithType: File.Log
+  fullName: Kount.SimpleLogger.File.Log
+- uid: Kount.SimpleLogger.File.IsLoggable*
+  commentId: Overload:Kount.SimpleLogger.File.IsLoggable
+  isExternal: false
+  name: IsLoggable
+  nameWithType: File.IsLoggable
+  fullName: Kount.SimpleLogger.File.IsLoggable
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

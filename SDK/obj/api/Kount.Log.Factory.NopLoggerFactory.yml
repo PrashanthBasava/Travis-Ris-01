@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Log.Factory.NopLoggerFactory
+  commentId: T:Kount.Log.Factory.NopLoggerFactory
+  id: NopLoggerFactory
+  parent: Kount.Log.Factory
+  children:
+  - Kount.Log.Factory.NopLoggerFactory.GetLogger(System.String)
+  langs:
+  - csharp
+  - vb
+  name: NopLoggerFactory
+  nameWithType: NopLoggerFactory
+  fullName: Kount.Log.Factory.NopLoggerFactory
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Log/Factory/NopLoggerFactory.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: NopLoggerFactory
+    path: Kount/Log/Factory/NopLoggerFactory.cs
+    startLine: 15
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Factory
+  summary: "\nA NOP logger binding class.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2010 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public class NopLoggerFactory : object, ILoggerFactory'
+    content.vb: >-
+      Public Class NopLoggerFactory
+          Inherits Object
+          Implements ILoggerFactory
+  inheritance:
+  - System.Object
+  implements:
+  - Kount.Log.Factory.ILoggerFactory
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Kount.Log.Factory.NopLoggerFactory.GetLogger(System.String)
+  commentId: M:Kount.Log.Factory.NopLoggerFactory.GetLogger(System.String)
+  id: GetLogger(System.String)
+  parent: Kount.Log.Factory.NopLoggerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetLogger(String)
+  nameWithType: NopLoggerFactory.GetLogger(String)
+  fullName: Kount.Log.Factory.NopLoggerFactory.GetLogger(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Factory/NopLoggerFactory.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetLogger
+    path: Kount/Log/Factory/NopLoggerFactory.cs
+    startLine: 22
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Factory
+  summary: "\nGet a NOP logger binding.\n"
+  example: []
+  syntax:
+    content: public ILogger GetLogger(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of the logger
+    return:
+      type: Kount.Log.Binding.ILogger
+      description: A Kount.Log.Binding.NopLogger
+    content.vb: Public Function GetLogger(name As String) As ILogger
+  overload: Kount.Log.Factory.NopLoggerFactory.GetLogger*
+  implements:
+  - Kount.Log.Factory.ILoggerFactory.GetLogger(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Kount.Log.Factory
+  commentId: N:Kount.Log.Factory
+  isExternal: false
+  name: Kount.Log.Factory
+  nameWithType: Kount.Log.Factory
+  fullName: Kount.Log.Factory
+- uid: Kount.Log.Factory.ILoggerFactory
+  commentId: T:Kount.Log.Factory.ILoggerFactory
+  parent: Kount.Log.Factory
+  isExternal: false
+  name: ILoggerFactory
+  nameWithType: ILoggerFactory
+  fullName: Kount.Log.Factory.ILoggerFactory
+- uid: Kount.Log.Factory.NopLoggerFactory.GetLogger*
+  commentId: Overload:Kount.Log.Factory.NopLoggerFactory.GetLogger
+  isExternal: false
+  name: GetLogger
+  nameWithType: NopLoggerFactory.GetLogger
+  fullName: Kount.Log.Factory.NopLoggerFactory.GetLogger
+- uid: Kount.Log.Factory.ILoggerFactory.GetLogger(System.String)
+  commentId: M:Kount.Log.Factory.ILoggerFactory.GetLogger(System.String)
+  parent: Kount.Log.Factory.ILoggerFactory
+  isExternal: true
+  name: GetLogger(String)
+  nameWithType: ILoggerFactory.GetLogger(String)
+  fullName: Kount.Log.Factory.ILoggerFactory.GetLogger(System.String)
+  spec.csharp:
+  - uid: Kount.Log.Factory.ILoggerFactory.GetLogger(System.String)
+    name: GetLogger
+    nameWithType: ILoggerFactory.GetLogger
+    fullName: Kount.Log.Factory.ILoggerFactory.GetLogger
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Log.Factory.ILoggerFactory.GetLogger(System.String)
+    name: GetLogger
+    nameWithType: ILoggerFactory.GetLogger
+    fullName: Kount.Log.Factory.ILoggerFactory.GetLogger
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Kount.Log.Binding.ILogger
+  commentId: T:Kount.Log.Binding.ILogger
+  parent: Kount.Log.Binding
+  isExternal: false
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Kount.Log.Binding.ILogger
+- uid: Kount.Log.Binding
+  commentId: N:Kount.Log.Binding
+  isExternal: false
+  name: Kount.Log.Binding
+  nameWithType: Kount.Log.Binding
+  fullName: Kount.Log.Binding

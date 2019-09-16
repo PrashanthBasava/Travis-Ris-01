@@ -1,0 +1,455 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Ris.Configuration
+  commentId: T:Kount.Ris.Configuration
+  id: Configuration
+  parent: Kount.Ris
+  children:
+  - Kount.Ris.Configuration.ApiKey
+  - Kount.Ris.Configuration.CertificateFile
+  - Kount.Ris.Configuration.ConfigKey
+  - Kount.Ris.Configuration.ConnectTimeout
+  - Kount.Ris.Configuration.FromAppSettings
+  - Kount.Ris.Configuration.MerchantId
+  - Kount.Ris.Configuration.PrivateKeyPassword
+  - Kount.Ris.Configuration.URL
+  - Kount.Ris.Configuration.Version
+  langs:
+  - csharp
+  - vb
+  name: Configuration
+  nameWithType: Configuration
+  fullName: Kount.Ris.Configuration
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Ris/Configuration.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Configuration
+    path: Kount/Ris/Configuration.cs
+    startLine: 7
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nContaining configuration values\n"
+  example: []
+  syntax:
+    content: 'public class Configuration : object'
+    content.vb: >-
+      Public Class Configuration
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Kount.Ris.Configuration.FromAppSettings
+  commentId: M:Kount.Ris.Configuration.FromAppSettings
+  id: FromAppSettings
+  parent: Kount.Ris.Configuration
+  langs:
+  - csharp
+  - vb
+  name: FromAppSettings()
+  nameWithType: Configuration.FromAppSettings()
+  fullName: Kount.Ris.Configuration.FromAppSettings()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Configuration.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: FromAppSettings
+    path: Kount/Ris/Configuration.cs
+    startLine: 13
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGets configuration values from app settings.\n"
+  example: []
+  syntax:
+    content: public static Configuration FromAppSettings()
+    return:
+      type: Kount.Ris.Configuration
+      description: Configuration class with raw values.
+    content.vb: Public Shared Function FromAppSettings As Configuration
+  overload: Kount.Ris.Configuration.FromAppSettings*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Kount.Ris.Configuration.MerchantId
+  commentId: P:Kount.Ris.Configuration.MerchantId
+  id: MerchantId
+  parent: Kount.Ris.Configuration
+  langs:
+  - csharp
+  - vb
+  name: MerchantId
+  nameWithType: Configuration.MerchantId
+  fullName: Kount.Ris.Configuration.MerchantId
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/Configuration.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: MerchantId
+    path: Kount/Ris/Configuration.cs
+    startLine: 31
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSix digit identifier issued by Kount.\n"
+  example: []
+  syntax:
+    content: public string MerchantId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MerchantId As String
+  overload: Kount.Ris.Configuration.MerchantId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Configuration.URL
+  commentId: P:Kount.Ris.Configuration.URL
+  id: URL
+  parent: Kount.Ris.Configuration
+  langs:
+  - csharp
+  - vb
+  name: URL
+  nameWithType: Configuration.URL
+  fullName: Kount.Ris.Configuration.URL
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/Configuration.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: URL
+    path: Kount/Ris/Configuration.cs
+    startLine: 36
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nHTTPS URL path to the company's servers provided in boarding documentation from Kount.\n"
+  example: []
+  syntax:
+    content: public string URL { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property URL As String
+  overload: Kount.Ris.Configuration.URL*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Configuration.ConfigKey
+  commentId: P:Kount.Ris.Configuration.ConfigKey
+  id: ConfigKey
+  parent: Kount.Ris.Configuration
+  langs:
+  - csharp
+  - vb
+  name: ConfigKey
+  nameWithType: Configuration.ConfigKey
+  fullName: Kount.Ris.Configuration.ConfigKey
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/Configuration.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ConfigKey
+    path: Kount/Ris/Configuration.cs
+    startLine: 41
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nConfig Key used in hashing method.\n"
+  example: []
+  syntax:
+    content: public string ConfigKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConfigKey As String
+  overload: Kount.Ris.Configuration.ConfigKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Configuration.ConnectTimeout
+  commentId: P:Kount.Ris.Configuration.ConnectTimeout
+  id: ConnectTimeout
+  parent: Kount.Ris.Configuration
+  langs:
+  - csharp
+  - vb
+  name: ConnectTimeout
+  nameWithType: Configuration.ConnectTimeout
+  fullName: Kount.Ris.Configuration.ConnectTimeout
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/Configuration.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ConnectTimeout
+    path: Kount/Ris/Configuration.cs
+    startLine: 46
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nRIS connect timeout value measured in milliseconds.\n"
+  example: []
+  syntax:
+    content: public string ConnectTimeout { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConnectTimeout As String
+  overload: Kount.Ris.Configuration.ConnectTimeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Configuration.Version
+  commentId: P:Kount.Ris.Configuration.Version
+  id: Version
+  parent: Kount.Ris.Configuration
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: Configuration.Version
+  fullName: Kount.Ris.Configuration.Version
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/Configuration.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Version
+    path: Kount/Ris/Configuration.cs
+    startLine: 51
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nRIS version\n"
+  example: []
+  syntax:
+    content: public string Version { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Version As String
+  overload: Kount.Ris.Configuration.Version*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Configuration.ApiKey
+  commentId: P:Kount.Ris.Configuration.ApiKey
+  id: ApiKey
+  parent: Kount.Ris.Configuration
+  langs:
+  - csharp
+  - vb
+  name: ApiKey
+  nameWithType: Configuration.ApiKey
+  fullName: Kount.Ris.Configuration.ApiKey
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/Configuration.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ApiKey
+    path: Kount/Ris/Configuration.cs
+    startLine: 56
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nAPI Key value from API Key page within Agent Web Console.\n"
+  example: []
+  syntax:
+    content: public string ApiKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ApiKey As String
+  overload: Kount.Ris.Configuration.ApiKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Configuration.CertificateFile
+  commentId: P:Kount.Ris.Configuration.CertificateFile
+  id: CertificateFile
+  parent: Kount.Ris.Configuration
+  langs:
+  - csharp
+  - vb
+  name: CertificateFile
+  nameWithType: Configuration.CertificateFile
+  fullName: Kount.Ris.Configuration.CertificateFile
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/Configuration.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: CertificateFile
+    path: Kount/Ris/Configuration.cs
+    startLine: 61
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nFull path of the certificate pk12 or pfx file.\n"
+  example: []
+  syntax:
+    content: public string CertificateFile { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CertificateFile As String
+  overload: Kount.Ris.Configuration.CertificateFile*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Configuration.PrivateKeyPassword
+  commentId: P:Kount.Ris.Configuration.PrivateKeyPassword
+  id: PrivateKeyPassword
+  parent: Kount.Ris.Configuration
+  langs:
+  - csharp
+  - vb
+  name: PrivateKeyPassword
+  nameWithType: Configuration.PrivateKeyPassword
+  fullName: Kount.Ris.Configuration.PrivateKeyPassword
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/Configuration.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: PrivateKeyPassword
+    path: Kount/Ris/Configuration.cs
+    startLine: 66
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nPassword used to export the certificate\n"
+  example: []
+  syntax:
+    content: public string PrivateKeyPassword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PrivateKeyPassword As String
+  overload: Kount.Ris.Configuration.PrivateKeyPassword*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Kount.Ris
+  commentId: N:Kount.Ris
+  isExternal: false
+  name: Kount.Ris
+  nameWithType: Kount.Ris
+  fullName: Kount.Ris
+- uid: Kount.Ris.Configuration.FromAppSettings*
+  commentId: Overload:Kount.Ris.Configuration.FromAppSettings
+  isExternal: false
+  name: FromAppSettings
+  nameWithType: Configuration.FromAppSettings
+  fullName: Kount.Ris.Configuration.FromAppSettings
+- uid: Kount.Ris.Configuration
+  commentId: T:Kount.Ris.Configuration
+  parent: Kount.Ris
+  isExternal: false
+  name: Configuration
+  nameWithType: Configuration
+  fullName: Kount.Ris.Configuration
+- uid: Kount.Ris.Configuration.MerchantId*
+  commentId: Overload:Kount.Ris.Configuration.MerchantId
+  isExternal: false
+  name: MerchantId
+  nameWithType: Configuration.MerchantId
+  fullName: Kount.Ris.Configuration.MerchantId
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Kount.Ris.Configuration.URL*
+  commentId: Overload:Kount.Ris.Configuration.URL
+  isExternal: false
+  name: URL
+  nameWithType: Configuration.URL
+  fullName: Kount.Ris.Configuration.URL
+- uid: Kount.Ris.Configuration.ConfigKey*
+  commentId: Overload:Kount.Ris.Configuration.ConfigKey
+  isExternal: false
+  name: ConfigKey
+  nameWithType: Configuration.ConfigKey
+  fullName: Kount.Ris.Configuration.ConfigKey
+- uid: Kount.Ris.Configuration.ConnectTimeout*
+  commentId: Overload:Kount.Ris.Configuration.ConnectTimeout
+  isExternal: false
+  name: ConnectTimeout
+  nameWithType: Configuration.ConnectTimeout
+  fullName: Kount.Ris.Configuration.ConnectTimeout
+- uid: Kount.Ris.Configuration.Version*
+  commentId: Overload:Kount.Ris.Configuration.Version
+  isExternal: false
+  name: Version
+  nameWithType: Configuration.Version
+  fullName: Kount.Ris.Configuration.Version
+- uid: Kount.Ris.Configuration.ApiKey*
+  commentId: Overload:Kount.Ris.Configuration.ApiKey
+  isExternal: false
+  name: ApiKey
+  nameWithType: Configuration.ApiKey
+  fullName: Kount.Ris.Configuration.ApiKey
+- uid: Kount.Ris.Configuration.CertificateFile*
+  commentId: Overload:Kount.Ris.Configuration.CertificateFile
+  isExternal: false
+  name: CertificateFile
+  nameWithType: Configuration.CertificateFile
+  fullName: Kount.Ris.Configuration.CertificateFile
+- uid: Kount.Ris.Configuration.PrivateKeyPassword*
+  commentId: Overload:Kount.Ris.Configuration.PrivateKeyPassword
+  isExternal: false
+  name: PrivateKeyPassword
+  nameWithType: Configuration.PrivateKeyPassword
+  fullName: Kount.Ris.Configuration.PrivateKeyPassword

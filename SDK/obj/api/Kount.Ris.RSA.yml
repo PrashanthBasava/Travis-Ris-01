@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Ris.RSA
+  commentId: T:Kount.Ris.RSA
+  id: RSA
+  parent: Kount.Ris
+  children:
+  - Kount.Ris.RSA.Encrypt(System.String)
+  langs:
+  - csharp
+  - vb
+  name: RSA
+  nameWithType: RSA
+  fullName: Kount.Ris.RSA
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Ris/RSA.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: RSA
+    path: Kount/Ris/RSA.cs
+    startLine: 18
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nRSA Utility class for encrypting PANs <br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2010 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public class RSA : object'
+    content.vb: >-
+      Public Class RSA
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Kount.Ris.RSA.Encrypt(System.String)
+  commentId: M:Kount.Ris.RSA.Encrypt(System.String)
+  id: Encrypt(System.String)
+  parent: Kount.Ris.RSA
+  langs:
+  - csharp
+  - vb
+  name: Encrypt(String)
+  nameWithType: RSA.Encrypt(String)
+  fullName: Kount.Ris.RSA.Encrypt(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/RSA.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Encrypt
+    path: Kount/Ris/RSA.cs
+    startLine: 25
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nEncrypt a token with an RSA public key\n"
+  example: []
+  syntax:
+    content: public string Encrypt(string plainText)
+    parameters:
+    - id: plainText
+      type: System.String
+      description: Plaintext string
+    return:
+      type: System.String
+      description: Encrypted string
+    content.vb: Public Function Encrypt(plainText As String) As String
+  overload: Kount.Ris.RSA.Encrypt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Kount.Ris
+  commentId: N:Kount.Ris
+  isExternal: false
+  name: Kount.Ris
+  nameWithType: Kount.Ris
+  fullName: Kount.Ris
+- uid: Kount.Ris.RSA.Encrypt*
+  commentId: Overload:Kount.Ris.RSA.Encrypt
+  isExternal: false
+  name: Encrypt
+  nameWithType: RSA.Encrypt
+  fullName: Kount.Ris.RSA.Encrypt
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

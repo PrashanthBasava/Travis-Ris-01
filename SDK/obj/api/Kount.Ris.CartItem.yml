@@ -1,0 +1,332 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Ris.CartItem
+  commentId: T:Kount.Ris.CartItem
+  id: CartItem
+  parent: Kount.Ris
+  children:
+  - Kount.Ris.CartItem.#ctor(System.String,System.String,System.String,System.Int64,System.Int64)
+  - Kount.Ris.CartItem.ProductDescription
+  - Kount.Ris.CartItem.ProductItem
+  - Kount.Ris.CartItem.ProductPrice
+  - Kount.Ris.CartItem.ProductQuantity
+  - Kount.Ris.CartItem.ProductType
+  langs:
+  - csharp
+  - vb
+  name: CartItem
+  nameWithType: CartItem
+  fullName: Kount.Ris.CartItem
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Ris/CartItem.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: CartItem
+    path: Kount/Ris/CartItem.cs
+    startLine: 13
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nShopping cart item data object.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2010 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public class CartItem : object'
+    content.vb: >-
+      Public Class CartItem
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Kount.Ris.CartItem.#ctor(System.String,System.String,System.String,System.Int64,System.Int64)
+  commentId: M:Kount.Ris.CartItem.#ctor(System.String,System.String,System.String,System.Int64,System.Int64)
+  id: '#ctor(System.String,System.String,System.String,System.Int64,System.Int64)'
+  parent: Kount.Ris.CartItem
+  langs:
+  - csharp
+  - vb
+  name: CartItem(String, String, String, Int64, Int64)
+  nameWithType: CartItem.CartItem(String, String, String, Int64, Int64)
+  fullName: Kount.Ris.CartItem.CartItem(System.String, System.String, System.String, System.Int64, System.Int64)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/CartItem.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/CartItem.cs
+    startLine: 48
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nCart item constructor\n"
+  example: []
+  syntax:
+    content: public CartItem(string productType, string productItem, string productDescription, long productQuantity, long productPrice)
+    parameters:
+    - id: productType
+      type: System.String
+      description: Product type as a 1 -255 char string
+    - id: productItem
+      type: System.String
+      description: Product item as a 1 - 255 char string
+    - id: productDescription
+      type: System.String
+      description: Product description as a 0 - 255 char string
+    - id: productQuantity
+      type: System.Int64
+      description: Product quantity
+    - id: productPrice
+      type: System.Int64
+      description: Product price
+    content.vb: Public Sub New(productType As String, productItem As String, productDescription As String, productQuantity As Long, productPrice As Long)
+  overload: Kount.Ris.CartItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.CartItem.ProductType
+  commentId: P:Kount.Ris.CartItem.ProductType
+  id: ProductType
+  parent: Kount.Ris.CartItem
+  langs:
+  - csharp
+  - vb
+  name: ProductType
+  nameWithType: CartItem.ProductType
+  fullName: Kount.Ris.CartItem.ProductType
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/CartItem.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ProductType
+    path: Kount/Ris/CartItem.cs
+    startLine: 65
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGets or sets product type\n"
+  example: []
+  syntax:
+    content: public string ProductType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProductType As String
+  overload: Kount.Ris.CartItem.ProductType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.CartItem.ProductItem
+  commentId: P:Kount.Ris.CartItem.ProductItem
+  id: ProductItem
+  parent: Kount.Ris.CartItem
+  langs:
+  - csharp
+  - vb
+  name: ProductItem
+  nameWithType: CartItem.ProductItem
+  fullName: Kount.Ris.CartItem.ProductItem
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/CartItem.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ProductItem
+    path: Kount/Ris/CartItem.cs
+    startLine: 74
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGets or sets the product item\n"
+  example: []
+  syntax:
+    content: public string ProductItem { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProductItem As String
+  overload: Kount.Ris.CartItem.ProductItem*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.CartItem.ProductDescription
+  commentId: P:Kount.Ris.CartItem.ProductDescription
+  id: ProductDescription
+  parent: Kount.Ris.CartItem
+  langs:
+  - csharp
+  - vb
+  name: ProductDescription
+  nameWithType: CartItem.ProductDescription
+  fullName: Kount.Ris.CartItem.ProductDescription
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/CartItem.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ProductDescription
+    path: Kount/Ris/CartItem.cs
+    startLine: 83
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGets or sets the product description\n"
+  example: []
+  syntax:
+    content: public string ProductDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProductDescription As String
+  overload: Kount.Ris.CartItem.ProductDescription*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.CartItem.ProductQuantity
+  commentId: P:Kount.Ris.CartItem.ProductQuantity
+  id: ProductQuantity
+  parent: Kount.Ris.CartItem
+  langs:
+  - csharp
+  - vb
+  name: ProductQuantity
+  nameWithType: CartItem.ProductQuantity
+  fullName: Kount.Ris.CartItem.ProductQuantity
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/CartItem.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ProductQuantity
+    path: Kount/Ris/CartItem.cs
+    startLine: 92
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGets or sets the product quantity\n"
+  example: []
+  syntax:
+    content: public long ProductQuantity { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ProductQuantity As Long
+  overload: Kount.Ris.CartItem.ProductQuantity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.CartItem.ProductPrice
+  commentId: P:Kount.Ris.CartItem.ProductPrice
+  id: ProductPrice
+  parent: Kount.Ris.CartItem
+  langs:
+  - csharp
+  - vb
+  name: ProductPrice
+  nameWithType: CartItem.ProductPrice
+  fullName: Kount.Ris.CartItem.ProductPrice
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/CartItem.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ProductPrice
+    path: Kount/Ris/CartItem.cs
+    startLine: 101
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGets or sets the product price\n"
+  example: []
+  syntax:
+    content: public long ProductPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ProductPrice As Long
+  overload: Kount.Ris.CartItem.ProductPrice*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Kount.Ris
+  commentId: N:Kount.Ris
+  isExternal: false
+  name: Kount.Ris
+  nameWithType: Kount.Ris
+  fullName: Kount.Ris
+- uid: Kount.Ris.CartItem.#ctor*
+  commentId: Overload:Kount.Ris.CartItem.#ctor
+  isExternal: false
+  name: CartItem
+  nameWithType: CartItem.CartItem
+  fullName: Kount.Ris.CartItem.CartItem
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Kount.Ris.CartItem.ProductType*
+  commentId: Overload:Kount.Ris.CartItem.ProductType
+  isExternal: false
+  name: ProductType
+  nameWithType: CartItem.ProductType
+  fullName: Kount.Ris.CartItem.ProductType
+- uid: Kount.Ris.CartItem.ProductItem*
+  commentId: Overload:Kount.Ris.CartItem.ProductItem
+  isExternal: false
+  name: ProductItem
+  nameWithType: CartItem.ProductItem
+  fullName: Kount.Ris.CartItem.ProductItem
+- uid: Kount.Ris.CartItem.ProductDescription*
+  commentId: Overload:Kount.Ris.CartItem.ProductDescription
+  isExternal: false
+  name: ProductDescription
+  nameWithType: CartItem.ProductDescription
+  fullName: Kount.Ris.CartItem.ProductDescription
+- uid: Kount.Ris.CartItem.ProductQuantity*
+  commentId: Overload:Kount.Ris.CartItem.ProductQuantity
+  isExternal: false
+  name: ProductQuantity
+  nameWithType: CartItem.ProductQuantity
+  fullName: Kount.Ris.CartItem.ProductQuantity
+- uid: Kount.Ris.CartItem.ProductPrice*
+  commentId: Overload:Kount.Ris.CartItem.ProductPrice
+  isExternal: false
+  name: ProductPrice
+  nameWithType: CartItem.ProductPrice
+  fullName: Kount.Ris.CartItem.ProductPrice

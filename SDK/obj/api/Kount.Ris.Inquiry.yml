@@ -1,0 +1,2775 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Ris.Inquiry
+  commentId: T:Kount.Ris.Inquiry
+  id: Inquiry
+  parent: Kount.Ris
+  children:
+  - Kount.Ris.Inquiry.#ctor
+  - Kount.Ris.Inquiry.#ctor(System.Boolean)
+  - Kount.Ris.Inquiry.#ctor(System.Boolean,Kount.Ris.Configuration)
+  - Kount.Ris.Inquiry.SetAnid(System.String)
+  - Kount.Ris.Inquiry.SetBillingAddress(System.String,System.String,System.String,System.String,System.String,System.String)
+  - Kount.Ris.Inquiry.SetBillingAddress(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  - Kount.Ris.Inquiry.SetBillingPhoneNumber(System.String)
+  - Kount.Ris.Inquiry.SetCart(System.Collections.ArrayList)
+  - Kount.Ris.Inquiry.SetCash(System.Int32)
+  - Kount.Ris.Inquiry.SetCurrency(System.String)
+  - Kount.Ris.Inquiry.SetDateOfBirth(System.String)
+  - Kount.Ris.Inquiry.SetEmail(System.String)
+  - Kount.Ris.Inquiry.SetEpoch(System.Int64)
+  - Kount.Ris.Inquiry.SetGender(System.Char)
+  - Kount.Ris.Inquiry.SetIpAddress(System.String)
+  - Kount.Ris.Inquiry.SetMode(System.Char)
+  - Kount.Ris.Inquiry.SetName(System.String)
+  - Kount.Ris.Inquiry.SetSdkVersion(System.String)
+  - Kount.Ris.Inquiry.SetShippingAddress(System.String,System.String,System.String,System.String,System.String,System.String)
+  - Kount.Ris.Inquiry.SetShippingAddress(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  - Kount.Ris.Inquiry.SetShippingEmail(System.String)
+  - Kount.Ris.Inquiry.SetShippingName(System.String)
+  - Kount.Ris.Inquiry.SetShippingPhoneNumber(System.String)
+  - Kount.Ris.Inquiry.SetShipType(System.String)
+  - Kount.Ris.Inquiry.SetTotal(System.Int32)
+  - Kount.Ris.Inquiry.SetUnique(System.String)
+  - Kount.Ris.Inquiry.SetUserAgent(System.String)
+  - Kount.Ris.Inquiry.SetUserDefinedField(System.String,System.String)
+  - Kount.Ris.Inquiry.SetWebsite(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Inquiry
+  nameWithType: Inquiry
+  fullName: Kount.Ris.Inquiry
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Inquiry
+    path: Kount/Ris/Inquiry.cs
+    startLine: 15
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nInquiry class. A bunch of setters for sending initial transaction\ndata to a Kount RIS server.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2010 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public class Inquiry : Request'
+    content.vb: >-
+      Public Class Inquiry
+          Inherits Request
+  inheritance:
+  - System.Object
+  - Kount.Ris.Request
+  inheritedMembers:
+  - Kount.Ris.Request.Data
+  - Kount.Ris.Request.GetResponse(System.Boolean)
+  - Kount.Ris.Request.SetParameter(System.String,System.String)
+  - Kount.Ris.Request.SetMode(Kount.Enums.InquiryTypes)
+  - Kount.Ris.Request.SetMode(Kount.Enums.UpdateTypes)
+  - Kount.Ris.Request.SetMerchantId(System.Int32)
+  - Kount.Ris.Request.SetKountCentralCustomerId(System.String)
+  - Kount.Ris.Request.SetSessionId(System.String)
+  - Kount.Ris.Request.SetOrderNumber(System.String)
+  - Kount.Ris.Request.SetMack(System.Char)
+  - Kount.Ris.Request.SetAuth(System.Char)
+  - Kount.Ris.Request.SetAvsz(System.Char)
+  - Kount.Ris.Request.SetAvst(System.Char)
+  - Kount.Ris.Request.SetCvvr(System.Char)
+  - Kount.Ris.Request.SetCardPaymentMasked(System.String)
+  - Kount.Ris.Request.SetNoPayment
+  - Kount.Ris.Request.SetPayment(System.String,System.String)
+  - Kount.Ris.Request.SetPayment(Kount.Enums.PaymentTypes,System.String)
+  - Kount.Ris.Request.SetGreenDotMoneyPakPayment(System.String)
+  - Kount.Ris.Request.GetParam(System.String)
+  - Kount.Ris.Request.GetUrl
+  - Kount.Ris.Request.SetUrl(System.String)
+  - Kount.Ris.Request.SetCertificate(System.String,System.String)
+  - Kount.Ris.Request.SetApiKey(System.String)
+  - Kount.Ris.Request.GetCertificateFile
+  - Kount.Ris.Request.GetPrivateKeyPassword
+  - Kount.Ris.Request.SetKhashPaymentEncoding
+  - Kount.Ris.Request.SetKhashPaymentEncoding(System.Boolean)
+  - Kount.Ris.Request.SetPaymentTokenLast4(System.String)
+  - Kount.Ris.Request.SetVersion(System.String)
+  - Kount.Ris.Request.IsSetKhashPaymentEncoding
+  - Kount.Ris.Request.SetPaymentToken(System.String)
+  - Kount.Ris.Request.CheckConfigurationParameter(System.String,System.String)
+  - Kount.Ris.Request.SafeGet(System.String)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Kount.Ris.Inquiry.#ctor
+  commentId: M:Kount.Ris.Inquiry.#ctor
+  id: '#ctor'
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: Inquiry()
+  nameWithType: Inquiry.Inquiry()
+  fullName: Kount.Ris.Inquiry.Inquiry()
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/Inquiry.cs
+    startLine: 22
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nConstructor. Sets the mode to 'Q', the currency to 'USD' and sets\nthe SDK identifier value. Use SetMode(char) and SetCurrency(string)\nto change the RIS mode and currency respectively.\n"
+  example: []
+  syntax:
+    content: public Inquiry()
+    content.vb: Public Sub New
+  overload: Kount.Ris.Inquiry.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.#ctor(System.Boolean)
+  commentId: M:Kount.Ris.Inquiry.#ctor(System.Boolean)
+  id: '#ctor(System.Boolean)'
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: Inquiry(Boolean)
+  nameWithType: Inquiry.Inquiry(Boolean)
+  fullName: Kount.Ris.Inquiry.Inquiry(System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/Inquiry.cs
+    startLine: 39
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nConstructor. Sets the mode to 'Q', the currency to 'USD' and sets\nthe SDK identifier value. Use SetMode(char) and SetCurrency(string)\nto change the RIS mode and currency respectively.\n"
+  example: []
+  syntax:
+    content: public Inquiry(bool checkConfiguration)
+    parameters:
+    - id: checkConfiguration
+      type: System.Boolean
+      description: "If is true: will check config file if \n`Ris.Url`, \n`Ris.MerchantId`, \n`Ris.Config.Key` and `Ris.Connect.Timeout` are set."
+    content.vb: Public Sub New(checkConfiguration As Boolean)
+  overload: Kount.Ris.Inquiry.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.#ctor(System.Boolean,Kount.Ris.Configuration)
+  commentId: M:Kount.Ris.Inquiry.#ctor(System.Boolean,Kount.Ris.Configuration)
+  id: '#ctor(System.Boolean,Kount.Ris.Configuration)'
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: Inquiry(Boolean, Configuration)
+  nameWithType: Inquiry.Inquiry(Boolean, Configuration)
+  fullName: Kount.Ris.Inquiry.Inquiry(System.Boolean, Kount.Ris.Configuration)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/Inquiry.cs
+    startLine: 57
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nConstructor. Sets the mode to 'Q', the currency to 'USD' and sets\nthe SDK identifier value. Use SetMode(char) and SetCurrency(string)\nto change the RIS mode and currency respectively.\n"
+  example: []
+  syntax:
+    content: public Inquiry(bool checkConfiguration, Configuration configuration)
+    parameters:
+    - id: checkConfiguration
+      type: System.Boolean
+      description: "If is true: will check config file if \n`Ris.Url`, \n`Ris.MerchantId`, \n`Ris.Config.Key` and `Ris.Connect.Timeout` are set."
+    - id: configuration
+      type: Kount.Ris.Configuration
+      description: Configuration class with raw values
+    content.vb: Public Sub New(checkConfiguration As Boolean, configuration As Configuration)
+  overload: Kount.Ris.Inquiry.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetMode(System.Char)
+  commentId: M:Kount.Ris.Inquiry.SetMode(System.Char)
+  id: SetMode(System.Char)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetMode(Char)
+  nameWithType: Inquiry.SetMode(Char)
+  fullName: Kount.Ris.Inquiry.SetMode(System.Char)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetMode
+    path: Kount/Ris/Inquiry.cs
+    startLine: 69
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the mode of the inquiry.\n"
+  example: []
+  syntax:
+    content: protected override void SetMode(char mode)
+    parameters:
+    - id: mode
+      type: System.Char
+      description: Set mode Q or P
+    content.vb: Protected Overrides Sub SetMode(mode As Char)
+  overridden: Kount.Ris.Request.SetMode(System.Char)
+  overload: Kount.Ris.Inquiry.SetMode*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Kount.Ris.Inquiry.SetDateOfBirth(System.String)
+  commentId: M:Kount.Ris.Inquiry.SetDateOfBirth(System.String)
+  id: SetDateOfBirth(System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetDateOfBirth(String)
+  nameWithType: Inquiry.SetDateOfBirth(String)
+  fullName: Kount.Ris.Inquiry.SetDateOfBirth(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetDateOfBirth
+    path: Kount/Ris/Inquiry.cs
+    startLine: 78
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the date of birth in the format YYYY-MM-DD\n"
+  example: []
+  syntax:
+    content: public void SetDateOfBirth(string dob)
+    parameters:
+    - id: dob
+      type: System.String
+      description: Date of birth
+    content.vb: Public Sub SetDateOfBirth(dob As String)
+  overload: Kount.Ris.Inquiry.SetDateOfBirth*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetGender(System.Char)
+  commentId: M:Kount.Ris.Inquiry.SetGender(System.Char)
+  id: SetGender(System.Char)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetGender(Char)
+  nameWithType: Inquiry.SetGender(Char)
+  fullName: Kount.Ris.Inquiry.SetGender(System.Char)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetGender
+    path: Kount/Ris/Inquiry.cs
+    startLine: 87
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the gender\n"
+  example: []
+  syntax:
+    content: public void SetGender(char gender)
+    parameters:
+    - id: gender
+      type: System.Char
+      description: M(ale) or F(emale)
+    content.vb: Public Sub SetGender(gender As Char)
+  overload: Kount.Ris.Inquiry.SetGender*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetUserDefinedField(System.String,System.String)
+  commentId: M:Kount.Ris.Inquiry.SetUserDefinedField(System.String,System.String)
+  id: SetUserDefinedField(System.String,System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetUserDefinedField(String, String)
+  nameWithType: Inquiry.SetUserDefinedField(String, String)
+  fullName: Kount.Ris.Inquiry.SetUserDefinedField(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetUserDefinedField
+    path: Kount/Ris/Inquiry.cs
+    startLine: 97
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the value of a named user defined field\n"
+  example: []
+  syntax:
+    content: public void SetUserDefinedField(string label, string value)
+    parameters:
+    - id: label
+      type: System.String
+      description: Label of the user defined field
+    - id: value
+      type: System.String
+      description: Value of the user defined field
+    content.vb: Public Sub SetUserDefinedField(label As String, value As String)
+  overload: Kount.Ris.Inquiry.SetUserDefinedField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetCurrency(System.String)
+  commentId: M:Kount.Ris.Inquiry.SetCurrency(System.String)
+  id: SetCurrency(System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetCurrency(String)
+  nameWithType: Inquiry.SetCurrency(String)
+  fullName: Kount.Ris.Inquiry.SetCurrency(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetCurrency
+    path: Kount/Ris/Inquiry.cs
+    startLine: 107
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the three character ISO-4217 currency code.\n"
+  example: []
+  syntax:
+    content: public void SetCurrency(string currency)
+    parameters:
+    - id: currency
+      type: System.String
+      description: Three character code e.g. USD.
+    content.vb: Public Sub SetCurrency(currency As String)
+  overload: Kount.Ris.Inquiry.SetCurrency*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetSdkVersion(System.String)
+  commentId: M:Kount.Ris.Inquiry.SetSdkVersion(System.String)
+  id: SetSdkVersion(System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetSdkVersion(String)
+  nameWithType: Inquiry.SetSdkVersion(String)
+  fullName: Kount.Ris.Inquiry.SetSdkVersion(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetSdkVersion
+    path: Kount/Ris/Inquiry.cs
+    startLine: 117
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the current SDK version SDK_Type-RIS_VERSION-SDK_BUILD_DATETIMESTAMP.\ne.g. Sdk-Ris-Dnet-0651-20170505T1458\n"
+  example: []
+  syntax:
+    content: public void SetSdkVersion(string sdkVersion)
+    parameters:
+    - id: sdkVersion
+      type: System.String
+      description: Three character code e.g. USD.
+    content.vb: Public Sub SetSdkVersion(sdkVersion As String)
+  overload: Kount.Ris.Inquiry.SetSdkVersion*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetTotal(System.Int32)
+  commentId: M:Kount.Ris.Inquiry.SetTotal(System.Int32)
+  id: SetTotal(System.Int32)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetTotal(Int32)
+  nameWithType: Inquiry.SetTotal(Int32)
+  fullName: Kount.Ris.Inquiry.SetTotal(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetTotal
+    path: Kount/Ris/Inquiry.cs
+    startLine: 126
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the total amount of the transaction.\n"
+  example: []
+  syntax:
+    content: public void SetTotal(int total)
+    parameters:
+    - id: total
+      type: System.Int32
+      description: Total transaction amount in pennies.
+    content.vb: Public Sub SetTotal(total As Integer)
+  overload: Kount.Ris.Inquiry.SetTotal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetIpAddress(System.String)
+  commentId: M:Kount.Ris.Inquiry.SetIpAddress(System.String)
+  id: SetIpAddress(System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetIpAddress(String)
+  nameWithType: Inquiry.SetIpAddress(String)
+  fullName: Kount.Ris.Inquiry.SetIpAddress(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetIpAddress
+    path: Kount/Ris/Inquiry.cs
+    startLine: 135
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the IP address of the client.\n"
+  example: []
+  syntax:
+    content: public void SetIpAddress(string address)
+    parameters:
+    - id: address
+      type: System.String
+      description: IP address of the client.
+    content.vb: Public Sub SetIpAddress(address As String)
+  overload: Kount.Ris.Inquiry.SetIpAddress*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetUserAgent(System.String)
+  commentId: M:Kount.Ris.Inquiry.SetUserAgent(System.String)
+  id: SetUserAgent(System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetUserAgent(String)
+  nameWithType: Inquiry.SetUserAgent(String)
+  fullName: Kount.Ris.Inquiry.SetUserAgent(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetUserAgent
+    path: Kount/Ris/Inquiry.cs
+    startLine: 144
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the user agent of the client.\n"
+  example: []
+  syntax:
+    content: public void SetUserAgent(string userAgent)
+    parameters:
+    - id: userAgent
+      type: System.String
+      description: User agent string of the client.
+    content.vb: Public Sub SetUserAgent(userAgent As String)
+  overload: Kount.Ris.Inquiry.SetUserAgent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetEmail(System.String)
+  commentId: M:Kount.Ris.Inquiry.SetEmail(System.String)
+  id: SetEmail(System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetEmail(String)
+  nameWithType: Inquiry.SetEmail(String)
+  fullName: Kount.Ris.Inquiry.SetEmail(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetEmail
+    path: Kount/Ris/Inquiry.cs
+    startLine: 153
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the email address of the client.\n"
+  example: []
+  syntax:
+    content: public void SetEmail(string email)
+    parameters:
+    - id: email
+      type: System.String
+      description: Email address.
+    content.vb: Public Sub SetEmail(email As String)
+  overload: Kount.Ris.Inquiry.SetEmail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetName(System.String)
+  commentId: M:Kount.Ris.Inquiry.SetName(System.String)
+  id: SetName(System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetName(String)
+  nameWithType: Inquiry.SetName(String)
+  fullName: Kount.Ris.Inquiry.SetName(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetName
+    path: Kount/Ris/Inquiry.cs
+    startLine: 162
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the name of the client.\n"
+  example: []
+  syntax:
+    content: public void SetName(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Client name.
+    content.vb: Public Sub SetName(name As String)
+  overload: Kount.Ris.Inquiry.SetName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetUnique(System.String)
+  commentId: M:Kount.Ris.Inquiry.SetUnique(System.String)
+  id: SetUnique(System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetUnique(String)
+  nameWithType: Inquiry.SetUnique(String)
+  fullName: Kount.Ris.Inquiry.SetUnique(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetUnique
+    path: Kount/Ris/Inquiry.cs
+    startLine: 171
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the uniqe (cookie identifier, etc.) of the client.\n"
+  example: []
+  syntax:
+    content: public void SetUnique(string unique)
+    parameters:
+    - id: unique
+      type: System.String
+      description: Unique client identifier
+    content.vb: Public Sub SetUnique(unique As String)
+  overload: Kount.Ris.Inquiry.SetUnique*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetEpoch(System.Int64)
+  commentId: M:Kount.Ris.Inquiry.SetEpoch(System.Int64)
+  id: SetEpoch(System.Int64)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetEpoch(Int64)
+  nameWithType: Inquiry.SetEpoch(Int64)
+  fullName: Kount.Ris.Inquiry.SetEpoch(System.Int64)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetEpoch
+    path: Kount/Ris/Inquiry.cs
+    startLine: 181
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the timestamp (in seconds) since the UNIX epoch for when the\nUNIQ value was set.\n"
+  example: []
+  syntax:
+    content: public void SetEpoch(long timeStamp)
+    parameters:
+    - id: timeStamp
+      type: System.Int64
+      description: Set the timestamp
+    content.vb: Public Sub SetEpoch(timeStamp As Long)
+  overload: Kount.Ris.Inquiry.SetEpoch*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetCash(System.Int32)
+  commentId: M:Kount.Ris.Inquiry.SetCash(System.Int32)
+  id: SetCash(System.Int32)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetCash(Int32)
+  nameWithType: Inquiry.SetCash(Int32)
+  fullName: Kount.Ris.Inquiry.SetCash(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetCash
+    path: Kount/Ris/Inquiry.cs
+    startLine: 190
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the cash value of any fencible goods.\n"
+  example: []
+  syntax:
+    content: public void SetCash(int cash)
+    parameters:
+    - id: cash
+      type: System.Int32
+      description: Cash value in pennies.
+    content.vb: Public Sub SetCash(cash As Integer)
+  overload: Kount.Ris.Inquiry.SetCash*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetShipType(System.String)
+  commentId: M:Kount.Ris.Inquiry.SetShipType(System.String)
+  id: SetShipType(System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetShipType(String)
+  nameWithType: Inquiry.SetShipType(String)
+  fullName: Kount.Ris.Inquiry.SetShipType(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetShipType
+    path: Kount/Ris/Inquiry.cs
+    startLine: 199
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the shipping type.\n"
+  example: []
+  syntax:
+    content: public void SetShipType(string shipType)
+    parameters:
+    - id: shipType
+      type: System.String
+      description: 'Ship type: e.g. ST, ND, etc.'
+    content.vb: Public Sub SetShipType(shipType As String)
+  overload: Kount.Ris.Inquiry.SetShipType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetBillingAddress(System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:Kount.Ris.Inquiry.SetBillingAddress(System.String,System.String,System.String,System.String,System.String,System.String)
+  id: SetBillingAddress(System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetBillingAddress(String, String, String, String, String, String)
+  nameWithType: Inquiry.SetBillingAddress(String, String, String, String, String, String)
+  fullName: Kount.Ris.Inquiry.SetBillingAddress(System.String, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetBillingAddress
+    path: Kount/Ris/Inquiry.cs
+    startLine: 213
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the billing address.\n"
+  example: []
+  syntax:
+    content: public void SetBillingAddress(string address1, string address2, string city, string state, string postalCode, string country)
+    parameters:
+    - id: address1
+      type: System.String
+      description: Address line 1.
+    - id: address2
+      type: System.String
+      description: Address line 2.
+    - id: city
+      type: System.String
+      description: Set the city.
+    - id: state
+      type: System.String
+      description: Set the state.
+    - id: postalCode
+      type: System.String
+      description: Set the postal code.
+    - id: country
+      type: System.String
+      description: The the country.
+    content.vb: Public Sub SetBillingAddress(address1 As String, address2 As String, city As String, state As String, postalCode As String, country As String)
+  overload: Kount.Ris.Inquiry.SetBillingAddress*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetBillingAddress(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:Kount.Ris.Inquiry.SetBillingAddress(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  id: SetBillingAddress(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetBillingAddress(String, String, String, String, String, String, String, String)
+  nameWithType: Inquiry.SetBillingAddress(String, String, String, String, String, String, String, String)
+  fullName: Kount.Ris.Inquiry.SetBillingAddress(System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetBillingAddress
+    path: Kount/Ris/Inquiry.cs
+    startLine: 240
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the billing address.\n"
+  example: []
+  syntax:
+    content: public void SetBillingAddress(string address1, string address2, string city, string state, string postalCode, string country, string premise, string street)
+    parameters:
+    - id: address1
+      type: System.String
+      description: Address line 1.
+    - id: address2
+      type: System.String
+      description: Address line 2.
+    - id: city
+      type: System.String
+      description: Set the city.
+    - id: state
+      type: System.String
+      description: Set the state.
+    - id: postalCode
+      type: System.String
+      description: Set the postal code.
+    - id: country
+      type: System.String
+      description: Set the country.
+    - id: premise
+      type: System.String
+      description: Set the premise.
+    - id: street
+      type: System.String
+      description: Set the street.
+    content.vb: Public Sub SetBillingAddress(address1 As String, address2 As String, city As String, state As String, postalCode As String, country As String, premise As String, street As String)
+  overload: Kount.Ris.Inquiry.SetBillingAddress*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetBillingPhoneNumber(System.String)
+  commentId: M:Kount.Ris.Inquiry.SetBillingPhoneNumber(System.String)
+  id: SetBillingPhoneNumber(System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetBillingPhoneNumber(String)
+  nameWithType: Inquiry.SetBillingPhoneNumber(String)
+  fullName: Kount.Ris.Inquiry.SetBillingPhoneNumber(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetBillingPhoneNumber
+    path: Kount/Ris/Inquiry.cs
+    startLine: 264
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the billing phone number.\n"
+  example: []
+  syntax:
+    content: public void SetBillingPhoneNumber(string phoneNumber)
+    parameters:
+    - id: phoneNumber
+      type: System.String
+      description: Phone number.
+    content.vb: Public Sub SetBillingPhoneNumber(phoneNumber As String)
+  overload: Kount.Ris.Inquiry.SetBillingPhoneNumber*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetShippingAddress(System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:Kount.Ris.Inquiry.SetShippingAddress(System.String,System.String,System.String,System.String,System.String,System.String)
+  id: SetShippingAddress(System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetShippingAddress(String, String, String, String, String, String)
+  nameWithType: Inquiry.SetShippingAddress(String, String, String, String, String, String)
+  fullName: Kount.Ris.Inquiry.SetShippingAddress(System.String, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetShippingAddress
+    path: Kount/Ris/Inquiry.cs
+    startLine: 278
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the shipping address.\n"
+  example: []
+  syntax:
+    content: public void SetShippingAddress(string address1, string address2, string city, string state, string postalCode, string country)
+    parameters:
+    - id: address1
+      type: System.String
+      description: Address line 1.
+    - id: address2
+      type: System.String
+      description: Address line 2.
+    - id: city
+      type: System.String
+      description: Set the city.
+    - id: state
+      type: System.String
+      description: Set the state.
+    - id: postalCode
+      type: System.String
+      description: Set the postal code.
+    - id: country
+      type: System.String
+      description: Set the country.
+    content.vb: Public Sub SetShippingAddress(address1 As String, address2 As String, city As String, state As String, postalCode As String, country As String)
+  overload: Kount.Ris.Inquiry.SetShippingAddress*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetShippingAddress(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:Kount.Ris.Inquiry.SetShippingAddress(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  id: SetShippingAddress(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetShippingAddress(String, String, String, String, String, String, String, String)
+  nameWithType: Inquiry.SetShippingAddress(String, String, String, String, String, String, String, String)
+  fullName: Kount.Ris.Inquiry.SetShippingAddress(System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetShippingAddress
+    path: Kount/Ris/Inquiry.cs
+    startLine: 305
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the shipping address.\n"
+  example: []
+  syntax:
+    content: public void SetShippingAddress(string address1, string address2, string city, string state, string postalCode, string country, string premise, string street)
+    parameters:
+    - id: address1
+      type: System.String
+      description: Address line 1.
+    - id: address2
+      type: System.String
+      description: Address line 2.
+    - id: city
+      type: System.String
+      description: Set the city.
+    - id: state
+      type: System.String
+      description: Set the state.
+    - id: postalCode
+      type: System.String
+      description: Set the postal code.
+    - id: country
+      type: System.String
+      description: Set the country.
+    - id: premise
+      type: System.String
+      description: Set the premise.
+    - id: street
+      type: System.String
+      description: Set the street.
+    content.vb: Public Sub SetShippingAddress(address1 As String, address2 As String, city As String, state As String, postalCode As String, country As String, premise As String, street As String)
+  overload: Kount.Ris.Inquiry.SetShippingAddress*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetShippingPhoneNumber(System.String)
+  commentId: M:Kount.Ris.Inquiry.SetShippingPhoneNumber(System.String)
+  id: SetShippingPhoneNumber(System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetShippingPhoneNumber(String)
+  nameWithType: Inquiry.SetShippingPhoneNumber(String)
+  fullName: Kount.Ris.Inquiry.SetShippingPhoneNumber(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetShippingPhoneNumber
+    path: Kount/Ris/Inquiry.cs
+    startLine: 329
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the shipping phone number.\n"
+  example: []
+  syntax:
+    content: public void SetShippingPhoneNumber(string phoneNumber)
+    parameters:
+    - id: phoneNumber
+      type: System.String
+      description: Phone number.
+    content.vb: Public Sub SetShippingPhoneNumber(phoneNumber As String)
+  overload: Kount.Ris.Inquiry.SetShippingPhoneNumber*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetShippingName(System.String)
+  commentId: M:Kount.Ris.Inquiry.SetShippingName(System.String)
+  id: SetShippingName(System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetShippingName(String)
+  nameWithType: Inquiry.SetShippingName(String)
+  fullName: Kount.Ris.Inquiry.SetShippingName(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetShippingName
+    path: Kount/Ris/Inquiry.cs
+    startLine: 338
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the shipping name.\n"
+  example: []
+  syntax:
+    content: public void SetShippingName(string shipName)
+    parameters:
+    - id: shipName
+      type: System.String
+      description: Shipping Name.
+    content.vb: Public Sub SetShippingName(shipName As String)
+  overload: Kount.Ris.Inquiry.SetShippingName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetShippingEmail(System.String)
+  commentId: M:Kount.Ris.Inquiry.SetShippingEmail(System.String)
+  id: SetShippingEmail(System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetShippingEmail(String)
+  nameWithType: Inquiry.SetShippingEmail(String)
+  fullName: Kount.Ris.Inquiry.SetShippingEmail(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetShippingEmail
+    path: Kount/Ris/Inquiry.cs
+    startLine: 347
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the shipping email.\n"
+  example: []
+  syntax:
+    content: public void SetShippingEmail(string shipEmail)
+    parameters:
+    - id: shipEmail
+      type: System.String
+      description: Shipping Email.
+    content.vb: Public Sub SetShippingEmail(shipEmail As String)
+  overload: Kount.Ris.Inquiry.SetShippingEmail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetAnid(System.String)
+  commentId: M:Kount.Ris.Inquiry.SetAnid(System.String)
+  id: SetAnid(System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetAnid(String)
+  nameWithType: Inquiry.SetAnid(String)
+  fullName: Kount.Ris.Inquiry.SetAnid(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetAnid
+    path: Kount/Ris/Inquiry.cs
+    startLine: 356
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet the Anid of the client.\n"
+  example: []
+  syntax:
+    content: public void SetAnid(string anid)
+    parameters:
+    - id: anid
+      type: System.String
+      description: Anid of the client.
+    content.vb: Public Sub SetAnid(anid As String)
+  overload: Kount.Ris.Inquiry.SetAnid*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetWebsite(System.String)
+  commentId: M:Kount.Ris.Inquiry.SetWebsite(System.String)
+  id: SetWebsite(System.String)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetWebsite(String)
+  nameWithType: Inquiry.SetWebsite(String)
+  fullName: Kount.Ris.Inquiry.SetWebsite(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetWebsite
+    path: Kount/Ris/Inquiry.cs
+    startLine: 365
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nWebsite id associated with the transaction\n"
+  example: []
+  syntax:
+    content: public void SetWebsite(string site)
+    parameters:
+    - id: site
+      type: System.String
+      description: String 1 - 8 characters long
+    content.vb: Public Sub SetWebsite(site As String)
+  overload: Kount.Ris.Inquiry.SetWebsite*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.Inquiry.SetCart(System.Collections.ArrayList)
+  commentId: M:Kount.Ris.Inquiry.SetCart(System.Collections.ArrayList)
+  id: SetCart(System.Collections.ArrayList)
+  parent: Kount.Ris.Inquiry
+  langs:
+  - csharp
+  - vb
+  name: SetCart(System.Collections.ArrayList)
+  nameWithType: Inquiry.SetCart(System.Collections.ArrayList)
+  fullName: Kount.Ris.Inquiry.SetCart(System.Collections.ArrayList)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/Inquiry.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetCart
+    path: Kount/Ris/Inquiry.cs
+    startLine: 374
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nSet a shoppinng cart\n"
+  example: []
+  syntax:
+    content: public void SetCart(System.Collections.ArrayList cart)
+    parameters:
+    - id: cart
+      type: System.Collections.ArrayList
+      description: ArrayList of Kount.Ris.CartItem objects
+    content.vb: Public Sub SetCart(cart As System.Collections.ArrayList)
+  overload: Kount.Ris.Inquiry.SetCart*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Kount.Ris
+  commentId: N:Kount.Ris
+  isExternal: false
+  name: Kount.Ris
+  nameWithType: Kount.Ris
+  fullName: Kount.Ris
+- uid: Kount.Ris.Request
+  commentId: T:Kount.Ris.Request
+  parent: Kount.Ris
+  isExternal: false
+  name: Request
+  nameWithType: Request
+  fullName: Kount.Ris.Request
+- uid: Kount.Ris.Request.Data
+  commentId: P:Kount.Ris.Request.Data
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: Data
+  nameWithType: Request.Data
+  fullName: Kount.Ris.Request.Data
+- uid: Kount.Ris.Request.GetResponse(System.Boolean)
+  commentId: M:Kount.Ris.Request.GetResponse(System.Boolean)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: GetResponse(Boolean)
+  nameWithType: Request.GetResponse(Boolean)
+  fullName: Kount.Ris.Request.GetResponse(System.Boolean)
+  spec.csharp:
+  - uid: Kount.Ris.Request.GetResponse(System.Boolean)
+    name: GetResponse
+    nameWithType: Request.GetResponse
+    fullName: Kount.Ris.Request.GetResponse
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.GetResponse(System.Boolean)
+    name: GetResponse
+    nameWithType: Request.GetResponse
+    fullName: Kount.Ris.Request.GetResponse
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetParameter(System.String,System.String)
+  commentId: M:Kount.Ris.Request.SetParameter(System.String,System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetParameter(String, String)
+  nameWithType: Request.SetParameter(String, String)
+  fullName: Kount.Ris.Request.SetParameter(System.String, System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetParameter(System.String,System.String)
+    name: SetParameter
+    nameWithType: Request.SetParameter
+    fullName: Kount.Ris.Request.SetParameter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetParameter(System.String,System.String)
+    name: SetParameter
+    nameWithType: Request.SetParameter
+    fullName: Kount.Ris.Request.SetParameter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetMode(Kount.Enums.InquiryTypes)
+  commentId: M:Kount.Ris.Request.SetMode(Kount.Enums.InquiryTypes)
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: SetMode(InquiryTypes)
+  nameWithType: Request.SetMode(InquiryTypes)
+  fullName: Kount.Ris.Request.SetMode(Kount.Enums.InquiryTypes)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetMode(Kount.Enums.InquiryTypes)
+    name: SetMode
+    nameWithType: Request.SetMode
+    fullName: Kount.Ris.Request.SetMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Kount.Enums.InquiryTypes
+    name: InquiryTypes
+    nameWithType: InquiryTypes
+    fullName: Kount.Enums.InquiryTypes
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetMode(Kount.Enums.InquiryTypes)
+    name: SetMode
+    nameWithType: Request.SetMode
+    fullName: Kount.Ris.Request.SetMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Kount.Enums.InquiryTypes
+    name: InquiryTypes
+    nameWithType: InquiryTypes
+    fullName: Kount.Enums.InquiryTypes
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetMode(Kount.Enums.UpdateTypes)
+  commentId: M:Kount.Ris.Request.SetMode(Kount.Enums.UpdateTypes)
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: SetMode(UpdateTypes)
+  nameWithType: Request.SetMode(UpdateTypes)
+  fullName: Kount.Ris.Request.SetMode(Kount.Enums.UpdateTypes)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetMode(Kount.Enums.UpdateTypes)
+    name: SetMode
+    nameWithType: Request.SetMode
+    fullName: Kount.Ris.Request.SetMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Kount.Enums.UpdateTypes
+    name: UpdateTypes
+    nameWithType: UpdateTypes
+    fullName: Kount.Enums.UpdateTypes
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetMode(Kount.Enums.UpdateTypes)
+    name: SetMode
+    nameWithType: Request.SetMode
+    fullName: Kount.Ris.Request.SetMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Kount.Enums.UpdateTypes
+    name: UpdateTypes
+    nameWithType: UpdateTypes
+    fullName: Kount.Enums.UpdateTypes
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetMerchantId(System.Int32)
+  commentId: M:Kount.Ris.Request.SetMerchantId(System.Int32)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetMerchantId(Int32)
+  nameWithType: Request.SetMerchantId(Int32)
+  fullName: Kount.Ris.Request.SetMerchantId(System.Int32)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetMerchantId(System.Int32)
+    name: SetMerchantId
+    nameWithType: Request.SetMerchantId
+    fullName: Kount.Ris.Request.SetMerchantId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetMerchantId(System.Int32)
+    name: SetMerchantId
+    nameWithType: Request.SetMerchantId
+    fullName: Kount.Ris.Request.SetMerchantId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetKountCentralCustomerId(System.String)
+  commentId: M:Kount.Ris.Request.SetKountCentralCustomerId(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetKountCentralCustomerId(String)
+  nameWithType: Request.SetKountCentralCustomerId(String)
+  fullName: Kount.Ris.Request.SetKountCentralCustomerId(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetKountCentralCustomerId(System.String)
+    name: SetKountCentralCustomerId
+    nameWithType: Request.SetKountCentralCustomerId
+    fullName: Kount.Ris.Request.SetKountCentralCustomerId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetKountCentralCustomerId(System.String)
+    name: SetKountCentralCustomerId
+    nameWithType: Request.SetKountCentralCustomerId
+    fullName: Kount.Ris.Request.SetKountCentralCustomerId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetSessionId(System.String)
+  commentId: M:Kount.Ris.Request.SetSessionId(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetSessionId(String)
+  nameWithType: Request.SetSessionId(String)
+  fullName: Kount.Ris.Request.SetSessionId(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetSessionId(System.String)
+    name: SetSessionId
+    nameWithType: Request.SetSessionId
+    fullName: Kount.Ris.Request.SetSessionId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetSessionId(System.String)
+    name: SetSessionId
+    nameWithType: Request.SetSessionId
+    fullName: Kount.Ris.Request.SetSessionId
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetOrderNumber(System.String)
+  commentId: M:Kount.Ris.Request.SetOrderNumber(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetOrderNumber(String)
+  nameWithType: Request.SetOrderNumber(String)
+  fullName: Kount.Ris.Request.SetOrderNumber(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetOrderNumber(System.String)
+    name: SetOrderNumber
+    nameWithType: Request.SetOrderNumber
+    fullName: Kount.Ris.Request.SetOrderNumber
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetOrderNumber(System.String)
+    name: SetOrderNumber
+    nameWithType: Request.SetOrderNumber
+    fullName: Kount.Ris.Request.SetOrderNumber
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetMack(System.Char)
+  commentId: M:Kount.Ris.Request.SetMack(System.Char)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetMack(Char)
+  nameWithType: Request.SetMack(Char)
+  fullName: Kount.Ris.Request.SetMack(System.Char)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetMack(System.Char)
+    name: SetMack
+    nameWithType: Request.SetMack
+    fullName: Kount.Ris.Request.SetMack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetMack(System.Char)
+    name: SetMack
+    nameWithType: Request.SetMack
+    fullName: Kount.Ris.Request.SetMack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetAuth(System.Char)
+  commentId: M:Kount.Ris.Request.SetAuth(System.Char)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetAuth(Char)
+  nameWithType: Request.SetAuth(Char)
+  fullName: Kount.Ris.Request.SetAuth(System.Char)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetAuth(System.Char)
+    name: SetAuth
+    nameWithType: Request.SetAuth
+    fullName: Kount.Ris.Request.SetAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetAuth(System.Char)
+    name: SetAuth
+    nameWithType: Request.SetAuth
+    fullName: Kount.Ris.Request.SetAuth
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetAvsz(System.Char)
+  commentId: M:Kount.Ris.Request.SetAvsz(System.Char)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetAvsz(Char)
+  nameWithType: Request.SetAvsz(Char)
+  fullName: Kount.Ris.Request.SetAvsz(System.Char)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetAvsz(System.Char)
+    name: SetAvsz
+    nameWithType: Request.SetAvsz
+    fullName: Kount.Ris.Request.SetAvsz
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetAvsz(System.Char)
+    name: SetAvsz
+    nameWithType: Request.SetAvsz
+    fullName: Kount.Ris.Request.SetAvsz
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetAvst(System.Char)
+  commentId: M:Kount.Ris.Request.SetAvst(System.Char)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetAvst(Char)
+  nameWithType: Request.SetAvst(Char)
+  fullName: Kount.Ris.Request.SetAvst(System.Char)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetAvst(System.Char)
+    name: SetAvst
+    nameWithType: Request.SetAvst
+    fullName: Kount.Ris.Request.SetAvst
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetAvst(System.Char)
+    name: SetAvst
+    nameWithType: Request.SetAvst
+    fullName: Kount.Ris.Request.SetAvst
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetCvvr(System.Char)
+  commentId: M:Kount.Ris.Request.SetCvvr(System.Char)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetCvvr(Char)
+  nameWithType: Request.SetCvvr(Char)
+  fullName: Kount.Ris.Request.SetCvvr(System.Char)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetCvvr(System.Char)
+    name: SetCvvr
+    nameWithType: Request.SetCvvr
+    fullName: Kount.Ris.Request.SetCvvr
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetCvvr(System.Char)
+    name: SetCvvr
+    nameWithType: Request.SetCvvr
+    fullName: Kount.Ris.Request.SetCvvr
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetCardPaymentMasked(System.String)
+  commentId: M:Kount.Ris.Request.SetCardPaymentMasked(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetCardPaymentMasked(String)
+  nameWithType: Request.SetCardPaymentMasked(String)
+  fullName: Kount.Ris.Request.SetCardPaymentMasked(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetCardPaymentMasked(System.String)
+    name: SetCardPaymentMasked
+    nameWithType: Request.SetCardPaymentMasked
+    fullName: Kount.Ris.Request.SetCardPaymentMasked
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetCardPaymentMasked(System.String)
+    name: SetCardPaymentMasked
+    nameWithType: Request.SetCardPaymentMasked
+    fullName: Kount.Ris.Request.SetCardPaymentMasked
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetNoPayment
+  commentId: M:Kount.Ris.Request.SetNoPayment
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: SetNoPayment()
+  nameWithType: Request.SetNoPayment()
+  fullName: Kount.Ris.Request.SetNoPayment()
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetNoPayment
+    name: SetNoPayment
+    nameWithType: Request.SetNoPayment
+    fullName: Kount.Ris.Request.SetNoPayment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetNoPayment
+    name: SetNoPayment
+    nameWithType: Request.SetNoPayment
+    fullName: Kount.Ris.Request.SetNoPayment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetPayment(System.String,System.String)
+  commentId: M:Kount.Ris.Request.SetPayment(System.String,System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetPayment(String, String)
+  nameWithType: Request.SetPayment(String, String)
+  fullName: Kount.Ris.Request.SetPayment(System.String, System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetPayment(System.String,System.String)
+    name: SetPayment
+    nameWithType: Request.SetPayment
+    fullName: Kount.Ris.Request.SetPayment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetPayment(System.String,System.String)
+    name: SetPayment
+    nameWithType: Request.SetPayment
+    fullName: Kount.Ris.Request.SetPayment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetPayment(Kount.Enums.PaymentTypes,System.String)
+  commentId: M:Kount.Ris.Request.SetPayment(Kount.Enums.PaymentTypes,System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetPayment(PaymentTypes, String)
+  nameWithType: Request.SetPayment(PaymentTypes, String)
+  fullName: Kount.Ris.Request.SetPayment(Kount.Enums.PaymentTypes, System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetPayment(Kount.Enums.PaymentTypes,System.String)
+    name: SetPayment
+    nameWithType: Request.SetPayment
+    fullName: Kount.Ris.Request.SetPayment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Kount.Enums.PaymentTypes
+    name: PaymentTypes
+    nameWithType: PaymentTypes
+    fullName: Kount.Enums.PaymentTypes
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetPayment(Kount.Enums.PaymentTypes,System.String)
+    name: SetPayment
+    nameWithType: Request.SetPayment
+    fullName: Kount.Ris.Request.SetPayment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Kount.Enums.PaymentTypes
+    name: PaymentTypes
+    nameWithType: PaymentTypes
+    fullName: Kount.Enums.PaymentTypes
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetGreenDotMoneyPakPayment(System.String)
+  commentId: M:Kount.Ris.Request.SetGreenDotMoneyPakPayment(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetGreenDotMoneyPakPayment(String)
+  nameWithType: Request.SetGreenDotMoneyPakPayment(String)
+  fullName: Kount.Ris.Request.SetGreenDotMoneyPakPayment(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetGreenDotMoneyPakPayment(System.String)
+    name: SetGreenDotMoneyPakPayment
+    nameWithType: Request.SetGreenDotMoneyPakPayment
+    fullName: Kount.Ris.Request.SetGreenDotMoneyPakPayment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetGreenDotMoneyPakPayment(System.String)
+    name: SetGreenDotMoneyPakPayment
+    nameWithType: Request.SetGreenDotMoneyPakPayment
+    fullName: Kount.Ris.Request.SetGreenDotMoneyPakPayment
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.GetParam(System.String)
+  commentId: M:Kount.Ris.Request.GetParam(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: GetParam(String)
+  nameWithType: Request.GetParam(String)
+  fullName: Kount.Ris.Request.GetParam(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.GetParam(System.String)
+    name: GetParam
+    nameWithType: Request.GetParam
+    fullName: Kount.Ris.Request.GetParam
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.GetParam(System.String)
+    name: GetParam
+    nameWithType: Request.GetParam
+    fullName: Kount.Ris.Request.GetParam
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.GetUrl
+  commentId: M:Kount.Ris.Request.GetUrl
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: GetUrl()
+  nameWithType: Request.GetUrl()
+  fullName: Kount.Ris.Request.GetUrl()
+  spec.csharp:
+  - uid: Kount.Ris.Request.GetUrl
+    name: GetUrl
+    nameWithType: Request.GetUrl
+    fullName: Kount.Ris.Request.GetUrl
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.GetUrl
+    name: GetUrl
+    nameWithType: Request.GetUrl
+    fullName: Kount.Ris.Request.GetUrl
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetUrl(System.String)
+  commentId: M:Kount.Ris.Request.SetUrl(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetUrl(String)
+  nameWithType: Request.SetUrl(String)
+  fullName: Kount.Ris.Request.SetUrl(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetUrl(System.String)
+    name: SetUrl
+    nameWithType: Request.SetUrl
+    fullName: Kount.Ris.Request.SetUrl
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetUrl(System.String)
+    name: SetUrl
+    nameWithType: Request.SetUrl
+    fullName: Kount.Ris.Request.SetUrl
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetCertificate(System.String,System.String)
+  commentId: M:Kount.Ris.Request.SetCertificate(System.String,System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetCertificate(String, String)
+  nameWithType: Request.SetCertificate(String, String)
+  fullName: Kount.Ris.Request.SetCertificate(System.String, System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetCertificate(System.String,System.String)
+    name: SetCertificate
+    nameWithType: Request.SetCertificate
+    fullName: Kount.Ris.Request.SetCertificate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetCertificate(System.String,System.String)
+    name: SetCertificate
+    nameWithType: Request.SetCertificate
+    fullName: Kount.Ris.Request.SetCertificate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetApiKey(System.String)
+  commentId: M:Kount.Ris.Request.SetApiKey(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetApiKey(String)
+  nameWithType: Request.SetApiKey(String)
+  fullName: Kount.Ris.Request.SetApiKey(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetApiKey(System.String)
+    name: SetApiKey
+    nameWithType: Request.SetApiKey
+    fullName: Kount.Ris.Request.SetApiKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetApiKey(System.String)
+    name: SetApiKey
+    nameWithType: Request.SetApiKey
+    fullName: Kount.Ris.Request.SetApiKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.GetCertificateFile
+  commentId: M:Kount.Ris.Request.GetCertificateFile
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: GetCertificateFile()
+  nameWithType: Request.GetCertificateFile()
+  fullName: Kount.Ris.Request.GetCertificateFile()
+  spec.csharp:
+  - uid: Kount.Ris.Request.GetCertificateFile
+    name: GetCertificateFile
+    nameWithType: Request.GetCertificateFile
+    fullName: Kount.Ris.Request.GetCertificateFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.GetCertificateFile
+    name: GetCertificateFile
+    nameWithType: Request.GetCertificateFile
+    fullName: Kount.Ris.Request.GetCertificateFile
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.GetPrivateKeyPassword
+  commentId: M:Kount.Ris.Request.GetPrivateKeyPassword
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: GetPrivateKeyPassword()
+  nameWithType: Request.GetPrivateKeyPassword()
+  fullName: Kount.Ris.Request.GetPrivateKeyPassword()
+  spec.csharp:
+  - uid: Kount.Ris.Request.GetPrivateKeyPassword
+    name: GetPrivateKeyPassword
+    nameWithType: Request.GetPrivateKeyPassword
+    fullName: Kount.Ris.Request.GetPrivateKeyPassword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.GetPrivateKeyPassword
+    name: GetPrivateKeyPassword
+    nameWithType: Request.GetPrivateKeyPassword
+    fullName: Kount.Ris.Request.GetPrivateKeyPassword
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetKhashPaymentEncoding
+  commentId: M:Kount.Ris.Request.SetKhashPaymentEncoding
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: SetKhashPaymentEncoding()
+  nameWithType: Request.SetKhashPaymentEncoding()
+  fullName: Kount.Ris.Request.SetKhashPaymentEncoding()
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetKhashPaymentEncoding
+    name: SetKhashPaymentEncoding
+    nameWithType: Request.SetKhashPaymentEncoding
+    fullName: Kount.Ris.Request.SetKhashPaymentEncoding
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetKhashPaymentEncoding
+    name: SetKhashPaymentEncoding
+    nameWithType: Request.SetKhashPaymentEncoding
+    fullName: Kount.Ris.Request.SetKhashPaymentEncoding
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetKhashPaymentEncoding(System.Boolean)
+  commentId: M:Kount.Ris.Request.SetKhashPaymentEncoding(System.Boolean)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetKhashPaymentEncoding(Boolean)
+  nameWithType: Request.SetKhashPaymentEncoding(Boolean)
+  fullName: Kount.Ris.Request.SetKhashPaymentEncoding(System.Boolean)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetKhashPaymentEncoding(System.Boolean)
+    name: SetKhashPaymentEncoding
+    nameWithType: Request.SetKhashPaymentEncoding
+    fullName: Kount.Ris.Request.SetKhashPaymentEncoding
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetKhashPaymentEncoding(System.Boolean)
+    name: SetKhashPaymentEncoding
+    nameWithType: Request.SetKhashPaymentEncoding
+    fullName: Kount.Ris.Request.SetKhashPaymentEncoding
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetPaymentTokenLast4(System.String)
+  commentId: M:Kount.Ris.Request.SetPaymentTokenLast4(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetPaymentTokenLast4(String)
+  nameWithType: Request.SetPaymentTokenLast4(String)
+  fullName: Kount.Ris.Request.SetPaymentTokenLast4(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetPaymentTokenLast4(System.String)
+    name: SetPaymentTokenLast4
+    nameWithType: Request.SetPaymentTokenLast4
+    fullName: Kount.Ris.Request.SetPaymentTokenLast4
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetPaymentTokenLast4(System.String)
+    name: SetPaymentTokenLast4
+    nameWithType: Request.SetPaymentTokenLast4
+    fullName: Kount.Ris.Request.SetPaymentTokenLast4
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetVersion(System.String)
+  commentId: M:Kount.Ris.Request.SetVersion(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetVersion(String)
+  nameWithType: Request.SetVersion(String)
+  fullName: Kount.Ris.Request.SetVersion(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetVersion(System.String)
+    name: SetVersion
+    nameWithType: Request.SetVersion
+    fullName: Kount.Ris.Request.SetVersion
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetVersion(System.String)
+    name: SetVersion
+    nameWithType: Request.SetVersion
+    fullName: Kount.Ris.Request.SetVersion
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.IsSetKhashPaymentEncoding
+  commentId: M:Kount.Ris.Request.IsSetKhashPaymentEncoding
+  parent: Kount.Ris.Request
+  isExternal: false
+  name: IsSetKhashPaymentEncoding()
+  nameWithType: Request.IsSetKhashPaymentEncoding()
+  fullName: Kount.Ris.Request.IsSetKhashPaymentEncoding()
+  spec.csharp:
+  - uid: Kount.Ris.Request.IsSetKhashPaymentEncoding
+    name: IsSetKhashPaymentEncoding
+    nameWithType: Request.IsSetKhashPaymentEncoding
+    fullName: Kount.Ris.Request.IsSetKhashPaymentEncoding
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.IsSetKhashPaymentEncoding
+    name: IsSetKhashPaymentEncoding
+    nameWithType: Request.IsSetKhashPaymentEncoding
+    fullName: Kount.Ris.Request.IsSetKhashPaymentEncoding
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SetPaymentToken(System.String)
+  commentId: M:Kount.Ris.Request.SetPaymentToken(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetPaymentToken(String)
+  nameWithType: Request.SetPaymentToken(String)
+  fullName: Kount.Ris.Request.SetPaymentToken(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetPaymentToken(System.String)
+    name: SetPaymentToken
+    nameWithType: Request.SetPaymentToken
+    fullName: Kount.Ris.Request.SetPaymentToken
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetPaymentToken(System.String)
+    name: SetPaymentToken
+    nameWithType: Request.SetPaymentToken
+    fullName: Kount.Ris.Request.SetPaymentToken
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.CheckConfigurationParameter(System.String,System.String)
+  commentId: M:Kount.Ris.Request.CheckConfigurationParameter(System.String,System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: CheckConfigurationParameter(String, String)
+  nameWithType: Request.CheckConfigurationParameter(String, String)
+  fullName: Kount.Ris.Request.CheckConfigurationParameter(System.String, System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.CheckConfigurationParameter(System.String,System.String)
+    name: CheckConfigurationParameter
+    nameWithType: Request.CheckConfigurationParameter
+    fullName: Kount.Ris.Request.CheckConfigurationParameter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.CheckConfigurationParameter(System.String,System.String)
+    name: CheckConfigurationParameter
+    nameWithType: Request.CheckConfigurationParameter
+    fullName: Kount.Ris.Request.CheckConfigurationParameter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Request.SafeGet(System.String)
+  commentId: M:Kount.Ris.Request.SafeGet(System.String)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SafeGet(String)
+  nameWithType: Request.SafeGet(String)
+  fullName: Kount.Ris.Request.SafeGet(System.String)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SafeGet(System.String)
+    name: SafeGet
+    nameWithType: Request.SafeGet
+    fullName: Kount.Ris.Request.SafeGet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SafeGet(System.String)
+    name: SafeGet
+    nameWithType: Request.SafeGet
+    fullName: Kount.Ris.Request.SafeGet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Inquiry.#ctor*
+  commentId: Overload:Kount.Ris.Inquiry.#ctor
+  isExternal: false
+  name: Inquiry
+  nameWithType: Inquiry.Inquiry
+  fullName: Kount.Ris.Inquiry.Inquiry
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Kount.Ris.Configuration
+  commentId: T:Kount.Ris.Configuration
+  parent: Kount.Ris
+  isExternal: false
+  name: Configuration
+  nameWithType: Configuration
+  fullName: Kount.Ris.Configuration
+- uid: Kount.Ris.Request.SetMode(System.Char)
+  commentId: M:Kount.Ris.Request.SetMode(System.Char)
+  parent: Kount.Ris.Request
+  isExternal: true
+  name: SetMode(Char)
+  nameWithType: Request.SetMode(Char)
+  fullName: Kount.Ris.Request.SetMode(System.Char)
+  spec.csharp:
+  - uid: Kount.Ris.Request.SetMode(System.Char)
+    name: SetMode
+    nameWithType: Request.SetMode
+    fullName: Kount.Ris.Request.SetMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Kount.Ris.Request.SetMode(System.Char)
+    name: SetMode
+    nameWithType: Request.SetMode
+    fullName: Kount.Ris.Request.SetMode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Kount.Ris.Inquiry.SetMode*
+  commentId: Overload:Kount.Ris.Inquiry.SetMode
+  isExternal: false
+  name: SetMode
+  nameWithType: Inquiry.SetMode
+  fullName: Kount.Ris.Inquiry.SetMode
+- uid: System.Char
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: Kount.Ris.Inquiry.SetDateOfBirth*
+  commentId: Overload:Kount.Ris.Inquiry.SetDateOfBirth
+  isExternal: false
+  name: SetDateOfBirth
+  nameWithType: Inquiry.SetDateOfBirth
+  fullName: Kount.Ris.Inquiry.SetDateOfBirth
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Kount.Ris.Inquiry.SetGender*
+  commentId: Overload:Kount.Ris.Inquiry.SetGender
+  isExternal: false
+  name: SetGender
+  nameWithType: Inquiry.SetGender
+  fullName: Kount.Ris.Inquiry.SetGender
+- uid: Kount.Ris.Inquiry.SetUserDefinedField*
+  commentId: Overload:Kount.Ris.Inquiry.SetUserDefinedField
+  isExternal: false
+  name: SetUserDefinedField
+  nameWithType: Inquiry.SetUserDefinedField
+  fullName: Kount.Ris.Inquiry.SetUserDefinedField
+- uid: Kount.Ris.Inquiry.SetCurrency*
+  commentId: Overload:Kount.Ris.Inquiry.SetCurrency
+  isExternal: false
+  name: SetCurrency
+  nameWithType: Inquiry.SetCurrency
+  fullName: Kount.Ris.Inquiry.SetCurrency
+- uid: Kount.Ris.Inquiry.SetSdkVersion*
+  commentId: Overload:Kount.Ris.Inquiry.SetSdkVersion
+  isExternal: false
+  name: SetSdkVersion
+  nameWithType: Inquiry.SetSdkVersion
+  fullName: Kount.Ris.Inquiry.SetSdkVersion
+- uid: Kount.Ris.Inquiry.SetTotal*
+  commentId: Overload:Kount.Ris.Inquiry.SetTotal
+  isExternal: false
+  name: SetTotal
+  nameWithType: Inquiry.SetTotal
+  fullName: Kount.Ris.Inquiry.SetTotal
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Kount.Ris.Inquiry.SetIpAddress*
+  commentId: Overload:Kount.Ris.Inquiry.SetIpAddress
+  isExternal: false
+  name: SetIpAddress
+  nameWithType: Inquiry.SetIpAddress
+  fullName: Kount.Ris.Inquiry.SetIpAddress
+- uid: Kount.Ris.Inquiry.SetUserAgent*
+  commentId: Overload:Kount.Ris.Inquiry.SetUserAgent
+  isExternal: false
+  name: SetUserAgent
+  nameWithType: Inquiry.SetUserAgent
+  fullName: Kount.Ris.Inquiry.SetUserAgent
+- uid: Kount.Ris.Inquiry.SetEmail*
+  commentId: Overload:Kount.Ris.Inquiry.SetEmail
+  isExternal: false
+  name: SetEmail
+  nameWithType: Inquiry.SetEmail
+  fullName: Kount.Ris.Inquiry.SetEmail
+- uid: Kount.Ris.Inquiry.SetName*
+  commentId: Overload:Kount.Ris.Inquiry.SetName
+  isExternal: false
+  name: SetName
+  nameWithType: Inquiry.SetName
+  fullName: Kount.Ris.Inquiry.SetName
+- uid: Kount.Ris.Inquiry.SetUnique*
+  commentId: Overload:Kount.Ris.Inquiry.SetUnique
+  isExternal: false
+  name: SetUnique
+  nameWithType: Inquiry.SetUnique
+  fullName: Kount.Ris.Inquiry.SetUnique
+- uid: Kount.Ris.Inquiry.SetEpoch*
+  commentId: Overload:Kount.Ris.Inquiry.SetEpoch
+  isExternal: false
+  name: SetEpoch
+  nameWithType: Inquiry.SetEpoch
+  fullName: Kount.Ris.Inquiry.SetEpoch
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Kount.Ris.Inquiry.SetCash*
+  commentId: Overload:Kount.Ris.Inquiry.SetCash
+  isExternal: false
+  name: SetCash
+  nameWithType: Inquiry.SetCash
+  fullName: Kount.Ris.Inquiry.SetCash
+- uid: Kount.Ris.Inquiry.SetShipType*
+  commentId: Overload:Kount.Ris.Inquiry.SetShipType
+  isExternal: false
+  name: SetShipType
+  nameWithType: Inquiry.SetShipType
+  fullName: Kount.Ris.Inquiry.SetShipType
+- uid: Kount.Ris.Inquiry.SetBillingAddress*
+  commentId: Overload:Kount.Ris.Inquiry.SetBillingAddress
+  isExternal: false
+  name: SetBillingAddress
+  nameWithType: Inquiry.SetBillingAddress
+  fullName: Kount.Ris.Inquiry.SetBillingAddress
+- uid: Kount.Ris.Inquiry.SetBillingPhoneNumber*
+  commentId: Overload:Kount.Ris.Inquiry.SetBillingPhoneNumber
+  isExternal: false
+  name: SetBillingPhoneNumber
+  nameWithType: Inquiry.SetBillingPhoneNumber
+  fullName: Kount.Ris.Inquiry.SetBillingPhoneNumber
+- uid: Kount.Ris.Inquiry.SetShippingAddress*
+  commentId: Overload:Kount.Ris.Inquiry.SetShippingAddress
+  isExternal: false
+  name: SetShippingAddress
+  nameWithType: Inquiry.SetShippingAddress
+  fullName: Kount.Ris.Inquiry.SetShippingAddress
+- uid: Kount.Ris.Inquiry.SetShippingPhoneNumber*
+  commentId: Overload:Kount.Ris.Inquiry.SetShippingPhoneNumber
+  isExternal: false
+  name: SetShippingPhoneNumber
+  nameWithType: Inquiry.SetShippingPhoneNumber
+  fullName: Kount.Ris.Inquiry.SetShippingPhoneNumber
+- uid: Kount.Ris.Inquiry.SetShippingName*
+  commentId: Overload:Kount.Ris.Inquiry.SetShippingName
+  isExternal: false
+  name: SetShippingName
+  nameWithType: Inquiry.SetShippingName
+  fullName: Kount.Ris.Inquiry.SetShippingName
+- uid: Kount.Ris.Inquiry.SetShippingEmail*
+  commentId: Overload:Kount.Ris.Inquiry.SetShippingEmail
+  isExternal: false
+  name: SetShippingEmail
+  nameWithType: Inquiry.SetShippingEmail
+  fullName: Kount.Ris.Inquiry.SetShippingEmail
+- uid: Kount.Ris.Inquiry.SetAnid*
+  commentId: Overload:Kount.Ris.Inquiry.SetAnid
+  isExternal: false
+  name: SetAnid
+  nameWithType: Inquiry.SetAnid
+  fullName: Kount.Ris.Inquiry.SetAnid
+- uid: Kount.Ris.Inquiry.SetWebsite*
+  commentId: Overload:Kount.Ris.Inquiry.SetWebsite
+  isExternal: false
+  name: SetWebsite
+  nameWithType: Inquiry.SetWebsite
+  fullName: Kount.Ris.Inquiry.SetWebsite
+- uid: Kount.Ris.Inquiry.SetCart*
+  commentId: Overload:Kount.Ris.Inquiry.SetCart
+  isExternal: false
+  name: SetCart
+  nameWithType: Inquiry.SetCart
+  fullName: Kount.Ris.Inquiry.SetCart
+- uid: System.Collections.ArrayList
+  commentId: '!:System.Collections.ArrayList'
+  isExternal: true
+  name: System.Collections.ArrayList
+  nameWithType: System.Collections.ArrayList
+  fullName: System.Collections.ArrayList

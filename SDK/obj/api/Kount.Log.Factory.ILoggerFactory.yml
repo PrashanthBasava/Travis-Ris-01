@@ -1,0 +1,103 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Log.Factory.ILoggerFactory
+  commentId: T:Kount.Log.Factory.ILoggerFactory
+  id: ILoggerFactory
+  parent: Kount.Log.Factory
+  children:
+  - Kount.Log.Factory.ILoggerFactory.GetLogger(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ILoggerFactory
+  nameWithType: ILoggerFactory
+  fullName: Kount.Log.Factory.ILoggerFactory
+  type: Interface
+  source:
+    remote:
+      path: SDK/Kount/Log/Factory/LoggerFactory.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ILoggerFactory
+    path: Kount/Log/Factory/LoggerFactory.cs
+    startLine: 15
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Factory
+  summary: "\nInterface for a logger factory.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2010 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: public interface ILoggerFactory
+    content.vb: Public Interface ILoggerFactory
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Kount.Log.Factory.ILoggerFactory.GetLogger(System.String)
+  commentId: M:Kount.Log.Factory.ILoggerFactory.GetLogger(System.String)
+  id: GetLogger(System.String)
+  parent: Kount.Log.Factory.ILoggerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetLogger(String)
+  nameWithType: ILoggerFactory.GetLogger(String)
+  fullName: Kount.Log.Factory.ILoggerFactory.GetLogger(System.String)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Factory/LoggerFactory.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetLogger
+    path: Kount/Log/Factory/LoggerFactory.cs
+    startLine: 22
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Factory
+  summary: "\nGet a logger binding.\n"
+  example: []
+  syntax:
+    content: ILogger GetLogger(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of the logger
+    return:
+      type: Kount.Log.Binding.ILogger
+      description: A Kount.Log.Binding.Logger
+    content.vb: Function GetLogger(name As String) As ILogger
+  overload: Kount.Log.Factory.ILoggerFactory.GetLogger*
+references:
+- uid: Kount.Log.Factory
+  commentId: N:Kount.Log.Factory
+  isExternal: false
+  name: Kount.Log.Factory
+  nameWithType: Kount.Log.Factory
+  fullName: Kount.Log.Factory
+- uid: Kount.Log.Factory.ILoggerFactory.GetLogger*
+  commentId: Overload:Kount.Log.Factory.ILoggerFactory.GetLogger
+  isExternal: false
+  name: GetLogger
+  nameWithType: ILoggerFactory.GetLogger
+  fullName: Kount.Log.Factory.ILoggerFactory.GetLogger
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Kount.Log.Binding.ILogger
+  commentId: T:Kount.Log.Binding.ILogger
+  parent: Kount.Log.Binding
+  isExternal: false
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Kount.Log.Binding.ILogger
+- uid: Kount.Log.Binding
+  commentId: N:Kount.Log.Binding
+  isExternal: false
+  name: Kount.Log.Binding
+  nameWithType: Kount.Log.Binding
+  fullName: Kount.Log.Binding

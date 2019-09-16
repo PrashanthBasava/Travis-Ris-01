@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Log.Binding
+  commentId: N:Kount.Log.Binding
+  id: Kount.Log.Binding
+  children:
+  - Kount.Log.Binding.ILogger
+  - Kount.Log.Binding.NopLogger
+  - Kount.Log.Binding.SimpleLogger
+  langs:
+  - csharp
+  - vb
+  name: Kount.Log.Binding
+  nameWithType: Kount.Log.Binding
+  fullName: Kount.Log.Binding
+  type: Namespace
+  assemblies:
+  - KountRisSdk
+references:
+- uid: Kount.Log.Binding.ILogger
+  commentId: T:Kount.Log.Binding.ILogger
+  parent: Kount.Log.Binding
+  isExternal: false
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Kount.Log.Binding.ILogger
+- uid: Kount.Log.Binding.NopLogger
+  commentId: T:Kount.Log.Binding.NopLogger
+  isExternal: false
+  name: NopLogger
+  nameWithType: NopLogger
+  fullName: Kount.Log.Binding.NopLogger
+- uid: Kount.Log.Binding.SimpleLogger
+  commentId: T:Kount.Log.Binding.SimpleLogger
+  isExternal: false
+  name: SimpleLogger
+  nameWithType: SimpleLogger
+  fullName: Kount.Log.Binding.SimpleLogger
+- uid: Kount.Log.Binding
+  commentId: N:Kount.Log.Binding
+  isExternal: false
+  name: Kount.Log.Binding
+  nameWithType: Kount.Log.Binding
+  fullName: Kount.Log.Binding

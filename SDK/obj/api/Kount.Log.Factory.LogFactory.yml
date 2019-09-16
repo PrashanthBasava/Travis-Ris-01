@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Log.Factory.LogFactory
+  commentId: T:Kount.Log.Factory.LogFactory
+  id: LogFactory
+  parent: Kount.Log.Factory
+  children:
+  - Kount.Log.Factory.LogFactory.GetLoggerFactory
+  - Kount.Log.Factory.LogFactory.SetLoggerFactory(Kount.Log.Factory.ILoggerFactory)
+  langs:
+  - csharp
+  - vb
+  name: LogFactory
+  nameWithType: LogFactory
+  fullName: Kount.Log.Factory.LogFactory
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Log/Factory/LogFactory.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: LogFactory
+    path: Kount/Log/Factory/LogFactory.cs
+    startLine: 16
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Factory
+  summary: "\nA factory class for creating LoggerFactory objects.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2010 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public class LogFactory : object'
+    content.vb: >-
+      Public Class LogFactory
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Kount.Log.Factory.LogFactory.GetLoggerFactory
+  commentId: M:Kount.Log.Factory.LogFactory.GetLoggerFactory
+  id: GetLoggerFactory
+  parent: Kount.Log.Factory.LogFactory
+  langs:
+  - csharp
+  - vb
+  name: GetLoggerFactory()
+  nameWithType: LogFactory.GetLoggerFactory()
+  fullName: Kount.Log.Factory.LogFactory.GetLoggerFactory()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Factory/LogFactory.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: GetLoggerFactory
+    path: Kount/Log/Factory/LogFactory.cs
+    startLine: 38
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Factory
+  summary: "\nGet the logger factory to be used.\n<strong>NOP</strong> is default logger factory if not defined in application configuration.\n"
+  example: []
+  syntax:
+    content: public static ILoggerFactory GetLoggerFactory()
+    return:
+      type: Kount.Log.Factory.ILoggerFactory
+      description: A Kount.Log.Factory.LoggerFactory
+    content.vb: Public Shared Function GetLoggerFactory As ILoggerFactory
+  overload: Kount.Log.Factory.LogFactory.GetLoggerFactory*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Kount.Log.Factory.LogFactory.SetLoggerFactory(Kount.Log.Factory.ILoggerFactory)
+  commentId: M:Kount.Log.Factory.LogFactory.SetLoggerFactory(Kount.Log.Factory.ILoggerFactory)
+  id: SetLoggerFactory(Kount.Log.Factory.ILoggerFactory)
+  parent: Kount.Log.Factory.LogFactory
+  langs:
+  - csharp
+  - vb
+  name: SetLoggerFactory(ILoggerFactory)
+  nameWithType: LogFactory.SetLoggerFactory(ILoggerFactory)
+  fullName: Kount.Log.Factory.LogFactory.SetLoggerFactory(Kount.Log.Factory.ILoggerFactory)
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/Factory/LogFactory.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: SetLoggerFactory
+    path: Kount/Log/Factory/LogFactory.cs
+    startLine: 70
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log.Factory
+  summary: "\nSet the logger factory to be used.\n"
+  example: []
+  syntax:
+    content: public static void SetLoggerFactory(ILoggerFactory f)
+    parameters:
+    - id: f
+      type: Kount.Log.Factory.ILoggerFactory
+      description: A Kount.Log.Factory.LoggerFactory
+    content.vb: Public Shared Sub SetLoggerFactory(f As ILoggerFactory)
+  overload: Kount.Log.Factory.LogFactory.SetLoggerFactory*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Kount.Log.Factory
+  commentId: N:Kount.Log.Factory
+  isExternal: false
+  name: Kount.Log.Factory
+  nameWithType: Kount.Log.Factory
+  fullName: Kount.Log.Factory
+- uid: Kount.Log.Factory.LogFactory.GetLoggerFactory*
+  commentId: Overload:Kount.Log.Factory.LogFactory.GetLoggerFactory
+  isExternal: false
+  name: GetLoggerFactory
+  nameWithType: LogFactory.GetLoggerFactory
+  fullName: Kount.Log.Factory.LogFactory.GetLoggerFactory
+- uid: Kount.Log.Factory.ILoggerFactory
+  commentId: T:Kount.Log.Factory.ILoggerFactory
+  parent: Kount.Log.Factory
+  isExternal: false
+  name: ILoggerFactory
+  nameWithType: ILoggerFactory
+  fullName: Kount.Log.Factory.ILoggerFactory
+- uid: Kount.Log.Factory.LogFactory.SetLoggerFactory*
+  commentId: Overload:Kount.Log.Factory.LogFactory.SetLoggerFactory
+  isExternal: false
+  name: SetLoggerFactory
+  nameWithType: LogFactory.SetLoggerFactory
+  fullName: Kount.Log.Factory.LogFactory.SetLoggerFactory

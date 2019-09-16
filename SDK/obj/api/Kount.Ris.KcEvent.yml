@@ -1,0 +1,277 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Ris.KcEvent
+  commentId: T:Kount.Ris.KcEvent
+  id: KcEvent
+  parent: Kount.Ris
+  children:
+  - Kount.Ris.KcEvent.#ctor(System.String,System.String,System.String)
+  - Kount.Ris.KcEvent.Code
+  - Kount.Ris.KcEvent.Decision
+  - Kount.Ris.KcEvent.Expression
+  - Kount.Ris.KcEvent.ToString
+  langs:
+  - csharp
+  - vb
+  name: KcEvent
+  nameWithType: KcEvent
+  fullName: Kount.Ris.KcEvent
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Ris/KcEvent.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: KcEvent
+    path: Kount/Ris/KcEvent.cs
+    startLine: 13
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nKount Central Event class description <br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2014 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: 'public class KcEvent : object'
+    content.vb: >-
+      Public Class KcEvent
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Kount.Ris.KcEvent.#ctor(System.String,System.String,System.String)
+  commentId: M:Kount.Ris.KcEvent.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: Kount.Ris.KcEvent
+  langs:
+  - csharp
+  - vb
+  name: KcEvent(String, String, String)
+  nameWithType: KcEvent.KcEvent(String, String, String)
+  fullName: Kount.Ris.KcEvent.KcEvent(System.String, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: SDK/Kount/Ris/KcEvent.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: .ctor
+    path: Kount/Ris/KcEvent.cs
+    startLine: 36
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nA helper class to oraganize Kount Central threshold event data in the RIS response.\n"
+  example: []
+  syntax:
+    content: public KcEvent(string code, string expression, string decision)
+    parameters:
+    - id: code
+      type: System.String
+      description: The threshold event's code
+    - id: expression
+      type: System.String
+      description: The threshold event's expression
+    - id: decision
+      type: System.String
+      description: The threshold event's decision
+    content.vb: Public Sub New(code As String, expression As String, decision As String)
+  overload: Kount.Ris.KcEvent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Kount.Ris.KcEvent.Code
+  commentId: P:Kount.Ris.KcEvent.Code
+  id: Code
+  parent: Kount.Ris.KcEvent
+  langs:
+  - csharp
+  - vb
+  name: Code
+  nameWithType: KcEvent.Code
+  fullName: Kount.Ris.KcEvent.Code
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/KcEvent.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Code
+    path: Kount/Ris/KcEvent.cs
+    startLine: 49
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGets the threshold event code\n"
+  example: []
+  syntax:
+    content: public string Code { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Code As String
+  overload: Kount.Ris.KcEvent.Code*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Kount.Ris.KcEvent.Expression
+  commentId: P:Kount.Ris.KcEvent.Expression
+  id: Expression
+  parent: Kount.Ris.KcEvent
+  langs:
+  - csharp
+  - vb
+  name: Expression
+  nameWithType: KcEvent.Expression
+  fullName: Kount.Ris.KcEvent.Expression
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/KcEvent.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Expression
+    path: Kount/Ris/KcEvent.cs
+    startLine: 57
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGets the threshold event expression\n"
+  example: []
+  syntax:
+    content: public string Expression { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Expression As String
+  overload: Kount.Ris.KcEvent.Expression*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Kount.Ris.KcEvent.Decision
+  commentId: P:Kount.Ris.KcEvent.Decision
+  id: Decision
+  parent: Kount.Ris.KcEvent
+  langs:
+  - csharp
+  - vb
+  name: Decision
+  nameWithType: KcEvent.Decision
+  fullName: Kount.Ris.KcEvent.Decision
+  type: Property
+  source:
+    remote:
+      path: SDK/Kount/Ris/KcEvent.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Decision
+    path: Kount/Ris/KcEvent.cs
+    startLine: 65
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nGets the threshold event decision\n"
+  example: []
+  syntax:
+    content: public string Decision { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Decision As String
+  overload: Kount.Ris.KcEvent.Decision*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Kount.Ris.KcEvent.ToString
+  commentId: M:Kount.Ris.KcEvent.ToString
+  id: ToString
+  parent: Kount.Ris.KcEvent
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: KcEvent.ToString()
+  fullName: Kount.Ris.KcEvent.ToString()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Ris/KcEvent.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ToString
+    path: Kount/Ris/KcEvent.cs
+    startLine: 76
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Ris
+  summary: "\nOur ToString method\n"
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: "\nThis object string representation\n"
+    content.vb: Public Overrides Function ToString As String
+  overload: Kount.Ris.KcEvent.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Kount.Ris
+  commentId: N:Kount.Ris
+  isExternal: false
+  name: Kount.Ris
+  nameWithType: Kount.Ris
+  fullName: Kount.Ris
+- uid: Kount.Ris.KcEvent.#ctor*
+  commentId: Overload:Kount.Ris.KcEvent.#ctor
+  isExternal: false
+  name: KcEvent
+  nameWithType: KcEvent.KcEvent
+  fullName: Kount.Ris.KcEvent.KcEvent
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Kount.Ris.KcEvent.Code*
+  commentId: Overload:Kount.Ris.KcEvent.Code
+  isExternal: false
+  name: Code
+  nameWithType: KcEvent.Code
+  fullName: Kount.Ris.KcEvent.Code
+- uid: Kount.Ris.KcEvent.Expression*
+  commentId: Overload:Kount.Ris.KcEvent.Expression
+  isExternal: false
+  name: Expression
+  nameWithType: KcEvent.Expression
+  fullName: Kount.Ris.KcEvent.Expression
+- uid: Kount.Ris.KcEvent.Decision*
+  commentId: Overload:Kount.Ris.KcEvent.Decision
+  isExternal: false
+  name: Decision
+  nameWithType: KcEvent.Decision
+  fullName: Kount.Ris.KcEvent.Decision
+- uid: Kount.Ris.KcEvent.ToString*
+  commentId: Overload:Kount.Ris.KcEvent.ToString
+  isExternal: false
+  name: ToString
+  nameWithType: KcEvent.ToString
+  fullName: Kount.Ris.KcEvent.ToString

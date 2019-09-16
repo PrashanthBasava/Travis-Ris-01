@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Util
+  commentId: N:Kount.Util
+  id: Kount.Util
+  children:
+  - Kount.Util.Base85
+  - Kount.Util.Khash
+  langs:
+  - csharp
+  - vb
+  name: Kount.Util
+  nameWithType: Kount.Util
+  fullName: Kount.Util
+  type: Namespace
+  assemblies:
+  - KountRisSdk
+references:
+- uid: Kount.Util.Base85
+  commentId: T:Kount.Util.Base85
+  isExternal: false
+  name: Base85
+  nameWithType: Base85
+  fullName: Kount.Util.Base85
+- uid: Kount.Util.Khash
+  commentId: T:Kount.Util.Khash
+  isExternal: false
+  name: Khash
+  nameWithType: Khash
+  fullName: Kount.Util.Khash

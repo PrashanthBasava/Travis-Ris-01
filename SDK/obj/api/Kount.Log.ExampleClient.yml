@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Kount.Log.ExampleClient
+  commentId: T:Kount.Log.ExampleClient
+  id: ExampleClient
+  parent: Kount.Log
+  children:
+  - Kount.Log.ExampleClient.Main
+  langs:
+  - csharp
+  - vb
+  name: ExampleClient
+  nameWithType: ExampleClient
+  fullName: Kount.Log.ExampleClient
+  type: Class
+  source:
+    remote:
+      path: SDK/Kount/Log/ExampleClient.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: ExampleClient
+    path: Kount/Log/ExampleClient.cs
+    startLine: 14
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log
+  summary: "\nA class demonstrating how to use logging\n"
+  example: []
+  syntax:
+    content: 'public class ExampleClient : object'
+    content.vb: >-
+      Public Class ExampleClient
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Kount.Log.ExampleClient.Main
+  commentId: M:Kount.Log.ExampleClient.Main
+  id: Main
+  parent: Kount.Log.ExampleClient
+  langs:
+  - csharp
+  - vb
+  name: Main()
+  nameWithType: ExampleClient.Main()
+  fullName: Kount.Log.ExampleClient.Main()
+  type: Method
+  source:
+    remote:
+      path: SDK/Kount/Log/ExampleClient.cs
+      branch: master
+      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+    id: Main
+    path: Kount/Log/ExampleClient.cs
+    startLine: 22
+  assemblies:
+  - KountRisSdk
+  namespace: Kount.Log
+  summary: "\nThe main entry point for the application.<br />\n<strong>Author:</strong> Kount <a>custserv@kount.com</a>;<br />\n<strong>Version:</strong> 7.0.0. <br />\n<strong>Copyright:</strong> 2010 Keynetics Inc <br />\n"
+  example: []
+  syntax:
+    content: public static void Main()
+    content.vb: Public Shared Sub Main
+  overload: Kount.Log.ExampleClient.Main*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Kount.Log
+  commentId: N:Kount.Log
+  isExternal: false
+  name: Kount.Log
+  nameWithType: Kount.Log
+  fullName: Kount.Log
+- uid: Kount.Log.ExampleClient.Main*
+  commentId: Overload:Kount.Log.ExampleClient.Main
+  isExternal: false
+  name: Main
+  nameWithType: ExampleClient.Main
+  fullName: Kount.Log.ExampleClient.Main
