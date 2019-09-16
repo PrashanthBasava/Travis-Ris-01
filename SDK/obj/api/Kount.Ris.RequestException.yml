@@ -19,7 +19,7 @@ items:
     remote:
       path: SDK/Kount/Ris/RequestException.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: RequestException
     path: Kount/Ris/RequestException.cs
     startLine: 15
@@ -56,7 +56,7 @@ items:
     remote:
       path: SDK/Kount/Ris/RequestException.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: .ctor
     path: Kount/Ris/RequestException.cs
     startLine: 21
@@ -92,7 +92,7 @@ items:
     remote:
       path: SDK/Kount/Ris/RequestException.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: .ctor
     path: Kount/Ris/RequestException.cs
     startLine: 30
@@ -131,7 +131,7 @@ items:
     remote:
       path: SDK/Kount/Ris/RequestException.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ErrorMessage
     path: Kount/Ris/RequestException.cs
     startLine: 38

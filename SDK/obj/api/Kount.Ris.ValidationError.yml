@@ -20,7 +20,7 @@ items:
     remote:
       path: SDK/Kount/Ris/ValidationError.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ValidationError
     path: Kount/Ris/ValidationError.cs
     startLine: 13
@@ -57,7 +57,7 @@ items:
     remote:
       path: SDK/Kount/Ris/ValidationError.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: .ctor
     path: Kount/Ris/ValidationError.cs
     startLine: 65
@@ -96,7 +96,7 @@ items:
     remote:
       path: SDK/Kount/Ris/ValidationError.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: .ctor
     path: Kount/Ris/ValidationError.cs
     startLine: 78
@@ -138,7 +138,7 @@ items:
     remote:
       path: SDK/Kount/Ris/ValidationError.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: .ctor
     path: Kount/Ris/ValidationError.cs
     startLine: 92
@@ -180,7 +180,7 @@ items:
     remote:
       path: SDK/Kount/Ris/ValidationError.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ToString
     path: Kount/Ris/ValidationError.cs
     startLine: 104

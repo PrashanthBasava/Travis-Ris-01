@@ -22,7 +22,7 @@ items:
     remote:
       path: SDK/Kount/Ris/CartItem.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: CartItem
     path: Kount/Ris/CartItem.cs
     startLine: 13
@@ -59,7 +59,7 @@ items:
     remote:
       path: SDK/Kount/Ris/CartItem.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: .ctor
     path: Kount/Ris/CartItem.cs
     startLine: 48
@@ -107,7 +107,7 @@ items:
     remote:
       path: SDK/Kount/Ris/CartItem.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ProductType
     path: Kount/Ris/CartItem.cs
     startLine: 65
@@ -144,7 +144,7 @@ items:
     remote:
       path: SDK/Kount/Ris/CartItem.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ProductItem
     path: Kount/Ris/CartItem.cs
     startLine: 74
@@ -181,7 +181,7 @@ items:
     remote:
       path: SDK/Kount/Ris/CartItem.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ProductDescription
     path: Kount/Ris/CartItem.cs
     startLine: 83
@@ -218,7 +218,7 @@ items:
     remote:
       path: SDK/Kount/Ris/CartItem.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ProductQuantity
     path: Kount/Ris/CartItem.cs
     startLine: 92
@@ -255,7 +255,7 @@ items:
     remote:
       path: SDK/Kount/Ris/CartItem.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ProductPrice
     path: Kount/Ris/CartItem.cs
     startLine: 101

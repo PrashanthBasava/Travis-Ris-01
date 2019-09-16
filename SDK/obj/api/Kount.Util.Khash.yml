@@ -21,7 +21,7 @@ items:
     remote:
       path: SDK/Kount/Util/Khash.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Khash
     path: Kount/Util/Khash.cs
     startLine: 17
@@ -58,7 +58,7 @@ items:
     remote:
       path: SDK/Kount/Util/Khash.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ConfigKey
     path: Kount/Util/Khash.cs
     startLine: 22
@@ -97,7 +97,7 @@ items:
     remote:
       path: SDK/Kount/Util/Khash.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: HashPaymentToken
     path: Kount/Util/Khash.cs
     startLine: 32
@@ -138,7 +138,7 @@ items:
     remote:
       path: SDK/Kount/Util/Khash.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: HashGiftCard
     path: Kount/Util/Khash.cs
     startLine: 45
@@ -182,7 +182,7 @@ items:
     remote:
       path: SDK/Kount/Util/Khash.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Hash
     path: Kount/Util/Khash.cs
     startLine: 59
@@ -223,7 +223,7 @@ items:
     remote:
       path: SDK/Kount/Util/Khash.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetBase85ConfigKey
     path: Kount/Util/Khash.cs
     startLine: 88

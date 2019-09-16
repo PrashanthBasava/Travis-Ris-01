@@ -18,7 +18,7 @@ items:
     remote:
       path: SDK/Kount/Enums/UpdateTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: UpdateTypes
     path: Kount/Enums/UpdateTypes.cs
     startLine: 14
@@ -51,7 +51,7 @@ items:
     remote:
       path: SDK/Kount/Enums/UpdateTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ModeU
     path: Kount/Enums/UpdateTypes.cs
     startLine: 19
@@ -86,7 +86,7 @@ items:
     remote:
       path: SDK/Kount/Enums/UpdateTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ModeX
     path: Kount/Enums/UpdateTypes.cs
     startLine: 24

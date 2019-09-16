@@ -12,3 +12,11 @@ D:\Kount\Kount-Ris-Travis-01\Travis-Ris-Test-01\SDK\obj\Debug\KountRisSdk.csproj
 D:\Kount\Kount-Ris-Travis-01\Travis-Ris-Test-01\SDK\obj\Debug\KountRisSdk.csproj.CoreCompileInputs.cache
 D:\Kount\Kount-Ris-Travis-01\Travis-Ris-Test-01\SDK\obj\Debug\KountRisSdk.dll
 D:\Kount\Kount-Ris-Travis-01\Travis-Ris-Test-01\SDK\obj\Debug\KountRisSdk.pdb
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\bin\Debug\KountRisSdk.dll.config
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\bin\Debug\KountRisSdk.XML
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\bin\Debug\KountRisSdk.dll
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\bin\Debug\KountRisSdk.pdb
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\obj\Debug\KountRisSdk.csprojAssemblyReference.cache
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\obj\Debug\KountRisSdk.csproj.CoreCompileInputs.cache
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\obj\Debug\KountRisSdk.dll
+D:\Kount\travis-ris-test\Travis-Ris-01\SDK\obj\Debug\KountRisSdk.pdb

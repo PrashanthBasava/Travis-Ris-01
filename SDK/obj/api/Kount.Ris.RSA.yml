@@ -17,7 +17,7 @@ items:
     remote:
       path: SDK/Kount/Ris/RSA.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: RSA
     path: Kount/Ris/RSA.cs
     startLine: 18
@@ -54,7 +54,7 @@ items:
     remote:
       path: SDK/Kount/Ris/RSA.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Encrypt
     path: Kount/Ris/RSA.cs
     startLine: 25

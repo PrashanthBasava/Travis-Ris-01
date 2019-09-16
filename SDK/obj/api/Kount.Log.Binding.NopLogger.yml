@@ -28,7 +28,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/NopLogger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: NopLogger
     path: Kount/Log/Binding/NopLogger.cs
     startLine: 15
@@ -68,7 +68,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/NopLogger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: MeasureElapsed
     path: Kount/Log/Binding/NopLogger.cs
     startLine: 17
@@ -105,7 +105,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/NopLogger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: .ctor
     path: Kount/Log/Binding/NopLogger.cs
     startLine: 29
@@ -141,7 +141,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/NopLogger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Debug
     path: Kount/Log/Binding/NopLogger.cs
     startLine: 37
@@ -179,7 +179,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/NopLogger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Debug
     path: Kount/Log/Binding/NopLogger.cs
     startLine: 46
@@ -220,7 +220,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/NopLogger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Info
     path: Kount/Log/Binding/NopLogger.cs
     startLine: 54
@@ -258,7 +258,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/NopLogger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Info
     path: Kount/Log/Binding/NopLogger.cs
     startLine: 63
@@ -299,7 +299,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/NopLogger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Warn
     path: Kount/Log/Binding/NopLogger.cs
     startLine: 71
@@ -337,7 +337,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/NopLogger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Warn
     path: Kount/Log/Binding/NopLogger.cs
     startLine: 80
@@ -378,7 +378,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/NopLogger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Error
     path: Kount/Log/Binding/NopLogger.cs
     startLine: 88
@@ -416,7 +416,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/NopLogger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Error
     path: Kount/Log/Binding/NopLogger.cs
     startLine: 97
@@ -457,7 +457,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/NopLogger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Fatal
     path: Kount/Log/Binding/NopLogger.cs
     startLine: 105
@@ -495,7 +495,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/NopLogger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Fatal
     path: Kount/Log/Binding/NopLogger.cs
     startLine: 114

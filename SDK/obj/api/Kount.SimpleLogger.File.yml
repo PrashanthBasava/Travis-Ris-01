@@ -32,7 +32,7 @@ items:
     remote:
       path: SDK/Kount/SimpleLogger/File.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: File
     path: Kount/SimpleLogger/File.cs
     startLine: 18
@@ -69,7 +69,7 @@ items:
     remote:
       path: SDK/Kount/SimpleLogger/File.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SdkElapsed
     path: Kount/SimpleLogger/File.cs
     startLine: 72
@@ -106,7 +106,7 @@ items:
     remote:
       path: SDK/Kount/SimpleLogger/File.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: .ctor
     path: Kount/SimpleLogger/File.cs
     startLine: 78
@@ -142,7 +142,7 @@ items:
     remote:
       path: SDK/Kount/SimpleLogger/File.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Debug
     path: Kount/SimpleLogger/File.cs
     startLine: 106
@@ -178,7 +178,7 @@ items:
     remote:
       path: SDK/Kount/SimpleLogger/File.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Debug
     path: Kount/SimpleLogger/File.cs
     startLine: 116
@@ -217,7 +217,7 @@ items:
     remote:
       path: SDK/Kount/SimpleLogger/File.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Info
     path: Kount/SimpleLogger/File.cs
     startLine: 125
@@ -253,7 +253,7 @@ items:
     remote:
       path: SDK/Kount/SimpleLogger/File.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Info
     path: Kount/SimpleLogger/File.cs
     startLine: 135
@@ -292,7 +292,7 @@ items:
     remote:
       path: SDK/Kount/SimpleLogger/File.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Warn
     path: Kount/SimpleLogger/File.cs
     startLine: 144
@@ -328,7 +328,7 @@ items:
     remote:
       path: SDK/Kount/SimpleLogger/File.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Warn
     path: Kount/SimpleLogger/File.cs
     startLine: 154
@@ -367,7 +367,7 @@ items:
     remote:
       path: SDK/Kount/SimpleLogger/File.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Error
     path: Kount/SimpleLogger/File.cs
     startLine: 163
@@ -403,7 +403,7 @@ items:
     remote:
       path: SDK/Kount/SimpleLogger/File.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Error
     path: Kount/SimpleLogger/File.cs
     startLine: 173
@@ -442,7 +442,7 @@ items:
     remote:
       path: SDK/Kount/SimpleLogger/File.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Fatal
     path: Kount/SimpleLogger/File.cs
     startLine: 182
@@ -478,7 +478,7 @@ items:
     remote:
       path: SDK/Kount/SimpleLogger/File.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Fatal
     path: Kount/SimpleLogger/File.cs
     startLine: 192
@@ -517,7 +517,7 @@ items:
     remote:
       path: SDK/Kount/SimpleLogger/File.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ProcessMessage
     path: Kount/SimpleLogger/File.cs
     startLine: 204
@@ -559,7 +559,7 @@ items:
     remote:
       path: SDK/Kount/SimpleLogger/File.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: FormatMessage
     path: Kount/SimpleLogger/File.cs
     startLine: 223
@@ -604,7 +604,7 @@ items:
     remote:
       path: SDK/Kount/SimpleLogger/File.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Log
     path: Kount/SimpleLogger/File.cs
     startLine: 247
@@ -640,7 +640,7 @@ items:
     remote:
       path: SDK/Kount/SimpleLogger/File.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: IsLoggable
     path: Kount/SimpleLogger/File.cs
     startLine: 266

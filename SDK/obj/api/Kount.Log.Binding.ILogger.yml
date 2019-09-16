@@ -27,7 +27,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/Logger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ILogger
     path: Kount/Log/Binding/Logger.cs
     startLine: 15
@@ -60,7 +60,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/Logger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Debug
     path: Kount/Log/Binding/Logger.cs
     startLine: 21
@@ -92,7 +92,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/Logger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Debug
     path: Kount/Log/Binding/Logger.cs
     startLine: 28
@@ -127,7 +127,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/Logger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Info
     path: Kount/Log/Binding/Logger.cs
     startLine: 34
@@ -159,7 +159,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/Logger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Info
     path: Kount/Log/Binding/Logger.cs
     startLine: 41
@@ -194,7 +194,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/Logger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Warn
     path: Kount/Log/Binding/Logger.cs
     startLine: 47
@@ -226,7 +226,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/Logger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Warn
     path: Kount/Log/Binding/Logger.cs
     startLine: 54
@@ -261,7 +261,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/Logger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Error
     path: Kount/Log/Binding/Logger.cs
     startLine: 60
@@ -293,7 +293,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/Logger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Error
     path: Kount/Log/Binding/Logger.cs
     startLine: 67
@@ -328,7 +328,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/Logger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Fatal
     path: Kount/Log/Binding/Logger.cs
     startLine: 73
@@ -360,7 +360,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/Logger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Fatal
     path: Kount/Log/Binding/Logger.cs
     startLine: 80
@@ -395,7 +395,7 @@ items:
     remote:
       path: SDK/Kount/Log/Binding/Logger.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: MeasureElapsed
     path: Kount/Log/Binding/Logger.cs
     startLine: 89

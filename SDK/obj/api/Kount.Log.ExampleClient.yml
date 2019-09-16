@@ -17,7 +17,7 @@ items:
     remote:
       path: SDK/Kount/Log/ExampleClient.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ExampleClient
     path: Kount/Log/ExampleClient.cs
     startLine: 14
@@ -54,7 +54,7 @@ items:
     remote:
       path: SDK/Kount/Log/ExampleClient.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Main
     path: Kount/Log/ExampleClient.cs
     startLine: 22

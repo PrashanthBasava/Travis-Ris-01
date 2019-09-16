@@ -53,7 +53,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Request
     path: Kount/Ris/Request.cs
     startLine: 29
@@ -95,7 +95,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: .ctor
     path: Kount/Ris/Request.cs
     startLine: 85
@@ -141,7 +141,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: .ctor
     path: Kount/Ris/Request.cs
     startLine: 139
@@ -184,7 +184,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Data
     path: Kount/Ris/Request.cs
     startLine: 146
@@ -221,7 +221,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetResponse
     path: Kount/Ris/Request.cs
     startLine: 156
@@ -260,7 +260,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetParameter
     path: Kount/Ris/Request.cs
     startLine: 310
@@ -299,7 +299,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetMode
     path: Kount/Ris/Request.cs
     startLine: 319
@@ -337,7 +337,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetMode
     path: Kount/Ris/Request.cs
     startLine: 325
@@ -373,7 +373,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetMode
     path: Kount/Ris/Request.cs
     startLine: 334
@@ -409,7 +409,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetMerchantId
     path: Kount/Ris/Request.cs
     startLine: 343
@@ -445,7 +445,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetKountCentralCustomerId
     path: Kount/Ris/Request.cs
     startLine: 352
@@ -481,7 +481,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetSessionId
     path: Kount/Ris/Request.cs
     startLine: 361
@@ -517,7 +517,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetOrderNumber
     path: Kount/Ris/Request.cs
     startLine: 370
@@ -553,7 +553,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetMack
     path: Kount/Ris/Request.cs
     startLine: 379
@@ -589,7 +589,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetAuth
     path: Kount/Ris/Request.cs
     startLine: 388
@@ -625,7 +625,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetAvsz
     path: Kount/Ris/Request.cs
     startLine: 397
@@ -661,7 +661,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetAvst
     path: Kount/Ris/Request.cs
     startLine: 406
@@ -697,7 +697,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetCvvr
     path: Kount/Ris/Request.cs
     startLine: 415
@@ -733,7 +733,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetCardPaymentMasked
     path: Kount/Ris/Request.cs
     startLine: 429
@@ -770,7 +770,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetNoPayment
     path: Kount/Ris/Request.cs
     startLine: 441
@@ -802,7 +802,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetPayment
     path: Kount/Ris/Request.cs
     startLine: 452
@@ -841,7 +841,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetPayment
     path: Kount/Ris/Request.cs
     startLine: 465
@@ -880,7 +880,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetGreenDotMoneyPakPayment
     path: Kount/Ris/Request.cs
     startLine: 541
@@ -916,7 +916,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetParam
     path: Kount/Ris/Request.cs
     startLine: 552
@@ -955,7 +955,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetUrl
     path: Kount/Ris/Request.cs
     startLine: 575
@@ -990,7 +990,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetUrl
     path: Kount/Ris/Request.cs
     startLine: 584
@@ -1026,7 +1026,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetCertificate
     path: Kount/Ris/Request.cs
     startLine: 596
@@ -1069,7 +1069,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetApiKey
     path: Kount/Ris/Request.cs
     startLine: 606
@@ -1105,7 +1105,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetCertificateFile
     path: Kount/Ris/Request.cs
     startLine: 615
@@ -1140,7 +1140,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetPrivateKeyPassword
     path: Kount/Ris/Request.cs
     startLine: 624
@@ -1175,7 +1175,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetKhashPaymentEncoding
     path: Kount/Ris/Request.cs
     startLine: 632
@@ -1207,7 +1207,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetKhashPaymentEncoding
     path: Kount/Ris/Request.cs
     startLine: 646
@@ -1243,7 +1243,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetPaymentTokenLast4
     path: Kount/Ris/Request.cs
     startLine: 662
@@ -1279,7 +1279,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetVersion
     path: Kount/Ris/Request.cs
     startLine: 671
@@ -1315,7 +1315,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: IsSetKhashPaymentEncoding
     path: Kount/Ris/Request.cs
     startLine: 680
@@ -1350,7 +1350,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SetPaymentToken
     path: Kount/Ris/Request.cs
     startLine: 690
@@ -1386,7 +1386,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: CheckConfigurationParameter
     path: Kount/Ris/Request.cs
     startLine: 722
@@ -1431,7 +1431,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Request.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SafeGet
     path: Kount/Ris/Request.cs
     startLine: 737

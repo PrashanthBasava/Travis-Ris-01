@@ -25,7 +25,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Configuration.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Configuration
     path: Kount/Ris/Configuration.cs
     startLine: 7
@@ -62,7 +62,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Configuration.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: FromAppSettings
     path: Kount/Ris/Configuration.cs
     startLine: 13
@@ -99,7 +99,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Configuration.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: MerchantId
     path: Kount/Ris/Configuration.cs
     startLine: 31
@@ -136,7 +136,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Configuration.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: URL
     path: Kount/Ris/Configuration.cs
     startLine: 36
@@ -173,7 +173,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Configuration.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ConfigKey
     path: Kount/Ris/Configuration.cs
     startLine: 41
@@ -210,7 +210,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Configuration.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ConnectTimeout
     path: Kount/Ris/Configuration.cs
     startLine: 46
@@ -247,7 +247,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Configuration.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Version
     path: Kount/Ris/Configuration.cs
     startLine: 51
@@ -284,7 +284,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Configuration.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ApiKey
     path: Kount/Ris/Configuration.cs
     startLine: 56
@@ -321,7 +321,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Configuration.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: CertificateFile
     path: Kount/Ris/Configuration.cs
     startLine: 61
@@ -358,7 +358,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Configuration.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: PrivateKeyPassword
     path: Kount/Ris/Configuration.cs
     startLine: 66

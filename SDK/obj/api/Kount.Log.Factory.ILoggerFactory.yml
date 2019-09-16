@@ -17,7 +17,7 @@ items:
     remote:
       path: SDK/Kount/Log/Factory/LoggerFactory.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ILoggerFactory
     path: Kount/Log/Factory/LoggerFactory.cs
     startLine: 15
@@ -50,7 +50,7 @@ items:
     remote:
       path: SDK/Kount/Log/Factory/LoggerFactory.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetLogger
     path: Kount/Log/Factory/LoggerFactory.cs
     startLine: 22

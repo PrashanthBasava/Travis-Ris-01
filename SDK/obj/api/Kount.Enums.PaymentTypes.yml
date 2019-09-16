@@ -37,7 +37,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: PaymentTypes
     path: Kount/Enums/PaymentTypes.cs
     startLine: 15
@@ -72,7 +72,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Apple
     path: Kount/Enums/PaymentTypes.cs
     startLine: 20
@@ -106,7 +106,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Blml
     path: Kount/Enums/PaymentTypes.cs
     startLine: 26
@@ -140,7 +140,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Bpay
     path: Kount/Enums/PaymentTypes.cs
     startLine: 32
@@ -174,7 +174,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Card
     path: Kount/Enums/PaymentTypes.cs
     startLine: 38
@@ -208,7 +208,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: CarteBleue
     path: Kount/Enums/PaymentTypes.cs
     startLine: 44
@@ -242,7 +242,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Check
     path: Kount/Enums/PaymentTypes.cs
     startLine: 50
@@ -276,7 +276,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Elv
     path: Kount/Enums/PaymentTypes.cs
     startLine: 56
@@ -310,7 +310,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GreenDotMoneyPak
     path: Kount/Enums/PaymentTypes.cs
     startLine: 62
@@ -344,7 +344,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GiftCard
     path: Kount/Enums/PaymentTypes.cs
     startLine: 68
@@ -378,7 +378,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GiroPay
     path: Kount/Enums/PaymentTypes.cs
     startLine: 74
@@ -412,7 +412,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Google
     path: Kount/Enums/PaymentTypes.cs
     startLine: 80
@@ -446,7 +446,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Interac
     path: Kount/Enums/PaymentTypes.cs
     startLine: 86
@@ -480,7 +480,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: MercadePago
     path: Kount/Enums/PaymentTypes.cs
     startLine: 92
@@ -514,7 +514,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Neteller
     path: Kount/Enums/PaymentTypes.cs
     startLine: 98
@@ -548,7 +548,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: None
     path: Kount/Enums/PaymentTypes.cs
     startLine: 104
@@ -582,7 +582,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Poli
     path: Kount/Enums/PaymentTypes.cs
     startLine: 110
@@ -616,7 +616,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Paypal
     path: Kount/Enums/PaymentTypes.cs
     startLine: 116
@@ -650,7 +650,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: SingleEuroPaymentsArea
     path: Kount/Enums/PaymentTypes.cs
     startLine: 122
@@ -684,7 +684,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Skrill
     path: Kount/Enums/PaymentTypes.cs
     startLine: 128
@@ -718,7 +718,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Sofort
     path: Kount/Enums/PaymentTypes.cs
     startLine: 134
@@ -752,7 +752,7 @@ items:
     remote:
       path: SDK/Kount/Enums/PaymentTypes.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Token
     path: Kount/Enums/PaymentTypes.cs
     startLine: 140

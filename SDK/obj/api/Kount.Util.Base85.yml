@@ -19,7 +19,7 @@ items:
     remote:
       path: SDK/Kount/Util/Base85.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Base85
     path: Kount/Util/Base85.cs
     startLine: 15
@@ -57,7 +57,7 @@ items:
     remote:
       path: SDK/Kount/Util/Base85.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: LineLength
     path: Kount/Util/Base85.cs
     startLine: 21
@@ -92,7 +92,7 @@ items:
     remote:
       path: SDK/Kount/Util/Base85.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Decode
     path: Kount/Util/Base85.cs
     startLine: 39
@@ -133,7 +133,7 @@ items:
     remote:
       path: SDK/Kount/Util/Base85.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Encode
     path: Kount/Util/Base85.cs
     startLine: 121

@@ -97,7 +97,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: Response
     path: Kount/Ris/Response.cs
     startLine: 20
@@ -134,7 +134,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: .ctor
     path: Kount/Ris/Response.cs
     startLine: 47
@@ -173,7 +173,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetErrorCode
     path: Kount/Ris/Response.cs
     startLine: 68
@@ -208,7 +208,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetVersion
     path: Kount/Ris/Response.cs
     startLine: 84
@@ -243,7 +243,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetMode
     path: Kount/Ris/Response.cs
     startLine: 94
@@ -279,7 +279,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetTransactionId
     path: Kount/Ris/Response.cs
     startLine: 103
@@ -314,7 +314,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetMerchantId
     path: Kount/Ris/Response.cs
     startLine: 112
@@ -349,7 +349,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetSessionId
     path: Kount/Ris/Response.cs
     startLine: 122
@@ -385,7 +385,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetOrderNumber
     path: Kount/Ris/Response.cs
     startLine: 131
@@ -420,7 +420,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetAuto
     path: Kount/Ris/Response.cs
     startLine: 140
@@ -455,7 +455,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetReason
     path: Kount/Ris/Response.cs
     startLine: 149
@@ -490,7 +490,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetReasonCode
     path: Kount/Ris/Response.cs
     startLine: 163
@@ -525,7 +525,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetScore
     path: Kount/Ris/Response.cs
     startLine: 172
@@ -560,7 +560,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetGeox
     path: Kount/Ris/Response.cs
     startLine: 181
@@ -595,7 +595,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetBrand
     path: Kount/Ris/Response.cs
     startLine: 190
@@ -630,7 +630,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetVelo
     path: Kount/Ris/Response.cs
     startLine: 200
@@ -668,7 +668,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetVmax
     path: Kount/Ris/Response.cs
     startLine: 210
@@ -706,7 +706,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetNetwork
     path: Kount/Ris/Response.cs
     startLine: 220
@@ -742,7 +742,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetKnowYourCustomer
     path: Kount/Ris/Response.cs
     startLine: 229
@@ -777,7 +777,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetRegion
     path: Kount/Ris/Response.cs
     startLine: 238
@@ -812,7 +812,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetKaptcha
     path: Kount/Ris/Response.cs
     startLine: 248
@@ -847,7 +847,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetProxy
     path: Kount/Ris/Response.cs
     startLine: 258
@@ -882,7 +882,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetEmails
     path: Kount/Ris/Response.cs
     startLine: 267
@@ -917,7 +917,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetHttpCountry
     path: Kount/Ris/Response.cs
     startLine: 277
@@ -952,7 +952,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetTimeZone
     path: Kount/Ris/Response.cs
     startLine: 287
@@ -987,7 +987,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetCards
     path: Kount/Ris/Response.cs
     startLine: 296
@@ -1022,7 +1022,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetPcRemote
     path: Kount/Ris/Response.cs
     startLine: 306
@@ -1057,7 +1057,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetDevices
     path: Kount/Ris/Response.cs
     startLine: 316
@@ -1092,7 +1092,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetDeviceLayers
     path: Kount/Ris/Response.cs
     startLine: 326
@@ -1127,7 +1127,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetMobileForwarder
     path: Kount/Ris/Response.cs
     startLine: 335
@@ -1162,7 +1162,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetVoiceDevice
     path: Kount/Ris/Response.cs
     startLine: 345
@@ -1197,7 +1197,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetLocalTime
     path: Kount/Ris/Response.cs
     startLine: 354
@@ -1232,7 +1232,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetMobileType
     path: Kount/Ris/Response.cs
     startLine: 363
@@ -1267,7 +1267,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetFingerPrint
     path: Kount/Ris/Response.cs
     startLine: 372
@@ -1302,7 +1302,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetFlash
     path: Kount/Ris/Response.cs
     startLine: 382
@@ -1337,7 +1337,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetLanguage
     path: Kount/Ris/Response.cs
     startLine: 391
@@ -1372,7 +1372,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetCountry
     path: Kount/Ris/Response.cs
     startLine: 400
@@ -1407,7 +1407,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetJavaScript
     path: Kount/Ris/Response.cs
     startLine: 410
@@ -1442,7 +1442,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetCookies
     path: Kount/Ris/Response.cs
     startLine: 419
@@ -1477,7 +1477,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetMobileDevice
     path: Kount/Ris/Response.cs
     startLine: 429
@@ -1512,7 +1512,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetSite
     path: Kount/Ris/Response.cs
     startLine: 438
@@ -1547,7 +1547,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetMasterCardFraudScore
     path: Kount/Ris/Response.cs
     startLine: 449
@@ -1582,7 +1582,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetPiercedIPAddress
     path: Kount/Ris/Response.cs
     startLine: 458
@@ -1617,7 +1617,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetPiercedIPAddressLatitude
     path: Kount/Ris/Response.cs
     startLine: 467
@@ -1652,7 +1652,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetPiercedIPAddressLongitude
     path: Kount/Ris/Response.cs
     startLine: 476
@@ -1687,7 +1687,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetPiercedIPAddressCountry
     path: Kount/Ris/Response.cs
     startLine: 485
@@ -1722,7 +1722,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetPiercedIPAddressRegion
     path: Kount/Ris/Response.cs
     startLine: 494
@@ -1757,7 +1757,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetPiercedIPAddressCity
     path: Kount/Ris/Response.cs
     startLine: 503
@@ -1792,7 +1792,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetPiercedIPAddressOrganization
     path: Kount/Ris/Response.cs
     startLine: 512
@@ -1827,7 +1827,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetIPAddress
     path: Kount/Ris/Response.cs
     startLine: 521
@@ -1862,7 +1862,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetIPAddressLatitude
     path: Kount/Ris/Response.cs
     startLine: 530
@@ -1897,7 +1897,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetIPAddressLongitude
     path: Kount/Ris/Response.cs
     startLine: 539
@@ -1932,7 +1932,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetIPAddressCountry
     path: Kount/Ris/Response.cs
     startLine: 548
@@ -1967,7 +1967,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetIPAddressRegion
     path: Kount/Ris/Response.cs
     startLine: 557
@@ -2002,7 +2002,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetIPAddressCity
     path: Kount/Ris/Response.cs
     startLine: 566
@@ -2037,7 +2037,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetIPAddressOrganization
     path: Kount/Ris/Response.cs
     startLine: 575
@@ -2072,7 +2072,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetDateDeviceFirstSeen
     path: Kount/Ris/Response.cs
     startLine: 584
@@ -2107,7 +2107,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetUserAgentString
     path: Kount/Ris/Response.cs
     startLine: 593
@@ -2142,7 +2142,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetDeviceScreenResolution
     path: Kount/Ris/Response.cs
     startLine: 602
@@ -2177,7 +2177,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetOS
     path: Kount/Ris/Response.cs
     startLine: 611
@@ -2212,7 +2212,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetBrowser
     path: Kount/Ris/Response.cs
     startLine: 620
@@ -2247,7 +2247,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: ToString
     path: Kount/Ris/Response.cs
     startLine: 629
@@ -2284,7 +2284,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetRulesTriggered
     path: Kount/Ris/Response.cs
     startLine: 638
@@ -2319,7 +2319,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetNumberRulesTriggered
     path: Kount/Ris/Response.cs
     startLine: 656
@@ -2354,7 +2354,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetWarnings
     path: Kount/Ris/Response.cs
     startLine: 684
@@ -2389,7 +2389,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetWarningCount
     path: Kount/Ris/Response.cs
     startLine: 700
@@ -2424,7 +2424,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetErrors
     path: Kount/Ris/Response.cs
     startLine: 728
@@ -2459,7 +2459,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetErrorCount
     path: Kount/Ris/Response.cs
     startLine: 744
@@ -2494,7 +2494,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: HasErrors
     path: Kount/Ris/Response.cs
     startLine: 772
@@ -2529,7 +2529,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetLexisNexisCbdAttributes
     path: Kount/Ris/Response.cs
     startLine: 784
@@ -2567,7 +2567,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetLexisNexisInstantIdAttributes
     path: Kount/Ris/Response.cs
     startLine: 796
@@ -2605,7 +2605,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetCountersTriggered
     path: Kount/Ris/Response.cs
     startLine: 807
@@ -2640,7 +2640,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetNumberCountersTriggered
     path: Kount/Ris/Response.cs
     startLine: 829
@@ -2675,7 +2675,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetKountCentralCustomerId
     path: Kount/Ris/Response.cs
     startLine: 857
@@ -2710,7 +2710,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetKountCentralWarnings
     path: Kount/Ris/Response.cs
     startLine: 868
@@ -2745,7 +2745,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetKountCentralWarningCount
     path: Kount/Ris/Response.cs
     startLine: 886
@@ -2780,7 +2780,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetKountCentralErrors
     path: Kount/Ris/Response.cs
     startLine: 911
@@ -2815,7 +2815,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetKountCentralErrorCount
     path: Kount/Ris/Response.cs
     startLine: 929
@@ -2850,7 +2850,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetKountCentralNumberThresholdsTriggered
     path: Kount/Ris/Response.cs
     startLine: 954
@@ -2885,7 +2885,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetKountCentralDecision
     path: Kount/Ris/Response.cs
     startLine: 979
@@ -2920,7 +2920,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetKountCentralThresholdEvents
     path: Kount/Ris/Response.cs
     startLine: 990
@@ -2955,7 +2955,7 @@ items:
     remote:
       path: SDK/Kount/Ris/Response.cs
       branch: master
-      repo: https://github.com/PrashanthBasava/Travis-Ris-Test-01.git
+      repo: https://github.com/PrashanthBasava/Travis-Ris-01.git
     id: GetPrefixedResponseDataDictionary
     path: Kount/Ris/Response.cs
     startLine: 1014
